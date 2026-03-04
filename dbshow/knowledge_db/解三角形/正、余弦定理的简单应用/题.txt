@@ -1,0 +1,5 @@
+[ID: 2469]
+△ABC 的内角 A,B,C 的对边分别为 a,b,c, 已知 asin A - bsin B = 4csin C, cos A = -1/4, 则 b/c = □ A. 6 B. 5 C. 4 D. 3(2) (2021·全国乙卷) 记△ABC 的内角 A,B,C 的对边分别为 a,b,c, 面积为 √3, B = 60°, a² + c² = 3ac, 则 b = ________.解析 (1) 由已知及正弦定理可得 a² - b² = 4c², 由余弦定理的推论可得 cos A = (b² + c² - a²) / 2bc = -1/4, 所以 (c² - 4c²) / 2bc = -1/4, 整理得 b/c = 6.(2) 由题意得 S△ABC = 1/2 acsin B = (√3 / 4)ac = √3, 则 ac = 4, 所以 a² + c² = 3ac = 3 × 4 = 12, 所以 b² = a² + c² - 2accos B = 12 - 2 × 4 × 1/2 = 8, 则 b = 2√2.答案 (1) A (2) 2√2
+----------------------------------------
+[ID: 2470]
+△ABC 的内角 A,B,C 的对边分别为 a,b,c. 已知 bsin C + csin B = 4asin Bsin C, b² + c² - a² = 8, 则△ABC 的面积为 ________.解析 由正弦定理及 bsin C + csin B = 4asin Bsin C, 得 sin Bsin C + sin Csin B = 4sin A sin Bsin C, 因为 sin Bsin C ≠ 0, 所以 sin A = 1/2. 由余弦定理的推论得 cos A = (b² + c² - a²) / 2bc = √3/2, 因为 b² + c² - a² = 8, 所以 bc = 8√3/3, 所以 S△ABC = 1/2 bcsin A = 1/2 × 8√3/3 × 1/2 = 2√3/3.答案 2√3/3

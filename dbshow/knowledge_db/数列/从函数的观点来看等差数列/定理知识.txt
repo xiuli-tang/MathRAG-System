@@ -1,0 +1,2 @@
+[ID: 2163]
+1. 数列${a_n}$为等差数列$\Leftrightarrow a_n=pn+q(p,q为常数)2. 数列${a_n}$为等差数列$\Rightarrow S_n=an^2+bn(a,b为常数)$

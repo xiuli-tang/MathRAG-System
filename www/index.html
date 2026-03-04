@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>登录超级码力数学问答系统</title>
+    <style>
+        body {
+            background-color: #f0f4f8; /* 柔和灰蓝背景 */
+            font-family: "微软雅黑", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('h.jpg');
+            background-size: 1900px;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+        }
+        /* 雾层样式 */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(240, 244, 248, 0.3);
+            z-index: 1;
+        }
+
+       .login-container {
+            background-color: #ffffff;
+            padding: 50px 40px;
+            width: 500px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            transition: transform 0.3s;
+            z-index: 2;
+        }
+
+       .login-container:hover {
+            transform: translateY(-5px);
+        }
+
+       .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+       .container img {
+            margin-right: 10px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+       .login-container h2 {
+            color: #4a5568; /* 深灰蓝 */
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+       .login-container input[type="text"],
+       .login-container input[type="password"] {
+            width: 90%;
+            padding: 16px 20px;
+            margin-bottom: 20px;
+            border: 1px solid #cbd5e0;
+            border-radius: 8px;
+            background-color: #f7fafc;
+            font-size: 16px;
+            color: #2d3748;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+       .login-container input[type="text"]:focus,
+       .login-container input[type="password"]:focus {
+            border-color: #7f9cf5;
+            box-shadow: 0 0 5px rgba(127, 156, 245, 0.5);
+            outline: none;
+        }
+
+       .login-container button {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(90deg, #73a6ff 0%, #4d88ff 100%); /* 莫兰蒂蓝色渐变 */
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+       .login-container button:hover {
+            background: linear-gradient(90deg, #6699ff 0%, #4073ff 100%); /* 鼠标悬停时颜色变深 */
+            transform: scale(1.05);
+        }
+
+       .login-container p {
+            text-align: center;
+            font-size: 14px;
+            color: #718096;
+            margin-top: 20px;
+        }
+
+       .login-container a {
+            color: #5a67d8;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+       .login-container a:hover {
+            text-decoration: underline;
+        }
+
+       .error-message {
+            color: #e53e3e;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        /* 页面加载淡入效果 */
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+       .login-container {
+            animation: fadeIn 0.6s ease-out;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <div class="container">
+        <img src="team-logo2.jpg" alt=" 示例图片"  width="60" height="60">
+        <h2>登录超级码力</h2>
+    </div>
+    <form action="http://10.108.17.13:8000/main.html" method="get">
+        <input type="text" name="username" placeholder="用户名" required>
+        <input type="password" name="password" placeholder="密码" required>
+        <button onclick="goToMainPage()">登录</button>
+
+    </form>
+
+
+    <p>还没账户？<a href="{% url 'register' %}">点击注册</a></p>
+</div>
+
+</body>
+
+<script>
+        function goToMainPage() {
+      window.location.href = "http://10.108.17.13:8000/main.html";
+    }
+
+</script>
+</html>

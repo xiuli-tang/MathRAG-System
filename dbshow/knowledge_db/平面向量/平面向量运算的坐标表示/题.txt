@@ -1,0 +1,255 @@
+[ID: 663]
+设$i=(1,0)$，$j=(0,1)$，$a=3i+4j$，$b=-i+j$，则$\mathbf{a}+\mathbf{b}$与$\mathbf{a}-\mathbf{b}$的坐标分别为$\underline{\hspace{5cm}}$。
+
+解析 :$\mathbf{a}+\mathbf{b}=(3i+4j)+(-i+j)=2i+5j$，
+$\mathbf{a}-\mathbf{b}=(3i+4j)-(-i+j)=4i+3j$，
+又$i=(1,0)$，$j=(0,1)$，
+所以$\mathbf{a}+\mathbf{b}$，$\mathbf{a}-\mathbf{b}$的坐标分别是$(2,5)$，$(4,3)$。
+
+答案 :$(2,5)$，$(4,3)$
+----------------------------------------
+[ID: 664]
+题目：已知四点 $A(1,-2)$, $B(2,1)$, $C(3,2)$, $D(-2,3)$, 试用向量 $\overrightarrow{AB}$, $\overrightarrow{AC}$ 表示 $\overrightarrow{AD} + \overrightarrow{BD} + \overrightarrow{CD}$.
+解析 ：$\overrightarrow{AB} = (1,3)$, $\overrightarrow{AC} = (2,4)$, $\overrightarrow{AD} + \overrightarrow{BD} + \overrightarrow{CD} =$
+$$(-3,5) + (-4,2) + (-5,1) = (-12,8)$$
+设 $\overrightarrow{AD} + \overrightarrow{BD} + \overrightarrow{CD} = x \overrightarrow{AB} + y \overrightarrow{AC} = x(1,3) + y(2,4) = (x+2y, 3x+4y)$
+$$
+\therefore \begin{cases} x+2y=-12 \\ 3x+4y=8 \end{cases}$$
+解得 $\begin{cases} x=32 \\ y=-22 \end{cases}$
+$$\therefore \overrightarrow{AD} + \overrightarrow{BD} + \overrightarrow{CD} = 32 \overrightarrow{AB} - 22 \overrightarrow{AC}$$
+----------------------------------------
+[ID: 665]
+已知向量$\boldsymbol{a}=(1,\sqrt{3})$，$\boldsymbol{b}=(\sqrt{3},1)$，则$\boldsymbol{a}$与$\boldsymbol{b}$夹角的大小为________。
+
+解析：题意得$|\boldsymbol{a}|=\sqrt{1+3}=2$，$|\boldsymbol{b}|=\sqrt{3+1}=2$，$\boldsymbol{a}\cdot\boldsymbol{b}=1\times\sqrt{3}+\sqrt{3}\times1=2\sqrt{3}$。设$\boldsymbol{a}$与$\boldsymbol{b}$的夹角为$\theta$，则$\cos\theta=\frac{2\sqrt{3}}{2\times2}=\frac{\sqrt{3}}{2}$。$\therefore\theta\in[0,\pi]$，$\therefore\theta=\frac{\pi}{6}$。
+
+答案：$\frac{\pi}{6}$
+----------------------------------------
+[ID: 666]
+题目：已知向量$\boldsymbol{a}=(-2,2)$，$\boldsymbol{b}=(5,\lambda)$，若$|\boldsymbol{a}+\boldsymbol{b}|$不超过5，则$\lambda$的取值范围是________.
+
+解析：由题意知，$\boldsymbol{a}+\boldsymbol{b}=(3,2+\lambda)$，从而$|\boldsymbol{a}+\boldsymbol{b}|=\sqrt{3^2+(2+\lambda)^2}$，
+因为$|\boldsymbol{a}+\boldsymbol{b}|\leqslant5$，所以$3^2+(2+\lambda)^2\leqslant25$，
+即$|2+\lambda|\leqslant4$，解得$-6\leqslant\lambda\leqslant2$.
+
+答案：$[{-6,2}]$
+----------------------------------------
+[ID: 667]
+题目：已知向量$\overrightarrow{AB}=i-2j$，$\overrightarrow{BC}=2i+\mu j$，其中$i,j$分别是与$x$轴、$y$轴方向相同的单位向量，试确定实数$\mu$的值，使$A,B,C$三点共线。
+
+解析 ：
+方法一 $\because A,B,C$三点共线，即$\overrightarrow{AB},\overrightarrow{BC}$共线，
+$\therefore$ 存在实数$\lambda$，使$\overrightarrow{AB}=\lambda\overrightarrow{BC}$，即$i-2j=\lambda(2i+\mu j)$，
+则$\begin{cases}2\lambda=1，\\ \mu\lambda=-2，\end{cases}$ 解得$\begin{cases}\lambda=\frac{1}{2}，\\\mu=-4。\end{cases}$
+故当$\mu=-4$时，$A,B,C$三点共线。
+
+方法二 依题意得$i=(1,0),j=(0,1),\therefore\overrightarrow{AB}=(1,-2),\overrightarrow{BC}=(2,\mu)$。
+$\because\overrightarrow{AB},\overrightarrow{BC}$共线，$\therefore1\times\mu-2\times(-2)=0$，即$\mu=-4$。
+故当$\mu=-4$时，$A,B,C$三点共线。
+----------------------------------------
+[ID: 668]
+题目：若过点 $P_{1}(2,3)$, $P_{2}(6,-1)$ 的直线上一点 $P$ 使 $|\overrightarrow{PP_{1}}|:|\overrightarrow{PP_{2}}|=3:1$，则点 $P$ 的坐标为 ______.
+
+解析 ：设 $O$ 为坐标原点，连接 $OP$，$OP_{1}$，$OP_{2}$.
+$\because |\overrightarrow{PP_{1}}|:|\overrightarrow{PP_{2}}|=3:1,\therefore |\overrightarrow{PP_{1}}|=3|\overrightarrow{PP_{2}}|$，
+$\therefore \overrightarrow{PP_{1}}=3\overrightarrow{PP_{2}}$ 或 $\overrightarrow{PP_{1}}=-3\overrightarrow{PP_{2}}$.
+当 $\overrightarrow{PP_{1}}=3\overrightarrow{PP_{2}}$，即 $\overrightarrow{P_{1}P}=-3\overrightarrow{PP_{2}}$ 时，
+$\overrightarrow{OP}=\frac{1}{1+(-3)}\overrightarrow{OP_{1}}+\frac{-3}{1+(-3)}\overrightarrow{OP_{2}}=(8,-3)$.
+当 $\overrightarrow{PP_{1}}=-3\overrightarrow{PP_{2}}$，即 $\overrightarrow{P_{1}P}=3\overrightarrow{PP_{2}}$ 时，
+$\overrightarrow{OP}=\frac{1}{1+3}\overrightarrow{OP_{1}}+\frac{3}{1+3}\overrightarrow{OP_{2}}=(5,0)$.
+故点 $P$ 的坐标为 $(8,-3)$ 或 $(5,0)$.
+
+答案 $：(8,-3)$ 或 $(5,0)$
+----------------------------------------
+[ID: 669]
+题目：(1) 已知实数x,y满足x+y-4=0,求x^{2}+y^{2}的最小值.
+(2) 已知实数x,y满足(x+2)^{2}+y^{2}=1,求2x-y的最大值.
+
+解析：(1)令向量m=(x,y),n=(1,1).
+∵|m·n|≤|m||n|,∴|x+y|≤\sqrt{x^{2}+y^{2}}·\sqrt{2},
+即2(x^{2}+y^{2})≥(x+y)^{2}=16,∴x^{2}+y^{2}≥8,
+故x^{2}+y^{2}的最小值是8.
+
+(2)令向量m=(x+2,y),n=(2,-1),2x-y=t.
+由|m·n|≤|m||n|,得|2(x+2)-y|≤\sqrt{(x+2)^{2}+y^{2}}·\sqrt{5}=\sqrt{5},
+即|t+4|≤\sqrt{5},
+解得-4-\sqrt{5}≤t≤\sqrt{5}-4.
+故2x-y的最大值是\sqrt{5}-4.
+----------------------------------------
+[ID: 670]
+题目：$\overrightarrow{CM}=3\overrightarrow{CA}$，$\overrightarrow{CN}=2\overrightarrow{CB}$，求点M，N的坐标.
+
+解析：方法一$\because A(-2,4)$，$B(3,-1)$，$C(-3,-4)$，
+$\therefore \overrightarrow{CA}=(-2,4)-(-3,-4)=(1,8)$，
+$\overrightarrow{CB}=(3,-1)-(-3,-4)=(6,3)$.
+$\because \overrightarrow{CM}=3\overrightarrow{CA}$，$\overrightarrow{CN}=2\overrightarrow{CB}$，
+$\therefore \overrightarrow{CM}=3(1,8)=(3,24)$，$\overrightarrow{CN}=2(6,3)=(12,6)$.
+设$M(x_{1},y_{1})$，$N(x_{2},y_{2})$，
+$\therefore \overrightarrow{CM}=(x_{1}+3,y_{1}+4)=(3,24)$，$\overrightarrow{CN}=(x_{2}+3,y_{2}+4)=(12,6)$，
+$\therefore \left\{\begin{array}{l}{x_{1}+3=3}\\{y_{1}+4=24}\end{array}\right.$，$\left\{\begin{array}{l}{x_{2}+3=12}\\{y_{2}+4=6}\end{array}\right.$，解得$\left\{\begin{array}{l}{x_{1}=0}\\{y_{1}=20}\end{array}\right.$，$\left\{\begin{array}{l}{x_{2}=9}\\{y_{2}=2}\end{array}\right.$.
+$\therefore M(0,20)$，$N(9,2)$.
+----------------------------------------
+[ID: 671]
+题目：已知A, B, C三点的坐标分别为(-1,0), (3,-1), (1,2), $\overrightarrow{AE}=\frac{1}{3}\overrightarrow{AC}$, $\overrightarrow{BF}=\frac{1}{3}\overrightarrow{BC}$, 求证: $\overrightarrow{EF}∥\overrightarrow{AB}$.
+
+解析： 设 $E(x_{1},y_{1})$, $F(x_{2},y_{2})$.
+
+由题意知 $\overrightarrow{AC}=(2,2)$, $\overrightarrow{BC}=(-2,3)$, $\overrightarrow{AB}=(4,-1)$,
+
+$\therefore \overrightarrow{AE}=\frac{1}{3}\overrightarrow{AC}=(\frac{2}{3},\frac{2}{3})$, $\overrightarrow{BF}=\frac{1}{3}\overrightarrow{BC}=(-\frac{2}{3},1)$,
+
+$\therefore (x_{1},y_{1})-(-1,0)=(\frac{2}{3},\frac{2}{3})$,
+
+$(x_{2},y_{2})-(3,-1)=(-\frac{2}{3},1)$.
+
+$\therefore (x_{1},y_{1})=(-\frac{1}{3},\frac{2}{3})$, $(x_{2},y_{2})=(\frac{7}{3},0)$.
+
+$\therefore \overrightarrow{EF}=(x_{2},y_{2})-(x_{1},y_{1})=(\frac{8}{3},-\frac{2}{3})$.
+
+$\because 4\times(-\frac{2}{3})-(-1)\times\frac{8}{3}=0$,
+
+$\therefore \overrightarrow{EF}∥\overrightarrow{AB}$.
+----------------------------------------
+[ID: 672]
+题目：已知$P_{1}(2,-1)$,$P_{2}(-1,3)$,点P在直线$P_{1}P_{2}$上,且$|\overrightarrow{P_{1}P}|=\frac{2}{3}|\overrightarrow{PP_{2}}|$,求点P的坐标.
+
+解析①当点P在线段$P_{1}P_{2}$上时,$\overrightarrow{P_{1}P}=\frac{2}{3}\overrightarrow{PP_{2}}$,设点P的坐标为$(x,y)$,$\therefore(x-2,y+1)=\frac{2}{3}(-1-x,3-y)$,
+$$\begin{cases}
+x-2=\frac{2}{3}(-1-x), \\
+y+1=\frac{2}{3}(3-y),
+\end{cases}$$
+解得
+$$\begin{cases}
+x=\frac{4}{5}, \\
+y=\frac{3}{5}.
+\end{cases}$$
+故点P的坐标为($\frac{4}{5}$,$\frac{3}{5}$).
+②当点P在线段P_{2}P_{1}的延长线上时,$\overrightarrow{P_{1}P}=-\frac{2}{3}\overrightarrow{P{P_{2}}}$,
+设点P的坐标为(x',y'),
+$$(x'-2,y'+1)=-\frac{2}{3}(-1-x',3-y'),$$
+$$
+\begin{cases}
+x'-2=-\frac{2}{3}(-1-x'), \\
+y'+1=-\frac{2}{3}(3-y'),
+\end{cases}
+$$
+解得
+$$
+\begin{cases}
+x'=8, \\
+y'=-9.
+\end{cases}
+$$
+故点P的坐标为(8,-9).
+
+综上可得,点P的坐标为($\frac{4}{5}$,$\frac{3}{5}$)或(8,-9).
+----------------------------------------
+[ID: 673]
+题目：已知三点 $A(2,1)$, $B(3,2)$, $D(-1,4)$.
+(1) 求证: $AB \perp AD$;
+(2) 要使四边形 $ABCD$ 为矩形, 求点 $C$ 的坐标并求矩形 $ABCD$ 的对角线的长度.
+
+解析 ：(1) $\because A(2,1), B(3,2), D(-1,4)$,
+
+$\therefore \overrightarrow{AB} = (1,1), \overrightarrow{AD} = (-3,3)$,
+
+则 $\overrightarrow{AB} \cdot \overrightarrow{AD} = 1 \times (-3) + 1 \times 3 = 0$,
+
+$\therefore \overrightarrow{AB} \perp \overrightarrow{AD}$, 即 $AB \perp AD$.
+
+(2) $\because \overrightarrow{AB} \perp \overrightarrow{AD}$, 四边形 $ABCD$ 为矩形, $\therefore \overrightarrow{AB} = \overrightarrow{DC}$.
+
+设点 $C$ 的坐标为 $(x, y)$, 则 $\overrightarrow{DC} = (x+1, y-4)$,
+
+从而有 $\left\{\begin{array}{l} x+1=1 \\ y-4=1 \end{array}\right.$, 即 $\left\{\begin{array}{l} x=0 \\ y=5 \end{array}\right.$,
+
+$\therefore$ 点 $C$ 的坐标为 $(0,5)$.
+
+$\overrightarrow{AC} = (-2,4)$, $|\overrightarrow{AC}| = \sqrt{(-2)^2 + 4^2} = 2 \sqrt{5}$,
+
+故点 $C$ 的坐标为 $(0,5)$, 矩形 $ABCD$ 的对角线的长度为 $2 \sqrt{5}$.
+----------------------------------------
+[ID: 674]
+题目：已知$a=(cos α,sin α)$，$b=(cos β,sin β)$，且$|ka+b|=\sqrt{3}|a-kb|(k>0)$。
+
+(1) 用$k$表示数量积$a\cdot b$；
+(2) 求$a\cdot b$的最小值，并求出此时$a$与$b$的夹角。
+
+
+解析：本题是平面向量的数量积与三角函数的综合问题，由$a=(cos α,sin α)$，$b=(cos β,sin β)$易知$|a|=|b|=1$，根据所给模的等式，两边平方就可以解决问题。
+(1)由$|ka+b|=\sqrt{3}|a-kb|$，得$(ka+b)^2=3(a-kb)^2$，
+
+∴$k^2a^2+2ka\cdot b+b^2=3a^2-6ka\cdot b+3k^2b^2$，
+
+∴$(k^2-3)a^2+8ka\cdot b+(1-3k^2)b^2=0$。
+
+又$a=(cos α,sin α)$，$b=(cos β,sin β)$，故$|a|=|b|=1$，
+
+∴$k^2-3+8ka\cdot b+1-3k^2=0$，∴$a\cdot b=\frac{2k^2+2}{8k}=\frac{k^2+1}{4k}$。
+
+(2)由(1)得$a\cdot b=\frac{k^2+1}{4k}=\frac{1}{4}(k+\frac{1}{k})\geqslant\frac{1}{4}\times2\sqrt{k\cdot\frac{1}{k}}=\frac{1}{2}$，当且仅当$k=\frac{1}{k}$，即$k=1$时等号成立。
+
+∴$a\cdot b$的最小值为$\frac{1}{2}$。
+
+设此时$a$与$b$的夹角为$θ$，则$cos θ=\frac{a\cdot b}{|a||b|}=\frac{1}{2}$。
+
+又$θ\in[0,π]$，∴$θ=\frac{π}{3}$。
+----------------------------------------
+[ID: 675]
+题目：已知点A(2,3),B(5,4),C(7,10),若$\overrightarrow{AP}=\overrightarrow{AB}+\lambda\overrightarrow{AC}$($\lambda\in\mathbb{R}$),试求当点P在第三象限时$\lambda$的取值范围.
+
+解析：由已知得$\overrightarrow{AP}=\overrightarrow{AB}+\lambda\overrightarrow{AC}=(5-2,4-3)+\lambda(7-2,10-3)=(3,1)+\lambda(5,7)=(3+5\lambda,1+7\lambda)$,
+
+设点P(x,y),则$\overrightarrow{AP}=(x-2,y-3)$.
+
+于是$(x-2,y-3)=(3+5\lambda,1+7\lambda)$,即$\begin{cases}x-2=3+5\lambda,\\y-3=1+7\lambda.\end{cases}$
+
+又点P在第三象限,所以$\begin{cases}x=5+5\lambda<0,\\y=4+7\lambda<0,\end{cases}$解得$\lambda<-1$.
+
+故$\lambda$的取值范围为$(-\infty,-1)$.
+----------------------------------------
+[ID: 676]
+题目：已知平面上三个点的坐标分别为A(-2,1),B(-1,3),C(3,4),求点D的坐标,使得A,B,C,D四点构成平行四边形.
+解析：由四边形ABCD为平行四边形,得$\overrightarrow{AB}=\overrightarrow{DC}$,可解得D(2,2).
+由四边形ABDC为平行四边形,得$\overrightarrow{AB}=\overrightarrow{CD}$,可解得D(4,6).
+由四边形ADBC为平行四边形,得$\overrightarrow{AD}=\overrightarrow{CB}$,可解得D(-6,0).
+因此,使A,B,C,D四点构成平行四边形的点D的坐标是(2,2)或(4,6)或(-6,0).
+----------------------------------------
+[ID: 677]
+题目：已知向量 $\boldsymbol{a} = (-2, -1)$, $\boldsymbol{b} = (\lambda, 1)$, 且 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为钝角, 则实数 $\lambda$ 的取值范围为 ________.
+
+$\because \boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为钝角, $\therefore \boldsymbol{a} \cdot \boldsymbol{b} < 0$, 即 $(-2, -1) \cdot (\lambda, 1) = -2\lambda - 1 < 0$, $\therefore \lambda > -\frac{1}{2}$.
+
+又当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 反向时, 夹角为 $180^\circ$, 即 $\boldsymbol{a} \cdot \boldsymbol{b} = -|\boldsymbol{a}| \cdot |\boldsymbol{b}|$.
+
+当 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为 $180^\circ$ 时, 也满足 $\boldsymbol{a} \cdot \boldsymbol{b} < 0$, 但不符合题意, 应舍去.
+
+则 $2\lambda + 1 = \sqrt{5} \cdot \sqrt{\lambda^2 + 1}$, 解得 $\lambda = 2$.
+
+由于 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角为钝角, 故应排除 $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 反向共线的情况, 即排除 $\lambda = 2$, 则实数 $\lambda$ 的取值范围为 $(-\frac{1}{2}, 2) \cup (2, +\infty)$.
+
+答案：${(-\frac{1}{2}, 2) \cup (2, +\infty)}$
+----------------------------------------
+[ID: 678]
+题目：已知A(1,2),B(4,0),C(8,6),D(5,8),判断由此四点构成的四边形的形状.
+
+解析：因为$\overrightarrow{AB}=(4,0)-(1,2)=(3,-2)$,$\overrightarrow{DC}=(8,6)-(5,8)=(3,-2)$,所以$\overrightarrow{AB}=\overrightarrow{DC}$,故四边形ABCD是平行四边形.
+
+因为$\overrightarrow{AD}=(5,8)-(1,2)=(4,6)$,
+
+所以$\overrightarrow{AB}\cdot\overrightarrow{AD}=3\times4+(-2)\times6=0$,
+
+所以$\overrightarrow{AB}\perp\overrightarrow{AD}$,故四边形ABCD是矩形.
+
+因为$|\overrightarrow{AB}|=\sqrt{13}$,$|\overrightarrow{AD}|=2\sqrt{13}$,$|\overrightarrow{AB}|\neq|\overrightarrow{AD}|$,
+
+所以四边形ABCD不是正方形.
+
+综上,四边形ABCD是矩形.
+----------------------------------------
+[ID: 679]
+题目：已知向量$\boldsymbol{a}=(1,2)$，$\boldsymbol{b}=(2,-2)$，$\boldsymbol{c}=(1,\lambda)$。若$\boldsymbol{c}∥(2\boldsymbol{a}+\boldsymbol{b})$，则$\lambda=$________。
+
+解析：${2a+b}=(4,2)$，因为$\boldsymbol{c}=(1,\lambda)$，且$\boldsymbol{c}∥(2\boldsymbol{a}+\boldsymbol{b})$，所以$1\times2=4\lambda$，即$\lambda=\frac{1}{2}$。
+
+答案：$\frac{1}{2}$

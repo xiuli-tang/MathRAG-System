@@ -1,0 +1,2 @@
+[ID: 2404]
+常用变形： $(1)a+b\geq2\sqrt{ab}(a>0,b>0)$ $$\begin{aligned}&(2)\biggl({\frac{a+b}{2}}\biggr)^{2}\geq ab\bigl(a,b\in R\bigr) \\&\left(3\right)\frac{2ab}{a+b}\leq\sqrt{ab}\leq\frac{a+b}{2}\leq\sqrt{\frac{a^{2}+b^{2}}{2}}\left(a>0,b>0\right)\end{aligned}$$

@@ -1,0 +1,11 @@
+[ID: 2420]
+解不等式（1） |x-1|<|x+a $\mid x-1\mid<\mid x+a\mid$ $\mid x-1\mid<\mid x+a\mid;(2)\mid x-2\mid+\mid x+3\mid>5.$[思路]（1）题由于两边均为非负数，因此可以利用$\mid f( x) \mid \langle \mid g( x) \mid \Rightarrow f^{2}( x)$ $\langle g^{2}( x)$ 两边平方去掉绝对值符号。（2）题可采用零点分段法去绝对值求解。[解题]（1）由于x-1|≥0 $x-1|\geqslant0$ $x- 1\mid \geqslant 0$, $\mid x+ a\mid \geqslant 0$ ，所以两边平方后有：$\mid x-1\mid^2<\mid x+a\mid^2$即有$x^{2}- 2$ $x+ 1<$ $x^{2}+ 2$ $ax+ a^{2}$ ，整理得(2 $a+ 2)$ $x> 1- a^2$ 当2 $a+ 2> 0$ 即$a>-1$ 时，不等式的解为x>→(1-α) 当2 $a+ 2= 0$ 即$a=-1$ 时，不等式无解： 当2 $a+ 2< 0$ 即$a<-1$ 时，不等式的解为x<(1-α)（2）解不等式$\mid x-2\mid+\mid x+3$ |>5解：当$x\leqslant-3$ 时，原不等式化为$(2-x)-(x+3)>5\Longrightarrow-2x>6\Rightarrow x<-3$ 当$-3<x<2$ 时，原不等式为$(2-x)+(x+3)>5\Rightarrow5>5$ 无解当$x\geqslant2$ 时，原不等式为$(x-2)+(x+3)>5\Rightarrow2x>4\Rightarrow x>2.$ 综合得：原不等式解集为$\{x\mid x>2$ $x>2$ $x>2$ 或$x<-3$
+----------------------------------------
+[ID: 2421]
+求不等式$\mid$x+3$\mid-\mid2$x-1$\mid<\frac x2+1$ 的解集。解：$$\begin{aligned}&\mid x+3\mid-\mid2x-1\mid=\begin{cases}4-x(x\geq\frac{1}{2})\\\\4x+2(-3<x<\frac{1}{2})\\\\x-4(x\leq-3)\end{cases}\\&\therefore\text{当 }x\geq\frac{1}{2}\text{时 }4-x<\frac{x}{2}+1&\therefore x>2\\&当-3<x<\frac{1}{2}时4x+2<\frac{x}{2}+1&\therefore-3<x<-\frac{2}{7}\\&\text{当}-3<x<\frac{1}{2}\text{时 }4x+2<\frac{x}{2}+1&\therefore-3<x<-\frac{2}{7}\end{aligned}$$综上$x<-\frac{2}{7}$ 或义>2故填$(-\infty,-\frac{2}{7})\cup(2,+\infty)$
+----------------------------------------
+[ID: 2422]
+求不等式$\left|\log_{\frac13}x\right|+\left|\log_3\frac1{3-x}\right|\geq1$ 的解集。解：因为对数必须有意义，即解不等式组$\begin{cases}x>0\\\frac{1}{3-x}>0\end{cases}$ 解得$0<x<3$ 又原不等式可化为$\left|\log_3x\right|+\left|\log_3\left(3-x\right)\right|\geq1$(1)当$0<x\leq1$ 时，不等式化为$-\log_3x+\log_3\left(3-x\right)\geq1$ 即$\log_3(3-x)\geq\log_33x$ $\cdot3-x\geq3x$ ： $x\leq\frac34$ 综合前提得： $0<x\leq\frac{3}{4}$(2)当$1<x\leqslant2$ 时，即$\log_{3}x+\log_{3}\left(3-x\right)\geq\log_{3}3$： $x^2-3x+3\leq0$ .x∈O (1)当$2<x<3$ 时， $\log_3x-\log_3\left(3-x\right)\geq\log_33$ (2) : . $x\geq 3( 3- x)$ $x\geq\frac94$ ，结合前提得： $\frac94\leq x<3$综合得原不等式的解集为$\left(0,\frac{3}{4}\right]\cup\left[\frac{9}{4},3\right)$
+----------------------------------------
+[ID: 2423]
+解关于$x$ 的不等式√x²-4mx+4m²>m+3。[解题]原不等式等价于$x-2m|>m+3$$$n>-3\text{时},\quad x-2m>m+3\text{或}x-2m<-(m+3)$$$$\therefore x>3m+3\text{或}x<m-3$$当$m+3=0$ 即$m=-3$ 时1x+6>0.x-6当$m+3<0$ 即$m<-3$ 时，x∈R

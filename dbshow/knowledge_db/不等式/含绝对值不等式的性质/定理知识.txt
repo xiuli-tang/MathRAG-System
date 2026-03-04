@@ -1,0 +1,2 @@
+[ID: 2408]
+含绝对值不等式的性质：$a$ 、$b$ 同号或有$0\Leftrightarrow|a+b|\neq|a|+|b|\geq\|a|-|b\|\neq a-b|$； $a$、 $b$ 异号或有$0\Leftrightarrow|a-b|\neq a|+|b|\geq\|a|-|b\|\neq a+b|.$

@@ -1,0 +1,384 @@
+[ID: 705]
+在△ABC中,角A,B,C的对边分别为a,b,c,若b=3,c=2,cosA=$\frac{1}{2}$,则a=
+
+解析：由余弦定理得$a^{2}=b^{2}+c^{2}-2bccosA=9+4-2\times3\times2\times\frac{1}{3}=9$,解得a=3.
+----------------------------------------
+[ID: 706]
+在△ABC中,a=3,b=5,sinA=$\frac{1}{3}$,则sinB=
+
+
+
+解析：由正弦定理列出关系式,将a,b及sinA的值代入即可求出sinB的值.
+∵a=3,b=5,sinA=$\frac{1}{3}$,
+∴由正弦定理得sinB=$\frac{bsinA}{a}$=$\frac{5×\frac{1}{3}}{3}$=$\frac{5}{9}$.
+----------------------------------------
+[ID: 707]
+在△ABC中,若a=3,b=8,C=60°,则cosA=____.
+
+解析：由余弦定理得$c^{2}=a^{2}+b^{2}-2ab\cos C$,
+
+即$c^{2}=9+64-2\times3\times8\times\frac{1}{2}=49$,
+
+又c>0,所以c=7.
+
+所以$\cos A=\frac{b^{2}+c^{2}-a^{2}}{2bc}=\frac{64+49-9}{2\times8\times7}=\frac{13}{14}$.
+
+答案：$\frac{13}{14}$
+----------------------------------------
+[ID: 708]
+在$\triangle ABC$中, 若$BC=\sqrt{5}$, $\sin C=2\sin A$, 则$AB=$
+
+解析：利用正弦定理化简$\sin C=2\sin A$, 得$AB=2BC$, $\therefore BC=\sqrt{5}$, $\therefore AB=2\sqrt{5}$.
+----------------------------------------
+[ID: 709]
+已知锐角三角形的边长分别为2,4,x,则实数x的取值范围是________.
+解析：由题意可知,三个内角的余弦值都大于0,
+从而$\left\{\begin{array}{l}2^{2}+4^{2}>x^{2},\\2^{2}+x^{2}>4^{2},\end{array}\right.$解得$12<x^{2}<20$,所以$2\sqrt{3}<x<2\sqrt{5}$.
+答案：$(2\sqrt{3},2\sqrt{5})$
+----------------------------------------
+[ID: 710]
+在△ABC中,B=60°,c=2,若满足条件的三角形有两个,则b的取值范围为_______.
+解析：因为满足条件的三角形有两个,
+所以csin B<b<c,
+将B=60°,c=2代入,解得$\sqrt{3}$<b<2.
+答案：$(\sqrt{3},2)$
+----------------------------------------
+[ID: 711]
+已知△ABC的内角A,B,C所对的边分别为a,b,c,且$(a+b)^{2}-c^{2}=4$，$C=120°$，则△ABC的面积为？
+A. $\frac{\sqrt{3}}{3}$ B. $\frac{2\sqrt{3}}{3}$ C. $\sqrt{3}$ D. $2\sqrt{3}$
+解析：将$c^{2}=a^{2}+b^{2}-2abcosC$与$(a+b)^{2}-c^{2}=4$联立，解得$ab=4$，则$S_{△ABC}=\frac{1}{2}absinC=\sqrt{3}$.
+答案：C
+----------------------------------------
+[ID: 712]
+题目：已知三角形的三边长分别为$a=5$，$b=7$，$c=8$，则该三角形的面积$S$为？
+
+解析：
+方法一： 令$p=\frac{1}{2}(a+b+c)=\frac{1}{2}\times(5+7+8)=10$，
+
+则$S=\sqrt{p(p-a)(p-b)(p-c)}$
+
+$=\sqrt{10\times(10-5)\times(10-7)\times(10-8)}$
+
+$=10\sqrt{3}$.
+
+方法二： 设边$a$，$b$，$c$所对的角分别为$A$，$B$，$C$，则依据余弦定理的推论可得$\cos C=\frac{a^2+b^2-c^2}{2ab}=\frac{25+49-64}{2\times5\times7}=\frac{1}{7}$，从而$\sin C=\sqrt{1-\cos^2C}=\frac{4\sqrt{3}}{7}$，
+
+所以三角形的面积$S=\frac{1}{2}absin C=10\sqrt{3}$.
+----------------------------------------
+[ID: 713]
+题目：在△ABC中,a=1,b=2,cos C=$\frac{1}{4}$,则c=?;
+$sin A$=?.
+解析：根据余弦定理得$c^{2}=a^{2}+b^{2}-2ab\cos C=1^{2}+2^{2}-2\times1\times2\times\frac{1}{4}=4$,解得c=2.由a=1,b=2,c=2,得$\cos A=\frac{2^{2}+2^{2}-1^{2}}{2\times2\times2}=\frac{7}{8}$,所以$\sin A=\sqrt{1-(\frac{7}{8})^{2}}=\frac{\sqrt{15}}{8}$.
+答案：2 ，$\frac{\sqrt{15}}{8}$
+----------------------------------------
+[ID: 714]
+题目：在$\triangle ABC$中，角$A,B,C$所对的边分别为 $a,b,c$,已知 $\cos C+(\cos A-\sqrt{3}\sin A)\cos B=0.$
+(1)求 $B;$
+(2)若 $a+c=1$,求 $b$ 的取值范围.
+
+解析： (1) 由已知条件和三角形内角和定理得$-\cos(A+B)+\cos A\cos B-\sqrt{3}\sin A\cos B=0$，即$\sin A\sin B-\sqrt{3}\sin A\cos B=0$。因为$\sin A\neq 0$，所以$\sin B-\sqrt{3}\cos B=0$。又$\cos B\neq 0$，所以$\tan B=\sqrt{3}$。又$0<B<\pi$，所以$B=\frac{\pi}{3}$。
+
+(2) 由余弦定理，有$b^2=a^2+c^2-2accos B$。因为$a+c=1$，$\cos B=\frac{1}{2}$，所以$b^2=3(a-\frac{1}{2})^2+\frac{1}{4}$。又$0<a<1$，所以$\frac{1}{4}\leqslant b^2<1$，即$\frac{1}{2}\leqslant b<1$。故b的取值范围为$[\frac{1}{2},1)$。
+----------------------------------------
+[ID: 715]
+题目：设△ABC的内角A,B,C的对边分别为a,b,c,且a=2,cos C=-$\frac{1}{4}$,3sin A=2sin B,则c=____.
+
+解析 ：由3sin A=2sin B及正弦定理,得3a=2b,所以b=$\frac{3}{2}$a=3.由余弦定理的推论cos C=$\frac{{a}^{2}+{b}^{2}-{c}^{2}}{2ab}$,得-$\frac{1}{4}$=$\frac{{2}^{2}+{3}^{2}-{c}^{2}}{2×2×3}$,解得c=4.
+
+答案 ： 4
+----------------------------------------
+[ID: 716]
+题目：在△ABC中，$a=2\sqrt{3}$，$b=2\sqrt{2}$，$c=\sqrt{6}+\sqrt{2}$，求角A，B，C。
+
+解析：方法一 由余弦定理的推论得
+$$\cos A=\frac{b^2+c^2-a^2}{2bc}=\frac{(2\sqrt{2})^2+(\sqrt{6}+\sqrt{2})^2-(2\sqrt{3})^2}{2\times2\sqrt{2}\times(\sqrt{6}+\sqrt{2})}=\frac{1}{2},$$
+$$
+\therefore A=60^\circ,$$
+$$\cos B=\frac{a^2+c^2-b^2}{2ac}=\frac{(2\sqrt{3})^2+(\sqrt{6}+\sqrt{2})^2-(2\sqrt{2})^2}{2\times2\sqrt{3}\times(\sqrt{6}+\sqrt{2})}=\frac{\sqrt{2}}{2},$$
+$$
+\therefore B=45^\circ,$$
+$$\therefore C=180^\circ-A-B=180^\circ-60^\circ-45^\circ=75^\circ.$$
+方法二 同方法一求得$\cos B=\frac{\sqrt{2}}{2}$，可得$B=45^\circ$，$\sin B=\frac{\sqrt{2}}{2}$。
+由正弦定理$\frac{a}{\sin A}=\frac{b}{\sin B}$，
+得$\sin A=\frac{a\sin B}{b}=\frac{2\sqrt{3}\times\frac{\sqrt{2}}{2}}{2\sqrt{2}}=\frac{\sqrt{3}}{2}$，
+$$
+\because 0^\circ<B<180^\circ，且b<a<c，$$
+$$\therefore A=60^\circ,$$
+$$
+\therefore C=180^\circ-A-B=180^\circ-45^\circ-60^\circ=75^\circ.$$
+----------------------------------------
+[ID: 717]
+题目：在△ABC中,角A,B,C的对边分别为a,b,c.已知a-b=4,a+c=2b,且最大角为120°,则此三角形的最大边长为
+
+解析： 已知a-b=4,则a>b且a=b+4.又a+c=2b,则b+4+c=2b,所以b=c+4,则b>c,从而知a>b>c,所以a为最大边,故A=120°,b=a-4,c=2b-a=a-8.
+
+由余弦定理,得a^{2}=b^{2}+c^{2}-2bccosA=b^{2}+c^{2}+bc=(a-4)^{2}+(a-8)^{2}+(a-4)(a-8),即a^{2}-18a+56=0,解得a=4或a=14.又b=a-4>0,所以a=14,即此三角形的最大边长为14.
+
+答案 ：14
+----------------------------------------
+[ID: 718]
+题目：在△ABC中，角A,B,C的对边分别为a,b,c,且cos(A-B)cosB-sin(A-B)sin(A+C)=-$\frac{3}{5}$.
+(1) 求sinA的值;
+(2) 若a=4$\sqrt{2}$,b=5,求向量$\overrightarrow{BA}$在$\overrightarrow{BC}$上的投影向量的长度.
+
+解析：(1) 利用三角恒等变换可求cosA的值，则sinA易求；(2) 利用正弦定理求B,再利用余弦定理求c,最后根据向量知识可求向量$\overrightarrow{BA}$在$\overrightarrow{BC}$上的投影向量的长度.
+ (1) 由cos(A-B)cosB-sin(A-B)sinB=-$\frac{3}{5}$，则cos(A-B+B)=-$\frac{3}{5}$,即cosA=-$\frac{3}{5}$.又0<A<π,则sinA=$\frac{4}{5}$.
+
+(2) 由正弦定理，有$\frac{a}{\sin A}$=$\frac{b}{\sin B}$,所以$\sin B$=$\frac{bsinA}{a}$=$\frac{5×\frac{4}{5}}{4\sqrt{2}}$=$\frac{\sqrt{2}}{2}$.由题知a>b,则A>B,故B=$\frac{π}{4}$.
+根据余弦定理，有$(4\sqrt{2})^{2}$=$5^{2}$+$c^{2}$-2×5c×(-$\frac{3}{5}$),解得c=1或c=-7(舍去).
+故向量$\overrightarrow{BA}$在$\overrightarrow{BC}$上的投影向量的长度为$|\overrightarrow{BA}|$cosB=$\frac{\sqrt{2}}{2}$.
+----------------------------------------
+[ID: 719]
+题目：在△ABC中，根据下列条件解三角形：
+(1) a=10, A=45°, B=30°;
+(2) A=30°, B=75°, c=√3+1.
+
+解析 ：本题中(1)的条件是两角及其中一角的对边，因此可以先通过正弦定理构建一个方程求得边b,再通过三角形内角和定理得到角C,最后运用正弦定理得到边c;(2)的条件是两角及其夹边，因此需要先通过三角形内角和定理得到角C,再运用正弦定理解其他两边.
+(1) 由正弦定理, 有 $\frac{a}{\sin A}=\frac{b}{\sin B}$,
+
+代入数据得到 $\frac{10}{\sin 45°}=\frac{b}{\sin 30°}$, 解得 $b=5\sqrt{2}$.
+
+由三角形内角和定理 A+B+C=180°,
+
+代入数据得到 45°+30°+C=180°, 解得 C=105°.
+
+由正弦定理, 有 $\frac{b}{\sin B}=\frac{c}{\sin C}$,
+
+代入数据得到 $\frac{5\sqrt{2}}{\sin 30°}=\frac{c}{\sin 105°}$,
+
+又 $\sin 105°=\sin(60°+45°)=\sin 60°\cos 45°+\cos 60°\sin 45°=\frac{\sqrt{2}+\sqrt{6}}{4}$,
+
+所以 $c=5+5\sqrt{3}$.
+
+(2) 由三角形内角和定理 A+B+C=180°,
+
+代入数据得到 30°+75°+C=180°, 解得 C=75°.
+
+由 B=C 得 b=c=√3+1.
+
+由正弦定理, 有 $\frac{a}{\sin A}=\frac{c}{\sin C}$,
+
+代入数据得 $\frac{a}{\sin 30°}=\frac{\sqrt{3}+1}{\sin 75°}$,
+
+由题(1)知 $\sin 75°=\sin 105°=\frac{\sqrt{2}+\sqrt{6}}{4}$, 解得 $a=\sqrt{2}$.
+----------------------------------------
+[ID: 720]
+题目：在△ABC中,a=26,cosA=$\frac{2\sqrt{2}}{3}$,cosB=$\frac{12}{13}$,则b等于？
+
+解析：因为cosA=$\frac{2\sqrt{2}}{3}$,所以sinA=$\sqrt{1-\cos^2A}$=$\frac{1}{3}$.
+
+同理得sinB=$\frac{5}{13}$.
+
+由$\frac{a}{\sin A}$=$\frac{b}{\sin B}$得b=$\frac{a\sin B}{\sin A}$=$\frac{26×\frac{5}{13}}{\frac{1}{3}}$=30.
+----------------------------------------
+[ID: 721]
+题目：已知$a,b,c$分别为$\triangle ABC$三个内角$A,B,C$的对边，$acosC+\sqrt{3}asinC-b-c=0$，则$A=\qquad$。
+
+解析： 由正弦定理及$acosC+\sqrt{3}asinC-b-c=0$，可得
+
+$\sin AcosC+\sqrt{3}\sin AsinC-\sin B-\sin C=0$，
+
+注意到$\sin B=\sin(A+C)$，
+
+则$\sin AcosC+\sqrt{3}\sin AsinC-\sin(A+C)-\sin C=0$，
+
+于是$\sin AcosC+\sqrt{3}\sin AsinC-(\sin AcosC+\cos AsinC)-\sin C=0$，
+
+整理可得$\sqrt{3}\sin AsinC-\cos AsinC-\sin C=0$。
+
+即$\sin C(\sqrt{3}\sin A-\cos A-1)=0$。
+
+因为$C\in(0,\pi)$，所以$\sin C\neq 0$，
+
+所以$\sqrt{3}\sin A-\cos A=1$，即$2(\frac{\sqrt{3}}{2}\sin A-\frac{1}{2}\cos A)=1$，
+
+于是$\sin(A-\frac{\pi}{6})=\frac{1}{2}$。
+
+又$A\in(0,\pi)$，所以$A-\frac{\pi}{6}=\frac{\pi}{6}$，即$A=\frac{\pi}{3}$。
+
+答案：$\frac{\pi}{3}$
+----------------------------------------
+[ID: 722]
+题目：在锐角三角形ABC中, 角A, B, C的对边分别为a, b, c, $\frac{b}{a}+\frac{a}{b}=6\cos C$, 则$\frac{\tan C}{\tan A}+\frac{\tan C}{\tan B}=$______.
+
+解析：$\because \frac{b}{a}+\frac{a}{b}=6\cos C$,
+$\therefore \frac{b^{2}+a^{2}}{ab}=6\cdot \frac{a^{2}+b^{2}-c^{2}}{2ab}$,
+$\therefore 2a^{2}+2b^{2}=3c^{2}$.
+
+而$\frac{\tan C}{\tan A}+\frac{\tan C}{\tan B}=\frac{\sin C\cos A}{\sin A\cos C}+\frac{\sin C\cos B}{\sin B\cos C}$,
+
+由正弦定理及余弦定理的推论可得
+$\frac{\tan C}{\tan A}+\frac{\tan C}{\tan B}=\frac{1}{\cos C}(\frac{c}{a}\cdot \frac{c^{2}+b^{2}-a^{2}}{2bc}+\frac{c}{b}\cdot \frac{a^{2}+c^{2}-b^{2}}{2ac})$
+
+$=\frac{1}{\cos C}\cdot \frac{2c^{2}}{2ab}$
+
+$=\frac{2ab}{a^{2}+b^{2}-c^{2}}\cdot \frac{2c^{2}}{2ab}$
+
+$=\frac{2c^{2}}{a^{2}+b^{2}-c^{2}}$
+
+$=4$.
+----------------------------------------
+[ID: 723]
+题目：在△ABC中, 已知(a+b+c)(a+b-c)=3ab, 且2cos Asin B=sin C, 试确定△ABC的形状.
+
+解析 ：方法一(利用边的关系来判断)
+由正弦定理得 $\frac{\sin C}{\sin B}=\frac{c}{b}$, 由2cos Asin B=sin C, 得$\cos A=\frac{\sin C}{2\sin B}=\frac{c}{2b}$.
+又$\cos A=\frac{b^{2}+c^{2}-a^{2}}{2bc}$, $\therefore\frac{c}{2b}=\frac{b^{2}+c^{2}-a^{2}}{2bc}$, 即$c^{2}=b^{2}+c^{2}-a^{2}$,
+$\therefore a=b$.
+又(a+b+c)(a+b-c)=3ab,
+$\therefore(a+b)^{2}-c^{2}=3ab$,
+$\therefore4b^{2}-c^{2}=3b^{2}$,
+$\therefore b=c$.
+综上, a=b=c, $\therefore$ △ABC为等边三角形.
+----------------------------------------
+[ID: 724]
+题目：在△ABC中，A=60°，AC=4，BC=2$\sqrt{3}$，则△ABC的面积等于______.
+
+解析：（先求出角度，再利用三角形的面积公式S=$\frac{1}{2}$absinC求解）
+
+在△ABC中，根据正弦定理，得$\frac{AC}{\sin B}=\frac{BC}{\sin A}$，
+所以$\frac{4}{\sin B}=\frac{2\sqrt{3}}{\sin 60°}$，解得sin B=1.
+因为B∈(0°,120°)，所以B=90°，所以C=30°，
+所以△ABC的面积S_{△ABC}=$\frac{1}{2}$·AC·BC·sin C=2$\sqrt{3}$.
+----------------------------------------
+[ID: 725]
+题目：在△ABC中,内角A,B,C所对的边分别是a,b,c,且c=2,C=$\frac{\pi}{3}$.
+(1)若△ABC的面积等于$\sqrt{3}$,求a,b;
+(2)若sin B=2sin A,求△ABC的面积.
+
+解析：在分析题目的时候要注意三角形面积公式与余弦定理的特点,S=$\frac{1}{2}$absin C与c^{2}=a^{2}+b^{2}-2abcos C都含有ab,这正是解题的突破口.
+(1)由余弦定理,得a^{2}+b^{2}-ab=4 ①,
+又△ABC的面积等于$\sqrt{3}$,所以$\frac{1}{2}$absin C=$\sqrt{3}$,得ab=4 ②,
+联立①②得方程组$\left\{\begin{array}{l}{{a}^{2}+{b}^{2}-ab=4,}\\{ab=4,}\end{array}\right.$解得$\left\{\begin{array}{l}{a=2,}\\{b=2.}\end{array}\right.$
+
+(2)由正弦定理及sin B=2sin A,得b=2a ③,
+联立①③得方程组$\left\{\begin{array}{l}{{a}^{2}+{b}^{2}-ab=4,}\\{b=2a,}\end{array}\right.$解得$\left\{\begin{array}{l}{a=\frac{2\sqrt{3}}{3},}\\{b=\frac{4\sqrt{3}}{3},}\end{array}\right.$
+
+所以△ABC的面积S=$\frac{1}{2}$absin C=$\frac{2\sqrt{3}}{3}$.
+----------------------------------------
+[ID: 726]
+题目：在△ABC中，a=$\sqrt{3}$，b=$\sqrt{2}$，B=45°，求角A，C和边c．
+
+解析：由正弦定理$\frac{a}{\sin A}$=$\frac{b}{\sin B}$，得$\frac{\sqrt{3}}{\sin A}$=$\frac{\sqrt{2}}{\sin 45°}$，
+
+∴$\sin A$=$\frac{\sqrt{3}}{2}$，由a＞b得A=60°或A=120°．
+
+当A=60°时，C=180°-45°-60°=75°．
+
+∵$\sin 75°$=$\sin(45°+30°)$
+
+=$\sin 45°\cos 30°+\cos 45°\sin 30°$
+
+=$\frac{\sqrt{2}+\sqrt{6}}{4}$，
+
+∴c=$\frac{b\sin C}{\sin B}$=$\frac{\sqrt{2}+\sqrt{6}}{2}$．
+
+当A=120°时，C=180°-45°-120°=15°．
+
+∵$\sin 15°$=$\sin(45°-30°)$=$\sin 45°\cos 30°-\cos 45°\sin 30°$
+
+=$\frac{\sqrt{6}-\sqrt{2}}{4}$，
+
+∴c=$\frac{b\sin C}{\sin B}$=$\frac{\sqrt{6}-\sqrt{2}}{2}$．
+
+综上，A=60°，C=75°，c=$\frac{\sqrt{2}+\sqrt{6}}{2}$或A=120°，C=15°，c=$\frac{\sqrt{6}-\sqrt{2}}{2}$．
+----------------------------------------
+[ID: 727]
+题目： 已知 $2a+1$, $a$, $2a-1$ 是钝角三角形的三边，则实数 $a$ 的取值范围为 ______.
+
+解析：$\because 2a+1$, $a$, $2a-1$ 是三角形的三边，
+$\therefore \left\{\begin{array}{l} 2a+1 > 0, \\ a > 0, \quad \text{解得 } a > \frac{1}{2}. \\ 2a-1 > 0, \end{array}\right.$
+
+要使 $2a+1$, $a$, $2a-1$ 构成三角形，
+需满足
+$\left\{\begin{array}{l} 2a+1+a > 2a-1, \\ a+2a-1 > 2a+1, \\ 2a+1+2a-1 > a, \end{array}\right.$
+解得 $a > 2$.
+
+由题知 $2a+1$ 是三角形的最大边，设其对应的角为 $\theta$ (钝角)，
+则 $\cos \theta = \frac{a^2+(2a-1)^2-(2a+1)^2}{2a(2a-1)} < 0$,
+$\therefore a^2+(2a-1)^2-(2a+1)^2 < 0$, 即 $a^2-8a < 0$, 解得 $0 < a < 8$.
+又 $a > 2$, $\therefore a$ 的取值范围为 $(2,8)$.
+
+答案： $(2,8)$
+----------------------------------------
+[ID: 728]
+$\triangle ABC$的内角A、B、C的对边分别为$a$，$b$，$c$. 已知$b\sin C+c\sin B=4a\sin B\sin C$，$b^{2}+c^{2}-a^{2}=8$，则$\triangle ABC$的面积为？
+
+解析 ：由正弦定理及$b\sin C+c\sin B=4a\sin B\sin C$，得$\sin B\sin C+\sin C\sin B=4\sin A\sin B\sin C$，因为$\sin B\sin C\neq 0$，所以$\sin A=\frac{1}{2}$. 
+由余弦定理的推论得$\cos A=\frac{b^{2}+c^{2}-a^{2}}{2bc}=\frac{\sqrt{3}}{2}$，因为$b^{2}+c^{2}-a^{2}=8$，所以$bc=\frac{8\sqrt{3}}{3}$，所以$S_{\triangle ABC}=\frac{1}{2}bc\sin A=\frac{1}{2}\times\frac{8\sqrt{3}}{3}\times\frac{1}{2}={\frac{2\sqrt{3}}{3}}$.
+
+答案: ${\frac{2\sqrt{3}}{3}}$
+----------------------------------------
+[ID: 729]
+题目：在△ABC中,内角A,B,C的对边分别为a,b,c,若asinBcosC+csinBcosA=$\frac{1}{2}$b,且a>b,则B=
+
+解析：由asinBcosC+csinBcosA=$\frac{1}{2}$b得(acosC+ccosA)sinB=$\frac{1}{2}$b.由射影定理可得ccosA+acosC=b,所以sinB=$\frac{1}{2}$,注意到a>b,则B=$\frac{\pi}{6}$.
+----------------------------------------
+[ID: 730]
+题目：$$在平面四边形ABCD中，∠ADC=90°，A=45°，AB=2，BD=5。$$
+(1) 求cos∠ADB;
+(2) 若DC=2√2，求BC.
+解析 ：
+(1) 在△ABD中，由正弦定理得
+$$
+\frac{BD}{\sin A} = \frac{AB}{\sin ∠ADB}$$
+所以
+$$\frac{5}{\sin 45°} = \frac{2}{\sin ∠ADB}$$
+所以
+$$
+\sin ∠ADB = \frac{\sqrt{2}}{5}$$
+由BD＞AB知，∠ADB＜90°，
+所以
+$$\cos ∠ADB = \sqrt{1 - \frac{2}{25}} = \frac{\sqrt{23}}{5}$$
+(2) 由题设及(1)知，cos∠BDC=sin∠ADB=$\frac{\sqrt{2}}{5}$。
+在△BCD中，由余弦定理得
+$$
+BC^2 = BD^2 + DC^2 - 2BD \cdot DC \cdot \cos ∠BDC$$
+$$= 25 + 8 - 2 \times 5 \times 2\sqrt{2} \times \frac{\sqrt{2}}{5}$$
+$$
+= 25$$
+所以BC=5。
+----------------------------------------
+[ID: 731]
+题目：$$在平面四边形ABCD中，∠ADC=90°，A=45°，AB=2，BD=5。$$
+(1) 求cos∠ADB;
+(2) 若DC=2√2，求BC.
+解析 ：
+(1) 在△ABD中，由正弦定理得
+$$
+\frac{BD}{\sin A} = \frac{AB}{\sin ∠ADB}$$
+所以
+$$\frac{5}{\sin 45°} = \frac{2}{\sin ∠ADB}$$
+所以
+$$
+\sin ∠ADB = \frac{\sqrt{2}}{5}$$
+由BD＞AB知，∠ADB＜90°，
+所以
+$$\cos ∠ADB = \sqrt{1 - \frac{2}{25}} = \frac{\sqrt{23}}{5}$$
+(2) 由题设及(1)知，cos∠BDC=sin∠ADB=$\frac{\sqrt{2}}{5}$。
+在△BCD中，由余弦定理得
+$$
+BC^2 = BD^2 + DC^2 - 2BD \cdot DC \cdot \cos ∠BDC$$
+$$= 25 + 8 - 2 \times 5 \times 2\sqrt{2} \times \frac{\sqrt{2}}{5}$$
+$$
+= 25$$
+所以BC=5。
+----------------------------------------
+[ID: 737]
+题目：设O是平面ABC内的一定点，P是平面ABC内的一动点，若$(\overrightarrow{PB}-\overrightarrow{PC})\cdot(\overrightarrow{OB}+\overrightarrow{OC})=(\overrightarrow{PC}-\overrightarrow{PA})\cdot(\overrightarrow{OA}+\overrightarrow{OC})=0$，则O为△ABC的
+
+A. 内心
+B. 外心
+C. 重心
+D. 垂心
+
+解析：由$(\overrightarrow{PB}-\overrightarrow{PC})\cdot(\overrightarrow{OB}+\overrightarrow{OC})=0$，知$\overrightarrow{CB}\cdot2\overrightarrow{OD}=0$(其中D为CB的中点)，所以$\overrightarrow{CB}\perp\overrightarrow{OD}$，所以O在BC的垂直平分线上。同理，O在AC的垂直平分线上，故O为△ABC的外心。
+
+答案：B
+----------------------------------------
+[ID: 738]
+设 $O$ 为三角形 $ABC$ 内一点, 且满足关系式 $\overrightarrow{OA}+2 \overrightarrow{OB}+3 \overrightarrow{OC}=3 \overrightarrow{AB}+2 \overrightarrow{BC}+\overrightarrow{CA}$, 则 $\frac{S_{\triangle A O B}+2 S_{\triangle B O C}+3 S_{\triangle C O A}}{S_{\triangle A B C}}=$ ______.
+
+解析 ：$∵ \overrightarrow{A B}=\overrightarrow{O B}-\overrightarrow{O A}, \overrightarrow{B C}=\overrightarrow{O C}-\overrightarrow{O B}, \overrightarrow{C A}=\overrightarrow{O A}-\overrightarrow{O C}, \overrightarrow{O A}+2 \overrightarrow{O B}+3 \overrightarrow{O C}=3 \overrightarrow{A B}+2 \overrightarrow{B C}+\overrightarrow{C A}$, 所以 $3 \overrightarrow{O A}+\overrightarrow{O B}+2 \overrightarrow{O C}=0$, 则 $(\overrightarrow{O A}+\overrightarrow{O B})+2(\overrightarrow{O A}+\overrightarrow{O C})=0$. 设 $M, N$ 是 $A B, A C$ 的中点, 则 $\overrightarrow{O M}=-2 \overrightarrow{O N}$, 所以 $M, O, N$ 三点共线. 设 $\triangle A B C$ 的面积为 $S$. 由几何关系知 $S_{\triangle B O C}=\frac{1}{2} S, S_{\triangle A O B}=\frac{1}{3} S, S_{\triangle C O A}=\frac{1}{6} S$, 所以 $\frac{S_{\triangle A O B}+2 S_{\triangle B O C}+3 S_{\triangle C O A}}{S_{\triangle A B C}}=\frac{11}{6}$.
+
+答案 ：$\frac{11}{6}$

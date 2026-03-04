@@ -1,0 +1,2 @@
+[ID: 1846]
+常用等价无穷小:当$x\to0$时,$\tan x\sim x$, $1- \cos x\sim \frac 12x^2.$;$\sin x-x$,$\arcsin x\sim x$, $\arctan x\sim x$,$\ln ( 1+ x) \sim x$, $a^{x}- 1\sim x\ln \alpha$, $e^{x}- 1\sim x$,$( 1+ x) ^{\alpha }- 1\sim ax$ $( \alpha \neq 0)$.

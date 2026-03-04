@@ -1,0 +1,2 @@
+[ID: 2463]
+当AB的长度不可直接测量时,求AB的距离有以下三种类型:A,B间不可达也不可视 ， 测得AC=b,BC=a,C的大小,则由余弦定理得AB=$\sqrt{a^{2}+b^{2}-2ab\cos C}$. B,C与点A可视但不可达 ， 测得BC=a,B,C的大小,则A=π-(B+C),由正弦定理得AB=$\frac{a\sin C}{\sin(B+C)}$. C,D与点A,B均可视不可达 ，测得CD=a及∠BDC,∠ACD,∠BCD,∠ADC的度数.在△ACD中,用正弦定理求AC;在△BCD中,用正弦定理求BC;在△ABC中,用余弦定理求AB

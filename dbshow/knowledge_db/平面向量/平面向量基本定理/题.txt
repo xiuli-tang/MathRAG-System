@@ -1,0 +1,30 @@
+[ID: 640]
+题目：已知$\boldsymbol{e}_{1}$,$\boldsymbol{e}_{2}$是同一平面内的两个不共线向量,$\boldsymbol{a}=\boldsymbol{e}_{1}+\boldsymbol{e}_{2}$,$\boldsymbol{b}=3\boldsymbol{e}_{1}-\boldsymbol{e}_{2}$,$\boldsymbol{c}=5\boldsymbol{e}_{1}+\boldsymbol{e}_{2}$,试用向量$\boldsymbol{a}$和$\boldsymbol{b}$表示$\boldsymbol{c}$.
+
+解析：由题意,可知$\boldsymbol{a}$,$\boldsymbol{b}$不共线,
+$\therefore$可设$\boldsymbol{c}=\lambda\boldsymbol{a}+\mu\boldsymbol{b}$,则$\lambda\boldsymbol{a}+\mu\boldsymbol{b}=\lambda(\boldsymbol{e}_{1}+\boldsymbol{e}_{2})+\mu(3\boldsymbol{e}_{1}-\boldsymbol{e}_{2})=(\lambda+3\mu)\boldsymbol{e}_{1}+(\lambda-\mu)\boldsymbol{e}_{2}$.
+$\because\boldsymbol{e}_{1}$,$\boldsymbol{e}_{2}$不共线,$\boldsymbol{c}=5\boldsymbol{e}_{1}+\boldsymbol{e}_{2}$,
+$\therefore\left\{\begin{array}{l}\lambda+3\mu=5,\\ \lambda-\mu=1,\end{array}\right.$解得$\left\{\begin{array}{l}\lambda=2,\\ \mu=1.\end{array}\right.$
+故$\boldsymbol{c}=2\boldsymbol{a}+\boldsymbol{b}$.
+----------------------------------------
+[ID: 641]
+已知在Rt△ABC中，∠C=90°，AC=3，BC=4，P为线段AB上的点，且$\overrightarrow{CP}=x\cdot\frac{\overrightarrow{CA}}{|\overrightarrow{CA}|}+y\frac{\overrightarrow{CB}}{|\overrightarrow{CB}|}$，则xy的最大值为
+
+解析∵P为线段AB上的点，∴存在实数λ使得$\overrightarrow{AP}=\lambda\overrightarrow{AB}(0≤λ≤1)$，∴$\overrightarrow{CP}=\overrightarrow{CA}+\overrightarrow{AP}=\overrightarrow{CA}+\lambda\overrightarrow{AB}=\overrightarrow{CA}+\lambda(\overrightarrow{CB}-\overrightarrow{CA})=(1-\lambda)\overrightarrow{CA}+\lambda\overrightarrow{CB}(0≤λ≤1)$，∴$\overrightarrow{CP}=\frac{x}{3}\overrightarrow{CA}+\frac{y}{4}\overrightarrow{CB}$，
+$\therefore \begin{cases} 1- \lambda = \frac x3\:, \\ \\ \lambda = \frac \gamma 4\:, & \end{cases} \therefore xy= 12( 1- \lambda )$ $\lambda = - 12($ $\lambda - \frac 12$ $) ^{2}+ 3\leq 3$ $, 当 且$
+
+仅当 $\lambda=\frac12$时$, 取 “ = ” , 故$ $xy$ 的最大值是 3.
+----------------------------------------
+[ID: 642]
+题目：用向量法证明三角形的三条中线交于一点.
+解析：设$\overrightarrow{AC}=\boldsymbol{a}$, $\overrightarrow{BC}=\boldsymbol{b}$,
+$D,E,F$ 分别为三角形 $ABC$ 三边的中点, 则
+$\overrightarrow{AB}=\boldsymbol{a}-\boldsymbol{b}$, $\overrightarrow{AD}=\boldsymbol{a}-\frac{1}{2}\boldsymbol{b}$, $\overrightarrow{BE}=-\frac{1}{2}\boldsymbol{a}+\boldsymbol{b}$.
+设 $AD$ 与 $BE$ 相交于点 $G_{1}$, 且 $\overrightarrow{AG_{1}}=\lambda\overrightarrow{AD}$,
+$\overrightarrow{BG_{1}}=\mu\overrightarrow{BE}$,
+则 $\overrightarrow{AG_{1}}=\lambda\boldsymbol{a}-\frac{\lambda}{2}\boldsymbol{b}$, $\overrightarrow{BG_{1}}=-\frac{\mu}{2}\boldsymbol{a}+\mu\boldsymbol{b}$.
+因为 $\overrightarrow{AG_{1}}=\overrightarrow{AB}+\overrightarrow{BG_{1}}=(1-\frac{\mu}{2})\boldsymbol{a}+(\mu-1)\boldsymbol{b}$,
+所以 $\begin{cases} \lambda=1-\frac{\mu}{2}, \\ -\frac{\lambda}{2}=\mu-1, \end{cases}$ 解得 $\begin{cases} \lambda=\frac{2}{3}, \\ \mu=\frac{2}{3}, \end{cases}$ 即 $\overrightarrow{AG_{1}}=\frac{2}{3}\overrightarrow{AD}$.
+再设 $AD$ 与 $CF$ 相交于点 $G_{2}$, 同理可得 $\overrightarrow{AG_{2}}=\frac{2}{3}\overrightarrow{AD}$,
+故点 $G_{1}$, $G_{2}$ 重合, 即 $AD$, $BE$, $CF$ 相交于同一点,
+故三角形的三条中线交于一点.

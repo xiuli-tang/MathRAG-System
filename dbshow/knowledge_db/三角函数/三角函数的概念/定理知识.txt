@@ -1,0 +1,39 @@
+[ID: 323]
+利用单位圆可以定义任意角的三角函数。设 $\alpha$ 是一个任意角，$\alpha \in \mathbb{R}$，它的终边 $OP$ 与单位圆相交于点 $P(x,y)$。
+三角函数的定义如下：
+正弦函数：点 $P$ 的纵坐标 $y$，记作 $\sin \alpha$，符号表示为 $y=\sin \alpha$。
+余弦函数：点 $P$ 的横坐标 $x$，记作 $\cos \alpha$，符号表示为 $x=\cos \alpha$。
+正切函数：点 $P$ 的纵坐标与横坐标的比值 $\frac{y}{x}$，记作 $\tan \alpha$，符号表示为 $\frac{y}{x}=\tan \alpha$（$x \neq 0$）。
+我们将正弦函数、余弦函数和正切函数统称为三角函数，通常将它们记为：
+正弦函数：$y=\sin x, x \in \mathbb{R}$
+余弦函数：$y=\cos x, x \in \mathbb{R}$
+正切函数：$y=\tan x, x \neq \frac{\pi}{2}+k\pi (k \in \mathbb{Z})$
+----------------------------------------
+[ID: 324]
+三角函数的定义域如下：
+$\sin \alpha$ 的定义域是 $\{\alpha|\alpha \in \mathbb{R}\}$
+$\cos \alpha$ 的定义域是 $\{\alpha|\alpha \in \mathbb{R}\}$
+$\tan \alpha$ 的定义域是 $\{\alpha|\alpha \neq k\pi+\frac{\pi}{2}, k \in \mathbb{Z}\}$
+任意角的三角函数是在直角坐标系中定义的，角的范围是使函数有意义的实数集。当 $\alpha=\frac{\pi}{2}+k\pi (k \in \mathbb{Z})$ 时，$\alpha$ 的终边在 $y$ 轴上，这时点 $P$ 的横坐标 $x=0$，所以 $\tan \alpha=\frac{y}{x}$ 无意义。
+----------------------------------------
+[ID: 325]
+终边相同的角的同一三角函数的值相等.
+$\sin(\alpha+k\cdot2\pi)=\sin\alpha$,
+$\cos(\alpha+k\cdot2\pi)=\cos\alpha$,
+$\tan(\alpha+k\cdot2\pi)=\tan\alpha$,
+其中$k\in\mathbb{Z}$.
+----------------------------------------
+[ID: 326]
+同角三角函数的基本关系包括平方关系和商数关系：
+平方关系的基本关系式为 $\sin^2 \alpha + \cos^2 \alpha = 1$，这表示同一个角 $\alpha$ 的正弦和余弦的平方和等于1。
+商数关系的基本关系式为 $\frac{\sin \alpha}{\cos \alpha} = \tan \alpha$，其中 $\alpha \neq k\pi + \frac{\pi}{2} (k \in \mathbb{Z})$，这表示同一个角 $\alpha$ 的正弦和余弦的商等于角 $\alpha$ 的正切。
+----------------------------------------
+[ID: 327]
+基本关系式的变形公式
+$$\sin^2 \alpha = 1 - \cos^2 \alpha,$$
+$$
+\cos^2 \alpha = 1 - \sin^2 \alpha,$$
+$$\sin \alpha = \pm \sqrt{1 - \cos^2 \alpha},$$
+$$
+\cos \alpha = \pm \sqrt{1 - \sin^2 \alpha}.$$
+$$\tan \alpha = \frac{\sin \alpha}{\cos \alpha} \Rightarrow \left\{\begin{array}{l} \sin \alpha = \tan \alpha \cos \alpha, \\ \cos \alpha = \frac{\sin \alpha}{\tan \alpha}. \end{array}\right.$$

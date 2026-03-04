@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>超级码力</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+</head>
+<body>
+    <div id="sidebar">
+        <div id="header">
+            <img src="team-logo2.jpg" alt="Logo" id="logo">
+            <span id="app-name">超级码力</span>
+        </div>
+        <!-- 添加的用户名显示 -->
+        <div class="user-name">精灵</div>
+        <button id="new-chat-btn" onclick="newChat()">新建聊天</button>
+        <div id="history-box">
+            <h3>历史聊天记录</h3>
+            <div id="history-list"></div>
+        </div>
+    </div>
+
+    <div id="chat-container">
+        <!-- 移动到中间的常见问题栏 -->
+        <div id="faq-top-bar">
+            <h3>常见问题</h3>
+            <ul id="faq-list-top">
+                <li data-id="0" onclick="openWithToken(this)">高中常见函数表达式</li>
+                <li data-id="1" onclick="openWithToken(this)">数列知识点总结</li>
+                <li data-id="2" onclick="openWithToken(this)">导数大题常见技巧</li>
+                <li data-id="3" onclick="openWithToken(this)">数与运算知识点</li>
+                <li data-id="4" onclick="openWithToken(this)">如何解方程组</li>
+                <li data-id="5" onclick="openWithToken(this)">不等关系的基本性质</li>
+            </ul>
+        </div>
+
+        <div id="chat-box"></div>
+        <div id="image-name-container"></div>
+        <div id="input-box">
+            <input type="text" id="user-input" placeholder="输入你的问题...">
+            <button class="action-btn" onclick="sendMessage()">发送</button>
+            <input type="file" id="imageInput" accept="image/*">
+            <label for="imageInput" class="action-btn2">📎图片</label>
+        </div>
+    </div>
+
+    <div id="user-info">
+        <!-- 修改后的右侧边栏 -->
+        <div class="theorem-section">
+            <h3>常见定理</h3>
+            <ul id="theorem-list">
+
+            </ul>
+        </div>
+
+        <div class="problem-section">
+            <h3>题目</h3>
+            <ul id="problems-list">
+
+            </ul>
+        </div>
+
+        <div id="content-display">
+            <h3>内容详情</h3>
+            <div id="content-area"></div>
+        </div>
+    </div>
+
+    <div id="theme-toggle" onclick="toggleTheme()">🌓</div>
+    <div id="out" onclick="location.href='http://127.0.0.1:8000';">⇨</div>
+
+    <script src="script.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      initTheme();
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+[ID: 620]
+求两向量夹角的基本思路：
+求两非零向量的夹角 θ 或其余弦值一般利用夹角公式$\cos \theta = \frac{\boldsymbol{a} \cdot \boldsymbol{b}}{|\boldsymbol{a}||\boldsymbol{b}|}$求解. 
+根据题中条件分别求出 |$\boldsymbol{a}$|, |$\boldsymbol{b}$| 和 $\boldsymbol{a} \cdot \boldsymbol{b}$. 确定 θ 时要注意 θ ∈ [0, π], 当 cos θ > 0 时, θ ∈ [0, $\frac{\pi}{2}$); 当 cos θ < 0 时, θ ∈ ($\frac{\pi}{2}$, π]; 当 cos θ = 0 时, θ = $\frac{\pi}{2}$.
+ 此外, 往往将夹角的最值问题转化为模的范围研究, 因此基本不等式是重要的工具.
+----------------------------------------
+[ID: 621]
+解决与向量的模有关的问题的基本思路：
+
+$\boldsymbol{a}\cdot\boldsymbol{a}=\boldsymbol{a}^{2}=|\boldsymbol{a}|^{2}$ 或 $|\boldsymbol{a}|=\sqrt{\boldsymbol{a}\cdot\boldsymbol{a}}$ 是求向量的模及用向量求解图形中线段长度的依据.
+ 这种通过求自身的数量积从而求模的思想是解决向量的模的问题的主要方法. 此外, 根据平面图形求向量的模时, 注意利用图形的性质对向量的数量积或夹角等进行转化.

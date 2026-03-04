@@ -1,0 +1,2 @@
+[ID: 1848]
+导数的定义:$$f^{\prime}(x_0)=\lim_{\Delta x\to0}\frac{\Delta y}{\Delta x}=\lim_{\Delta x\to0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}$$; 其它形式:$$f'(x_0)=\lim_{h\to0}\frac{f(x_0+h)-f(x_0)}h.$$.$$f^{\prime}(x_0)=\lim_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}.$$

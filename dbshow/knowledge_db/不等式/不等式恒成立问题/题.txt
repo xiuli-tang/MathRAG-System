@@ -1,0 +1,2 @@
+[ID: 2434]
+若 $a > 0, b > 0$，且 $a + b = 4$，则下列不等式恒成立的是A. $\frac{1}{ab} \geqslant \frac{1}{4}$B. $\frac{1}{a} + \frac{1}{b} \leqslant 1$C. $\sqrt{ab} \geqslant 2$D. $\frac{1}{a^2 + b^2} \leqslant \frac{1}{8}$解析 由 $a + b = 4$，得 $\sqrt{ab} \leqslant \frac{a + b}{2} = \frac{4}{2} = 2$，故 C 错；由 $\sqrt{ab} \leqslant 2$ 得 $ab \leqslant 4$，$\therefore \frac{1}{ab} \geqslant \frac{1}{4}$，故 A 正确；B 中，$\frac{1}{a} + \frac{1}{b} = \frac{a + b}{ab} = \frac{4}{ab} \geqslant 1$，故 B 错；由 $a^2 + b^2 \geqslant \frac{(a + b)^2}{2}$，$\therefore \frac{1}{a^2 + b^2} \leqslant \frac{1}{8}$，故 D 正确。

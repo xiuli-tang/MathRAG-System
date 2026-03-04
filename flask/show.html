@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>文件内容展示</title>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 60px;
+      background-image: url('http://127.0.0.1:5002/background-image');
+      background-size: 33vw 50vh;
+      background-color: #fffafa;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .flex-layout {
+      display: flex;
+      gap: 20px;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    .file-list{
+      flex: 0 0 30%;
+      max-width: 30%;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.9);
+      max-height: 80vh;
+      overflow-y: auto;
+      height: 100%;
+    }
+
+    .file-content {
+      flex: 1;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.9);
+      max-height: 80vh;
+      overflow-y: auto;
+      height: 100%;
+    }
+
+    .file-list h3, .file-content h3 {
+      margin-top: 0;
+    }
+
+    .file-item {
+      padding: 15px 20px;
+      margin-bottom: 16px;
+      background-color: rgba(240, 248, 255, 0.8);
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .file-item:hover {
+      background-color: rgba(220, 240, 255, 1);
+      box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .content-block {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-layout">
+    <div class="file-list">
+      <h3>文件列表</h3>
+      <!-- 动态渲染文件列表 -->
+      <div id="file-list-container">
+        <p>正在加载文件列表...</p>
+      </div>
+    </div>
+
+    <div class="file-content">
+      <h3>文件内容</h3>
+      <div id="content-container">
+        <p>请选择左侧的文件以查看内容。</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var id = {{ id }};  // 获取动态传递的 id 参数
+
+    // 加载文件列表
+    function loadFileList() {
+      fetch(`http://127.0.0.1:5002/get_files?id=${id}`)
+        .then(response => response.json())
+        .then(files => {
+          const container = document.getElementById("file-list-container");
+          container.innerHTML = ""; // 清空当前内容
+
+          if (files.length > 0) {
+            files.forEach(file => {
+              const div = document.createElement("div");
+              div.className = "file-item";
+              div.onclick = function() { loadFileContent(file); };
+              div.innerText = file;
+              container.appendChild(div);
+            });
+          } else {
+            container.innerHTML = "<p>没有找到文件。</p>";
+          }
+        })
+        .catch(error => {
+          console.error("加载文件列表失败：", error);
+          document.getElementById("file-list-container").innerHTML = "<p>加载文件列表失败，请稍后再试。</p>";
+        });
+    }
+
+    // 加载文件内容
+    function loadFileContent(filename) {
+      fetch(`http://127.0.0.1:5002/get_file_content?filename=${encodeURIComponent(filename)}`)
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById("content-container");
+          container.innerHTML = "";
+          data.forEach(item => {
+            const div = document.createElement("div");
+            div.className = "content-block";
+            div.innerHTML = item;  // 确保服务端返回的是已 HTML 转义或安全内容
+            container.appendChild(div);
+          });
+          MathJax.typeset();  // 重新渲染数学公式
+        })
+        .catch(error => {
+          console.error("加载文件内容失败：", error);
+        });
+    }
+
+    // 页面加载时初始化文件列表
+    window.onload = loadFileList;
+  </script>
+</body>
+</html>

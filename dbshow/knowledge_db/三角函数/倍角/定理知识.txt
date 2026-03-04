@@ -1,0 +1,30 @@
+[ID: 348]
+倍角公式用于计算角度的两倍值的三角函数。具体公式如下：
+1. 正弦的倍角公式为 $\sin 2\alpha = 2\sin \alpha \cos \alpha$，简记符号为 $S_{2\alpha}$。
+2. 余弦的倍角公式为 $\cos 2\alpha = \cos^2 \alpha - \sin^2 \alpha = 2\cos^2 \alpha - 1 = 1 - 2\sin^2 \alpha$，简记符号为 $C_{2\alpha}$。
+3. 正切的倍角公式为 $\tan 2\alpha = \frac{2\tan \alpha}{1-\tan^2 \alpha}$，简记符号为 $T_{2\alpha}$。
+----------------------------------------
+[ID: 349]
+1. 二倍角是相对的，例如 $4\alpha$ 是 $2\alpha$ 的二倍，$\alpha$ 是 $\frac{\alpha}{2}$ 的二倍等。“倍”是描述两个数量之间关系的，这里蕴含着转换元思想。
+2. 对于 $S_{2\alpha}$ 和 $C_{2\alpha}$，$\alpha \in \mathbb{R}$，但是在使用 $T_{2\alpha}$ 时，要保证分母 $1-\tan^2 \alpha \neq 0$ 且 $\tan \alpha$ 有意义。
+3. 一般情况下，$\sin 2\alpha \neq 2\sin \alpha$，$\cos 2\alpha \neq 2\cos \alpha$，$\tan 2\alpha \neq 2\tan \alpha$。
+----------------------------------------
+[ID: 350]
+倍角公式的变形：
+(1) 倍角公式的逆用
+$S_{2\alpha}$: $2\sin\alpha\cos\alpha = \sin2\alpha$, $\sin\alpha = \frac{\sin2\alpha}{2\cos\alpha}$, $\cos\alpha = \frac{\sin2\alpha}{2\sin\alpha}$.
+$C_{2\alpha}$: $\cos^2\alpha - \sin^2\alpha = 2\cos^2\alpha - 1 = 1 - 2\sin^2\alpha = \cos2\alpha$.
+$T_{2\alpha}$: $\frac{2\tan\alpha}{1 - \tan^2\alpha} = \tan2\alpha$, $2\tan\alpha = \tan2\alpha(1 - \tan^2\alpha)$.
+
+(2) 配方变形
+$1 \pm \sin2\alpha = \sin^2\alpha + \cos^2\alpha \pm \sin2\alpha = (\sin\alpha \pm \cos\alpha)^2$.
+
+(3) 因式分解变形
+$\cos2\alpha = \cos^2\alpha - \sin^2\alpha = (\cos\alpha - \sin\alpha)(\cos\alpha + \sin\alpha)$.
+
+(4) 升幂公式
+$1 + \cos2\alpha = 2\cos^2\alpha$; $1 - \cos2\alpha = 2\sin^2\alpha$.
+
+(5) 降幂公式
+$\cos^2\alpha = \frac{1 + \cos2\alpha}{2}$; $\sin^2\alpha = \frac{1 - \cos2\alpha}{2}$;
+$\sin\alpha\cos\alpha = \frac{1}{2}\sin2\alpha$; $\tan^2\alpha = \frac{1 - \cos2\alpha}{1 + \cos2\alpha}$

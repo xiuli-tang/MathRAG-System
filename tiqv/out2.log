@@ -1,0 +1,658 @@
+nohup: ignoring input
+🔄 正在处理第 5 条内容（共 193 条）...
+5跳过
+🔄 正在处理第 10 条内容（共 193 条）...
+10跳过
+🔄 正在处理第 15 条内容（共 193 条）...
+15跳过
+🔄 正在处理第 20 条内容（共 193 条）...
+20跳过
+🔄 正在处理第 25 条内容（共 193 条）...
+25跳过
+🔄 正在处理第 30 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "143",
+    "question": "已知$f(x)=\\frac{1}{1+x}(x≠-1),g(x)=x^{2}+2$,\n(1) f(2) 和 g(2);\n(2) g(f(2)), f(g(x));\n(3) 若$\\frac{1}{f(g(x))}=4$, 求x.",
+    "answer": "(1) f(2)=$\\frac{1}{1+2}=\\frac{1}{3}$,\ng(2)=$2^{2}+2=6$,\n\n(2) g(f(2))=g($\\frac{1}{3}$)=$(\\frac{1}{3})^{2}+2=\\frac{19}{9}$,\nf(g(x))=$\\frac{1}{1+g(x)}=\\frac{1}{1+x^{2}+2}=\\frac{1}{x^{2}+3}$,\n\n(3) $\\frac{1}{f(g(x))}=x^{2}+3=4$, 1/4, x^{2}=1, 得解x=±1."
+  },
+  {
+    "id": "144",
+    "question": "求下列函数的定义域：\n\n(1) $y = -2x + 3$;\n(2) $f(x) = \\frac{1}{-x + 1}$;\n(3) $y = \\sqrt{x - 1} + \\sqrt{1 - x}$;\n(4) $y = \\frac{x + 1}{x^2 - 1}$.",
+    "answer": "(1) 函数 $y = -2x + 3$ 的定义域为 $|x|x \\in \\mathbb{R}|$.\n(2)要使函数式有意义,即分式有意义,则$-x+1\\neq0$,$x\\neq1$.故函数的定义域为$\\{x|x\\neq1\\}$.\n\n(3)要使函数式有意义,则$\\begin{cases}x-1\\geqslant0,\\\\1-x\\geqslant0,\\end{cases}$即$\\begin{cases}x\\geqslant1,\\\\x\\leqslant1,\\end{cases}$所以$x=1$,从而函数的定义域为$\\{x|x=1\\}$.\n\n(4)因为当$x^{2}-1\\neq0$,即$x\\neq\\pm1$时,$\\frac{x+1}{x^{2}-1}$有意义,所以函数的定义域是$\\{x|x\\neq\\pm1\\}$."
+  },
+  {
+    "id": "180",
+    "question": "设$a$是正数,$ax+y=2(x\\geqslant0,y\\geqslant0)$,记$h(x,y)=y+3x-\\frac{1}{2}x^{2}$的最大值为$M(a)$,求$M(a)$的表达式。",
+    "answer": "将$y=2-ax$代入$h(x,y)$得$h(x,y)=2-ax+3x-\\frac{1}{2}x^{2}=-\\frac{1}{2}[x-(3-a)]^{2}+\\frac{1}{2}(3-a)^{2}+2(x\\geqslant0)$.\n\n$\\because y\\geqslant0,\\therefore2-ax\\geqslant0$. 又$a>0,\\therefore0\\leqslant x\\leqslant\\frac{2}{a}$.\n\n令$S(x)=h(x,y)=-\\frac{1}{2}[x-(3-a)]^{2}+\\frac{1}{2}(3-a)^{2}+2,x\\in[0,\\frac{2}{a}],a>0$.\n\n将区间看作是不动的,对称轴变化,进行如下讨论.\n\n①当$0<3-a<\\frac{2}{a}(a>0)$,即$\\left\\{\\begin{array}{l}0<a<3,\\\\a^{2}-3a+2>0\\end{array}\\right.$时,\n\n解得$0<a<1$或$2<a<3$.\n\n此时$M(a)=S(3-a)=\\frac{1}{2}(3-a)^{2}+2$.\n②当 3-a≥$\\frac{2}{a}$(a>0)，即$\\begin{cases}a>0,\\\\a^{2}-3a+2≤0\\end{cases}$时，解得1≤a≤2.\n\n此时M(a)=S($\\frac{2}{a}$)=2-a×$\\frac{2}{a}$+3×$\\frac{2}{a}$-$\\frac{1}{2}$($\\frac{2}{a}$)^{2}=-$\\frac{2}{a^{2}}$+$\\frac{6}{a}$.\n\n③当 3-a≤0，即a≥3时，M(a)=S(0)=2.\n\n\n答案：\n$$\\dot{M}(a)=\\begin{cases}\\frac{1}{2}(3-a)^{2}+2,0<a<1或2<a<3,\\\\-\\frac{2}{a^{2}}+\\frac{6}{a},1≤a≤2,\\\\2,a≥3.\\end{cases}$$"
+  },
+  {
+    "id": "197",
+    "question": "判断下列函数的奇偶性：\n(1) $f(x)=\\frac{x^{3}-x^{2}}{x-1}$;",
+    "answer": "∵ 函数 $f(x)=\\frac{x^{3}-x^{2}}{x-1}$ 的定义域为 $|x|x\\in\\mathbb{R}$ 且 $x\\neq1$, 定义域不关于原点对称, ∴ 该函数既不是奇函数也不是偶函数."
+  },
+  {
+    "id": "197",
+    "question": "(2) $f(x)=|x-2|-|x+2|$;",
+    "answer": "函数 $f(x)=|x-2|-|x+2|$ 的定义域为 $\\mathbb{R}$, 关于原点对称. ∵ $f(-x)=|-x-2|-|-x+2|=|x+2|-|x-2|=-(|x-2|-|x+2|)=-f(x)$, ∴ 函数 $f(x)=|x-2|-|x+2|$ 是奇函数."
+  },
+  {
+    "id": "197",
+    "question": "(3) $f(x)=x^{2}+\\frac{a}{x}(x\\neq0,a\\in\\mathbb{R})$;",
+    "answer": "当 $a=0$ 时, $f(x)=x^{2}$ 为偶函数.\n当 $a\\neq0$ 时, $f(x)=x^{2}+\\frac{a}{x}(x\\neq0)$, 取 $x=\\pm1$, 得 $f(-1)+f(1)=2\\neq0$, $f(-1)-f(1)=-2a\\neq0$, 即 $f(-1)\\neq-f(1)$, $f(-1)\\neq f(1)$, ∴ 函数 $f(x)$ 既不是奇函数也不是偶函数. 综上所述, 当 $a\\in\\mathbb{R}$ 且 $a\\neq0$ 时, 函数 $f(x)$ 既不是奇函数也不是偶函数; 当 $a=0$ 时, 函数 $f(x)$ 为偶函数."
+  },
+  {
+    "id": "197",
+    "question": "(4) $f(x)=\\frac{\\sqrt{1+x^{2}}+x-1}{\\sqrt{1+x^{2}}+x+1}$.",
+    "answer": "$f(x)$ 的定义域为 $\\mathbb{R}$, 关于原点对称. \n∵ $f(-x)+f(x)$\n$$\\begin{aligned}\n& =\\frac{\\sqrt{1+x^{2}}-x-1}{\\sqrt{1+x^{2}}-x+1}+\\frac{\\sqrt{1+x^{2}}+x-1}{\\sqrt{1+x^{2}}+x+1} \\\\\n& =\\frac{[(1+x^{2})-(x+1)^{2}]+[(1+x^{2})-(x-1)^{2}]}{(\\sqrt{1+x^{2}}-x+1)(\\sqrt{1+x^{2}}+x+1)} \\\\\n& =\\frac{-2x+2x}{(\\sqrt{1+x^{2}}-x+1)(\\sqrt{1+x^{2}}+x+1)} \\\\\n& =0,\\end{aligned}$$\n∴ $f(-x)=-f(x)$, ∴ $f(x)$ 为奇函数. 方法二 $f(x)$ 的定义域为 $\\mathbb{R}$, 关于原点对称. 当 $x\\neq0$ 时, $f(x)\\neq0$, 此时\n$$\\begin{aligned}\n\\frac{f(-x)}{f(x)} & =\\frac{\\sqrt{1+x^{2}}-x-1}{\\sqrt{1+x^{2}}+x+1}=\\frac{\\sqrt{1+x^{2}}-x+1}{\\sqrt{1+x^{2}}+x-1} \\\\\n& =\\frac{(\\sqrt{1+x^{2}}-x-1)(\\sqrt{1+x^{2}}+x+1)}{(\\sqrt{1+x^{2}}-x+1)(\\sqrt{1+x^{2}}+x-1)} \\\\\n& =\\frac{(1+x^{2})-(x+1)^{2}}{(1+x^{2})-(x-1)^{2}}=\\frac{-2x}{2x}=-1, \\text { 即 } f(-x)=-f(x) .\n\\end{aligned}$$\n当 $x=0$ 时, $f(0)=0$, ∴ $f(x)$ 为奇函数."
+  },
+  {
+    "id": "205",
+    "question": "设函数 $f(x)$ 的定义域为 $\\mathbb{R}$, $f(x+1)$ 为奇函数, $f(x+2)$ 为偶函数, 当 $x\\in[1,2]$ 时, $f(x)=ax^2+b$. 若 $f(0)+f(3)=6$, 则 $f(\\frac{9}{2})=$\n\nA. $-\\frac{9}{4}$\nB. $-\\frac{3}{2}$\nC. $\\frac{7}{4}$\nD. $\\frac{5}{2}$",
+    "answer": "由于 $f(x+1)$ 为奇函数, 所以函数 $f(x)$ 的图象关于点 $(1,0)$ 对称, 即有 $f(x)+f(2-x)=0$, 所以 $f(1)+f(2-1)=0$, 得 $f(1)=0$, 即 $a+b=0$ ①. 由于 $f(x+2)$ 为偶函数, 所以函数 $f(x)$ 的图象关于直线 $x=2$ 对称, 即有 $f(x)-f(4-x)=0$, 所以 $f(0)+f(3)=-f(2)+f(1)=-4a-b+a+b=-3a=6$ ②.\n\n根据①②可得 $a=-2$, $b=2$, 所以当 $x\\in[1,2]$ 时, $f(x)=-2x^2+2$.\n\n根据函数 $f(x)$ 的图象关于直线 $x=2$ 对称, 且关于点(1,0)对称，可得函数$f(x)$的周期为4，\n\n所以$f(\\frac92)=f(\\frac12)=-f(\\frac32)=2\\times(\\frac32)^2-2=\\frac52.$\n\n答案：D"
+  }
+]
+```
+❌ JSON 解码失败: Unterminated string starting at: line 15 column 15 (char 1194)
+>>>>>>>>>>> idx <<<<<<<<<<<<
+[]
+🔄 正在处理第 35 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "244",
+    "question": "设函数$f(x)=ka^{x}-a^{-x}（a>0，且a≠1）$是定义在$\\mathbb{R}$上的奇函数.\n(1)求k的值；\n(2)若$f(1)>0$，试判断函数的单调性，并求不等式$f(x^{2}+2x)+f(4-x^{2})>0$的解集.",
+    "answer": "(1) 方法一  ∵$f(x)$是定义在$\\mathbb{R}$上的奇函数，∴$f(0)=0$，即$k-1=0$，∴$k=1$.\n当$k=1$时，$f(x)=a^{x}-a^{-x}$，\n$f(-x)=a^{-x}-a^{x}=-（a^{x}-a^{-x}）=-f(x)$，\n故$k=1$符合题意.\n\n方法二  ∵$f(-x)=ka^{-x}-a^{x}$，$-f(x)=-ka^{x}+a^{-x}$，又$f(x)$是奇函数，\n∴$f(-x)=-f(x)$在定义域$\\mathbb{R}$上恒成立，\n∴$\\left\\{\\begin{array}{l}k=1，\\\\-1=-k，\\end{array}\\right.$解得$k=1$.\n\n(2) ∵$f(1)=a-\\frac{1}{a}>0$，又$a>0$，且$a≠1$，\n∴$a>1$.\n∴$y=a^{x}$，$y=-a^{-x}$都是$\\mathbb{R}$上的增函数，\n∴$f(x)$是$\\mathbb{R}$上的增函数.\n故$f(x^{2}+2x)+f(4-x^{2})>0$⇔$f(x^{2}+2x)>-f(4-x^{2})=f(x^{2}-4)$\n⇔$x^{2}+2x>x^{2}-4$⇔$x>-2$.\n∴$f(x)$在$\\mathbb{R}$上单调递增，且不等式的解集为$\\{x|x>-2\\}$."
+  },
+  {
+    "id": "245",
+    "question": "已知函数 $f(x)=\\frac{a^{x}-1}{a^{x}+1}(a>0,a\\neq 1)$.\n(1) 判断函数 $f(x)$ 的奇偶性;\n(2) 讨论 $f(x)$ 的单调性;\n(3) 求 $f(x)$ 的值域.",
+    "answer": "(1) 易知函数 $f(x)$ 的定义域为 $\\mathbb{R}$, 因为 $f(-x)=\\frac{a^{-x}-1}{a^{-x}+1}=\\frac{\\left(a^{-x}-1\\right) a^{x}}{\\left(a^{-x}+1\\right) a^{x}}=\\frac{1-a^{x}}{1+a^{x}}=-f(x)$, 所以 $f(x)$ 是奇函数.\n\n(2) 因为函数 $f(x)=\\frac{a^{x}+1-2}{a^{x}+1}=1-\\frac{2}{a^{x}+1}$, 设 $x_{1}, x_{2} \\in \\mathbb{R}, x_{1}<x_{2}$, 则 $f\\left(x_{1}\\right)-f\\left(x_{2}\\right)=\\left(1-\\frac{2}{a^{x_{1}}+1}\\right)-\\left(1-\\frac{2}{a^{x_{2}}+1}\\right)=\\frac{2\\left(a^{x_{1}}-a^{x_{2}}\\right)}{\\left(a^{x_{1}}+1\\right)\\left(a^{x_{2}}+1\\right)}$. 当 $a>1$ 时, $y=a^{x}$ 在 $\\mathbb{R}$ 上单调递增, 由 $x_{1}<x_{2}$,\n得$a^{x_{1}}<a^{x_{2}}$，所以$a^{x_{1}}-a^{x_{2}}<0$，\n又$a^{x_{1}}+1>0$，$a^{x_{2}}+1>0$，\n所以$f(x_{1})-f(x_{2})<0$，即$f(x_{1})<f(x_{2})$，即此时$f(x)$在$\\mathbb{R}$上单调递增；\n同理，当$0<a<1$时，$f(x_{1})>f(x_{2})$，即此时$f(x)$在$\\mathbb{R}$上单调递减.\n综上，当$a>1$时，函数$f(x)$在$\\mathbb{R}$上单调递增，\n当$0<a<1$时，函数$f(x)$在$\\mathbb{R}$上单调递减.\n(3)令$a^{x}=t$，则$t>0$，\n结合(2)知原函数等价于$y=1-\\frac{2}{t+1}$，\n易知$y=1-\\frac{2}{t+1}$在区间$(0,+\\infty)$上单调递增，\n所以$-1<1-\\frac{2}{t+1}<1$，故$f(x)$的值域为$(-1,1)$."
+  },
+  {
+    "id": "261",
+    "question": "解下列关于x的方程:\n\n(1) $4^{x}-2^{x+1}-3=0$;\n\n(2) $\\log_{5}(2x+1)=\\log_{5}(x^{2}-2)$;\n\n(3) $(\\lg x)^{2}+\\lg x^{3}-10=0$.",
+    "answer": "(1) 原方程可化为$(2^{x})^{2}-2\\cdot2^{x}-3=0$,\n即$(2^{x}-3)(2^{x}+1)=0$,\n$\\therefore 2^{x}=-1$（舍去）或$2^{x}=3$,\n$\\therefore x=\\log_{2}3$.\n\n(2) 由$\\log_{5}(2x+1)=\\log_{5}(x^{2}-2)$得$2x+1=x^{2}-2$, 即$x^{2}-2x-3=0$,\n解得$x=-1$或$x=3$.\n经检验知, 当$x=-1$时, $2x+1<0$, $x^{2}-2<0$,\n不满足真数大于0, 舍去;\n当$x=3$时, $2x+1>0$, $x^{2}-2>0$,\n符合题意. 故$x=3$.\n\n(3) 原方程整理得$(\\lg x)^{2}+3\\lg x-10=0$,\n即$(\\lg x+5)(\\lg x-2)=0$,\n所以$\\lg x=-5$或$\\lg x=2$,\n解得$x=10^{-5}$或$x=10^{2}$.\n经检验知, $x=10^{-5}$, $x=10^{2}$都是原方程的根."
+  },
+  {
+    "id": "279",
+    "question": "求下列函数的值域：\n\n(1) $y = \\log_2(x^2 + 4)$; \n(2) $y = \\log_{\\frac{1}{2}}(3 + 2x - x^2)$.",
+    "answer": "(1) 函数 $y = \\log_2(x^2 + 4)$ 的定义域为 $\\mathbb{R}$，且 $x^2 + 4 \\geqslant 4$，$\\therefore \\log_2(x^2 + 4) \\geqslant \\log_2 4 = 2$，故函数 $y = \\log_2(x^2 + 4)$ 的值域为 $[2, +\\infty)$.\n\n(2) 设 $u = 3 + 2x - x^2$，则 $u = -(x - 1)^2 + 4 \\leqslant 4$，由 $u > 0$，知 $0 < u \\leqslant 4$.\n\n又 $y = \\log_{\\frac{1}{2}}u$ 在 $(0, 4]$ 上单调递减，$\\therefore \\log_{\\frac{1}{2}}u \\geqslant \\log_{\\frac{1}{2}}4 = -2$.\n\n故函数 $y = \\log_{\\frac{1}{2}}(3 + 2x - x^2)$ 的值域为 $[-2, +\\infty)$."
+  },
+  {
+    "id": "304",
+    "question": "用二分法求函数$f(x)=\\ln(x+1)+x-1$在区间(0,1)上的零点,要求精确度为0.01时,所需二分区间的次数最少为\nA. 5  B. 6  C. 7  D. 8",
+    "answer": "开区间(0,1)的长度等于1,每经过一次操作,区间长度变为原来的一半,经过n(n∈N_{+})次操作后,区间长度变为$\\frac{1}{2^{n}}$.令$\\frac{1}{2^{n}}$<0.01,解得n≥7,且n∈N_{+},故所需二分区间的次数最少为7.\n答案：C"
+  }
+]
+```
+[{'id': '244', 'question': '设函数$f(x)=ka^{x}-a^{-x}（a>0，且a≠1）$是定义在$\\mathbb{R}$上的奇函数.\n(1)求k的值；\n(2)若$f(1)>0$，试判断函数的单调性，并求不等式$f(x^{2}+2x)+f(4-x^{2})>0$的解集.', 'answer': '(1) 方法一  ∵$f(x)$是定义在$\\mathbb{R}$上的奇函数，∴$f(0)=0$，即$k-1=0$，∴$k=1$.\n当$k=1$时，$f(x)=a^{x}-a^{-x}$，\n$f(-x)=a^{-x}-a^{x}=-（a^{x}-a^{-x}）=-f(x)$，\n故$k=1$符合题意.\n\n方法二  ∵$f(-x)=ka^{-x}-a^{x}$，$-f(x)=-ka^{x}+a^{-x}$，又$f(x)$是奇函数，\n∴$f(-x)=-f(x)$在定义域$\\mathbb{R}$上恒成立，\n∴$\\left\\{\\begin{array}{l}k=1，\\\\-1=-k，\\end{array}\\right.$解得$k=1$.\n\n(2) ∵$f(1)=a-\\frac{1}{a}>0$，又$a>0$，且$a≠1$，\n∴$a>1$.\n∴$y=a^{x}$，$y=-a^{-x}$都是$\\mathbb{R}$上的增函数，\n∴$f(x)$是$\\mathbb{R}$上的增函数.\n故$f(x^{2}+2x)+f(4-x^{2})>0$⇔$f(x^{2}+2x)>-f(4-x^{2})=f(x^{2}-4)$\n⇔$x^{2}+2x>x^{2}-4$⇔$x>-2$.\n∴$f(x)$在$\\mathbb{R}$上单调递增，且不等式的解集为$\\{x|x>-2\\}$.'}, {'id': '245', 'question': '已知函数 $f(x)=\\frac{a^{x}-1}{a^{x}+1}(a>0,a\\neq 1)$.\n(1) 判断函数 $f(x)$ 的奇偶性;\n(2) 讨论 $f(x)$ 的单调性;\n(3) 求 $f(x)$ 的值域.', 'answer': '(1) 易知函数 $f(x)$ 的定义域为 $\\mathbb{R}$, 因为 $f(-x)=\\frac{a^{-x}-1}{a^{-x}+1}=\\frac{\\left(a^{-x}-1\\right) a^{x}}{\\left(a^{-x}+1\\right) a^{x}}=\\frac{1-a^{x}}{1+a^{x}}=-f(x)$, 所以 $f(x)$ 是奇函数.\n\n(2) 因为函数 $f(x)=\\frac{a^{x}+1-2}{a^{x}+1}=1-\\frac{2}{a^{x}+1}$, 设 $x_{1}, x_{2} \\in \\mathbb{R}, x_{1}<x_{2}$, 则 $f\\left(x_{1}\\right)-f\\left(x_{2}\\right)=\\left(1-\\frac{2}{a^{x_{1}}+1}\\right)-\\left(1-\\frac{2}{a^{x_{2}}+1}\\right)=\\frac{2\\left(a^{x_{1}}-a^{x_{2}}\\right)}{\\left(a^{x_{1}}+1\\right)\\left(a^{x_{2}}+1\\right)}$. 当 $a>1$ 时, $y=a^{x}$ 在 $\\mathbb{R}$ 上单调递增, 由 $x_{1}<x_{2}$,\n得$a^{x_{1}}<a^{x_{2}}$，所以$a^{x_{1}}-a^{x_{2}}<0$，\n又$a^{x_{1}}+1>0$，$a^{x_{2}}+1>0$，\n所以$f(x_{1})-f(x_{2})<0$，即$f(x_{1})<f(x_{2})$，即此时$f(x)$在$\\mathbb{R}$上单调递增；\n同理，当$0<a<1$时，$f(x_{1})>f(x_{2})$，即此时$f(x)$在$\\mathbb{R}$上单调递减.\n综上，当$a>1$时，函数$f(x)$在$\\mathbb{R}$上单调递增，\n当$0<a<1$时，函数$f(x)$在$\\mathbb{R}$上单调递减.\n(3)令$a^{x}=t$，则$t>0$，\n结合(2)知原函数等价于$y=1-\\frac{2}{t+1}$，\n易知$y=1-\\frac{2}{t+1}$在区间$(0,+\\infty)$上单调递增，\n所以$-1<1-\\frac{2}{t+1}<1$，故$f(x)$的值域为$(-1,1)$.'}, {'id': '261', 'question': '解下列关于x的方程:\n\n(1) $4^{x}-2^{x+1}-3=0$;\n\n(2) $\\log_{5}(2x+1)=\\log_{5}(x^{2}-2)$;\n\n(3) $(\\lg x)^{2}+\\lg x^{3}-10=0$.', 'answer': '(1) 原方程可化为$(2^{x})^{2}-2\\cdot2^{x}-3=0$,\n即$(2^{x}-3)(2^{x}+1)=0$,\n$\\therefore 2^{x}=-1$（舍去）或$2^{x}=3$,\n$\\therefore x=\\log_{2}3$.\n\n(2) 由$\\log_{5}(2x+1)=\\log_{5}(x^{2}-2)$得$2x+1=x^{2}-2$, 即$x^{2}-2x-3=0$,\n解得$x=-1$或$x=3$.\n经检验知, 当$x=-1$时, $2x+1<0$, $x^{2}-2<0$,\n不满足真数大于0, 舍去;\n当$x=3$时, $2x+1>0$, $x^{2}-2>0$,\n符合题意. 故$x=3$.\n\n(3) 原方程整理得$(\\lg x)^{2}+3\\lg x-10=0$,\n即$(\\lg x+5)(\\lg x-2)=0$,\n所以$\\lg x=-5$或$\\lg x=2$,\n解得$x=10^{-5}$或$x=10^{2}$.\n经检验知, $x=10^{-5}$, $x=10^{2}$都是原方程的根.'}, {'id': '279', 'question': '求下列函数的值域：\n\n(1) $y = \\log_2(x^2 + 4)$; \n(2) $y = \\log_{\\frac{1}{2}}(3 + 2x - x^2)$.', 'answer': '(1) 函数 $y = \\log_2(x^2 + 4)$ 的定义域为 $\\mathbb{R}$，且 $x^2 + 4 \\geqslant 4$，$\\therefore \\log_2(x^2 + 4) \\geqslant \\log_2 4 = 2$，故函数 $y = \\log_2(x^2 + 4)$ 的值域为 $[2, +\\infty)$.\n\n(2) 设 $u = 3 + 2x - x^2$，则 $u = -(x - 1)^2 + 4 \\leqslant 4$，由 $u > 0$，知 $0 < u \\leqslant 4$.\n\n又 $y = \\log_{\\frac{1}{2}}u$ 在 $(0, 4]$ 上单调递减，$\\therefore \\log_{\\frac{1}{2}}u \\geqslant \\log_{\\frac{1}{2}}4 = -2$.\n\n故函数 $y = \\log_{\\frac{1}{2}}(3 + 2x - x^2)$ 的值域为 $[-2, +\\infty)$.'}, {'id': '304', 'question': '用二分法求函数$f(x)=\\ln(x+1)+x-1$在区间(0,1)上的零点,要求精确度为0.01时,所需二分区间的次数最少为\nA. 5  B. 6  C. 7  D. 8', 'answer': '开区间(0,1)的长度等于1,每经过一次操作,区间长度变为原来的一半,经过n(n∈N_{+})次操作后,区间长度变为$\\frac{1}{2^{n}}$.令$\\frac{1}{2^{n}}$<0.01,解得n≥7,且n∈N_{+},故所需二分区间的次数最少为7.\n答案：C'}]
+🔄 正在处理第 40 条内容（共 193 条）...
+```json
+[
+    {
+        "id": "408",
+        "question": "$\\sqrt{1+\\sin\\theta}-\\sqrt{1-\\sin\\theta}$,其中$\\theta\\in(0,\\pi).$",
+        "answer": "原式 = $\\sqrt{\\sin^2 \\frac{\\theta}{2} + \\cos^2 \\frac{\\theta}{2} + 2\\sin \\frac{\\theta}{2}\\cos \\frac{\\theta}{2}} - \\sqrt{\\sin^2 \\frac{\\theta}{2} + \\cos^2 \\frac{\\theta}{2} - 2\\sin \\frac{\\theta}{2}\\cos \\frac{\\theta}{2}}$ $$= \\sqrt{(\\sin \\frac{\\theta}{2} + \\cos \\frac{\\theta}{2})^2} - \\sqrt{(\\sin \\frac{\\theta}{2} - \\cos \\frac{\\theta}{2})^2} = \\left|\\sin \\frac{\\theta}{2} + \\cos \\frac{\\theta}{2}\\right| - \\left|\\sin \\frac{\\theta}{2} - \\cos \\frac{\\theta}{2}\\right|$\n\n① 当 $\\theta \\in (0, \\frac{\\pi}{2}]$ 时, $\\frac{\\theta}{2} \\in (0, \\frac{\\pi}{4}]$, $\\cos \\frac{\\theta}{2} \\geqslant \\sin \\frac{\\theta}{2}$,\n\n此时原式 = $\\sin \\frac{\\theta}{2} + \\cos \\frac{\\theta}{2} - \\cos \\frac{\\theta}{2} + \\sin \\frac{\\theta}{2} = 2\\sin \\frac{\\theta}{2}$.\n\n② 当 $\\theta \\in (\\frac{\\pi}{2}, \\pi)$ 时, $\\frac{\\theta}{2} \\in (\\frac{\\pi}{4}, \\frac{\\pi}{2})$, $\\cos \\frac{\\theta}{2} < \\sin \\frac{\\theta}{2}$,\n\n此时原式 = $\\sin \\frac{\\theta}{2} + \\cos \\frac{\\theta}{2} - \\sin \\frac{\\theta}{2} + \\cos \\frac{\\theta}{2} = 2\\cos \\frac{\\theta}{2}$."
+    },
+    {
+        "id": "409",
+        "question": "已知 $\\cos(\\frac{\\pi}{4}+x)=\\frac{3}{5}$, $\\frac{17\\pi}{12}＜x＜\\frac{7\\pi}{4}$, 则 $\\frac{\\sin 2x+2\\sin^2x}{1-\\tan x}$ 的值为 ______.",
+        "answer": "将角 $\\frac{\\pi}{4}+x$ 视为整体, 再利用倍角公式.\n\n$\\frac{\\sin 2x+2\\sin^2x}{1-\\tan x}=\\frac{2\\sin x\\cos x+2\\sin^2x}{1-\\frac{\\sin x}{\\cos x}}=$\n\n$\\frac{2\\sin x\\cos x(\\cos x+\\sin x)}{\\cos x-\\sin x}$,\n\n其中 $\\cos x+\\sin x=\\sqrt{2}\\sin(\\frac{\\pi}{4}+x)$, $\\cos x-\\sin x=\\sqrt{2}\\cos(\\frac{\\pi}{4}+x)$.\n\n$\\because \\frac{17\\pi}{12}＜x＜\\frac{7\\pi}{4}$, $\\therefore \\frac{5\\pi}{3}＜\\frac{\\pi}{4}+x＜2\\pi$,\n\n（注意该条件的限制, 否则会出现多解的情况.）\n\n$\\therefore \\sin(\\frac{\\pi}{4}+x)＜0$, $\\therefore \\sin(\\frac{\\pi}{4}+x)=-\\frac{4}{5}$.\n\n注意到 $\\sin 2x=-\\cos(\\frac{\\pi}{2}+2x)=-\\cos[2(\\frac{\\pi}{4}+x)]$$,故可利用二倍角的余弦公式求解.\n$$\\therefore 原式=-\\frac{4}{3}\\sin 2x=\\frac{4}{3}\\cos (2x+\\frac{\\pi}{2})=\\frac{4}{3}\\cos [2\\cdot(x+\\frac{\\pi}{4})]=\\frac{4}{3}[2\\cos^2(x+\\frac{\\pi}{4})-1]=-\\frac{28}{75}$"
+    },
+    {
+        "id": "410",
+        "question": "已知△ABC的三个内角为A，B，C，f(B)=4cos B•sin<sup>2</sup>($\\frac{π}{4}$+$\\frac{B}{2}$)+$\\sqrt{3}$cos 2B-2cos B．\n\n(1) 若f(B)=2，求B的大小；\n(2) 若f(B)-m＞2恒成立，求实数m的取值范围．",
+        "answer": "（1）第一步：化简f(B)．\nf(B)=4cos B•$\\frac{1-cos(\\frac{π}{2}+B)}{2}$+$\\sqrt{3}$cos 2B-2cos B=2cos B(1+sin B)+$\\sqrt{3}$cos 2B-2cos B=2cos Bsin B+$\\sqrt{3}$cos 2B=2sin 2B+$\\sqrt{3}$cos 2B=2sin(2B+$\\frac{π}{3}$)．\n第二步：求值．\n∵f(B)=2，∴2sin(2B+$\\frac{π}{3}$)=2，即sin(2B+$\\frac{π}{3}$)=1．\n∴2B+$\\frac{π}{3}$=$\\frac{π}{2}$+2kπ，k∈Z．又0＜B＜π，∴B=$\\frac{π}{12}$．\n(2) 第一步：转化不等式．\nf(B)-m＞2恒成立，\n即2sin(2B+$\\frac{π}{3}$)＞2+m恒成立．\n第二步：求三角函数的值域．\n∵0＜B＜π，∴$\\frac{π}{3}$＜2B+$\\frac{π}{3}$＜$\\frac{7π}{3}$，\n∴2sin(2B+$\\frac{π}{3}$)∈[-2，2]，\n第三步：求值．\n∴2+m＜-2，∴m＜-4．"
+    },
+    {
+        "id": "411",
+        "question": "求函数 $f(x)=5\\sqrt{3}\\cos^{2}x+\\sqrt{3}\\sin^{2}x-4\\sin x\\cos x$ ($\\frac{\\pi}{4} \\leqslant x \\leqslant \\frac{7\\pi}{24}$) 的最小值，并判断其单调性.",
+        "answer": "$f(x)=5\\sqrt{3}\\cos^{2}x+\\sqrt{3}\\sin^{2}x-4\\sin x\\cos x=3\\sqrt{3}\\cos^{2}x+2\\sqrt{3}\\cos^{2}x+3\\sqrt{3}\\sin^{2}x-2\\sqrt{3}\\sin^{2}x-4\\sin x\\cos x=3\\sqrt{3}-2\\sin 2x+2\\sqrt{3}\\cos 2x=3\\sqrt{3}-4\\sin(2x-\\frac{\\pi}{3})$.\n\n因为 $\\frac{\\pi}{4} \\leqslant x \\leqslant \\frac{7\\pi}{24}$, 所以 $\\frac{\\pi}{6} \\leqslant 2x-\\frac{\\pi}{3} \\leqslant \\frac{\\pi}{4}$, 所以 $\\sin(2x-\\frac{\\pi}{3}) \\in [\\frac{1}{2}, \\frac{\\sqrt{2}}{2}]$, 当 $2x-\\frac{\\pi}{3}=\\frac{\\pi}{4}$, 即 $x=\\frac{7\\pi}{24}$ 时, $f(x)$ 取得最小值, 最小值为 $3\\sqrt{3}-2\\sqrt{2}$.\n\n因为 $y=\\sin(2x-\\frac{\\pi}{3})$ 在 $[\\frac{\\pi}{4}, \\frac{7\\pi}{24}]$ 上是单调递增的, 所以 $f(x)$ 在 $[\\frac{\\pi}{4}, \\frac{7\\pi}{24}]$ 上单调递减."
+    },
+    {
+        "id": "412",
+        "question": "若 $\\sin x = -\\frac{2}{3}$, 则 $\\cos 2x = ？$",
+        "answer": "因为 $\\sin x = -\\frac{2}{3}$, 所以由二倍角公式, 得 $\\cos 2x = 1 - 2\\sin^2 x = 1 - 2 \\times (-\\frac{2}{3})^2 = \\boxed{\\frac{1}{9}}$."
+    }
+]
+```
+❌ JSON 解码失败: Unterminated string starting at: line 5 column 19 (char 143)
+>>>>>>>>>>> idx <<<<<<<<<<<<
+[]
+🔄 正在处理第 45 条内容（共 193 条）...
+```json
+[
+    {
+        "id": "413",
+        "question": "已知 $\\alpha \\in (0, \\pi)$, 且 $3\\cos 2\\alpha - 8\\cos \\alpha = 5$, 则 $\\sin \\alpha = ?$\nA. $\\frac{\\sqrt{5}}{3}$\nB. $\\frac{2}{3}$\nC. $\\frac{1}{3}$\nD. $\\frac{\\sqrt{5}}{9}$",
+        "answer": "由 $3\\cos 2\\alpha - 8\\cos \\alpha = 5$, 得 $6\\cos^2 \\alpha - 8\\cos \\alpha - 8 = 0$, 即 $3\\cos^2 \\alpha - 4\\cos \\alpha - 4 = 0$, 解得 $\\cos \\alpha = -\\frac{2}{3}$ 或 $\\cos \\alpha = 2$ (舍去), 又 $\\alpha \\in (0, \\pi)$, $\\therefore \\sin \\alpha = \\sqrt{1 - \\cos^2 \\alpha} = \\boxed{A}$.\n答案：$\\boxed{A}$"
+    },
+    {
+        "id": "414",
+        "question": "已知$\\sin\\alpha=-\\frac{4}{5}$,则$\\tan\\frac{\\alpha}{2}=$________.",
+        "answer": "∵因为$\\sin\\alpha=-\\frac{4}{5}$,所以$\\cos\\alpha=\\pm\\frac{3}{5}$.\n若$\\cos\\alpha=\\frac{3}{5}$,则$\\tan\\frac{\\alpha}{2}=\\frac{1-\\cos\\alpha}{\\sin\\alpha}=\\frac{1-\\frac{3}{5}}{-\\frac{4}{5}}=-\\frac{1}{2}$.\n若$\\cos\\alpha=-\\frac{3}{5}$,则$\\tan\\frac{\\alpha}{2}=\\frac{1-\\cos\\alpha}{\\sin\\alpha}=1-(-\\frac{3}{5})=-2$.\n答案:-$\\frac{1}{2}$或-2"
+    },
+    {
+        "id": "415",
+        "question": "已知 $\\alpha$ 为钝角，$\\beta$ 为锐角，且 $\\sin \\alpha = \\frac{4}{5}$，$\\sin \\beta = \\frac{12}{13}$，求 $\\cos \\frac{\\alpha-\\beta}{2}$ 及 $\\tan \\frac{\\alpha-\\beta}{2}$ 的值。",
+        "answer": "因为 $\\alpha$ 为钝角，$\\beta$ 为锐角，$\\sin \\alpha = \\frac{4}{5}$，$\\sin \\beta = \\frac{12}{13}$，所以 $\\cos \\alpha = -\\frac{3}{5}$，$\\cos \\beta = \\frac{5}{13}$。所以 $\\cos (\\alpha-\\beta) = \\cos \\alpha \\cos \\beta + \\sin \\alpha \\sin \\beta = (-\\frac{3}{5}) \\times \\frac{5}{13} + \\frac{4}{5} \\times \\frac{12}{13} = \\frac{33}{65}$。\n\n因为 $\\frac{\\pi}{2} < \\alpha < \\pi$，且 $0 < \\beta < \\frac{\\pi}{2}$，所以 $0 < \\alpha-\\beta < \\pi$，即 $0 < \\frac{\\alpha-\\beta}{2} < \\frac{\\pi}{2}$，所以 $\\cos \\frac{\\alpha-\\beta}{2} = \\sqrt{\\frac{1+\\cos (\\alpha-\\beta)}{2}} = \\sqrt{\\frac{1+\\frac{33}{65}}{2}} = \\frac{7\\sqrt{65}}{65}$。\n\n由 $0 < \\frac{\\alpha-\\beta}{2} < \\frac{\\pi}{2}$，得 $\\sin \\frac{\\alpha-\\beta}{2} = \\sqrt{1-\\cos^2 \\frac{\\alpha-\\beta}{2}} = \\frac{4\\sqrt{65}}{65}$，所以 $\\tan \\frac{\\alpha-\\beta}{2} = \\frac{\\sin \\frac{\\alpha-\\beta}{2}}{\\cos \\frac{\\alpha-\\beta}{2}} = \\frac{4}{7}$。"
+    },
+    {
+        "id": "416",
+        "question": "已知在△ABC中，$\\cos A+\\cos B=\\sin C$，求证：△ABC是直角三角形.",
+        "answer": "∵在△ABC中，$A+B+C=\\pi$，$\\therefore \\sin C=\\sin (A+B)=\\cos A+\\cos B$.\n\n利用和差化积公式，得\n$\\cos A+\\cos B=2\\cos \\frac{A+B}{2}\\cos \\frac{A-B}{2}$，\n$\\therefore 2\\sin \\frac{A+B}{2}\\cos \\frac{A+B}{2}=2\\cos \\frac{A+B}{2}\\cos \\frac{A-B}{2}$，\n由二倍角公式可得，\n显然$\\cos \\frac{A+B}{2}\\neq 0$，故$\\sin \\frac{A+B}{2}=\\cos \\frac{A-B}{2}$，\n两边平方，得$\\sin^2 \\frac{A+B}{2}=\\cos^2 \\frac{A-B}{2}$，\n即$\\frac{1-\\cos (A+B)}{2}=\\frac{1+\\cos (A-B)}{2}$，\n$\\therefore \\cos (A+B)+\\cos (A-B)=0$，\n$\\therefore 2\\cos A\\cos B=0$，即$\\cos A=0$或$\\cos B=0$.\n∵A、B是三角形的内角，故必有一个为直角，\n$\\therefore \\triangle ABC$是直角三角形."
+    },
+    {
+        "id": "417",
+        "question": "设函数$f(x)=\\sin \\omega x\\cdot \\cos \\omega x-2\\sqrt{3}\\sin \\omega x\\cdot \\cos \\omega x+\\cos^2\\omega x+\\lambda (x\\in \\mathbb{R})$的图象关于直线$x=\\pi$对称，其中$\\omega,\\lambda$为常数，且$\\omega\\in(\\frac{1}{2},1)$。\n(1) 求函数$f(x)$的最小正周期；\n(2) 若$y=f(x)$的图象经过点$(\\frac{\\pi}{4},0)$，求函数$f(x)$的值域。",
+        "answer": "(1) $f(x)=\\sin \\omega x\\cdot \\cos \\omega x-2\\sqrt{3}\\sin \\omega x\\cdot \\cos \\omega x+\\cos^2\\omega x+\\lambda=2\\cos(2\\omega x-\\frac{\\\pi}{6})+\\lambda$。\n由直线$x=\\pi$是$y=f(x)$图象的一条对称轴，可得$\\sin(2\\omega\\pi-\\frac{\\pi}{6})=\\pm1$。所以$2\\omega\\pi-\\frac{\\pi}{6}=k\\pi+\\frac{\\pi}{2}(k\\in\\mathbb{Z})$，即$\\omega=\\frac{k}{2}+\\frac{1}{3}(k\\in\\mathbb{Z})$。\n又$\\omega\\in(\\frac{1}{2},1)$，$k\\in\\mathbb{Z}$，所以$k=1$，故$\\omega=\\frac{5}{6}$。\n所以$f(x)$的最小正周期是$\\frac{6\\pi}{5}$。\n\n(2) 由$y=f(x)$的图象经过点$(\\frac{\\pi}{4},0)$，得$f(\\frac{\\pi}{4})=0$，\n即$\\lambda=-2\\sin(\\frac{5}{3}\\times\\frac{\\pi}{4}-\\frac{\\pi}{6})=-2\\sin\\frac{\\pi}{4}=-\\sqrt{2}$。\n故$f(x)=2\\sin(\\frac{5}{3}x-\\frac{\\pi}{6})-\\sqrt{2}$，函数$f(x)$的值域为$[-2-\\sqrt{2},2-\\sqrt{2}]$。"
+    }
+]
+```
+❌ JSON 解码失败: Invalid \escape: line 25 column 169 (char 3512)
+>>>>>>>>>>> idx <<<<<<<<<<<<
+[]
+🔄 正在处理第 50 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "418",
+    "question": "求函数 $y=\\frac{\\sin x}{2+\\cos x}$ ($0 < x < \\pi$) 的最大值.",
+    "answer": "去分母整理可得, $\\sin x - y\\cos x = 2y$, 所以 $\\sqrt{1+y^2}\\sin(x-\\varphi)=2y$ (其中 $\\tan\\varphi=y$, $y>0$), 故 $\\sin(x-\\varphi)=\\frac{2y}{\\sqrt{1+y^2}}$. 由 $\\sin(x-\\varphi)=\\frac{2y}{\\sqrt{1+y^2}}\\leqslant 1$, 可得 $0 < y \\leqslant \\frac{\\sqrt{3}}{3}$. 下面验证等号可以取到: 当 $y=\\frac{\\sqrt{3}}{3}$, 即 $\\tan\\varphi=\\frac{\\sqrt{3}}{3}$ 时, 可取 $\\varphi=\\frac{\\pi}{6}$, 令 $x-\\varphi=\\frac{\\pi}{2}$, 则 $x=\\frac{\\pi}{2}+\\varphi=\\frac{\\pi}{2}+\\frac{\\pi}{6}=\\frac{2\\pi}{3}$ (在 $(0,\\pi)$ 成立). 故 $x=\\frac{2\\pi}{3}$ 时, 函数有最大值, $y_{\\max}=\\frac{\\sqrt{3}}{3}$."
+  },
+  {
+    "id": "419",
+    "question": "已知 α 为第二象限角，且 sin α = $\\frac{\\sqrt{15}}{4}$，则 $\\frac{\\sin(\\alpha+\\frac{\\pi}{4})}{\\sin 2\\alpha+\\cos 2\\alpha+1}$ 的值为____.",
+    "answer": "$\\frac{\\sin(\\alpha+\\frac{\\pi}{4})}{\\sin 2\\alpha+\\cos 2\\alpha+1}=\\frac{\\frac{\\sqrt{2}}{2}(\\sin\\alpha+\\cos\\alpha)}{2\\sin\\alpha\\cos\\alpha+2\\cos^2\\alpha}=\\frac{\\frac{\\sqrt{2}}{2}(\\sin\\alpha+\\cos\\alpha)}{4\\cos\\alpha(\\sin\\alpha+\\cos\\alpha)}=\\frac{\\sqrt{2}}{4\\cos\\alpha}$ 又 α 为第二象限角，且 sin α = $\\frac{\\sqrt{15}}{4}$，所以 cos α = $-\\frac{1}{4}$ 所以 $\\frac{\\sin(\\alpha+\\frac{\\pi}{4})}{\\sin 2\\alpha+\\cos 2\\alpha+1}=\\frac{\\sqrt{2}}{4\\cos\\alpha}=-\\sqrt{2}$. 答案 ： -$\\sqrt{2}$."
+  },
+  {
+    "id": "420",
+    "question": "已知 $\\sin(\\frac{\\pi}{4}+2\\alpha)\\cdot\\sin(\\frac{\\pi}{4}-2\\alpha)=\\frac{1}{4}$, $\\alpha\\in(\\frac{\\pi}{4},\\frac{\\pi}{2})$，则 $2\\sin^2\\alpha+\\tan\\alpha-\\frac{1}{\\tan\\alpha}-1$ 的值为______.",
+    "answer": "由 $\\sin(\\frac{\\pi}{4}+2\\alpha)\\cdot\\sin(\\frac{\\pi}{4}-2\\alpha)=\\sin(\\frac{\\pi}{4}+2\\alpha)\\cdot\\cos(\\frac{\\pi}{4}+2\\alpha)=\\frac{1}{2}\\sin(\\frac{\\pi}{2}+4\\alpha)=\\frac{1}{2}\\cos4\\alpha=\\frac{1}{4}$, 得 $\\cos4\\alpha=\\frac{1}{2}$. 又 $\\alpha\\in(\\frac{\\pi}{4},\\frac{\\pi}{2})$，所以 $\\alpha=\\frac{5\\pi}{12}$. 所以 $2\\sin^2\\alpha+\\tan\\alpha-\\frac{1}{\\tan\\alpha}-1=-\\cos2\\alpha+\\frac{\\sin^2\\alpha-\\cos^2\\alpha}{\\sin\\alpha\\cos\\alpha}=\\frac{-2\\cos2\\alpha}{\\sin2\\alpha}=-(\\cos2\\alpha+\\frac{2}{\\tan2\\alpha})=-(\\cos\\frac{5\\pi}{6}+\\frac{2}{\\tan\\frac{5\\pi}{6}})=-(\\frac{\\sqrt{3}}{2}-2\\sqrt{3})=\\frac{5\\sqrt{3}}{2}$. 答案： $\\frac{5\\sqrt{3}}{2}$"
+  },
+  {
+    "id": "421",
+    "question": "计算 $\\sin^2 20^\\circ + \\cos^2 50^\\circ + \\sin 20^\\circ \\cos 50^\\circ = \\_\\_\\_\\_\\_$.",
+    "answer": "原式 $= \\frac{1}{2}(1 - \\cos 40^\\circ) + \\frac{1}{2}(1 + \\cos 100^\\circ) + \\sin 20^\\circ \\cos 50^\\circ = 1 + \\frac{1}{2}(\\cos 100^\\circ - \\cos 40^\\circ) + \\frac{1}{2}(\\sin 70^\\circ - \\sin 30^\\circ) = \\frac{3}{4} - \\sin 70^\\circ \\sin 30^\\circ + \\frac{1}{2} \\sin 70^\\circ = \\frac{3}{4}$. 答案 :$\\frac{3}{4}$"
+  },
+  {
+    "id": "495",
+    "question": "设函数$f(x)=x^{2}+aln(x+1)$（a为常数），若函数$y=f(x)$在区间$[1,+\\infty)$上单调递增，则实数a的取值范围为________.",
+    "answer": "由题意知，$f'(x)=\\frac{2x^{2}+2x+a}{x+1}\\geqslant 0$ 在 $[1, +\\infty)$ 上恒成立, 即 $a \\geqslant -2x^2 - 2x$ 在区间$[1, +\\infty)$ 上恒成立. （注意此处是 $f(x)$ 在 $[1, +\\infty)$ 上单调递增的充要条件, 不能写成 $f'(x) > 0$ 在 $[1, +\\infty)$ 上恒成立.） 因为 $y = -2x^2 - 2x$ 在区间 $[1, +\\infty)$ 上的最大值为 -4, 所以 $a \\geqslant -4$. 经检验, 当 $a = -4$ 时, $f'(x) = \\frac{2x^2 + 2x - 4}{x + 1} = \\frac{2(x + 2)(x - 1)}{(x + 1)} \\geqslant 0, x \\in [1, +\\infty)$. 故实数 $a$ 的取值范围是 $[-4, +\\infty)$. 答案：$[-4, +\\infty)$"
+  }
+]
+```
+[{'id': '418', 'question': '求函数 $y=\\frac{\\sin x}{2+\\cos x}$ ($0 < x < \\pi$) 的最大值.', 'answer': '去分母整理可得, $\\sin x - y\\cos x = 2y$, 所以 $\\sqrt{1+y^2}\\sin(x-\\varphi)=2y$ (其中 $\\tan\\varphi=y$, $y>0$), 故 $\\sin(x-\\varphi)=\\frac{2y}{\\sqrt{1+y^2}}$. 由 $\\sin(x-\\varphi)=\\frac{2y}{\\sqrt{1+y^2}}\\leqslant 1$, 可得 $0 < y \\leqslant \\frac{\\sqrt{3}}{3}$. 下面验证等号可以取到: 当 $y=\\frac{\\sqrt{3}}{3}$, 即 $\\tan\\varphi=\\frac{\\sqrt{3}}{3}$ 时, 可取 $\\varphi=\\frac{\\pi}{6}$, 令 $x-\\varphi=\\frac{\\pi}{2}$, 则 $x=\\frac{\\pi}{2}+\\varphi=\\frac{\\pi}{2}+\\frac{\\pi}{6}=\\frac{2\\pi}{3}$ (在 $(0,\\pi)$ 成立). 故 $x=\\frac{2\\pi}{3}$ 时, 函数有最大值, $y_{\\max}=\\frac{\\sqrt{3}}{3}$.'}, {'id': '419', 'question': '已知 α 为第二象限角，且 sin α = $\\frac{\\sqrt{15}}{4}$，则 $\\frac{\\sin(\\alpha+\\frac{\\pi}{4})}{\\sin 2\\alpha+\\cos 2\\alpha+1}$ 的值为____.', 'answer': '$\\frac{\\sin(\\alpha+\\frac{\\pi}{4})}{\\sin 2\\alpha+\\cos 2\\alpha+1}=\\frac{\\frac{\\sqrt{2}}{2}(\\sin\\alpha+\\cos\\alpha)}{2\\sin\\alpha\\cos\\alpha+2\\cos^2\\alpha}=\\frac{\\frac{\\sqrt{2}}{2}(\\sin\\alpha+\\cos\\alpha)}{4\\cos\\alpha(\\sin\\alpha+\\cos\\alpha)}=\\frac{\\sqrt{2}}{4\\cos\\alpha}$ 又 α 为第二象限角，且 sin α = $\\frac{\\sqrt{15}}{4}$，所以 cos α = $-\\frac{1}{4}$ 所以 $\\frac{\\sin(\\alpha+\\frac{\\pi}{4})}{\\sin 2\\alpha+\\cos 2\\alpha+1}=\\frac{\\sqrt{2}}{4\\cos\\alpha}=-\\sqrt{2}$. 答案 ： -$\\sqrt{2}$.'}, {'id': '420', 'question': '已知 $\\sin(\\frac{\\pi}{4}+2\\alpha)\\cdot\\sin(\\frac{\\pi}{4}-2\\alpha)=\\frac{1}{4}$, $\\alpha\\in(\\frac{\\pi}{4},\\frac{\\pi}{2})$，则 $2\\sin^2\\alpha+\\tan\\alpha-\\frac{1}{\\tan\\alpha}-1$ 的值为______.', 'answer': '由 $\\sin(\\frac{\\pi}{4}+2\\alpha)\\cdot\\sin(\\frac{\\pi}{4}-2\\alpha)=\\sin(\\frac{\\pi}{4}+2\\alpha)\\cdot\\cos(\\frac{\\pi}{4}+2\\alpha)=\\frac{1}{2}\\sin(\\frac{\\pi}{2}+4\\alpha)=\\frac{1}{2}\\cos4\\alpha=\\frac{1}{4}$, 得 $\\cos4\\alpha=\\frac{1}{2}$. 又 $\\alpha\\in(\\frac{\\pi}{4},\\frac{\\pi}{2})$，所以 $\\alpha=\\frac{5\\pi}{12}$. 所以 $2\\sin^2\\alpha+\\tan\\alpha-\\frac{1}{\\tan\\alpha}-1=-\\cos2\\alpha+\\frac{\\sin^2\\alpha-\\cos^2\\alpha}{\\sin\\alpha\\cos\\alpha}=\\frac{-2\\cos2\\alpha}{\\sin2\\alpha}=-(\\cos2\\alpha+\\frac{2}{\\tan2\\alpha})=-(\\cos\\frac{5\\pi}{6}+\\frac{2}{\\tan\\frac{5\\pi}{6}})=-(\\frac{\\sqrt{3}}{2}-2\\sqrt{3})=\\frac{5\\sqrt{3}}{2}$. 答案： $\\frac{5\\sqrt{3}}{2}$'}, {'id': '421', 'question': '计算 $\\sin^2 20^\\circ + \\cos^2 50^\\circ + \\sin 20^\\circ \\cos 50^\\circ = \\_\\_\\_\\_\\_$.', 'answer': '原式 $= \\frac{1}{2}(1 - \\cos 40^\\circ) + \\frac{1}{2}(1 + \\cos 100^\\circ) + \\sin 20^\\circ \\cos 50^\\circ = 1 + \\frac{1}{2}(\\cos 100^\\circ - \\cos 40^\\circ) + \\frac{1}{2}(\\sin 70^\\circ - \\sin 30^\\circ) = \\frac{3}{4} - \\sin 70^\\circ \\sin 30^\\circ + \\frac{1}{2} \\sin 70^\\circ = \\frac{3}{4}$. 答案 :$\\frac{3}{4}$'}, {'id': '495', 'question': '设函数$f(x)=x^{2}+aln(x+1)$（a为常数），若函数$y=f(x)$在区间$[1,+\\infty)$上单调递增，则实数a的取值范围为________.', 'answer': "由题意知，$f'(x)=\\frac{2x^{2}+2x+a}{x+1}\\geqslant 0$ 在 $[1, +\\infty)$ 上恒成立, 即 $a \\geqslant -2x^2 - 2x$ 在区间$[1, +\\infty)$ 上恒成立. （注意此处是 $f(x)$ 在 $[1, +\\infty)$ 上单调递增的充要条件, 不能写成 $f'(x) > 0$ 在 $[1, +\\infty)$ 上恒成立.） 因为 $y = -2x^2 - 2x$ 在区间 $[1, +\\infty)$ 上的最大值为 -4, 所以 $a \\geqslant -4$. 经检验, 当 $a = -4$ 时, $f'(x) = \\frac{2x^2 + 2x - 4}{x + 1} = \\frac{2(x + 2)(x - 1)}{(x + 1)} \\geqslant 0, x \\in [1, +\\infty)$. 故实数 $a$ 的取值范围是 $[-4, +\\infty)$. 答案：$[-4, +\\infty)$"}]
+🔄 正在处理第 55 条内容（共 193 条）...
+```json
+[
+    {
+        "id": "496",
+        "question": "已知函数$f(x)=(ax^{2}+bx+c)e^{x}$在$[0,1]$上单调递减且满足$f(0)=1$，$f(1)=0$，则实数a的取值范围为________.",
+        "answer": "由 $f(0) = 1, f(1) = 0$ 得 $c = 1, a + b = -1$, 则 $f(x) = [ax^2 - (a + 1)x + 1]e^x, f'(x) = [ax^2 + (a - 1)x - a]e^x$. 依题意, 对于任意 $x \\in (0, 1)$, 都有 $f'(x) \\leqslant 0$. 当 $a > 0$ 时, 因为二次函数 $y = ax^2 + (a - 1)x - a$ 的图象开口向上, 而 $f'(0) = -a < 0$, 所以需 $f'(1) = (a - 1)e \\leqslant 0$, 即 $0 < a \\leqslant 1$; 当 $a = 0$ 时, 对于任意 $x \\in (0, 1)$, $f'(x) = -xe^x < 0$, 符合条件; 当 $a < 0$ 时, $f'(0) = -a > 0$, 不符合条件. 综上, 实数 $a$ 的取值范围为 $[0, 1]$. 答案：$[0, 1]$"
+    },
+    {
+        "id": "497",
+        "question": "已知$x>0,a=x,b=x-\\frac{x^{2}}{2},c=\\ln(1+x)$,则a,b,c大小关系？",
+        "answer": "$令f(x)=a-c=x-\\ln(1+x)$,当$x>0$时,$f'(x)=1-\\frac{1}{1+x}>0$,$\\therefore$函数$f(x)$在$(0,+\\infty)$上单调递增,$\\therefore f(x)>f(0)=0$,可得$a>c$. 令$g(x)=c-b=\\ln(1+x)-x+\\frac{x^{2}}{2}$,当$x>0$时,$g'(x)=\\frac{1}{1+x}-1+x=\\frac{x^{2}}{1+x}>0$,$\\therefore$函数$g(x)$在$(0,+\\infty)$上单调递增,$\\therefore g(x)>g(0)=0$,可得$c>b$. 综上可得$a>c>b$. 答案：$a>c>b$."
+    },
+    {
+        "id": "498",
+        "question": "已知 $a, b$ 为实数，且 $b > a > e$，其中 $e$ 为自然对数的底数，求证: $a^b > b^a$.",
+        "answer": "本题是一道指数形式的不等式，运用常规方法证明较难，由于 $b > a > e$，所以 $a^b > b^a \\Leftrightarrow b \\ln a > a \\ln b$，故可考虑构造函数 $f(x) = x \\ln a - a \\ln x$ 或 $f(x) = \\frac{x}{\\ln x}$，利用函数的单调性来证明. 方法一 ∵ $b > a > e$， ∴ 要证 $a^b > b^a$，只需证 $b \\ln a > a \\ln b$. 设 $f(x) = x \\ln a - a \\ln x$，则 $f'(x) = \\ln a - \\frac{a}{x}$. 当 $x > a > e$ 时，$\\ln a > 1$，且 $\\frac{a}{x} < 1$，∴ $f'(x) > 0$. ∴ 函数 $f(x) = x \\ln a - a \\ln x$ 在 $(a, +\\infty)$ 上单调递增. ∵ $b > a > e$，∴ $f(b) > f(a) = a \\ln a - a \\ln a = 0$， 即 $b \\ln a - a \\ln b > 0$，∴ $b \\ln a > a \\ln b$，即 $a^b > b^a$. 方法二 ∵ $b > a > e$，∴ 要证 $a^b > b^a$，只需证 $b \\ln a > a \\ln b$，即 $\\frac{b}{\\ln b} > \\frac{a}{\\ln a}$. 设 $f(x) = \\frac{x}{\\ln x}$，则 $f'(x) = \\frac{\\ln x - 1}{(\\ln x)^2}$. 当 $x > e$ 时，$f'(x) = \\frac{\\ln x - 1}{(\\ln x)^2} > 0$，故函数 $f(x) = \\frac{x}{\\ln x}$ 在 $(e, +\\infty)$ 上单调递增. 又 $b > a > e$，所以 $\\frac{b}{\\ln b} > \\frac{a}{\\ln a}$，从而 $a^b > b^a$."
+    },
+    {
+        "id": "499",
+        "question": "已知函数 $f(x)$ 的定义域为 $\\mathbb{R}$, 且 $f(x)+1<f'(x), f(0)=2$, 则不等式 $f(x)+1>3e^{x}$ 的解集为？",
+        "answer": "结合已知条件可考虑构造函数 $g(x)=\\frac{f(x)+1}{e^{x}}$, 然后结合导数可判断单调性, 进而可求不等式. 令 $g(x)=\\frac{f(x)+1}{e^{x}}$, 因为 $f(x)+1<f'(x)$, 则 $g'(x)=\\frac{f'(x)-f(x)-1}{e^{x}}>0$, 故 $g(x)$ 在 $\\mathbb{R}$ 上单调递增, 且 $g(0)=3$. 由 $f(x)+1>3e^{x}$, 可得 $\\frac{f(x)+1}{e^{x}}>3$, 即 $g(x)>g(0)$, 所以 $x>0$."
+    },
+    {
+        "id": "500",
+        "question": "已知函数$f(x)=x-\\frac{1}{2}\\sin x+1$，证明函数$f(x)$有唯一零点.",
+        "answer": "$x\\in\\mathbb{R}$，$f'(x)=1-\\frac{1}{2}\\cos x>0$， $-1\\leqslant\\cos x\\leqslant1$. 所以$f(x)$在$\\mathbb{R}$上单调递增. 又$f(0)=1>0$，$f(-2)=-1+\\frac{1}{2}\\sin2<0$， 所以函数$f(x)$在$(-2,0)$上存在唯一零点. 函数$f(x)$在$(-2,0)$上存在零点，又$f(x)$在$(-2,0)$上单调，故$f(x)$在$(-2,0)$上存在唯一零点. 故函数$f(x)$在$\\mathbb{R}$上存在唯一零点."
+    }
+]
+```
+[{'id': '496', 'question': '已知函数$f(x)=(ax^{2}+bx+c)e^{x}$在$[0,1]$上单调递减且满足$f(0)=1$，$f(1)=0$，则实数a的取值范围为________.', 'answer': "由 $f(0) = 1, f(1) = 0$ 得 $c = 1, a + b = -1$, 则 $f(x) = [ax^2 - (a + 1)x + 1]e^x, f'(x) = [ax^2 + (a - 1)x - a]e^x$. 依题意, 对于任意 $x \\in (0, 1)$, 都有 $f'(x) \\leqslant 0$. 当 $a > 0$ 时, 因为二次函数 $y = ax^2 + (a - 1)x - a$ 的图象开口向上, 而 $f'(0) = -a < 0$, 所以需 $f'(1) = (a - 1)e \\leqslant 0$, 即 $0 < a \\leqslant 1$; 当 $a = 0$ 时, 对于任意 $x \\in (0, 1)$, $f'(x) = -xe^x < 0$, 符合条件; 当 $a < 0$ 时, $f'(0) = -a > 0$, 不符合条件. 综上, 实数 $a$ 的取值范围为 $[0, 1]$. 答案：$[0, 1]$"}, {'id': '497', 'question': '已知$x>0,a=x,b=x-\\frac{x^{2}}{2},c=\\ln(1+x)$,则a,b,c大小关系？', 'answer': "$令f(x)=a-c=x-\\ln(1+x)$,当$x>0$时,$f'(x)=1-\\frac{1}{1+x}>0$,$\\therefore$函数$f(x)$在$(0,+\\infty)$上单调递增,$\\therefore f(x)>f(0)=0$,可得$a>c$. 令$g(x)=c-b=\\ln(1+x)-x+\\frac{x^{2}}{2}$,当$x>0$时,$g'(x)=\\frac{1}{1+x}-1+x=\\frac{x^{2}}{1+x}>0$,$\\therefore$函数$g(x)$在$(0,+\\infty)$上单调递增,$\\therefore g(x)>g(0)=0$,可得$c>b$. 综上可得$a>c>b$. 答案：$a>c>b$."}, {'id': '498', 'question': '已知 $a, b$ 为实数，且 $b > a > e$，其中 $e$ 为自然对数的底数，求证: $a^b > b^a$.', 'answer': "本题是一道指数形式的不等式，运用常规方法证明较难，由于 $b > a > e$，所以 $a^b > b^a \\Leftrightarrow b \\ln a > a \\ln b$，故可考虑构造函数 $f(x) = x \\ln a - a \\ln x$ 或 $f(x) = \\frac{x}{\\ln x}$，利用函数的单调性来证明. 方法一 ∵ $b > a > e$， ∴ 要证 $a^b > b^a$，只需证 $b \\ln a > a \\ln b$. 设 $f(x) = x \\ln a - a \\ln x$，则 $f'(x) = \\ln a - \\frac{a}{x}$. 当 $x > a > e$ 时，$\\ln a > 1$，且 $\\frac{a}{x} < 1$，∴ $f'(x) > 0$. ∴ 函数 $f(x) = x \\ln a - a \\ln x$ 在 $(a, +\\infty)$ 上单调递增. ∵ $b > a > e$，∴ $f(b) > f(a) = a \\ln a - a \\ln a = 0$， 即 $b \\ln a - a \\ln b > 0$，∴ $b \\ln a > a \\ln b$，即 $a^b > b^a$. 方法二 ∵ $b > a > e$，∴ 要证 $a^b > b^a$，只需证 $b \\ln a > a \\ln b$，即 $\\frac{b}{\\ln b} > \\frac{a}{\\ln a}$. 设 $f(x) = \\frac{x}{\\ln x}$，则 $f'(x) = \\frac{\\ln x - 1}{(\\ln x)^2}$. 当 $x > e$ 时，$f'(x) = \\frac{\\ln x - 1}{(\\ln x)^2} > 0$，故函数 $f(x) = \\frac{x}{\\ln x}$ 在 $(e, +\\infty)$ 上单调递增. 又 $b > a > e$，所以 $\\frac{b}{\\ln b} > \\frac{a}{\\ln a}$，从而 $a^b > b^a$."}, {'id': '499', 'question': "已知函数 $f(x)$ 的定义域为 $\\mathbb{R}$, 且 $f(x)+1<f'(x), f(0)=2$, 则不等式 $f(x)+1>3e^{x}$ 的解集为？", 'answer': "结合已知条件可考虑构造函数 $g(x)=\\frac{f(x)+1}{e^{x}}$, 然后结合导数可判断单调性, 进而可求不等式. 令 $g(x)=\\frac{f(x)+1}{e^{x}}$, 因为 $f(x)+1<f'(x)$, 则 $g'(x)=\\frac{f'(x)-f(x)-1}{e^{x}}>0$, 故 $g(x)$ 在 $\\mathbb{R}$ 上单调递增, 且 $g(0)=3$. 由 $f(x)+1>3e^{x}$, 可得 $\\frac{f(x)+1}{e^{x}}>3$, 即 $g(x)>g(0)$, 所以 $x>0$."}, {'id': '500', 'question': '已知函数$f(x)=x-\\frac{1}{2}\\sin x+1$，证明函数$f(x)$有唯一零点.', 'answer': "$x\\in\\mathbb{R}$，$f'(x)=1-\\frac{1}{2}\\cos x>0$， $-1\\leqslant\\cos x\\leqslant1$. 所以$f(x)$在$\\mathbb{R}$上单调递增. 又$f(0)=1>0$，$f(-2)=-1+\\frac{1}{2}\\sin2<0$， 所以函数$f(x)$在$(-2,0)$上存在唯一零点. 函数$f(x)$在$(-2,0)$上存在零点，又$f(x)$在$(-2,0)$上单调，故$f(x)$在$(-2,0)$上存在唯一零点. 故函数$f(x)$在$\\mathbb{R}$上存在唯一零点."}]
+🔄 正在处理第 60 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "501",
+    "question": "讨论函数 $f(x)=2x-aln x(a\\leqslant 0)$ 的零点的个数.",
+    "answer": "函数的定义域为 $(0,+\\infty)$. 当 $a=0$ 时, $f(x)=2x$, 由于 $x\\in(0,+\\infty)$, 则函数 $f(x)$ 无零点. $x=0$ 不在定义域内, 故不是函数 $f(x)$ 的零点. 当 $a<0$ 时, $f'(x)=2-\\frac{a}{x}=\\frac{2x-a}{x}>0$, $f(x)$ 在 $(0,+\\infty)$ 上单调递增. 由 $f(1)=2>0$, 且当 $x$ 无限趋近于 $0$ 时, $f(x)$ 无限趋近于 $-\\infty$, 所以函数 $f(x)$ 在 $(0,1)$ 上存在唯一零点, 从而在 $(0,+\\infty)$ 上存在唯一零点. 综上可知, 当 $a=0$ 时, 函数 $f(x)$ 无零点; 当 $a<0$ 时, 函数 $f(x)$ 存在唯一零点."
+  },
+  {
+    "id": "502",
+    "question": "已知 $a, b$ 是实数，函数 $f(x) = x^3 + ax, g(x) = x^2 + bx, f'(x)$ 和 $g'(x)$ 分别是 $f(x)$ 和 $g(x)$ 的导函数，若 $f'(x)g'(x) \\geqslant 0$ 在区间 $I$ 上恒成立，则称 $f(x)$ 和 $g(x)$ 在区间 $I$ 上单调性一致。 (1) 设 $a > 0$，若 $f(x)$ 和 $g(x)$ 在区间 $[-1, +\\infty)$ 上单调性一致，求 $b$ 的取值范围； (2) 设 $a < 0$ 且 $a \\neq b$，若 $f(x)$ 和 $g(x)$ 在以 $a, b$ 为端点的开区间上单调性一致，求 $|a - b|$ 的最大值。",
+    "answer": "$f'(x) = 3x^2 + a, g'(x) = 2x + b$。 (1) 由题意知 $f'(x)g'(x) \\geqslant 0$ 在 $[-1, +\\infty)$ 上恒成立。因为 $a > 0$，故 $3x^2 + a > 0$ 恒成立，所以 $2x + b \\geqslant 0$，即 $b \\geqslant -2x$ 在 $[-1, +\\infty)$ 上恒成立，所以 $b \\geqslant 2$。故所求 $b$ 的取值范围是 $[2, +\\infty)$。 (2) 令 $f'(x) = 0$，解得 $x = \\pm \\sqrt{-\\frac{a}{3}}$。 若 $b > 0$，则由 $a < 0$ 得 $0 \\in (a, b)$。 又 $f'(0)g'(0) = ab < 0$，所以函数 $f(x)$ 和 $g(x)$ 在 $(a, b)$ 上单调性不一致。因此 $b \\leqslant 0$。 故当 $x \\in (-\\infty, 0)$ 时，$g'(x) < 0$，当 $x \\in (-\\infty, -\\sqrt{-\\frac{a}{3}})$ 时，$f'(x) > 0$。因此，当 $x \\in (-\\infty, -\\sqrt{-\\frac{a}{3}})$ 时，$f'(x)g'(x) < 0$。 故由题意得 $0 > a \\geqslant -\\sqrt{-\\frac{a}{3}}$ 且 $0 \\geqslant b \\geqslant -\\sqrt{-\\frac{a}{3}}$，即 $-\\frac{1}{3} \\leqslant a < 0, -\\frac{1}{3} \\leqslant b \\leqslant 0$。 因此 $|a - b| \\leqslant \\frac{1}{3}$，当且仅当 $a = -\\frac{1}{3}, b = 0$ 时等号成立。 又当 $a = -\\frac{1}{3}, b = 0$ 时，$f'(x)g'(x) = 6x(x^2 - \\frac{1}{9})$，所以当 $x \\in (-\\frac{1}{3}, 0)$ 时，$f'(x)g'(x) > 0$，故函数 $f(x)$ 和 $g(x)$ 在 $(- \\frac{1}{3}, 0)$ 上单调性一致，符合题意。 因此 $|a - b|$ 的最大值为 $\\frac{1}{3}$。"
+  },
+  {
+    "id": "503",
+    "question": "若函数$f(x)=x-\\frac{1}{3}\\sin 2x+asinx$在$(-\\infty,+\\infty)$上单调递增，则$a$的取值范围是？",
+    "answer": "函数$f(x)=x-\\frac{1}{3}\\sin 2x+asinx$在$(-\\infty,+\\infty)$上单调递增， 等价于$f'(x)=1-\\frac{2}{3}\\cos 2x+acosx=-\\frac{4}{3}\\cos^2x+acosx+\\frac{5}{3}\\geqslant0$在$(-\\infty,+\\infty)$上恒成立。 设$\\cos x=t(t\\in[-1,1])$，则$g(t)=-\\frac{4}{3}t^2+at+\\frac{5}{3}\\geqslant0$在$[-1,1]$上恒成立， 所以$\\left\\{\\begin{array}{l}g(1)=-\\frac{4}{3}+a+\\frac{5}{3}\\geqslant0,\\\\g(-1)=-\\frac{4}{3}-a+\\frac{5}{3}\\geqslant0,\\end{array}\\right.$解得$-\\frac{1}{3}\\leqslant a\\leqslant\\frac{1}{3}$。"
+  },
+  {
+    "id": "504",
+    "question": "已知函数$f(x)=\\ln x-\\frac{x+1}{x-1}$. (1) 讨论$f(x)$的单调性, 并证明$f(x)$有且仅有两个零点; (2) 设$x_{0}$是$f(x)$的一个零点, 证明曲线$y=\\ln x$在点$A(x_{0},\\ln x_{0})$处的切线也是曲线$y=e^{x}$的切线.",
+    "answer": "(1)$f(x)$的定义域为$(0,1)\\cup(1,+\\infty)$. 因为$f'(x)=\\frac{1}{x}+\\frac{2}{(x-1)^{2}}>0$, 所以$f(x)$在$(0,1)$, $(1,+\\infty)$上单调递增. 因为$f(e)=1-\\frac{e+1}{e-1}<0$, $f(e^{2})=2-\\frac{e^{2}+1}{e^{2}-1}=\\frac{e^{2}-3}{e^{2}-1}>0$, 所以$f(x)$在$(1,+\\infty)$上有唯一零点$x_{1}$, 即$f(x_{1})=0$. 又$0<\\frac{1}{x_{1}}<1$, $f(\\frac{1}{x_{1}})=-\\ln x_{1}+\\frac{x_{1}+1}{x_{1}-1}=-f(x_{1})=0$, 所以$f(x)$在$(0,1)$上有唯一零点$\\frac{1}{x_{1}}$. 综上, $f(x)$有且仅有两个零点. (2) 因为$\\frac{1}{x_{0}}=e^{-\\ln x_{0}}$, 所以点$B(-\\ln x_{0},\\\frac{1}{x_{0}})$在曲线$y=e^{x}$上. 由题设知 $f(x_0) = 0$，即 $\\ln x_0 = \\frac{x_0 + 1}{x_0 - 1}$，连接 $AB$，则直线 $AB$ 的斜率 $k = \\frac{1}{x_0} - \\ln x_0 = \\frac{\\frac{1}{x_0} - \\ln x_0}{-\\ln x_0 - x_0} = \\frac{\\frac{1}{x_0} - \\frac{x_0 + 1}{x_0 - 1}}{\\frac{x_0 + 1}{x_0 - 1} - x_0} = \\frac{1}{x_0}$。 曲线 $y = e^x$ 在点 $B(-\\ln x_0, \\frac{1}{x_0})$ 处切线的斜率是 $\\frac{1}{x_0}$，曲线 $y = \\ln x$ 在点 $A(x_0, \\ln x_0)$ 处切线的斜率也是 $\\frac{1}{x_0}$， 所以曲线 $y = \\ln x$ 在点 $A(x_0, \\ln x_0)$ 处的切线也是曲线 $y = e^x$ 的切线。"
+  },
+  {
+    "id": "527",
+    "question": "函数$y=4x-3x^{3}$在区间[0,2]上的最大值是？",
+    "answer": "设$f(x)=4x-3x^{3}$, 则$f'(x)=4-9x^{2}=(2-3x)(2+3x)$. $\\because x\\in[0,2]$, $\\therefore$ 当$x=\\frac{2}{3}$时, $f'(x)=0$, 且当$x\\in[0,\\frac{2}{3})$时, $f'(x)>0$, 当$x\\in[\\frac{2}{3},2]$时, $f'(x)<0$, $\\therefore f(\\frac{2}{3})$为$f(x)$的极大值. 又$f(\\frac{2}{3})=\\frac{16}{9}$, $\\therefore$ 函数$y=4x-3x^{3}$在区间[0,2]上的最大值是$\\frac{16}{9}$."
+  }
+]
+```
+[{'id': '501', 'question': '讨论函数 $f(x)=2x-aln x(a\\leqslant 0)$ 的零点的个数.', 'answer': "函数的定义域为 $(0,+\\infty)$. 当 $a=0$ 时, $f(x)=2x$, 由于 $x\\in(0,+\\infty)$, 则函数 $f(x)$ 无零点. $x=0$ 不在定义域内, 故不是函数 $f(x)$ 的零点. 当 $a<0$ 时, $f'(x)=2-\\frac{a}{x}=\\frac{2x-a}{x}>0$, $f(x)$ 在 $(0,+\\infty)$ 上单调递增. 由 $f(1)=2>0$, 且当 $x$ 无限趋近于 $0$ 时, $f(x)$ 无限趋近于 $-\\infty$, 所以函数 $f(x)$ 在 $(0,1)$ 上存在唯一零点, 从而在 $(0,+\\infty)$ 上存在唯一零点. 综上可知, 当 $a=0$ 时, 函数 $f(x)$ 无零点; 当 $a<0$ 时, 函数 $f(x)$ 存在唯一零点."}, {'id': '502', 'question': "已知 $a, b$ 是实数，函数 $f(x) = x^3 + ax, g(x) = x^2 + bx, f'(x)$ 和 $g'(x)$ 分别是 $f(x)$ 和 $g(x)$ 的导函数，若 $f'(x)g'(x) \\geqslant 0$ 在区间 $I$ 上恒成立，则称 $f(x)$ 和 $g(x)$ 在区间 $I$ 上单调性一致。 (1) 设 $a > 0$，若 $f(x)$ 和 $g(x)$ 在区间 $[-1, +\\infty)$ 上单调性一致，求 $b$ 的取值范围； (2) 设 $a < 0$ 且 $a \\neq b$，若 $f(x)$ 和 $g(x)$ 在以 $a, b$ 为端点的开区间上单调性一致，求 $|a - b|$ 的最大值。", 'answer': "$f'(x) = 3x^2 + a, g'(x) = 2x + b$。 (1) 由题意知 $f'(x)g'(x) \\geqslant 0$ 在 $[-1, +\\infty)$ 上恒成立。因为 $a > 0$，故 $3x^2 + a > 0$ 恒成立，所以 $2x + b \\geqslant 0$，即 $b \\geqslant -2x$ 在 $[-1, +\\infty)$ 上恒成立，所以 $b \\geqslant 2$。故所求 $b$ 的取值范围是 $[2, +\\infty)$。 (2) 令 $f'(x) = 0$，解得 $x = \\pm \\sqrt{-\\frac{a}{3}}$。 若 $b > 0$，则由 $a < 0$ 得 $0 \\in (a, b)$。 又 $f'(0)g'(0) = ab < 0$，所以函数 $f(x)$ 和 $g(x)$ 在 $(a, b)$ 上单调性不一致。因此 $b \\leqslant 0$。 故当 $x \\in (-\\infty, 0)$ 时，$g'(x) < 0$，当 $x \\in (-\\infty, -\\sqrt{-\\frac{a}{3}})$ 时，$f'(x) > 0$。因此，当 $x \\in (-\\infty, -\\sqrt{-\\frac{a}{3}})$ 时，$f'(x)g'(x) < 0$。 故由题意得 $0 > a \\geqslant -\\sqrt{-\\frac{a}{3}}$ 且 $0 \\geqslant b \\geqslant -\\sqrt{-\\frac{a}{3}}$，即 $-\\frac{1}{3} \\leqslant a < 0, -\\frac{1}{3} \\leqslant b \\leqslant 0$。 因此 $|a - b| \\leqslant \\frac{1}{3}$，当且仅当 $a = -\\frac{1}{3}, b = 0$ 时等号成立。 又当 $a = -\\frac{1}{3}, b = 0$ 时，$f'(x)g'(x) = 6x(x^2 - \\frac{1}{9})$，所以当 $x \\in (-\\frac{1}{3}, 0)$ 时，$f'(x)g'(x) > 0$，故函数 $f(x)$ 和 $g(x)$ 在 $(- \\frac{1}{3}, 0)$ 上单调性一致，符合题意。 因此 $|a - b|$ 的最大值为 $\\frac{1}{3}$。"}, {'id': '503', 'question': '若函数$f(x)=x-\\frac{1}{3}\\sin 2x+asinx$在$(-\\infty,+\\infty)$上单调递增，则$a$的取值范围是？', 'answer': "函数$f(x)=x-\\frac{1}{3}\\sin 2x+asinx$在$(-\\infty,+\\infty)$上单调递增， 等价于$f'(x)=1-\\frac{2}{3}\\cos 2x+acosx=-\\frac{4}{3}\\cos^2x+acosx+\\frac{5}{3}\\geqslant0$在$(-\\infty,+\\infty)$上恒成立。 设$\\cos x=t(t\\in[-1,1])$，则$g(t)=-\\frac{4}{3}t^2+at+\\frac{5}{3}\\geqslant0$在$[-1,1]$上恒成立， 所以$\\left\\{\\begin{array}{l}g(1)=-\\frac{4}{3}+a+\\frac{5}{3}\\geqslant0,\\\\g(-1)=-\\frac{4}{3}-a+\\frac{5}{3}\\geqslant0,\\end{array}\\right.$解得$-\\frac{1}{3}\\leqslant a\\leqslant\\frac{1}{3}$。"}, {'id': '504', 'question': '已知函数$f(x)=\\ln x-\\frac{x+1}{x-1}$. (1) 讨论$f(x)$的单调性, 并证明$f(x)$有且仅有两个零点; (2) 设$x_{0}$是$f(x)$的一个零点, 证明曲线$y=\\ln x$在点$A(x_{0},\\ln x_{0})$处的切线也是曲线$y=e^{x}$的切线.', 'answer': "(1)$f(x)$的定义域为$(0,1)\\cup(1,+\\infty)$. 因为$f'(x)=\\frac{1}{x}+\\frac{2}{(x-1)^{2}}>0$, 所以$f(x)$在$(0,1)$, $(1,+\\infty)$上单调递增. 因为$f(e)=1-\\frac{e+1}{e-1}<0$, $f(e^{2})=2-\\frac{e^{2}+1}{e^{2}-1}=\\frac{e^{2}-3}{e^{2}-1}>0$, 所以$f(x)$在$(1,+\\infty)$上有唯一零点$x_{1}$, 即$f(x_{1})=0$. 又$0<\\frac{1}{x_{1}}<1$, $f(\\frac{1}{x_{1}})=-\\ln x_{1}+\\frac{x_{1}+1}{x_{1}-1}=-f(x_{1})=0$, 所以$f(x)$在$(0,1)$上有唯一零点$\\frac{1}{x_{1}}$. 综上, $f(x)$有且仅有两个零点. (2) 因为$\\frac{1}{x_{0}}=e^{-\\ln x_{0}}$, 所以点$B(-\\ln x_{0},\\\x0crac{1}{x_{0}})$在曲线$y=e^{x}$上. 由题设知 $f(x_0) = 0$，即 $\\ln x_0 = \\frac{x_0 + 1}{x_0 - 1}$，连接 $AB$，则直线 $AB$ 的斜率 $k = \\frac{1}{x_0} - \\ln x_0 = \\frac{\\frac{1}{x_0} - \\ln x_0}{-\\ln x_0 - x_0} = \\frac{\\frac{1}{x_0} - \\frac{x_0 + 1}{x_0 - 1}}{\\frac{x_0 + 1}{x_0 - 1} - x_0} = \\frac{1}{x_0}$。 曲线 $y = e^x$ 在点 $B(-\\ln x_0, \\frac{1}{x_0})$ 处切线的斜率是 $\\frac{1}{x_0}$，曲线 $y = \\ln x$ 在点 $A(x_0, \\ln x_0)$ 处切线的斜率也是 $\\frac{1}{x_0}$， 所以曲线 $y = \\ln x$ 在点 $A(x_0, \\ln x_0)$ 处的切线也是曲线 $y = e^x$ 的切线。"}, {'id': '527', 'question': '函数$y=4x-3x^{3}$在区间[0,2]上的最大值是？', 'answer': "设$f(x)=4x-3x^{3}$, 则$f'(x)=4-9x^{2}=(2-3x)(2+3x)$. $\\because x\\in[0,2]$, $\\therefore$ 当$x=\\frac{2}{3}$时, $f'(x)=0$, 且当$x\\in[0,\\frac{2}{3})$时, $f'(x)>0$, 当$x\\in[\\frac{2}{3},2]$时, $f'(x)<0$, $\\therefore f(\\frac{2}{3})$为$f(x)$的极大值. 又$f(\\frac{2}{3})=\\frac{16}{9}$, $\\therefore$ 函数$y=4x-3x^{3}$在区间[0,2]上的最大值是$\\frac{16}{9}$."}]
+🔄 正在处理第 65 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "528",
+    "question": "已知直线$y=a$与函数$f(x)=\\frac{1}{3}x^{3}-x^{2}-3x+1$的图象相切, 则实数$a$的值为?",
+    "answer": "解析:$f'(x)=x^{2}-2x-3$, 令$x^{2}-2x-3=0$, 可得$x=3$或$x=-1$. 经分析可知, 它们是函数$f(x)$的极值点. 由直线$y=a$与函数$f(x)=\\frac{1}{3}x^{3}-x^{2}-3x+1$的图象相切, 可知它们只有在极值点所对应的点处相切. 由$x=3$或$x=-1$可得函数的极值为$-8$或$\\frac{8}{3}$. 故实数$a$的值为$-8$或$\\frac{8}{3}$. 答案:$-8$或$\\frac{8}{3}$"
+  },
+  {
+    "id": "529",
+    "question": "已知函数$f(x)=x^{3}-3x+m$只有一个零点,则实数$m$的取值范围是______.",
+    "answer": "解析:∵$f(x)=x^{3}-3x+m$，∴$f'(x)=3x^{2}-3$. 由$f'(x)>0$，得$x>1$或$x<-1$，函数在$(1,+\\infty)$和$(-\\infty,-1)$上单调递增；由$f'(x)<0$，得$-1<x<1$，函数在$(-1,1)$上单调递减. 即当$x=-1$时，函数$f(x)$取得极大值；当$x=1$时，函数$f(x)$取得极小值. 要使函数$f(x)=x^{3}-3x+m$只有一个零点，则需满足$f(-1)\\cdot f(1)>0$，即$(m+2)(m-2)>0$，解得$m<-2$或$m>2$. 综上，实数$m$的取值范围是$(-\\infty,-2)\\cup(2,+\\infty)$. 答案:$(-\\infty,-2)\\cup(2,+\\infty)$"
+  },
+  {
+    "id": "530",
+    "question": "证明：e^{x-1}≥x.",
+    "answer": "解析 :要证 e^{x-1}≥x, 只需证 e^{x-1}-x≥0, 构建函数 f(x) = e^{x-1}-x. 则 f'(x) = e^{x-1}-1, 令 f'(x) = 0, 得 x = 1, 当 x ∈ (-∞, 1) 时, f'(x) < 0, 当 x ∈ (1, +∞) 时, f'(x) > 0, ∴ f(x)_{min} = f(1) = e^{1-1}-1 = 0, ∴ f(x) ≥ 0 恒成立, 即 e^{x-1} ≥ x."
+  },
+  {
+    "id": "531",
+    "question": "求$f(x) = e^x - x$的极值:",
+    "answer": "解析: 函数定义域为 $\\mathbb{R}$, $f'(x) = e^x - 1$. 令 $f'(x) = 0$, 解得 $x = 0$. 当 $x < 0$ 时, $f'(x) < 0$, 函数 $f(x)$ 单调递减; 当 $x > 0$ 时, $f'(x) > 0$, 函数 $f(x)$ 单调递增. 所以当 $x = 0$ 时, 函数 $f(x)$ 取得极小值, 且极小值为 $f(0) = 1$, 函数 $f(x)$ 无极大值."
+  },
+  {
+    "id": "720",
+    "question": "题目：在△ABC中,a=26,cosA=$\\frac{2\\sqrt{2}}{3}$,cosB=$\\frac{12}{13}$,则b等于？",
+    "answer": "解析：因为cosA=$\\frac{2\\sqrt{2}}{3}$,所以sinA=$\\sqrt{1-\\cos^2A}$=$\\frac{1}{3}$. 同理得sinB=$\\frac{5}{13}$. 由$\\frac{a}{\\sin A}$=$\\frac{b}{\\sin B}$得b=$\\frac{a\\sin B}{\\sin A}$=$\\frac{26×\\frac{5}{13}}{\\frac{1}{3}}$=30."
+  }
+]
+```
+[{'id': '528', 'question': '已知直线$y=a$与函数$f(x)=\\frac{1}{3}x^{3}-x^{2}-3x+1$的图象相切, 则实数$a$的值为?', 'answer': "解析:$f'(x)=x^{2}-2x-3$, 令$x^{2}-2x-3=0$, 可得$x=3$或$x=-1$. 经分析可知, 它们是函数$f(x)$的极值点. 由直线$y=a$与函数$f(x)=\\frac{1}{3}x^{3}-x^{2}-3x+1$的图象相切, 可知它们只有在极值点所对应的点处相切. 由$x=3$或$x=-1$可得函数的极值为$-8$或$\\frac{8}{3}$. 故实数$a$的值为$-8$或$\\frac{8}{3}$. 答案:$-8$或$\\frac{8}{3}$"}, {'id': '529', 'question': '已知函数$f(x)=x^{3}-3x+m$只有一个零点,则实数$m$的取值范围是______.', 'answer': "解析:∵$f(x)=x^{3}-3x+m$，∴$f'(x)=3x^{2}-3$. 由$f'(x)>0$，得$x>1$或$x<-1$，函数在$(1,+\\infty)$和$(-\\infty,-1)$上单调递增；由$f'(x)<0$，得$-1<x<1$，函数在$(-1,1)$上单调递减. 即当$x=-1$时，函数$f(x)$取得极大值；当$x=1$时，函数$f(x)$取得极小值. 要使函数$f(x)=x^{3}-3x+m$只有一个零点，则需满足$f(-1)\\cdot f(1)>0$，即$(m+2)(m-2)>0$，解得$m<-2$或$m>2$. 综上，实数$m$的取值范围是$(-\\infty,-2)\\cup(2,+\\infty)$. 答案:$(-\\infty,-2)\\cup(2,+\\infty)$"}, {'id': '530', 'question': '证明：e^{x-1}≥x.', 'answer': "解析 :要证 e^{x-1}≥x, 只需证 e^{x-1}-x≥0, 构建函数 f(x) = e^{x-1}-x. 则 f'(x) = e^{x-1}-1, 令 f'(x) = 0, 得 x = 1, 当 x ∈ (-∞, 1) 时, f'(x) < 0, 当 x ∈ (1, +∞) 时, f'(x) > 0, ∴ f(x)_{min} = f(1) = e^{1-1}-1 = 0, ∴ f(x) ≥ 0 恒成立, 即 e^{x-1} ≥ x."}, {'id': '531', 'question': '求$f(x) = e^x - x$的极值:', 'answer': "解析: 函数定义域为 $\\mathbb{R}$, $f'(x) = e^x - 1$. 令 $f'(x) = 0$, 解得 $x = 0$. 当 $x < 0$ 时, $f'(x) < 0$, 函数 $f(x)$ 单调递减; 当 $x > 0$ 时, $f'(x) > 0$, 函数 $f(x)$ 单调递增. 所以当 $x = 0$ 时, 函数 $f(x)$ 取得极小值, 且极小值为 $f(0) = 1$, 函数 $f(x)$ 无极大值."}, {'id': '720', 'question': '题目：在△ABC中,a=26,cosA=$\\frac{2\\sqrt{2}}{3}$,cosB=$\\frac{12}{13}$,则b等于？', 'answer': '解析：因为cosA=$\\frac{2\\sqrt{2}}{3}$,所以sinA=$\\sqrt{1-\\cos^2A}$=$\\frac{1}{3}$. 同理得sinB=$\\frac{5}{13}$. 由$\\frac{a}{\\sin A}$=$\\frac{b}{\\sin B}$得b=$\\frac{a\\sin B}{\\sin A}$=$\\frac{26×\\frac{5}{13}}{\\frac{1}{3}}$=30.'}]
+🔄 正在处理第 70 条内容（共 193 条）...
+```json
+[
+    {
+        "id": "721",
+        "question": "已知$a,b,c$分别为$\\triangle ABC$三个内角$A,B,C$的对边，$acosC+\\sqrt{3}asinC-b-c=0$，则$A=\\qquad$。",
+        "answer": "由正弦定理及$acosC+\\sqrt{3}asinC-b-c=0$，可得\n\n$\\sin AcosC+\\sqrt{3}\\sin AsinC-\\sin B-\\sin C=0$，\n\n注意到$\\sin B=\\sin(A+C)$，\n\n则$\\sin AcosC+\\sqrt{3}\\sin AsinC-\\sin(A+C)-\\sin C=0$，\n\n于是$\\sin AcosC+\\sqrt{3}\\sin AsinC-(\\sin AcosC+\\cos AsinC)-\\sin C=0$，\n\n整理可得$\\sqrt{3}\\sin AsinC-\\cos AsinC-\\sin C=0$。\n\n即$\\sin C(\\sqrt{3}\\sin A-\\cos A-1)=0$。\n\n因为$C\\in(0,\\pi)$，所以$\\sin C\\neq 0$，\n\n所以$\\sqrt{3}\\sin A-\\cos A=1$，即$2(\\frac{\\sqrt{3}}{2}\\sin A-\\frac{1}{2}\\cos A)=1$，\n\n于是$\\sin(A-\\frac{\\pi}{6})=\\frac{1}{2}$。\n\n又$A\\in(0,\\pi)$，所以$A-\\frac{\\pi}{6}=\\frac{\\pi}{6}$，即$A=\\frac{\\pi}{3}$。\n\n答案：$\\frac{\\pi}{3}$"
+    },
+    {
+        "id": "722",
+        "question": "在锐角三角形ABC中, 角A, B, C的对边分别为a, b, c, $\\frac{b}{a}+\\frac{a}{b}=6\\cos C$, 则$\\frac{\\tan C}{\\tan A}+\\frac{\\tan C}{\\tan B}=$______.",
+        "answer": "$\\because \\frac{b}{a}+\\frac{a}{b}=6\\cos C$,\n$\\therefore \\frac{b^{2}+a^{2}}{ab}=6\\cdot \\frac{a^{2}+b^{2}-c^{2}}{2ab}$,\n$\\therefore 2a^{2}+2b^{2}=3c^{2}$.\n\n而$\\frac{\\tan C}{\\tan A}+\\frac{\\\tan C}{\\tan B}=\\frac{\\sin C\\cos A}{\\sin A\\cos C}+\\frac{\\sin C\\cos B}{\\sin B\\cos C}$,\n\n由正弦定理及余弦定理的推论可得\n$\\frac{\\tan C}{\\tan A}+\\frac{\\tan C}{\\tan B}=\\frac{1}{\\cos C}(\\frac{c}{a}\\cdot \\frac{c^{2}+b^{2}-a^{2}}{2bc}+\\frac{c}{b}\\cdot \\frac{a^{2}+c^{2}-b^{2}}{2ac})$\n\n$=\\frac{1}{\\cos C}\\cdot \\frac{2c^{2}}{2ab}$\n\n$=\\frac{2ab}{a^{2}+b^{2}-c^{2}}\\cdot \\frac{2c^{2}}{2ab}$\n\n$=\\frac{2c^{2}}{a^{2}+b^{2}-c^{2}}$\n\n$=4$."
+    },
+    {
+        "id": "723",
+        "question": "在△ABC中, 已知(a+b+c)(a+b-c)=3ab, 且2cos Asin B=sin C, 试确定△ABC的形状.",
+        "answer": "方法一(利用边的关系来判断)\n由正弦定理得 $\\frac{\\sin C}{\\sin B}=\\frac{c}{b}$, 由2cos Asin B=sin C, 得$\\cos A=\\frac{\\sin C}{2\\sin B}=\\frac{c}{2b}$.\n又$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}$, $\\therefore\\frac{c}{2b}=\\frac{b^{2}+c^{2}-a^{2}}{2bc}$, 即$c^{2}=b^{2}+c^{2}-a^{2}$,\n$\\therefore a=b$.\n又(a+b+c)(a+b-c)=3ab,\n$\\therefore(a+b)^{2}-c^{2}=3ab$,\n$\\therefore4b^{2}-c^{2}=3b^{2}$,\n$\\therefore b=c$.\n综上, a=b=c, $\\therefore$ △ABC为等边三角形."
+    },
+    {
+        "id": "724",
+        "question": "在△ABC中，A=60°，AC=4，BC=2$\\sqrt{3}$，则△ABC的面积等于______.",
+        "answer": "（先求出角度，再利用三角形的面积公式S=$\\frac{1}{2}$absinC求解）\n\n在△ABC中，根据正弦定理，得$\\frac{AC}{\\sin B}=\\frac{BC}{\\sin A}$，\n所以$\\frac{4}{\\sin B}=\\frac{2\\sqrt{3}}{\\sin 60°}$，解得sin B=1.\n因为B∈(0°,120°)，所以B=90°，所以C=30°,\n所以△ABC的面积S_{△ABC}=$\\frac{1}{2}$·AC·BC·sin C=2$\\sqrt{3}$."
+    },
+    {
+        "id": "725",
+        "question": "在△ABC中,内角A,B,C所对的边分别是a,b,c,且c=2,C=$\\frac{\\pi}{3}$.\n(1)若△ABC的面积等于$\\sqrt{3}$,求a,b;\n(2)若sin B=2sin A,求△ABC的面积.",
+        "answer": "在分析题目的时候要注意三角形面积公式与余弦定理的特点,S=$\\frac{1}{2}$absin C与c^{2}=a^{2}+b^{2}-2abcos C都含有ab,这正是解题的突破口.\n(1)由余弦定理,得a^{2}+b^{2}-ab=4 ①,\n又△ABC的面积等于$\\sqrt{3}$,所以$\\frac{1}{2}$absin C=$\\sqrt{3}$,得ab=4 ②,\n联立①②得方程组$\\left\\{\\begin{array}{l}{{a}^{2}+{b}^{2}-ab=4,}\\\\{ab=4,}\\end{array}\\right.$解得$\\left\\{\\begin{array}{l}{a=2,}\\\\{b=2.}\\end{array}\\right.$\n\n(2)由正弦定理及sin B=2sin A,得b=2a ③,\n联立①③得方程组$\\left\\{\\begin{array}{l}{{a}^{2}+{b}^{2}-ab=4,}\\\\{b=2a,}\\end{array}\\right.$解得$\\left\\{\\begin{array}{l}{a=\\frac{2\\sqrt{3}}{3},}\\\\{b=\\frac{4\\sqrt{3}}{3},}\\end{array}\\right.$\n\n所以△ABC的面积S=$\\frac{1}{2}$absin C=$\\frac{2\\sqrt{3}}{3}$."
+    }
+]
+```
+[{'id': '721', 'question': '已知$a,b,c$分别为$\\triangle ABC$三个内角$A,B,C$的对边，$acosC+\\sqrt{3}asinC-b-c=0$，则$A=\\qquad$。', 'answer': '由正弦定理及$acosC+\\sqrt{3}asinC-b-c=0$，可得\n\n$\\sin AcosC+\\sqrt{3}\\sin AsinC-\\sin B-\\sin C=0$，\n\n注意到$\\sin B=\\sin(A+C)$，\n\n则$\\sin AcosC+\\sqrt{3}\\sin AsinC-\\sin(A+C)-\\sin C=0$，\n\n于是$\\sin AcosC+\\sqrt{3}\\sin AsinC-(\\sin AcosC+\\cos AsinC)-\\sin C=0$，\n\n整理可得$\\sqrt{3}\\sin AsinC-\\cos AsinC-\\sin C=0$。\n\n即$\\sin C(\\sqrt{3}\\sin A-\\cos A-1)=0$。\n\n因为$C\\in(0,\\pi)$，所以$\\sin C\\neq 0$，\n\n所以$\\sqrt{3}\\sin A-\\cos A=1$，即$2(\\frac{\\sqrt{3}}{2}\\sin A-\\frac{1}{2}\\cos A)=1$，\n\n于是$\\sin(A-\\frac{\\pi}{6})=\\frac{1}{2}$。\n\n又$A\\in(0,\\pi)$，所以$A-\\frac{\\pi}{6}=\\frac{\\pi}{6}$，即$A=\\frac{\\pi}{3}$。\n\n答案：$\\frac{\\pi}{3}$'}, {'id': '722', 'question': '在锐角三角形ABC中, 角A, B, C的对边分别为a, b, c, $\\frac{b}{a}+\\frac{a}{b}=6\\cos C$, 则$\\frac{\\tan C}{\\tan A}+\\frac{\\tan C}{\\tan B}=$______.', 'answer': '$\\because \\frac{b}{a}+\\frac{a}{b}=6\\cos C$,\n$\\therefore \\frac{b^{2}+a^{2}}{ab}=6\\cdot \\frac{a^{2}+b^{2}-c^{2}}{2ab}$,\n$\\therefore 2a^{2}+2b^{2}=3c^{2}$.\n\n而$\\frac{\\tan C}{\\tan A}+\\frac{\\\tan C}{\\tan B}=\\frac{\\sin C\\cos A}{\\sin A\\cos C}+\\frac{\\sin C\\cos B}{\\sin B\\cos C}$,\n\n由正弦定理及余弦定理的推论可得\n$\\frac{\\tan C}{\\tan A}+\\frac{\\tan C}{\\tan B}=\\frac{1}{\\cos C}(\\frac{c}{a}\\cdot \\frac{c^{2}+b^{2}-a^{2}}{2bc}+\\frac{c}{b}\\cdot \\frac{a^{2}+c^{2}-b^{2}}{2ac})$\n\n$=\\frac{1}{\\cos C}\\cdot \\frac{2c^{2}}{2ab}$\n\n$=\\frac{2ab}{a^{2}+b^{2}-c^{2}}\\cdot \\frac{2c^{2}}{2ab}$\n\n$=\\frac{2c^{2}}{a^{2}+b^{2}-c^{2}}$\n\n$=4$.'}, {'id': '723', 'question': '在△ABC中, 已知(a+b+c)(a+b-c)=3ab, 且2cos Asin B=sin C, 试确定△ABC的形状.', 'answer': '方法一(利用边的关系来判断)\n由正弦定理得 $\\frac{\\sin C}{\\sin B}=\\frac{c}{b}$, 由2cos Asin B=sin C, 得$\\cos A=\\frac{\\sin C}{2\\sin B}=\\frac{c}{2b}$.\n又$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}$, $\\therefore\\frac{c}{2b}=\\frac{b^{2}+c^{2}-a^{2}}{2bc}$, 即$c^{2}=b^{2}+c^{2}-a^{2}$,\n$\\therefore a=b$.\n又(a+b+c)(a+b-c)=3ab,\n$\\therefore(a+b)^{2}-c^{2}=3ab$,\n$\\therefore4b^{2}-c^{2}=3b^{2}$,\n$\\therefore b=c$.\n综上, a=b=c, $\\therefore$ △ABC为等边三角形.'}, {'id': '724', 'question': '在△ABC中，A=60°，AC=4，BC=2$\\sqrt{3}$，则△ABC的面积等于______.', 'answer': '（先求出角度，再利用三角形的面积公式S=$\\frac{1}{2}$absinC求解）\n\n在△ABC中，根据正弦定理，得$\\frac{AC}{\\sin B}=\\frac{BC}{\\sin A}$，\n所以$\\frac{4}{\\sin B}=\\frac{2\\sqrt{3}}{\\sin 60°}$，解得sin B=1.\n因为B∈(0°,120°)，所以B=90°，所以C=30°,\n所以△ABC的面积S_{△ABC}=$\\frac{1}{2}$·AC·BC·sin C=2$\\sqrt{3}$.'}, {'id': '725', 'question': '在△ABC中,内角A,B,C所对的边分别是a,b,c,且c=2,C=$\\frac{\\pi}{3}$.\n(1)若△ABC的面积等于$\\sqrt{3}$,求a,b;\n(2)若sin B=2sin A,求△ABC的面积.', 'answer': '在分析题目的时候要注意三角形面积公式与余弦定理的特点,S=$\\frac{1}{2}$absin C与c^{2}=a^{2}+b^{2}-2abcos C都含有ab,这正是解题的突破口.\n(1)由余弦定理,得a^{2}+b^{2}-ab=4 ①,\n又△ABC的面积等于$\\sqrt{3}$,所以$\\frac{1}{2}$absin C=$\\sqrt{3}$,得ab=4 ②,\n联立①②得方程组$\\left\\{\\begin{array}{l}{{a}^{2}+{b}^{2}-ab=4,}\\\\{ab=4,}\\end{array}\\right.$解得$\\left\\{\\begin{array}{l}{a=2,}\\\\{b=2.}\\end{array}\\right.$\n\n(2)由正弦定理及sin B=2sin A,得b=2a ③,\n联立①③得方程组$\\left\\{\\begin{array}{l}{{a}^{2}+{b}^{2}-ab=4,}\\\\{b=2a,}\\end{array}\\right.$解得$\\left\\{\\begin{array}{l}{a=\\frac{2\\sqrt{3}}{3},}\\\\{b=\\frac{4\\sqrt{3}}{3},}\\end{array}\\right.$\n\n所以△ABC的面积S=$\\frac{1}{2}$absin C=$\\frac{2\\sqrt{3}}{3}$.'}]
+🔄 正在处理第 75 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "726",
+    "question": "在△ABC中，a=$\\sqrt{3}$，b=$\\sqrt{2}$，B=45°，求角A，C和边c．",
+    "answer": "由正弦定理$\\frac{a}{\\sin A}$=$\\frac{b}{\\sin B}$，得$\\frac{\\sqrt{3}}{\\sin A}$=$\\frac{\\sqrt{2}}{\\sin 45°}$，∴$\\sin A$=$\\frac{\\sqrt{3}}{2}$，由a＞b得A=60°或A=120°．当A=60°时，C=180°-45°-60°=75°．∵$\\sin 75°$=$\\sin(45°+30°)$=$\\sin 45°\\cos 30°+\\cos 45°\\sin 30°$=$\\frac{\\sqrt{2}+\\sqrt{6}}{4}$，∴c=$\\frac{b\\sin C}{\\sin B}$=$\\frac{\\sqrt{2}+\\sqrt{6}}{2}$．当A=120°时，C=180°-45°-120°=15°．∵$\\sin 15°$=$\\sin(45°-30°)$=$\\sin 45°\\cos 30°-\\cos 45°\\sin 30°$=$\\frac{\\sqrt{6}-\\sqrt{2}}{4}$，∴c=$\\frac{b\\sin C}{\\sin B}$=$\\frac{\\sqrt{6}-\\sqrt{2}}{2}$．综上，A=60°，C=75°，c=$\\frac{\\sqrt{2}+\\sqrt{6}}{2}$或A=120°，C=15°，c=$\\frac{\\sqrt{6}-\\sqrt{2}}{2}$．"
+  },
+  {
+    "id": "727",
+    "question": "已知 $2a+1$, $a$, $2a-1$ 是钝角三角形的三边，则实数 $a$ 的取值范围为 ______.",
+    "answer": "$\\because 2a+1$, $a$, $2a-1$ 是三角形的三边，$\\therefore \\left\\{\\begin{array}{l} 2a+1 > 0, \\\\ a > 0, \\quad \\text{解得 } a > \\frac{1}{2}. \\\\ 2a-1 > 0, \\end{array}\\right.$要使 $2a+1$, $a$, $2a-1$ 构成三角形，需满足$\\left\\{\\begin{array}{l} 2a+1+a > 2a-1, \\\\ a+2a-1 > 2a+1, \\\\ 2a+1+2a-1 > a, \\end{array}\\right.$解得 $a > 2$.由题知 $2a+1$ 是三角形的最大边，设其对应的角为 $\\theta$ (钝角)，则 $\\cos \\theta = \\frac{a^2+(2a-1)^2-(2a+1)^2}{2a(2a-1)} < 0$,$\\therefore a^2+(2a-1)^2-(2a+1)^2 < 0$, 即 $a^2-8a < 0$, 解得 $0 < a < 8$.又 $a > 2$, $\\therefore a$ 的取值范围为 $(2,8)$.答案： $(2,8)$"
+  },
+  {
+    "id": "728",
+    "question": "$\\triangle ABC$的内角A、B、C的对边分别为$a$，$b$，$c$. 已知$b\\sin C+c\\sin B=4a\\sin B\\sin C$，$b^{2}+c^{2}-a^{2}=8$，则$\\triangle ABC$的面积为？",
+    "answer": "由正弦定理及$b\\sin C+c\\sin B=4a\\sin B\\sin C$，得$\\sin B\\sin C+\\sin C\\sin B=4\\sin A\\sin B\\sin C$，因为$\\sin B\\sin C\\neq 0$，所以$\\sin A=\\frac{1}{2}$. 由余弦定理的推论得$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{\\sqrt{3}}{2}$，因为$b^{2}+c^{2}-a^{2}=8$，所以$bc=\\frac{8\\sqrt{3}}{3}$，所以$S_{\\triangle ABC}=\\frac{1}{2}bc\\sin A=\\frac{1}{2}\\times\\frac{8\\sqrt{3}}{3}\\times\\frac{1}{2}={\\frac{2\\sqrt{3}}{3}}$.答案: ${\\frac{2\\sqrt{3}}{3}}$"
+  },
+  {
+    "id": "729",
+    "question": "在△ABC中,内角A,B,C的对边分别为a,b,c,若asinBcosC+csinBcosA=$\\frac{1}{2}$b,且a>b,则B=",
+    "answer": "由asinBcosC+csinBcosA=$\\frac{1}{2}$b得(acosC+ccosA)sinB=$\\frac{1}{2}$b.由射影定理可得ccosA+acosC=b,所以sinB=$\\frac{1}{2}$,注意到a>b,则B=$\\frac{\\pi}{6}$."
+  },
+  {
+    "id": "730",
+    "question": "在平面四边形ABCD中，∠ADC=90°，A=45°，AB=2，BD=5。(1) 求cos∠ADB;(2) 若DC=2√2，求BC.",
+    "answer": "(1) 在△ABD中，由正弦定理得$\\frac{BD}{\\sin A} = \\frac{AB}{\\sin ∠ADB}$所以$\\frac{5}{\\sin 45°} = \\frac{2}{\\sin ∠ADB}$所以$\\sin ∠ADB = \\frac{\\sqrt{2}}{5}$由BD＞AB知，∠ADB＜90°，所以$\\cos ∠ADB = \\sqrt{1 - \\frac{2}{25}} = \\frac{\\sqrt{23}}{5}$(2) 由题设及(1)知，cos∠BDC=sin∠ADB=$\\frac{\\sqrt{2}}{5}$。在△BCD中，由余弦定理得$BC^2 = BD^2 + DC^2 - 2BD \\cdot DC \\cdot \\cos ∠BDC$$= 25 + 8 - 2 \\times 5 \\times 2\\sqrt{2} \\times \\frac{\\sqrt{2}}{5}$$= 25$所以BC=5。"
+  }
+]
+```
+[{'id': '726', 'question': '在△ABC中，a=$\\sqrt{3}$，b=$\\sqrt{2}$，B=45°，求角A，C和边c．', 'answer': '由正弦定理$\\frac{a}{\\sin A}$=$\\frac{b}{\\sin B}$，得$\\frac{\\sqrt{3}}{\\sin A}$=$\\frac{\\sqrt{2}}{\\sin 45°}$，∴$\\sin A$=$\\frac{\\sqrt{3}}{2}$，由a＞b得A=60°或A=120°．当A=60°时，C=180°-45°-60°=75°．∵$\\sin 75°$=$\\sin(45°+30°)$=$\\sin 45°\\cos 30°+\\cos 45°\\sin 30°$=$\\frac{\\sqrt{2}+\\sqrt{6}}{4}$，∴c=$\\frac{b\\sin C}{\\sin B}$=$\\frac{\\sqrt{2}+\\sqrt{6}}{2}$．当A=120°时，C=180°-45°-120°=15°．∵$\\sin 15°$=$\\sin(45°-30°)$=$\\sin 45°\\cos 30°-\\cos 45°\\sin 30°$=$\\frac{\\sqrt{6}-\\sqrt{2}}{4}$，∴c=$\\frac{b\\sin C}{\\sin B}$=$\\frac{\\sqrt{6}-\\sqrt{2}}{2}$．综上，A=60°，C=75°，c=$\\frac{\\sqrt{2}+\\sqrt{6}}{2}$或A=120°，C=15°，c=$\\frac{\\sqrt{6}-\\sqrt{2}}{2}$．'}, {'id': '727', 'question': '已知 $2a+1$, $a$, $2a-1$ 是钝角三角形的三边，则实数 $a$ 的取值范围为 ______.', 'answer': '$\\because 2a+1$, $a$, $2a-1$ 是三角形的三边，$\\therefore \\left\\{\\begin{array}{l} 2a+1 > 0, \\\\ a > 0, \\quad \\text{解得 } a > \\frac{1}{2}. \\\\ 2a-1 > 0, \\end{array}\\right.$要使 $2a+1$, $a$, $2a-1$ 构成三角形，需满足$\\left\\{\\begin{array}{l} 2a+1+a > 2a-1, \\\\ a+2a-1 > 2a+1, \\\\ 2a+1+2a-1 > a, \\end{array}\\right.$解得 $a > 2$.由题知 $2a+1$ 是三角形的最大边，设其对应的角为 $\\theta$ (钝角)，则 $\\cos \\theta = \\frac{a^2+(2a-1)^2-(2a+1)^2}{2a(2a-1)} < 0$,$\\therefore a^2+(2a-1)^2-(2a+1)^2 < 0$, 即 $a^2-8a < 0$, 解得 $0 < a < 8$.又 $a > 2$, $\\therefore a$ 的取值范围为 $(2,8)$.答案： $(2,8)$'}, {'id': '728', 'question': '$\\triangle ABC$的内角A、B、C的对边分别为$a$，$b$，$c$. 已知$b\\sin C+c\\sin B=4a\\sin B\\sin C$，$b^{2}+c^{2}-a^{2}=8$，则$\\triangle ABC$的面积为？', 'answer': '由正弦定理及$b\\sin C+c\\sin B=4a\\sin B\\sin C$，得$\\sin B\\sin C+\\sin C\\sin B=4\\sin A\\sin B\\sin C$，因为$\\sin B\\sin C\\neq 0$，所以$\\sin A=\\frac{1}{2}$. 由余弦定理的推论得$\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{\\sqrt{3}}{2}$，因为$b^{2}+c^{2}-a^{2}=8$，所以$bc=\\frac{8\\sqrt{3}}{3}$，所以$S_{\\triangle ABC}=\\frac{1}{2}bc\\sin A=\\frac{1}{2}\\times\\frac{8\\sqrt{3}}{3}\\times\\frac{1}{2}={\\frac{2\\sqrt{3}}{3}}$.答案: ${\\frac{2\\sqrt{3}}{3}}$'}, {'id': '729', 'question': '在△ABC中,内角A,B,C的对边分别为a,b,c,若asinBcosC+csinBcosA=$\\frac{1}{2}$b,且a>b,则B=', 'answer': '由asinBcosC+csinBcosA=$\\frac{1}{2}$b得(acosC+ccosA)sinB=$\\frac{1}{2}$b.由射影定理可得ccosA+acosC=b,所以sinB=$\\frac{1}{2}$,注意到a>b,则B=$\\frac{\\pi}{6}$.'}, {'id': '730', 'question': '在平面四边形ABCD中，∠ADC=90°，A=45°，AB=2，BD=5。(1) 求cos∠ADB;(2) 若DC=2√2，求BC.', 'answer': '(1) 在△ABD中，由正弦定理得$\\frac{BD}{\\sin A} = \\frac{AB}{\\sin ∠ADB}$所以$\\frac{5}{\\sin 45°} = \\frac{2}{\\sin ∠ADB}$所以$\\sin ∠ADB = \\frac{\\sqrt{2}}{5}$由BD＞AB知，∠ADB＜90°，所以$\\cos ∠ADB = \\sqrt{1 - \\frac{2}{25}} = \\frac{\\sqrt{23}}{5}$(2) 由题设及(1)知，cos∠BDC=sin∠ADB=$\\frac{\\sqrt{2}}{5}$。在△BCD中，由余弦定理得$BC^2 = BD^2 + DC^2 - 2BD \\cdot DC \\cdot \\cos ∠BDC$$= 25 + 8 - 2 \\times 5 \\times 2\\sqrt{2} \\times \\frac{\\sqrt{2}}{5}$$= 25$所以BC=5。'}]
+🔄 正在处理第 80 条内容（共 193 条）...
+80跳过
+🔄 正在处理第 85 条内容（共 193 条）...
+85跳过
+🔄 正在处理第 90 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "782",
+    "question": "已知关于*的方程*2+2 $(2-m$ ） *+3-6m=0\n（1）求证：无论m取什么实数，方程总有实数根；\n\n（2）如果方程的两个实数根*、*2满足$*_1=3^*2$ ，求实数m 的值。",
+    "answer": "考点：根的判别式：解一元二次方程-因式分解法：根与系数的关系\n\n专题：计算题；证明题. 分析：（1）证明一元二次方程根的判别式恒大于0，即可解答；\n\n（2）根据一元二次方程根与系数的关系$*_{1}+*_{2}=4*_{2}=-2$ *+*=4*=-2 $*_{1}+*_{2}=4*_{2}=-2(2-m)=2m-4$ ，以及$*_{1}\\bullet*_{2}=3*^{2}{2}=3-6$m 即可求得m 的值\n\n解答： 解：（1）证明：关于*的方程1*2+2 (2-m） $*+3-6m=0$ 中， $\\triangle=4(2-m)^2-4(3-6m)=4(m+1)^2\\geq0$ 无论m取什么实数，方程总有实数根（2）如果方程的两个实数根$\\because^{*}1$ ， $*_2$ 满足$*_1=3^*2$ ， 则$*_1+*_2=4*_2=-2(2-$m)=2m-41 $\\because*1^{\\bullet*}2=3^{*2}2=3-6$m, $\\therefore*{}_2^2=1-2m\\textcircled{2}$ 把$\\textcircled{1}$ 代入$\\textcircled{2}$ 得m $(m+4)=0$ ， 即$m=0$ ，或$m=-4$ 答：实数m 的值是0或-4点评：解答此题的关键是熟知一元二次方程根的情况与判别式△的关系，及根与系数的关系：\n\n(1) $\\Delta>0\\Leftrightarrow$ 方程有两个不相等的实数根： (2) $\\triangle=0\\Leftrightarrow$ 方程有两个相等的实数根； (3) $\\triangle<0\\Leftrightarrow$ 方程没有实数根（4）若一元二次方程有实数根， ${\\mathbf{则 } }^{* }{}_{1}+ {\\mathbf{k} }_{2}= - {\\frac ba}$ , ${\\mathbf{* } }_{1}^{* }{2}= {\\frac ca}$ $*_{1}*_{2}=\\frac{c}{a}$ **"
+  },
+  {
+    "id": "783",
+    "question": "对关于*的一元二次方程a*2+b*+c=0（a≠0）\n\n（1）当a、c异号时，试证明该方程必有两个不相等的实数根；\n\n（2）当a、c同号时，该方程要有实数根，还须满足什么条件请你找出一个a、c同号且有实数根的一元二次方程，然后解这个方程大学搜题酱",
+    "answer": "考点：根的判别式；解一元二次方程-因式分解法专题：证明题；开放型\n\n分析：利用一元二次方程根的情况与判别式△的关系解答\n\n解答：解：（1）a、c异号，\n.ac <0 .-4ac >0又b $2\\geq0$ ，\n\n$\\therefore\\triangle=b^{2}-4ac>0$,\n\n方程有两个不相等的实数根\n\n（2）当a、c同号时，方程$a^{*2}+b^{*}+c=0$ $a\\neq0$ ）有实数根还需满足$b^2$ -4ac20， 如$a=1$ ， $b=-3$ ， $c=2$ 时，\n\n$$\\triangle=b^2-4ac=(-3)^2-4\\times1\\times2=1>0\\:,$$\n方程为* $-3^{*}+2=0$ ， 解得： $*_1=1$ ， $*_2=3$\n\n点评：解答此题要根据一元二次方程根的情况与判别式△的关系\n\n(1) $\\Delta>0\\Leftrightarrow$ 方程有两个不相等的实数根； (2) $\\triangle=0\\Leftrightarrow$ 方程有两个相等的实数根； (3) $\\triangle<0\\Leftrightarrow$ 方程没有实数根"
+  },
+  {
+    "id": "784",
+    "question": "已知关于*的一元二次方程$\\mathbf{x}^{2}-2$k x$+\\frac12\\mathrm{k}^{2}-2=0$\n\n## （1）求证：不论k取何值，方程总有两个不相等的实数根；\n\n(2）设$*_1$ 、 $*_2$ 是方程的两个根，且$*_{1}^{2}-2k^{*}_{1}+2^{*}_{1}^{*}_{2}=5$ ，求k的值：",
+    "answer": "考点：根与系数的关系：根的判别式\n\n专题：计算题；证明题；压轴题\n\n分析：（1）要保证方程总有两个不相等的实数根，就必须使$\\Delta>0$ 恒成立； （2）欲求k的值，先把此代数式变形为两根之积或两根之和的形式，代入数值计算即可，\n\n解答：解：（1）已知关于*的一元二次方程$x^{2}- 2$kx+ $\\frac 12\\mathrm{k} ^{2}- 2= 0$\n$$\\therefore\\triangle=(-2k)^2-4\\times(\\frac{1}{2}k^2-2)=2k^2+8\\:,$$\n$2k^{2}+8>0$ 恒成立， 不论k取何值，方程总有两个不相等的实数根\n\n（2）*、 $*_2$ 是方程的两个根\n\n![](https://storage.simpletex.cn/view/fEhb3QcvaY773tLAa1DRFVoU6hGyhOTDA)\n\n------------------------------------------------------------------\n\n$$\\therefore^{*}{}_{1}^{2}-2k^{*}{}_{1}+2^{*}{}_{2}^{*}=^{*}{}_{1}^{2}-\\quad(^{*}{}_{1}+^{*}{}_{2})\\quad^{*}{}_{1}+2^{*}{}_{1}^{*}{}_{2}=^{*}{}_{1}^{*}{}_{2}=\\frac{1}{2}k^{2}-2=5\\:,$$\n解得k=± $k=\\pm$ $k=\\pm\\sqrt{14}$ 点评：此题主要考查了根与系数的关系，将根与系数的关系与代数式变形相结合解题是一种经常使用的解题方\n\n法："
+  },
+  {
+    "id": "785",
+    "question": "已知关于*的方程*2－2（ $m+1$ ) *+m2-3=0\n\n（1）当m取何值时，方程有两个不相等的实数根\n（2）设*、*2是方程的两根，且$(*_1+*_2)^2-(*_1+*_2)-12=0$ 求m的值",
+    "answer": "考点：根与系数的关系：解一元二次方程-因式分解法；根的判别式\n\n专题：压轴题.\n\n分析： （1）若一元二次方程有两不等实数根，则根的判别式=b2 $=b^2$ $\\triangle=b^{2}-4ac>0$ ，建立关于m 的不等式，求出m 的取值范围（2）给出方程的两根，根据所给方程形式，可利用一元二次方程根与系数的关系得到$\\vert*_{1}+*_{2}=2$ $(m+1$ ）代入且$(*_1+*_2)$ (*+*2） $(*_1+*_2)^2-(*_1+*_2)-12=0$ （*+*2） (*1+*2) ，即可解答.\n\n解答：解：（1）方程有两个不相等的实数根，\n$$\\therefore\\triangle=b^2-4ac=[-2(m+1)]^2-4\\times1\\times(m^2-3)=16+8m>0\\:,$$\n解得： $m>-2$ ； （2）根据根与系数的关系可得： $* _1+ * _2= 2$ (m+1) *+*2*+*-12=0\n$$:[2(m+1)]^{2}-2(m+1)-12=0\\:,$$\n解得： $m_1=1$ 或$\\mathbf{m}_{2}=-\\frac{5}{2}$ （舍去） $\\because m>-2$ ： $\\therefore m=1$ . 点评：根据方程的根的情况即可得到关于未知系数的不等式，转化为结不等式的问题，另外（2）把求未知系数的\n\n问题，根据一元二次方程的根与系数的关系即可转化为方程的问题"
+  },
+  {
+    "id": "786",
+    "question": "设a，b，c是△ABC三边的长，且关于的方程*2+n+b*2-n-2 $\\therefore\\sqrt{\\mathrm{n}}\\mathrm{a}^*=0$ $n>0$ ）有两个实数根，求证： \n\n### △ABC是直角三角形.",
+    "answer": "考点：根的判别式：勾股定理的逆定理\n\n专题：证明题；压轴题\n\n分析：先把关于*的方程整理成一元二次方程的一般形式，再根据方程由两个相等的实数根即可得出a、b、c的关系，进而得出结论解答：证明：关于*的方程c( $:*^{2}+n$ （#2 $1^{*}=0$ $\\langle n>0\\rangle$ 可化为$(c+b$ ) -2V/+ $*^{2}-2$a$\\sqrt{\\mathrm{n}^{*}+}$ $*^2-2$a$\\sqrt\\mathbf{n}^*+(c-b)$ n=0 n=0 $n=0$ ·\n\n$\\therefore\\triangle=(-2a\\sqrt{n})$ 安=0 $a^2=b^2+c^2$\n\na，b，c是△ABC三边的长品$\\Delta$ ABC是直角三角形\n\n点评：本题考查的是根的判别式及勾股定理的逆定理，熟知一元二次方程的根与判别式之间的关系是解答此题的关键"
+  }
+]
+```
+[{'id': '782', 'question': '已知关于*的方程*2+2 $(2-m$ ） *+3-6m=0\n（1）求证：无论m取什么实数，方程总有实数根；\n\n（2）如果方程的两个实数根*、*2满足$*_1=3^*2$ ，求实数m 的值。', 'answer': '考点：根的判别式：解一元二次方程-因式分解法：根与系数的关系\n\n专题：计算题；证明题. 分析：（1）证明一元二次方程根的判别式恒大于0，即可解答；\n\n（2）根据一元二次方程根与系数的关系$*_{1}+*_{2}=4*_{2}=-2$ *+*=4*=-2 $*_{1}+*_{2}=4*_{2}=-2(2-m)=2m-4$ ，以及$*_{1}\\bullet*_{2}=3*^{2}{2}=3-6$m 即可求得m 的值\n\n解答： 解：（1）证明：关于*的方程1*2+2 (2-m） $*+3-6m=0$ 中， $\\triangle=4(2-m)^2-4(3-6m)=4(m+1)^2\\geq0$ 无论m取什么实数，方程总有实数根（2）如果方程的两个实数根$\\because^{*}1$ ， $*_2$ 满足$*_1=3^*2$ ， 则$*_1+*_2=4*_2=-2(2-$m)=2m-41 $\\because*1^{\\bullet*}2=3^{*2}2=3-6$m, $\\therefore*{}_2^2=1-2m\\textcircled{2}$ 把$\\textcircled{1}$ 代入$\\textcircled{2}$ 得m $(m+4)=0$ ， 即$m=0$ ，或$m=-4$ 答：实数m 的值是0或-4点评：解答此题的关键是熟知一元二次方程根的情况与判别式△的关系，及根与系数的关系：\n\n(1) $\\Delta>0\\Leftrightarrow$ 方程有两个不相等的实数根： (2) $\\triangle=0\\Leftrightarrow$ 方程有两个相等的实数根； (3) $\\triangle<0\\Leftrightarrow$ 方程没有实数根（4）若一元二次方程有实数根， ${\\mathbf{则 } }^{* }{}_{1}+ {\\mathbf{k} }_{2}= - {\\frac ba}$ , ${\\mathbf{* } }_{1}^{* }{2}= {\\frac ca}$ $*_{1}*_{2}=\\frac{c}{a}$ **'}, {'id': '783', 'question': '对关于*的一元二次方程a*2+b*+c=0（a≠0）\n\n（1）当a、c异号时，试证明该方程必有两个不相等的实数根；\n\n（2）当a、c同号时，该方程要有实数根，还须满足什么条件请你找出一个a、c同号且有实数根的一元二次方程，然后解这个方程大学搜题酱', 'answer': '考点：根的判别式；解一元二次方程-因式分解法专题：证明题；开放型\n\n分析：利用一元二次方程根的情况与判别式△的关系解答\n\n解答：解：（1）a、c异号，\n.ac <0 .-4ac >0又b $2\\geq0$ ，\n\n$\\therefore\\triangle=b^{2}-4ac>0$,\n\n方程有两个不相等的实数根\n\n（2）当a、c同号时，方程$a^{*2}+b^{*}+c=0$ $a\\neq0$ ）有实数根还需满足$b^2$ -4ac20， 如$a=1$ ， $b=-3$ ， $c=2$ 时，\n\n$$\\triangle=b^2-4ac=(-3)^2-4\\times1\\times2=1>0\\:,$$\n方程为* $-3^{*}+2=0$ ， 解得： $*_1=1$ ， $*_2=3$\n\n点评：解答此题要根据一元二次方程根的情况与判别式△的关系\n\n(1) $\\Delta>0\\Leftrightarrow$ 方程有两个不相等的实数根； (2) $\\triangle=0\\Leftrightarrow$ 方程有两个相等的实数根； (3) $\\triangle<0\\Leftrightarrow$ 方程没有实数根'}, {'id': '784', 'question': '已知关于*的一元二次方程$\\mathbf{x}^{2}-2$k x$+\\frac12\\mathrm{k}^{2}-2=0$\n\n## （1）求证：不论k取何值，方程总有两个不相等的实数根；\n\n(2）设$*_1$ 、 $*_2$ 是方程的两个根，且$*_{1}^{2}-2k^{*}_{1}+2^{*}_{1}^{*}_{2}=5$ ，求k的值：', 'answer': '考点：根与系数的关系：根的判别式\n\n专题：计算题；证明题；压轴题\n\n分析：（1）要保证方程总有两个不相等的实数根，就必须使$\\Delta>0$ 恒成立； （2）欲求k的值，先把此代数式变形为两根之积或两根之和的形式，代入数值计算即可，\n\n解答：解：（1）已知关于*的一元二次方程$x^{2}- 2$kx+ $\\frac 12\\mathrm{k} ^{2}- 2= 0$\n$$\\therefore\\triangle=(-2k)^2-4\\times(\\frac{1}{2}k^2-2)=2k^2+8\\:,$$\n$2k^{2}+8>0$ 恒成立， 不论k取何值，方程总有两个不相等的实数根\n\n（2）*、 $*_2$ 是方程的两个根\n\n![](https://storage.simpletex.cn/view/fEhb3QcvaY773tLAa1DRFVoU6hGyhOTDA)\n\n------------------------------------------------------------------\n\n$$\\therefore^{*}{}_{1}^{2}-2k^{*}{}_{1}+2^{*}{}_{2}^{*}=^{*}{}_{1}^{2}-\\quad(^{*}{}_{1}+^{*}{}_{2})\\quad^{*}{}_{1}+2^{*}{}_{1}^{*}{}_{2}=^{*}{}_{1}^{*}{}_{2}=\\frac{1}{2}k^{2}-2=5\\:,$$\n解得k=± $k=\\pm$ $k=\\pm\\sqrt{14}$ 点评：此题主要考查了根与系数的关系，将根与系数的关系与代数式变形相结合解题是一种经常使用的解题方\n\n法：'}, {'id': '785', 'question': '已知关于*的方程*2－2（ $m+1$ ) *+m2-3=0\n\n（1）当m取何值时，方程有两个不相等的实数根\n（2）设*、*2是方程的两根，且$(*_1+*_2)^2-(*_1+*_2)-12=0$ 求m的值', 'answer': '考点：根与系数的关系：解一元二次方程-因式分解法；根的判别式\n\n专题：压轴题.\n\n分析： （1）若一元二次方程有两不等实数根，则根的判别式=b2 $=b^2$ $\\triangle=b^{2}-4ac>0$ ，建立关于m 的不等式，求出m 的取值范围（2）给出方程的两根，根据所给方程形式，可利用一元二次方程根与系数的关系得到$\\vert*_{1}+*_{2}=2$ $(m+1$ ）代入且$(*_1+*_2)$ (*+*2） $(*_1+*_2)^2-(*_1+*_2)-12=0$ （*+*2） (*1+*2) ，即可解答.\n\n解答：解：（1）方程有两个不相等的实数根，\n$$\\therefore\\triangle=b^2-4ac=[-2(m+1)]^2-4\\times1\\times(m^2-3)=16+8m>0\\:,$$\n解得： $m>-2$ ； （2）根据根与系数的关系可得： $* _1+ * _2= 2$ (m+1) *+*2*+*-12=0\n$$:[2(m+1)]^{2}-2(m+1)-12=0\\:,$$\n解得： $m_1=1$ 或$\\mathbf{m}_{2}=-\\frac{5}{2}$ （舍去） $\\because m>-2$ ： $\\therefore m=1$ . 点评：根据方程的根的情况即可得到关于未知系数的不等式，转化为结不等式的问题，另外（2）把求未知系数的\n\n问题，根据一元二次方程的根与系数的关系即可转化为方程的问题'}, {'id': '786', 'question': '设a，b，c是△ABC三边的长，且关于的方程*2+n+b*2-n-2 $\\therefore\\sqrt{\\mathrm{n}}\\mathrm{a}^*=0$ $n>0$ ）有两个实数根，求证： \n\n### △ABC是直角三角形.', 'answer': '考点：根的判别式：勾股定理的逆定理\n\n专题：证明题；压轴题\n\n分析：先把关于*的方程整理成一元二次方程的一般形式，再根据方程由两个相等的实数根即可得出a、b、c的关系，进而得出结论解答：证明：关于*的方程c( $:*^{2}+n$ （#2 $1^{*}=0$ $\\langle n>0\\rangle$ 可化为$(c+b$ ) -2V/+ $*^{2}-2$a$\\sqrt{\\mathrm{n}^{*}+}$ $*^2-2$a$\\sqrt\\mathbf{n}^*+(c-b)$ n=0 n=0 $n=0$ ·\n\n$\\therefore\\triangle=(-2a\\sqrt{n})$ 安=0 $a^2=b^2+c^2$\n\na，b，c是△ABC三边的长品$\\Delta$ ABC是直角三角形\n\n点评：本题考查的是根的判别式及勾股定理的逆定理，熟知一元二次方程的根与判别式之间的关系是解答此题的关键'}]
+🔄 正在处理第 95 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "787",
+    "question": "题乙：已知关于*的一元二次方程$*2-2k^{*}+k^{2}+2=2$ （1-*）有两个实数根$*_1$ 、 $*_2$\n\n（1）求实数k的取值范围；\n\n## （2）若方程的两实数根$*_1$ 、 $*_2$ 满足$\left|^{*}1+^{*}2\right|=^{*}1^{*}2-1$ ，求k的值，",
+    "answer": "考点：根与系数的关系；根的判别式\n\n专题：计算题\n\n分析：\n\n（1）先把方程化为一般式得到*-2（k-1） $*+\\mathrm{k}^2=0$ ，根据根的判别式的意义得到△= $4(k-1)^{2}-4k^{2}\\geq0$ 然后解不等式即可；\n\n（2）根据根与系数的关系得到$\\vert*_1+*_2=2$ （k-1）， $*_1^{*}{}_2^{*}=\\mathbf{k}^2$ ，则2（k-1）｜=k2-1，利用（1）的$k$ 的范围去绝对值后解方程得到$k_1=-3$ ， $k_2=1$ ，然后根据（1）中$k$ 的范围确定$k$ 的值，"
+  },
+  {
+    "id": "788",
+    "question": "若关于*的方程$*2+4^{*}-a+3=0$ 有实数根.\n\n（1）求a的取值范围；\n\n（2）当$a=2012$ 时，设方程的两根为$*_1$ 、 $*_2$ ，求$*_12+3^*1-*_2$ 的值：",
+    "answer": "考点：根的判别式：根与系数的关系， 分析：\n\n（1）若一元二次方程有实数根，则根的判别式△ $=b^2$ -4ac20，建立关于a的不等式，解不等式即可；\n\n（2）首先把$a=2012$ 代入关于*的方程$*^{2}+4^{*}-a+3=0$ 中得$*^2+4^*$ *+4* $*^{2}+4^{*}-2009=0$ ，再利用根与系数的关系即可算出$*_1^2+3^*1-*_2$ 的值"
+  },
+  {
+    "id": "831",
+    "question": "解方程$x^{2}+x+2=\\frac{3}{x^{2}+x}$.",
+    "answer": "解:(配方法)去分母，得$(x^{2}+x)^{2}+2(x^{2}+x)=3$ .配方，得( $x^{2}+$ $x+ 1) ^{2}= 4$ $x^{2}+x+1=-2$ 无解，由$x^{2}+x+1=2$ 解得x1.2=-1±√5经检验， $x_{1,2}=\\frac{-1\\pm\\sqrt{5}}{2}$ 是原方程的解"
+  },
+  {
+    "id": "832",
+    "question": "因式分解法解方程$$\\frac{x^{2}}{x^{2}+2x+1}+\\frac{5x}{x+1}+6=0\\:.$$",
+    "answer": "解原方程可整理为： $(-\\frac{x}{x+1})^{2}+5(\\frac{x}{x+1})+6=0$ .分解因式，得$(\\frac{x}{x+1}+2)(\\frac{x}{x+1}+3)=0$ 由$\\frac{x}{x+1}+2=0$ 和$\\frac{x}{x+1}+3=0$ ，解得$x_{1}=-\\frac{2}{3},x_{2}=-\\frac{3}{4}$ 经检验， $x_{1}=-\\frac{2}{3}$ x=-2 $x_{1}=-\\frac{2}{3},x_{2}=-\\frac{3}{4}$ 是原方程的解"
+  },
+  {
+    "id": "833",
+    "question": "通分法解方程$$\\frac{2}{x^{2}-4}+\\frac{x-4}{x^{2}+2x}=\\frac{1}{x^{2}-2x}\\:.$$",
+    "answer": "解：原方程通分整理,得$\\frac{x^{2}-5x+6}{x(x+2)(x-2)}=0$ ·化简，得$\\frac{x-3}{x(x+2)}=0$ ,即$x=3$ 这种通分解分式方程的方法，其优点是： $\\textcircled{1}$ 无解，可直接判断； $\\textcircled{2}$ 有解，不需验根。"
+  }
+]
+```
+❌ JSON 解码失败: Invalid \escape: line 4 column 131 (char 153)
+>>>>>>>>>>> idx <<<<<<<<<<<<
+[]
+🔄 正在处理第 100 条内容（共 193 条）...
+```json
+[
+    {
+        "id": "834",
+        "question": "加减常量法解方程$$\\frac{x+1}{x+2}+\\frac{x+6}{x+7}=\\frac{x+2}{x+3}+\\frac{x+5}{x+6}.$$",
+        "answer": "解：原方程可化为$\\frac{x+2-1}{x+2}+\\frac{x+7-1}{x+7}=\\frac{x+3-1}{x+3}+\\frac{x+6-1}{x+6}.$ 即$\\frac{2x+9}{(x+2)(x+7)}=\\frac{2x+9}{(x+3)(x+6)}.$ 根据分式和等式的性质，得$2x+9=0,x=-\\frac{9}{2}$。"
+    },
+    {
+        "id": "835",
+        "question": "拆项法解方程$\\frac{x}{x+3}+\\frac{x}{x-3}=\\frac{18}{x^{2}-9}$",
+        "answer": "解：原方程可化为$$\\frac{x}{x+3}+\\frac{x}{x-3}-(\\frac{3}{x-3}-\\frac{3}{x+3})=0.$$合并同分母分式，得$\\frac{x+3}{x+3}+\\frac{x-3}{x-3}=0$ ,即2=0 ，矛盾，故原方程无解."
+    },
+    {
+        "id": "836",
+        "question": "在分式方程$\\frac{2x+1}{x^{2}}+\\frac{2x^{2}}{2x+1}=1$中，令$y=\\frac{2x+1}{x^{2}}$，则原方程可化为关于$y$的方程是__。",
+        "answer": "【答案】：$y^2-y+2=0$。【分析】：利用换元法，将$y=\\frac{2x+1}{x^{2}}$代入原方程，再将其化为整式方程即可.【详解】：解：设$y=\\frac{2x+1}{x^{2}}$，则原方程可化为$y+\\frac{2}{y}=1$，即$y^2-y+2=0$，故答案为：$y^2-y+2=0$."
+    },
+    {
+        "id": "837",
+        "question": "解方程$\\frac{x-2}{x+2}-\\frac{4}{4-x^{2}}=\\frac{1}{x-2}$",
+        "answer": "【答案】 x = 3 【分析】运用乘法公式，分式的性质解分式方程即可。【详解】解：$\\frac{x-2}{x+2}+\\frac{4}{x^2-4}=\\frac{1}{x-2}$   $\\frac{x-2}{x+2}+\\frac{4}{(x+2)(x-2)}=\\frac{1}{x-2}$   (x+2)(x-2)=0，得：(x-2)^2+4=x+2，整理得：x^2-5x+6=0，经检验：x_1=2是增根，故舍去，所以$x_1=3$。"
+    },
+    {
+        "id": "838",
+        "question": "已知关于 x 的分式方程 $\\frac{x}{x-1}+\\frac{k}{x-1}=\\frac{x}{x+1}$ 有增根 $x=1$，则$k=$ ___.",
+        "answer": "【答案】1【分析】先把分式方程化为整式方程得到 $(2+k)x+k=0$，然后把$x=1$代入得 $2+k+k=0$，再解关于 $k$ 的方程即可。【详解】解：去分母得 $x(x+1)+k(x+1)=x(x-1)$，整理得 $(2+k)x+k=0$，把$x=1$ 代入得 $2+k+k=0$，解得$k=-1$；所以当$k=-1$ 时，原方程有增根 $x=1$. 故答案为 -1."
+    }
+]
+```
+[{'id': '834', 'question': '加减常量法解方程$$\\frac{x+1}{x+2}+\\frac{x+6}{x+7}=\\frac{x+2}{x+3}+\\frac{x+5}{x+6}.$$', 'answer': '解：原方程可化为$\\frac{x+2-1}{x+2}+\\frac{x+7-1}{x+7}=\\frac{x+3-1}{x+3}+\\frac{x+6-1}{x+6}.$ 即$\\frac{2x+9}{(x+2)(x+7)}=\\frac{2x+9}{(x+3)(x+6)}.$ 根据分式和等式的性质，得$2x+9=0,x=-\\frac{9}{2}$。'}, {'id': '835', 'question': '拆项法解方程$\\frac{x}{x+3}+\\frac{x}{x-3}=\\frac{18}{x^{2}-9}$', 'answer': '解：原方程可化为$$\\frac{x}{x+3}+\\frac{x}{x-3}-(\\frac{3}{x-3}-\\frac{3}{x+3})=0.$$合并同分母分式，得$\\frac{x+3}{x+3}+\\frac{x-3}{x-3}=0$ ,即2=0 ，矛盾，故原方程无解.'}, {'id': '836', 'question': '在分式方程$\\frac{2x+1}{x^{2}}+\\frac{2x^{2}}{2x+1}=1$中，令$y=\\frac{2x+1}{x^{2}}$，则原方程可化为关于$y$的方程是__。', 'answer': '【答案】：$y^2-y+2=0$。【分析】：利用换元法，将$y=\\frac{2x+1}{x^{2}}$代入原方程，再将其化为整式方程即可.【详解】：解：设$y=\\frac{2x+1}{x^{2}}$，则原方程可化为$y+\\frac{2}{y}=1$，即$y^2-y+2=0$，故答案为：$y^2-y+2=0$.'}, {'id': '837', 'question': '解方程$\\frac{x-2}{x+2}-\\frac{4}{4-x^{2}}=\\frac{1}{x-2}$', 'answer': '【答案】 x = 3 【分析】运用乘法公式，分式的性质解分式方程即可。【详解】解：$\\frac{x-2}{x+2}+\\frac{4}{x^2-4}=\\frac{1}{x-2}$   $\\frac{x-2}{x+2}+\\frac{4}{(x+2)(x-2)}=\\frac{1}{x-2}$   (x+2)(x-2)=0，得：(x-2)^2+4=x+2，整理得：x^2-5x+6=0，经检验：x_1=2是增根，故舍去，所以$x_1=3$。'}, {'id': '838', 'question': '已知关于 x 的分式方程 $\\frac{x}{x-1}+\\frac{k}{x-1}=\\frac{x}{x+1}$ 有增根 $x=1$，则$k=$ ___.', 'answer': '【答案】1【分析】先把分式方程化为整式方程得到 $(2+k)x+k=0$，然后把$x=1$代入得 $2+k+k=0$，再解关于 $k$ 的方程即可。【详解】解：去分母得 $x(x+1)+k(x+1)=x(x-1)$，整理得 $(2+k)x+k=0$，把$x=1$ 代入得 $2+k+k=0$，解得$k=-1$；所以当$k=-1$ 时，原方程有增根 $x=1$. 故答案为 -1.'}]
+🔄 正在处理第 105 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "839",
+    "question": "当$m=$________时，解关于$x$的方程$x+\\frac{x}{x-2}=\\frac{m}{2-x}$会产生增根.",
+    "answer": "分式方程去分母转化为整式方程，由分式方程有增根求出$x$的值，代入整式方程计算即可求出$m$的值.【详解】解：去分母得：$x(x-2)+x=-m$，由分式方程有增根，得到$x-2=0$，即$x=2$，把$x=2$代入整式方程得：$m=-2$，故答案为：-2."
+  },
+  {
+    "id": "840",
+    "question": "已知方程\\frac{x+1}{x+2}+\\frac{x+2}{x+1}=\\frac{4x+a}{(x+1)(x+2)}只有一个根，求a的值。",
+    "answer": "去分母化为一元二次方程，分别讨论一元二次方程有一根为$x=1$、有一根为$x=2$、有两个相同根时，求得a的值再代入验证即可.$【详解】解：\\frac{x+1}{x+2}+\\frac{x+2}{x+1}=\\frac{4x+a}{(x+1)(x+2)}去分母得：(x+1)^2+(x+2)^2=4x+a去括号得：2x^2+2x+5-a=0 。①2x^2+2x+5-a=0 有一根为$x=1$ 时，代入得$a=5$，2x^2+2x=0，则另一个根为$x=-0.5$，不符合题意；②2x^2+2x+5-a=0 有一根为$x=2$ 时，代入得$a=9$，2x^2+2x-4=0，则另一个根为$x=1$，此时分式方程只有一个根$x=1$，且分母不等于零，符合题意；③2x^2+2x+5-a=0 有两个相同根时，48(5a)=0，a=\\frac{9}{2},2x^2+2x+\\frac{1}{2}=0，x_1=x_2=-\\frac{1}{2}$，此时分式方程只有一个根$x=-\\frac{1}{2}$，且分母不等于零，符合题意；…a的值为5 或 9 或 \\frac{9}{2}$"
+  },
+  {
+    "id": "841",
+    "question": "若关于x方程$\\frac{x-2}{x-3}=\\frac{m}{x-3}+2$无解，则$m$的值是_________.",
+    "answer": "把原方程去分母化为整式方程，求出方程的解得到$x$的值，由分式方程无解得到分式方程的分母为0，求出$x$的值，两者相等得到关于$m$的方程，求出方程的解即可得到$m$的值。【详解】解：去分母得：$x-2=m+2(x-3)$，去括号得：$x-2=m+2x-6$，移项得：$x-2x=m-6+2$，合并同类项得：$-x=m-4$，系数化归为1得：$x=4-m$，∵关于$x$方程$\\frac{x-2}{x-3}=\\frac{m}{x-3}+2$无解，∴$x-3=0$，∴$x=3$，∴$4-m=3$，解得：$m=1$，故答案为：1。"
+  },
+  {
+    "id": "842",
+    "question": "若关于x的方程$\\frac{2}{x}-\\frac{x-m}{x^{2}=x}=1+\\frac{1}{x-1}$无实根，则m取值范围是_____",
+    "answer": "将分式方程转化为整式方程，分两种情况，整式方程无解和分式方程有增根，进行求解即可.【详解】解：将分式方程转化为整式方程为：2(x-1)-(x-m)=x^2-x+x,整理得：x^2-x+2-m=0,∴分式方程无实数根，①整式方程无实数根，则：Δ=(-1)^2-4(2-m)<0，解得：m<-\\frac{7}{4};②分式方程有增根，则：x^2-x=0,∴x_1=1,x_2=0，当x=1时：1^2-1+2-m=0，解得：m＝2，当x=0时：2-m=0，解得：m＝2，综上：m取值范围是$m＜-\\frac{7}{4}$或$m＝2$；故答案为：m＜-\\frac{7}{4}或m＝2．"
+  },
+  {
+    "id": "843",
+    "question": "5G的速度很快，比 4G 速度每秒多95MB，一部1000MB的电影，5G比4G要快190秒，求5G的速度。",
+    "answer": "设 5G 的速度是 $x$MB/秒，则 4G 速度是 $(x-95)$ MB/秒。根据“5G比4G要快190秒”列出方程，求解即可。【详解】** 解：设 5G 的速度是 $x$MB/秒，则 4G 速度是 $(x-95)$ MB/秒。由题意得：$$\\frac{1000}{x-95}=\\frac{1000}{x}+190.$$解得：$$x_{1}=100,x_{2}=-5$$ （舍去），经检验，$x=100$ 是原方程的根，所以 5G 的速度是 100MB/秒。"
+  }
+]
+```
+[{'id': '839', 'question': '当$m=$________时，解关于$x$的方程$x+\\frac{x}{x-2}=\\frac{m}{2-x}$会产生增根.', 'answer': '分式方程去分母转化为整式方程，由分式方程有增根求出$x$的值，代入整式方程计算即可求出$m$的值.【详解】解：去分母得：$x(x-2)+x=-m$，由分式方程有增根，得到$x-2=0$，即$x=2$，把$x=2$代入整式方程得：$m=-2$，故答案为：-2.'}, {'id': '840', 'question': '已知方程\\frac{x+1}{x+2}+\\frac{x+2}{x+1}=\\frac{4x+a}{(x+1)(x+2)}只有一个根，求a的值。', 'answer': '去分母化为一元二次方程，分别讨论一元二次方程有一根为$x=1$、有一根为$x=2$、有两个相同根时，求得a的值再代入验证即可.$【详解】解：\\frac{x+1}{x+2}+\\frac{x+2}{x+1}=\\frac{4x+a}{(x+1)(x+2)}去分母得：(x+1)^2+(x+2)^2=4x+a去括号得：2x^2+2x+5-a=0 。①2x^2+2x+5-a=0 有一根为$x=1$ 时，代入得$a=5$，2x^2+2x=0，则另一个根为$x=-0.5$，不符合题意；②2x^2+2x+5-a=0 有一根为$x=2$ 时，代入得$a=9$，2x^2+2x-4=0，则另一个根为$x=1$，此时分式方程只有一个根$x=1$，且分母不等于零，符合题意；③2x^2+2x+5-a=0 有两个相同根时，48(5a)=0，a=\\frac{9}{2},2x^2+2x+\\frac{1}{2}=0，x_1=x_2=-\\frac{1}{2}$，此时分式方程只有一个根$x=-\\frac{1}{2}$，且分母不等于零，符合题意；…a的值为5 或 9 或 \\frac{9}{2}$'}, {'id': '841', 'question': '若关于x方程$\\frac{x-2}{x-3}=\\frac{m}{x-3}+2$无解，则$m$的值是_________.', 'answer': '把原方程去分母化为整式方程，求出方程的解得到$x$的值，由分式方程无解得到分式方程的分母为0，求出$x$的值，两者相等得到关于$m$的方程，求出方程的解即可得到$m$的值。【详解】解：去分母得：$x-2=m+2(x-3)$，去括号得：$x-2=m+2x-6$，移项得：$x-2x=m-6+2$，合并同类项得：$-x=m-4$，系数化归为1得：$x=4-m$，∵关于$x$方程$\\frac{x-2}{x-3}=\\frac{m}{x-3}+2$无解，∴$x-3=0$，∴$x=3$，∴$4-m=3$，解得：$m=1$，故答案为：1。'}, {'id': '842', 'question': '若关于x的方程$\\frac{2}{x}-\\frac{x-m}{x^{2}=x}=1+\\frac{1}{x-1}$无实根，则m取值范围是_____', 'answer': '将分式方程转化为整式方程，分两种情况，整式方程无解和分式方程有增根，进行求解即可.【详解】解：将分式方程转化为整式方程为：2(x-1)-(x-m)=x^2-x+x,整理得：x^2-x+2-m=0,∴分式方程无实数根，①整式方程无实数根，则：Δ=(-1)^2-4(2-m)<0，解得：m<-\\frac{7}{4};②分式方程有增根，则：x^2-x=0,∴x_1=1,x_2=0，当x=1时：1^2-1+2-m=0，解得：m＝2，当x=0时：2-m=0，解得：m＝2，综上：m取值范围是$m＜-\\frac{7}{4}$或$m＝2$；故答案为：m＜-\\frac{7}{4}或m＝2．'}, {'id': '843', 'question': '5G的速度很快，比 4G 速度每秒多95MB，一部1000MB的电影，5G比4G要快190秒，求5G的速度。', 'answer': '设 5G 的速度是 $x$MB/秒，则 4G 速度是 $(x-95)$ MB/秒。根据“5G比4G要快190秒”列出方程，求解即可。【详解】** 解：设 5G 的速度是 $x$MB/秒，则 4G 速度是 $(x-95)$ MB/秒。由题意得：$$\\frac{1000}{x-95}=\\frac{1000}{x}+190.$$解得：$$x_{1}=100,x_{2}=-5$$ （舍去），经检验，$x=100$ 是原方程的根，所以 5G 的速度是 100MB/秒。'}]
+🔄 正在处理第 110 条内容（共 193 条）...
+110跳过
+🔄 正在处理第 115 条内容（共 193 条）...
+115跳过
+🔄 正在处理第 120 条内容（共 193 条）...
+120跳过
+🔄 正在处理第 125 条内容（共 193 条）...
+125跳过
+🔄 正在处理第 130 条内容（共 193 条）...
+130跳过
+🔄 正在处理第 135 条内容（共 193 条）...
+135跳过
+🔄 正在处理第 140 条内容（共 193 条）...
+140跳过
+🔄 正在处理第 145 条内容（共 193 条）...
+145跳过
+🔄 正在处理第 150 条内容（共 193 条）...
+150跳过
+🔄 正在处理第 155 条内容（共 193 条）...
+155跳过
+🔄 正在处理第 160 条内容（共 193 条）...
+160跳过
+🔄 正在处理第 165 条内容（共 193 条）...
+165跳过
+🔄 正在处理第 170 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "2227",
+    "question": "某同学利用暑假中的一段时间（不超过 20 天）到一家商场勤工俭学．该商场向他提供了三种付酬方案：第一种，每天支付 85 元；第二种，第 1 天支付 65 元，从第 2 天起，每天比前一天都多支付 2 元；第三种，第 1 天支付 40 元，从第 2 天起，每天支付的金额都是前一天的 1.1 倍．你认为他选择哪种方案领取报酬更划算?",
+    "answer": "解：(1) $\\frac{1}{a}$，$\\frac{1}{b}$，$\\frac{1}{c}$ 不能构成等差数列。可以从图象上解释：若 $a$，$b$，$c$ 构成等差数列 $\\{a_n\\}$，且 $a_1 = a$，$a_2 = b$，$a_3 = c$，则通项公式为 $a_n = pn + q$ 的形式，且 $(1, a)$，$(2, b)$，$(3, c)$ 位于同一直线上，而 $\\frac{1}{a}$，$\\frac{1}{b}$，$\\frac{1}{c}$ 的通项公式是 $b_n = \\frac{1}{pn + q}$ 的形式，$(1, \\frac{1}{a})$，$(2, \\frac{1}{b})$，$(3, \\frac{1}{c})$ 不可能在同一直线上，因此 $\\frac{1}{a}$，$\\frac{1}{b}$，$\\frac{1}{c}$ 不能构成等差数列。(2) $\\frac{1}{a}$，$\\frac{1}{b}$，$\\frac{1}{c}$ 能构成等比数列。因为 $a$，$b$，$c$ 成等比数列，所以 $b^2 = ac$。又由于 $a$，$b$，$c$ 非零，两边同时取倒数，则有 $\\frac{1}{b^2} = \\frac{1}{ac} = \\frac{1}{a} \\cdot \\frac{1}{c}$，所以 $\\frac{1}{a}$，$\\frac{1}{b}$，$\\frac{1}{c}$ 也成等比数列。"
+  },
+  {
+    "id": "2228",
+    "question": "已知等差数列$\\langle a_n\\rangle$的前$n$ 项和为$S_n$,且$S_4=4S_2,a_{2n}=2a_n+1(n\\in\\mathbf{N}^*).$(1) 求数列{$a_n$}的通项公式，(2) 若 $b_n=3^{n-1}$,令 $c_n=a_nb_n$,求数列$\\langle c_n\\rangle$的前$n$ 项和 $T_n$.",
+    "answer": "(1) 由 $a_{n+1}=2S_{n}+2(n\\in\\mathbb{N}^{*})$，可得 $a_{n}=2S_{n-1}+2(n\\in\\mathbb{N}^{*}, n\\geqslant 2)$，两式相减可得 $a_{n+1}=3a_{n}(n\\in\\mathbb{N}^{*}, n\\geqslant 2)$。又 $a_{2}=2a_{1}+2$，因为数列 $\\{a_{n}\\}$ 是等比数列，所以 $a_{2}=2a_{1}+2=3a_{1}$，即 $a_{1}=2$，故 $a_{n}=2\\cdot3^{n-1}$。(2) 由 (1) 可知 $a_{n}=2\\times3^{n-1}$，$a_{n+1}=2\\times3^{n}$。因为 $a_{n+1}=a_{n}+(n+2-1)d_{n}$，所以 $d_{n}=\\frac{4\\times3^{n-1}}{n+1}$。假设在数列 $\\{d_{n}\\}$ 中存在三项 $d_{m}$，$d_{k}$，$d_{p}$（其中 $m$，$k$，$p$ 成等差数列）成等比数列，则 $(d_{k})^{2}=d_{m}d_{p}$，即 $\\left(\\frac{4\\times3^{k-1}}{k+1}\\right)^{2}=\\frac{4\\times3^{m-1}}{m+1}\\cdot\\frac{4\\times3^{p-1}}{p+1}$，化简得 $\\frac{3^{2k-2}}{(k+1)^{2}}=\\frac{3^{m+p-2}}{(m+1)(p+1)}$。（*）因为 $m$，$k$，$p$ 成等差数列，所以 $m+p=2k$，从而（*）可以化简为 $k^{2}=mp$。联立 $\\begin{cases} m+p=2k, \\\\ k^{2}=mp, \\end{cases}$ 可得 $k=m=p$，这与题设矛盾。所以在数列 $\\{d_{n}\\}$ 中不存在三项 $d_{m}$，$d_{k}$，$d_{p}$（其中 $m$，$k$，$p$ 成等差数列）成等比数列。"
+  },
+  {
+    "id": "2318",
+    "question": "求点 P(-1,2) 到直线 l: 3x=2 的距离.",
+    "answer": "分析: 将直线 l 的方程写成 3x-2=0, 再用点到直线的距离公式求解.解: 点 P(-1,2) 到直线 l: 3x-2=0 的距离$$d=\\frac{|3\\times(-1)-2|}{\\sqrt{3^2+0^2}}=\\frac{5}{3}.$$"
+  },
+  {
+    "id": "2319",
+    "question": "已知△ABC 的三个顶点分别是 A(1,3), B(3,1), C(-1,0), 求△ABC 的面积.",
+    "answer": "分析: 由三角形面积公式可知, 只要利用距离公式求出边 AB 的长和边 AB 上的高即可.解: 如图 2.3-7, 设边 AB 上的高为 h, 则$$S_{\\triangle ABC}=\\frac{1}{2}|AB|h.$$$$|AB|=\\sqrt{(3-1)^2+(1-3)^2}=2\\sqrt{2}.$$边 AB 上的高 h 就是点 C 到直线 AB 的距离.边 AB 所在直线 l 的方程为$$\\frac{y-3}{1-3}=\\frac{x-1}{3-1},$$即 x+y-4=0.点 C(-1,0) 到直线 l: x+y-4=0 的距离$$h=\\frac{|-1+0-4|}{\\sqrt{1^2+1^2}}=\\frac{5}{\\sqrt{2}}.$$因此, S_{\\triangle ABC}=\\frac{1}{2}\\times2\\sqrt{2}\\times\\frac{5}{\\sqrt{2}}=5."
+  },
+  {
+    "id": "2320",
+    "question": "已知两条平行直线 $l_1: 2x-7y-8=0$, $l_2: 6x-21y-1=0$，求 $l_1$ 与 $l_2$ 间的距离。",
+    "answer": "分析：在 $l_1$ 上选取一点，如 $l_1$ 与坐标轴的交点，用点到直线的距离公式求这点到 $l_2$的距离，即 $l_1$ 与 $l_2$ 间的距离。解：先求 $l_1$ 与 $x$ 轴的交点 $A$ 的坐标。容易知道，点 $A$ 的坐标为 $(4, 0)$。点 $A$ 到直线 $l_2$ 的距离$$d = \\frac{|6 \\times 4 - 21 \\times 0 - 1|}{\\sqrt{6^2 + 21^2}} = \\frac{23}{3 \\sqrt{53}} = \\frac{23}{159 \\sqrt{53}},$$所以 $l_1$ 与 $l_2$ 间的距离为 $\\frac{23}{159} \\sqrt{53}$。"
+  }
+]
+```
+[{'id': '2227', 'question': '某同学利用暑假中的一段时间（不超过 20 天）到一家商场勤工俭学．该商场向他提供了三种付酬方案：第一种，每天支付 85 元；第二种，第 1 天支付 65 元，从第 2 天起，每天比前一天都多支付 2 元；第三种，第 1 天支付 40 元，从第 2 天起，每天支付的金额都是前一天的 1.1 倍．你认为他选择哪种方案领取报酬更划算?', 'answer': '解：(1) $\\frac{1}{a}$，$\\frac{1}{b}$，$\\frac{1}{c}$ 不能构成等差数列。可以从图象上解释：若 $a$，$b$，$c$ 构成等差数列 $\\{a_n\\}$，且 $a_1 = a$，$a_2 = b$，$a_3 = c$，则通项公式为 $a_n = pn + q$ 的形式，且 $(1, a)$，$(2, b)$，$(3, c)$ 位于同一直线上，而 $\\frac{1}{a}$，$\\frac{1}{b}$，$\\frac{1}{c}$ 的通项公式是 $b_n = \\frac{1}{pn + q}$ 的形式，$(1, \\frac{1}{a})$，$(2, \\frac{1}{b})$，$(3, \\frac{1}{c})$ 不可能在同一直线上，因此 $\\frac{1}{a}$，$\\frac{1}{b}$，$\\frac{1}{c}$ 不能构成等差数列。(2) $\\frac{1}{a}$，$\\frac{1}{b}$，$\\frac{1}{c}$ 能构成等比数列。因为 $a$，$b$，$c$ 成等比数列，所以 $b^2 = ac$。又由于 $a$，$b$，$c$ 非零，两边同时取倒数，则有 $\\frac{1}{b^2} = \\frac{1}{ac} = \\frac{1}{a} \\cdot \\frac{1}{c}$，所以 $\\frac{1}{a}$，$\\frac{1}{b}$，$\\frac{1}{c}$ 也成等比数列。'}, {'id': '2228', 'question': '已知等差数列$\\langle a_n\\rangle$的前$n$ 项和为$S_n$,且$S_4=4S_2,a_{2n}=2a_n+1(n\\in\\mathbf{N}^*).$(1) 求数列{$a_n$}的通项公式，(2) 若 $b_n=3^{n-1}$,令 $c_n=a_nb_n$,求数列$\\langle c_n\\rangle$的前$n$ 项和 $T_n$.', 'answer': '(1) 由 $a_{n+1}=2S_{n}+2(n\\in\\mathbb{N}^{*})$，可得 $a_{n}=2S_{n-1}+2(n\\in\\mathbb{N}^{*}, n\\geqslant 2)$，两式相减可得 $a_{n+1}=3a_{n}(n\\in\\mathbb{N}^{*}, n\\geqslant 2)$。又 $a_{2}=2a_{1}+2$，因为数列 $\\{a_{n}\\}$ 是等比数列，所以 $a_{2}=2a_{1}+2=3a_{1}$，即 $a_{1}=2$，故 $a_{n}=2\\cdot3^{n-1}$。(2) 由 (1) 可知 $a_{n}=2\\times3^{n-1}$，$a_{n+1}=2\\times3^{n}$。因为 $a_{n+1}=a_{n}+(n+2-1)d_{n}$，所以 $d_{n}=\\frac{4\\times3^{n-1}}{n+1}$。假设在数列 $\\{d_{n}\\}$ 中存在三项 $d_{m}$，$d_{k}$，$d_{p}$（其中 $m$，$k$，$p$ 成等差数列）成等比数列，则 $(d_{k})^{2}=d_{m}d_{p}$，即 $\\left(\\frac{4\\times3^{k-1}}{k+1}\\right)^{2}=\\frac{4\\times3^{m-1}}{m+1}\\cdot\\frac{4\\times3^{p-1}}{p+1}$，化简得 $\\frac{3^{2k-2}}{(k+1)^{2}}=\\frac{3^{m+p-2}}{(m+1)(p+1)}$。（*）因为 $m$，$k$，$p$ 成等差数列，所以 $m+p=2k$，从而（*）可以化简为 $k^{2}=mp$。联立 $\\begin{cases} m+p=2k, \\\\ k^{2}=mp, \\end{cases}$ 可得 $k=m=p$，这与题设矛盾。所以在数列 $\\{d_{n}\\}$ 中不存在三项 $d_{m}$，$d_{k}$，$d_{p}$（其中 $m$，$k$，$p$ 成等差数列）成等比数列。'}, {'id': '2318', 'question': '求点 P(-1,2) 到直线 l: 3x=2 的距离.', 'answer': '分析: 将直线 l 的方程写成 3x-2=0, 再用点到直线的距离公式求解.解: 点 P(-1,2) 到直线 l: 3x-2=0 的距离$$d=\\frac{|3\\times(-1)-2|}{\\sqrt{3^2+0^2}}=\\frac{5}{3}.$$'}, {'id': '2319', 'question': '已知△ABC 的三个顶点分别是 A(1,3), B(3,1), C(-1,0), 求△ABC 的面积.', 'answer': '分析: 由三角形面积公式可知, 只要利用距离公式求出边 AB 的长和边 AB 上的高即可.解: 如图 2.3-7, 设边 AB 上的高为 h, 则$$S_{\\triangle ABC}=\\frac{1}{2}|AB|h.$$$$|AB|=\\sqrt{(3-1)^2+(1-3)^2}=2\\sqrt{2}.$$边 AB 上的高 h 就是点 C 到直线 AB 的距离.边 AB 所在直线 l 的方程为$$\\frac{y-3}{1-3}=\\frac{x-1}{3-1},$$即 x+y-4=0.点 C(-1,0) 到直线 l: x+y-4=0 的距离$$h=\\frac{|-1+0-4|}{\\sqrt{1^2+1^2}}=\\frac{5}{\\sqrt{2}}.$$因此, S_{\\triangle ABC}=\\frac{1}{2}\\times2\\sqrt{2}\\times\\frac{5}{\\sqrt{2}}=5.'}, {'id': '2320', 'question': '已知两条平行直线 $l_1: 2x-7y-8=0$, $l_2: 6x-21y-1=0$，求 $l_1$ 与 $l_2$ 间的距离。', 'answer': '分析：在 $l_1$ 上选取一点，如 $l_1$ 与坐标轴的交点，用点到直线的距离公式求这点到 $l_2$的距离，即 $l_1$ 与 $l_2$ 间的距离。解：先求 $l_1$ 与 $x$ 轴的交点 $A$ 的坐标。容易知道，点 $A$ 的坐标为 $(4, 0)$。点 $A$ 到直线 $l_2$ 的距离$$d = \\frac{|6 \\times 4 - 21 \\times 0 - 1|}{\\sqrt{6^2 + 21^2}} = \\frac{23}{3 \\sqrt{53}} = \\frac{23}{159 \\sqrt{53}},$$所以 $l_1$ 与 $l_2$ 间的距离为 $\\frac{23}{159} \\sqrt{53}$。'}]
+🔄 正在处理第 175 条内容（共 193 条）...
+```json
+[
+    {
+        "id": "2321",
+        "question": "求证：两条平行直线 $Ax + By + C_1 = 0$ 与 $Ax + By + C_2 = 0$ 间的距离为$$d = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}}.$",
+        "answer": "分析：两条平行直线间的距离即为这两条平行直线中的一条直线上的一点到另一条直线的距离。证明：在直线 $Ax + By + C_1 = 0$ 上任取一点 $P(x_0, y_0)$，点 $P(x_0, y_0)$ 到直线 $Ax + By + C_2 = 0$ 的距离就是这两条平行直线间的距离，即$$d = \\frac{|Ax_0 + By_0 + C_2|}{\\sqrt{A^2 + B^2}}.$$因为点 $P(x_0, y_0)$ 在直线 $Ax + By + C_1 = 0$ 上，所以 $Ax_0 + By_0 + C_1 = 0$，即 $Ax_0 + By_0 = -C_1$，因此$$d = \\frac{|Ax_0 + By_0 + C_2|}{\\sqrt{A^2 + B^2}} = \\frac{|-C_1 + C_2|}{\\sqrt{A^2 + B^2}} = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}}.$"
+    },
+    {
+        "id": "2322",
+        "question": "求圆心为 A(2, -3), 半径为5的圆的标准方程, 并判断点 M_{1}(5, -7), M_{2}(-2, -1) 是否在这个圆上。",
+        "answer": "分析: 根据点的坐标与圆的方程的关系, 只要判断一个点的坐标是否满足圆的方程,就可以得到这个点是否在圆上.解: 圆心为 A(2, -3), 半径为5的圆的标准方程是$(x-2)^{2}+(y+3)^{2}=25$.把点 M_{1}(5, -7) 的坐标代入方程 $(x-2)^{2}+(y+3)^{2}=25$ 的左边, 得 $(5-2)^{2}+(-7+3)^{2}=25$, 左右两边相等, 点 M_{1} 的坐标满足圆的方程, 所以点 M_{1} 在这个圆上.把点 M_{2}(-2, -1) 的坐标代入方程 $(x-2)^{2}+(y+3)^{2}=25$ 的左边, 得 $(-2-2)^{2}+(-1+3)^{2}=20$, 左右两边不相等,点 M_{2} 的坐标不满足圆的方程, 所以点 M_{2} 不在这个圆上"
+    },
+    {
+        "id": "2323",
+        "question": "△ABC 的三个顶点分别是 A(5, 1), B(7, -3), C(2, -8), 求△ABC 的外接圆的标准方程.",
+        "answer": "分析: 不在同一条直线上的三个点可以确定一个圆, 三角形有唯一的外接圆. 显然已知的三个点不在同一条直线上. 只要确定了 a, b, r, 圆的标准方程就确定了.解: 设所求的方程是$(x-a)^{2}+(y-b)^{2}=r^{2}$.因为 A(5, 1), B(7, -3), C(2, -8) 三点都在圆上, 所以它们的坐标都满足方程①. 于是$\\left\\{\\begin{array}{l}(5-a)^{2}+(1-b)^{2}=r^{2}, \\\\ (7-a)^{2}+(-3-b)^{2}=r^{2}, \\\\ (2-a)^{2}+(-8-b)^{2}=r^{2},\\end{array}\\right.$即$\\left\\{\\begin{array}{l}a^{2}+b^{2}-10 a-2 b+26=r^{2}, \\\\ a^{2}+b^{2}-14 a+6 b+58=r^{2}, \\\\ a^{2}+b^{2}-4 a+16 b+68=r^{2}.\\end{array}\\right.$观察上面的式子, 我们发现, 三式两两相减, 可以消去 $a^{2}$, $b^{2}$, $r^{2}$, 得到关于 a, b 的二元一次方程组$\\left\\{\\begin{array}{l}a-2 b=8, \\\\ a+b=-1.\\end{array}\\right.$方程组, 得$\\left\\{\\begin{array}{l}a=2, \\\\ b=-3,\\end{array}\\right.$代入 $(5-a)^{2}+(1-b)^{2}=r^{2}$, 得 $r^{2}=25$.所以, △ABC 的外接圆的标准方程是$(x-2)^{2}+(y+3)^{2}=25$."
+    },
+    {
+        "id": "2324",
+        "question": "已知圆心为 C 的圆经过 A(1, 1), B(2, -2) 两点, 且圆心 C 在直线 l: x-y+1=0 上, 求此圆的标准方程.",
+        "answer": "分析: 设圆心 C 的坐标为 (a, b). 由已知条件可知, |CA|=|CB|, 且 a-b+1=0.由此可求出圆心坐标和半径.另外, 因为线段 AB 是圆的一条弦, 根据平面几何知识, AB 的中点与圆心 C 的连线垂直于 AB, 由此可得到另一种解法.解法 1: 设圆心 C 的坐标为 (a, b). 因为圆心 C 在直线 l: x-y+1=0 上, 所以 a-b+1=0.因为 A, B 是圆上两点, 所以 |CA|=|CB|.根据两点间距离公式, 有$$\\sqrt{(a-1)^{2}+(b-1)^{2}}=\\sqrt{(a-2)^{2}+(b+2)^{2}},$$即$$a-3b-3=0.$$由 ①② 可得 a=-3, b=-2. 所以圆心 C 的坐标是 (-3, -2).圆的半径$$r=|AC|=\\sqrt{(1+3)^{2}+(1+2)^{2}}=5.$$所以, 所求圆的标准方程是$$(x+3)^{2}+(y+2)^{2}=25.$$解法 2: 如图 2.4-3, 设线段 AB 的中点为 D. 由 A, B 两点的坐标为 (1, 1), (2, -2), 可得点 D 的坐标为 $\\left(\\frac{3}{2}, -\\frac{1}{2}\\right)$, 直线 AB 的斜率为 $k_{AB}=\\frac{-2-1}{2-1}=-3$.因此, 线段 AB 的垂直平分线 $l'$ 的方程是 $y+\\frac{1}{2}=\\frac{1}{3}(x-\\frac{3}{2})$, 即$$x=3y-3=0.$$由垂径定理可知, 圆心 C 也在线段 AB 的垂直平分线上, 所以它的坐标是方程组$$\\begin{cases}x-3y-3=0, \\\\ x-y+1=0\\end{cases}$$的解.解这个方程组, 得$$\\begin{cases}x=-3, \\\\ y=-2.\\end{cases}$$所以圆心 C 的坐标是 (-3, -2).圆的半径$$r=|AC|=\\sqrt{(1+3)^{2}+(1+2)^{2}}=5.$$所以, 所求圆的标准方程是$$(x+3)^{2}+(y+2)^{2}=25.$"
+    },
+    {
+        "id": "2325",
+        "question": "1、利用平面直角坐标系解决直线与圆的位置关系；2、过程与方法：用坐标法解决几何问题的步骤：第一步：建立适当的平面直角坐标系，用坐标和方程表示问题中的几何元素，将平面几何问题转化为代数问题；第二步：通过代数运算，解决代数问题；三步：将代数运算结果 “翻译” 成几何结论.",
+        "answer": ""
+    }
+]
+```
+[{'id': '2321', 'question': '求证：两条平行直线 $Ax + By + C_1 = 0$ 与 $Ax + By + C_2 = 0$ 间的距离为$$d = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}}.$', 'answer': '分析：两条平行直线间的距离即为这两条平行直线中的一条直线上的一点到另一条直线的距离。证明：在直线 $Ax + By + C_1 = 0$ 上任取一点 $P(x_0, y_0)$，点 $P(x_0, y_0)$ 到直线 $Ax + By + C_2 = 0$ 的距离就是这两条平行直线间的距离，即$$d = \\frac{|Ax_0 + By_0 + C_2|}{\\sqrt{A^2 + B^2}}.$$因为点 $P(x_0, y_0)$ 在直线 $Ax + By + C_1 = 0$ 上，所以 $Ax_0 + By_0 + C_1 = 0$，即 $Ax_0 + By_0 = -C_1$，因此$$d = \\frac{|Ax_0 + By_0 + C_2|}{\\sqrt{A^2 + B^2}} = \\frac{|-C_1 + C_2|}{\\sqrt{A^2 + B^2}} = \\frac{|C_1 - C_2|}{\\sqrt{A^2 + B^2}}.$'}, {'id': '2322', 'question': '求圆心为 A(2, -3), 半径为5的圆的标准方程, 并判断点 M_{1}(5, -7), M_{2}(-2, -1) 是否在这个圆上。', 'answer': '分析: 根据点的坐标与圆的方程的关系, 只要判断一个点的坐标是否满足圆的方程,就可以得到这个点是否在圆上.解: 圆心为 A(2, -3), 半径为5的圆的标准方程是$(x-2)^{2}+(y+3)^{2}=25$.把点 M_{1}(5, -7) 的坐标代入方程 $(x-2)^{2}+(y+3)^{2}=25$ 的左边, 得 $(5-2)^{2}+(-7+3)^{2}=25$, 左右两边相等, 点 M_{1} 的坐标满足圆的方程, 所以点 M_{1} 在这个圆上.把点 M_{2}(-2, -1) 的坐标代入方程 $(x-2)^{2}+(y+3)^{2}=25$ 的左边, 得 $(-2-2)^{2}+(-1+3)^{2}=20$, 左右两边不相等,点 M_{2} 的坐标不满足圆的方程, 所以点 M_{2} 不在这个圆上'}, {'id': '2323', 'question': '△ABC 的三个顶点分别是 A(5, 1), B(7, -3), C(2, -8), 求△ABC 的外接圆的标准方程.', 'answer': '分析: 不在同一条直线上的三个点可以确定一个圆, 三角形有唯一的外接圆. 显然已知的三个点不在同一条直线上. 只要确定了 a, b, r, 圆的标准方程就确定了.解: 设所求的方程是$(x-a)^{2}+(y-b)^{2}=r^{2}$.因为 A(5, 1), B(7, -3), C(2, -8) 三点都在圆上, 所以它们的坐标都满足方程①. 于是$\\left\\{\\begin{array}{l}(5-a)^{2}+(1-b)^{2}=r^{2}, \\\\ (7-a)^{2}+(-3-b)^{2}=r^{2}, \\\\ (2-a)^{2}+(-8-b)^{2}=r^{2},\\end{array}\\right.$即$\\left\\{\\begin{array}{l}a^{2}+b^{2}-10 a-2 b+26=r^{2}, \\\\ a^{2}+b^{2}-14 a+6 b+58=r^{2}, \\\\ a^{2}+b^{2}-4 a+16 b+68=r^{2}.\\end{array}\\right.$观察上面的式子, 我们发现, 三式两两相减, 可以消去 $a^{2}$, $b^{2}$, $r^{2}$, 得到关于 a, b 的二元一次方程组$\\left\\{\\begin{array}{l}a-2 b=8, \\\\ a+b=-1.\\end{array}\\right.$方程组, 得$\\left\\{\\begin{array}{l}a=2, \\\\ b=-3,\\end{array}\\right.$代入 $(5-a)^{2}+(1-b)^{2}=r^{2}$, 得 $r^{2}=25$.所以, △ABC 的外接圆的标准方程是$(x-2)^{2}+(y+3)^{2}=25$.'}, {'id': '2324', 'question': '已知圆心为 C 的圆经过 A(1, 1), B(2, -2) 两点, 且圆心 C 在直线 l: x-y+1=0 上, 求此圆的标准方程.', 'answer': "分析: 设圆心 C 的坐标为 (a, b). 由已知条件可知, |CA|=|CB|, 且 a-b+1=0.由此可求出圆心坐标和半径.另外, 因为线段 AB 是圆的一条弦, 根据平面几何知识, AB 的中点与圆心 C 的连线垂直于 AB, 由此可得到另一种解法.解法 1: 设圆心 C 的坐标为 (a, b). 因为圆心 C 在直线 l: x-y+1=0 上, 所以 a-b+1=0.因为 A, B 是圆上两点, 所以 |CA|=|CB|.根据两点间距离公式, 有$$\\sqrt{(a-1)^{2}+(b-1)^{2}}=\\sqrt{(a-2)^{2}+(b+2)^{2}},$$即$$a-3b-3=0.$$由 ①② 可得 a=-3, b=-2. 所以圆心 C 的坐标是 (-3, -2).圆的半径$$r=|AC|=\\sqrt{(1+3)^{2}+(1+2)^{2}}=5.$$所以, 所求圆的标准方程是$$(x+3)^{2}+(y+2)^{2}=25.$$解法 2: 如图 2.4-3, 设线段 AB 的中点为 D. 由 A, B 两点的坐标为 (1, 1), (2, -2), 可得点 D 的坐标为 $\\left(\\frac{3}{2}, -\\frac{1}{2}\\right)$, 直线 AB 的斜率为 $k_{AB}=\\frac{-2-1}{2-1}=-3$.因此, 线段 AB 的垂直平分线 $l'$ 的方程是 $y+\\frac{1}{2}=\\frac{1}{3}(x-\\frac{3}{2})$, 即$$x=3y-3=0.$$由垂径定理可知, 圆心 C 也在线段 AB 的垂直平分线上, 所以它的坐标是方程组$$\\begin{cases}x-3y-3=0, \\\\ x-y+1=0\\end{cases}$$的解.解这个方程组, 得$$\\begin{cases}x=-3, \\\\ y=-2.\\end{cases}$$所以圆心 C 的坐标是 (-3, -2).圆的半径$$r=|AC|=\\sqrt{(1+3)^{2}+(1+2)^{2}}=5.$$所以, 所求圆的标准方程是$$(x+3)^{2}+(y+2)^{2}=25.$"}, {'id': '2325', 'question': '1、利用平面直角坐标系解决直线与圆的位置关系；2、过程与方法：用坐标法解决几何问题的步骤：第一步：建立适当的平面直角坐标系，用坐标和方程表示问题中的几何元素，将平面几何问题转化为代数问题；第二步：通过代数运算，解决代数问题；三步：将代数运算结果 “翻译” 成几何结论.', 'answer': ''}]
+🔄 正在处理第 180 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "2326",
+    "question": "求过三点 O(0, 0), M₁(1, 1), M₂(4, 2) 的圆的方程, 并求这个圆的圆心坐标和半径.",
+    "answer": "分析: 将点 O, M₁, M₂ 的坐标分别代入圆的一般方程, 可得一个三元一次方程组,解方程组即可求出圆的方程.解: 设圆的方程是$x^{2}+y^{2}+D x+E y+F=0 .$因为 O, M₁, M₂ 三点都在圆上, 所以它们的坐标都是方程①的解. 把它们的坐标依次代入方程①, 得到关于 D, E, F 的一个三元一次方程组$F=0,$$D+E+F+2=0,$$4 D+2 E+F+20=0 .$解这个方程组, 得$\left\{\\begin{array}{l} D=-8, \\\\ E=6, \\\\ F=0 . \\end{array}\\right.$所以, 所求圆的方程是$x^{2}+y^{2}-8 x+6 y=0 .$由前面的讨论可知, 所求圆的圆心坐标是 (4, -3),半径 $r=\\frac{1}{2} \\sqrt{D^{2}+E^{2}-4 F}=5$."
+  },
+  {
+    "id": "2327",
+    "question": "已知线段 AB 的端点 B 的坐标是 (4, 3), 端点 A 在圆 $(x+1)^{2}+y^{2}=4$ 上运动, 求线段 AB 的中点 M 的轨迹方程.",
+    "answer": "分析: 如图 2.4-4, 点 A 运动引起点 M 运动. 而点 A 在已知圆上运动, 点 A 的坐标满足方程 $(x+1)^{2}+y^{2}=4$.建立点 M 与点 A 坐标之间的关系, 就可以利用点 A 的坐标所满足的关系式得到点 M 的坐标满足的关系式, 求出点 M 的轨迹方程.解: 设点 M 的坐标是 $(x, y)$. 点 A 的坐标是 $(x_{0}$, $y_{0})$. 由于点 B 的坐标是 (4, 3), 且 M 是线段 AB 的中点, 所以$x=\\frac{x_{0}+4}{2}, y=\\frac{y_{0}+3}{2} .$于是有$x_{0}=2 x-4, y_{0}=2 y-3 . \\quad(1)$因为点 A 在圆 $(x+1)^{2}+y^{2}=4$ 上运动, 所以点 A 的坐标满足圆的方程, 即$(x_{0}+1)^{2}+y_{0}^{2}=4 . \\quad(2)$把(1)代入(2), 得$(2 x-4+1)^{2}+(2 y-3)^{2}=4,$整理, 得点 M 的轨迹方程是指点 M 的坐标 $(x, y)$ 满足的关系式."
+  },
+  {
+    "id": "2328",
+    "question": "已知直线 $l: 3x+y-6=0$ 和圆心为 $C$ 的圆 $x^{2}+y^{2}-2y-4=0$, 判断直线 $l$ 与圆 $C$ 的位置关系; 如果相交, 求直线 $l$ 被圆 $C$ 所截得的弦长.",
+    "answer": "分析: 思路 1: 将判断直线 $l$ 与圆 $C$ 的位置关系转化为判断由它们的方程组成的方程组有无实数解、有几个实数解; 若相交, 可以由方程组解得两交点的坐标, 利用两点间的距离公式求得弦长.思路 2: 依据圆心到直线的距离与半径的关系, 判断直线与圆的位置关系; 若相交,则可利用勾股定理求得弦长.解法 1: 联立直线 $l$ 与圆 $C$ 的方程, 得$$\\left\\{\\begin{array}{l}3x+y-6=0, \\\\x^{2}+y^{2}-2y-4=0\\end{array}\\right.$$消去 $y$, 得 $x^{2}-3x+2=0$, 解得 $x_{1}=2, x_{2}=1$.所以, 直线 $l$ 与圆 $C$ 相交, 有两个公共点.把 $x_{1}=2, x_{2}=1$ 分别代入方程①, 得 $y_{1}=0, y_{2}=3$.所以, 直线 $l$ 与圆 $C$ 的两个交点是 $A(2,0), B(1,3)$.因此 $|A B|=\\sqrt{(1-2)^{2}+(3-0)^{2}}=\\sqrt{10}$.解法 2: 圆 $C$ 的方程 $x^{2}+y^{2}-2y-4=0$ 可化为 $x^{2}+(y-1)^{2}=5$, 因此圆心 $C$ 的坐标为 $(0,1)$, 半径为 $\\sqrt{5}$, 圆心 $C(0,1)$ 到直线 $l$ 的距离$$d=\\frac{|3 \\times 0+1-6|}{\\sqrt{3^{2}+1^{2}}}=\\frac{5}{\\sqrt{10}}<\\sqrt{5}$$所以, 直线 $l$ 与圆 $C$ 相交, 有两个公共点 由垂径定理, 得 $|A B|=2 \\sqrt{r^{2}-d^{2}}=\\sqrt{10}$."
+  },
+  {
+    "id": "2329",
+    "question": "过点 P(2, 1) 作圆 O: x²+y²=1 的切线 l, 求切线 l 的方程.",
+    "answer": "分析:  容易知道, 点 P(2, 1) 位于圆 O: x²+y²=1 外, 经过圆外一点有两条直线与这个圆相切. 我们设切线方程为 y-1=k(x-2), k 为斜率. 由直线与圆相切可求出 k 的值.解法1: 设切线 l 的斜率为 k, 则切线 l 的方程为 y-1=k(x-2), 即 kx-y+1-2k=0.由圆心 (0, 0) 到切线 l 的距离等于圆的半径 1, 得$$\\frac{|1-2k|}{\\sqrt{k^2+1}}=1,$$解得 k=0 或 $\\frac{4}{3}$.因此, 所求切线 l 的方程为 y=1, 或 4x-3y-5=0.解法2: 设切线 l 的斜率为 k, 则切线 l 的方程为 y-1=k(x-2).因为直线 l 与圆相切, 所以方程组$$\\begin{cases}y-1=k(x-2), \\\\x^2+y^2=1\\end{cases}$$只有一组解.消元, 得$$(k^2+1)x^2+(2k-4k^2)x+4k^2-4k=0.$$因为方程①只有一个解, 所以$$\\Delta=4k^2(1-2k)^2-16k(k^2+1)(k-1)=0,$$解得 k=0 或 $\\frac{4}{3}$.所以, 所求切线 l 的方程为 y=1, 或 4x-3y-5=0."
+  },
+  {
+    "id": "2330",
+    "question": "图 2.5-3 是某圆拱形桥一孔圆拱的示意图. 圆拱跨度 $AB = 20 \\, \\text{m}$, 拱高 $OP = 4 \\, \\text{m}$, 建造时每间隔 $4 \\, \\text{m}$ 需要用一根支柱支撑, 求支柱 $A_{2}P_{2}$ 的高度（精确到 $0.01 \\, \\text{m}$ ).",
+    "answer": "分析: 建立如图 2.5-4 所示的直角坐标系, 要得到支柱 $A_{2}P_{2}$ 的高度, 只需求出点 $P_{2}$ 的纵坐标.解: 建立如图 2.5-4 所示的直角坐标系, 使线段 $AB$ 所在直线为 $x$ 轴, $O$ 为坐标原点, 圆心在 $y$ 轴上. 由题意, 点 $P$, $B$ 的坐标分别为 $(0, 4)$, $(10, 0)$. 设圆心坐标是 $(0, b)$, 圆的半径是 $r$, 那么圆的方程是$$x^{2} + (y - b)^{2} = r^{2}.$$点 $O$ 是圆拱所在圆的圆心吗?下面确定 $b$ 和 $r$ 的值.因为 $P$, $B$ 两点都在圆上, 所以它们的坐标 $(0, 4)$, $(10, 0)$ 都满足方程 $x^{2} + (y - b)^{2} = r^{2}$. 于是, 得到方程组$$\\begin{cases}0^{2} + (4 - b)^{2} = r^{2}, \\\\10^{2} + (0 - b)^{2} = r^{2}.\\end{cases}$$解得$$b = -10.5, \\, r^{2} = 14.5^{2}.$$所以, 圆的方程是$$x^{2} + (y + 10.5)^{2} = 14.5^{2}.$$把点 $P_{2}$ 的横坐标 $x = -2$ 代入圆的方程, 得$$(-2)^{2} + (y + 10.5)^{2} = 14.5^{2},$$即 $y + 10.5 = \\sqrt{14.5^{2} - (-2)^{2}}$ ( $P_{2}$ 的纵坐标 $y > 0$, 平方根取正值). 所以$$y = \\sqrt{14.5^{2} - (-2)^{2}} - 10.5 \\approx 14.36 - 10.5 = 3.86 \\, (\\text{m}).$$答: 支柱 $A_{2}P_{2}$ 的高度约为 $3.86 \\, \\text{m}$."
+  }
+]
+```
+❌ JSON 解码失败: Invalid \escape: line 5 column 230 (char 327)
+>>>>>>>>>>> idx <<<<<<<<<<<<
+[]
+🔄 正在处理第 185 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "2331",
+    "question": "已知圆 C₁: $x^{2}+y^{2}+2x+8y-8=0$，圆 C₂: $x^{2}+y^{2}-4x-4y-2=0$，试判断圆 C₁ 与圆 C₂ 的位置关系.",
+    "answer": "分析: 思路 1: 圆 C₁ 与圆 C₂ 的位置关系由它们有几个公共点确定，而它们有几个公共点又由它们的方程所组成的方程组有几组实数解确定;思路 2: 借助图形，可以依据圆心距与两半径的和 $r_{1}+r_{2}$ 或两半径的差的绝对值 $|r_{1}-r_{2}|$ 的大小关系，判断两圆的位置关系.解法 1: 将圆 C₁ 与圆 C₂ 的方程联立，得到方程组$$\begin{cases}x^{2}+y^{2}+2x+8y-8=0, \\x^{2}+y^{2}-4x-4y-2=0.\end{cases}$$① - ②，得$$x+2y-1=0,$$由 ③，得$$y=\frac{1-x}{2}.$$把上式代入①，并整理，得$$x^{2}-2x-3=0.$$方程④的根的判别式$$\Delta=(-2)^{2}-4 \times 1 \times (-3)=16>0,$$所以，方程④有两个不相等的实数根 $x_{1}, x_{2}$，把 $x_{1}, x_{2}$ 分别代入方程③，得到 $y_{1}, y_{2}$.因此圆 C₁ 与圆 C₂ 有两个公共点 $A(x_{1}, y_{1}), B(x_{2}, y_{2})$，这两个圆相交.解法 2: 把圆 C₁ 的方程化成标准方程，得$$(x+1)^{2}+(y+4)^{2}=25,$$圆 C₁ 的圆心是 $(-1, -4)$，半径 $r_{1}=5$.把圆 C₂ 的方程化成标准方程，得$$(x-2)^{2}+(y-2)^{2}=10,$$圆 C₂ 的圆心是 $(2, 2)$，半径 $r_{2}=\sqrt{10}$.圆 C₁ 与圆 C₂ 的圆心距为$$\sqrt{(-1-2)^{2}+(-4-2)^{2}}=3\sqrt{5}.$$圆 C₁ 与圆 C₂ 的两半径之和 $r_{1}+r_{2}=5+\sqrt{10}$，两半径之差 $r_{1}-r_{2}=5-\sqrt{10}$.因为 $5-\sqrt{10}<3\sqrt{5}<5+\sqrt{10}$，即 $r_{1}-r_{2}<3\sqrt{5}<r_{1}+r_{2}$，所以圆 C₁ 与圆 C₂ 相交（图 2.5-6），它们有两个公共点 A, B."
+  },
+  {
+    "id": "2332",
+    "question": "已知圆 O 的直径 AB=4, 动点 M 与点 A 的距离是它与点 B 的距离的 $\sqrt{2}$ 倍. 试探究点 M 的轨迹, 并判断该轨迹与圆 O 的位置关系.",
+    "answer": "分析: 我们可以通过建立适当的平面直角坐标系, 求得满足条件的动点 M 的轨迹方程, 从而得到点 M 的轨迹; 通过研究它的轨迹方程与圆 O 方程的关系, 判断这个轨迹与圆 O 的位置关系.解: 如图 2.5-7, 以线段 AB 的中点 O 为原点, AB 所在直线为 x 轴, 线段 AB 的垂直平分线为 y 轴, 建立平面直角坐标系. 由 AB=4, 得 A(-2, 0), B(2, 0).设点 M 的坐标为 (x, y), 由 |MA| = $\sqrt{2}$ |MB|, 得$\sqrt{(x+2)^{2}+y^{2}}=\sqrt{2} \times \sqrt{(x-2)^{2}+y^{2}}$,化简, 得 $x^{2}-12x+y^{2}+4=0$, 即 $(x-6)^{2}+y^{2}=32$.所以点 M 的轨迹是以 P(6, 0) 为圆心, 半径为 $4 \sqrt{2}$ 的一个圆 .因为两圆的圆心距为 |PO| = 6, 两圆的半径分别为 $r_{1}=2$, $r_{2}=4 \sqrt{2}$, 又 $r_{2}-r_{1}<|PO|<r_{2}+r_{1}$, 所以点 M 的轨迹与圆 O 相交."
+  },
+  {
+    "id": "2374",
+    "question": "在 5 道试题中有 3 道代数题和 2 道几何题，每次从中随机抽出 1 道题，抽出的题不再放回。求：（1）第 1 次抽到代数题且第 2 次抽到几何题的概率.（2）在第 1 次抽到代数题的条件下，第 2 次抽到几何题的概率.",
+    "answer": "分析：如果求“第 1 次抽到代数题”和“第 2 次抽到几何题”作为两个事件，那么问题 1 就是事件 A 的概率，问题 2 就是事件 B 的概率，可以先求事件 A 的概率，再求条件概率公式来求条件概率；也可以先求条件概率，再用条件概率公式来求事件 B 的概率。解：设 A = “第 1 次抽到代数题”，B = “第 2 次抽到几何题”，则“第 1 次抽到代数题且第 2 次抽到几何题”就是事件 AB.方法 1 从 5 道试题中依次不放回随机抽取 2 道，试题的样本空间Ω 包含 20 个等可能的样本点，即 n(Ω) = n(A) = 5×4 = 20.因为 n(AB) = n(A)×n(B) = 3×2 = 6. 所以$$P(AB)=\frac{n(AB)}{n(\Omega)}=\frac{6}{20}=\frac{3}{10}.$$（2）“在第 1 次抽到代数题的条件下，第 2 次抽到几何题”的概率就是事件 A 发生的条件下，事件 B 发生的概率，显然 P(A) = $\frac{3}{5}$，利用概率乘法公式，得$$P(B|A)=\frac{P(AB)}{P(A)}=\frac{\frac{3}{5}}{\frac{10}{20}}=\frac{1}{2}.$$方法 2 因为 n(A) = 3×4 = 12，n(B) = 3×2 = 6，所以$$P(B|A)=\frac{n(AB)}{n(A)}=\frac{6}{12}=\frac{1}{2}.$$又 P(A) = $\frac{3}{5}$，利用乘法公式可得$$P(AB)=P(A)P(B|A)=\frac{3}{5}×\frac{1}{2}=\frac{3}{10}.$$"
+  },
+  {
+    "id": "2375",
+    "question": "已知 3 张奖券中只有 1 张有奖，甲、乙、丙 3 名同学依次不放回地随机抽取 1 张，他们中奖的概率与抽奖的次序有关吗？",
+    "answer": "分析：要判断中奖的概率是否与抽奖的次序有关，只要考察甲、乙、丙 3 名同学的中奖概率是否相等，因为只有 1 张有奖，所以“乙中奖”等于“甲没中奖且乙中奖”，“丙中奖”等于“甲和乙都没中奖”。利用概率公式可求出乙、丙两奖的概率。解：用 A、B、C 分别表示甲、乙、丙中奖的事件，则 B = $\overline{A}$，C = $\overline{A}$ $\overline{B}$.$$P(A)=\frac{1}{3},$$  $$P(B)=P(\overline{A} \overline{B})=P(\overline{A})P(\overline{B}|\overline{A})=\frac{2}{3}×\frac{1}{2}=\frac{1}{3}.$$  $$P(C)=P(\overline{A} \overline{B})=P(\overline{A})P(\overline{B}|\overline{A})=\frac{2}{3}×\frac{1}{2}=\frac{1}{3}.$$因为 P(A) = P(B) = P(C)，所以中奖的概率与抽奖的次序无关。事实上，在抽奖问题中，无论是放回随机抽取还是不放回随机抽取，中奖的概率都与抽奖次序无关。"
+  },
+  {
+    "id": "2376",
+    "question": "银行储蓄卡的密码由 6 位数字组成。某人在银行自助取款机上取钱时，忘记了密码的最后 1 位数字。求：（1）任意按键后 1 位数字，不超过 2 次就按对的概率；（2）如果记住密码的最后 1 位是奇数，不超过 2 次就按对的概率。",
+    "answer": "分析：最后 1 位密码“不超过 2 次就按对”等于“第 1 次按错，或者第 1 次按错第 2 次按对”，因此，可先将两个事件事件并事件表示，再利用概率的性质求解。解：（设 A = “第 i 次按对密码”（i = 1，2），则事件“不超过 2 次就按对密码”可表示为$$A∪\overline{A}_1∪\overline{A}_2,$$事件 A1 与事件 $\overline{A}_1$ 互斥，由概率的加法公式及乘法公式，得$$P(A)=P(A_1)+P(\overline{A}_1A_2)=P(A_1)+P(\overline{A}_1)P(A_2|\overline{A}_1)=\frac{1}{10}+\frac{9}{10}×\frac{1}{9}=\frac{1}{5}.$$因此，任意按最后 1 位数字，不超过 2 次就按对的概率为 $\frac{1}{5}$。（2）设 B = “最后 1 位密码是偶数”，则$$P(A|B)=P(A_1|B)+P(\overline{A}_1A_2|B)=\frac{1}{5}×\frac{4}{5}+\frac{2}{5}×\frac{1}{4}=\frac{2}{5}.$$因此，如果记得密码的最后 1 位是偶数，不超过 2 次就按对的概率为 $\frac{2}{5}$。"
+  }
+]
+```
+❌ JSON 解码失败: Invalid \escape: line 5 column 259 (char 384)
+>>>>>>>>>>> idx <<<<<<<<<<<<
+[]
+🔄 正在处理第 190 条内容（共 193 条）...
+```json
+[
+  {
+    "id": "2377",
+    "question": "某学校有A、B两家餐厅,王同学第1天午餐时随机地选择一家餐厅用餐.如果第1天去A餐厅,那么第2天去A餐厅的概率为0.6;如果第1天去B餐厅,那么第2天去A餐厅的概率为0.8.计算王同学第2天去A餐厅用餐的概率.",
+    "answer": "分析:第2天去哪家餐厅用餐的概率受第1天在哪家餐厅用餐的影响,可根据第1天可能去的餐厅,将样本空间表示为“第1天去A餐厅”和“第1天去B餐厅”两个互斥事件的并,利用全概率公式求解.解:设A_{1}=\"第1天去A餐厅用餐\",B_{1}=\"第1天去B餐厅用餐\",A_{2}=\"第2天去A餐厅用餐\",则Ω=A_{1}∪B_{1},且A_{1}与B_{1}互斥.根据题意得$$P(A_{1})=P(B_{1})=0.5,P(A_{2}|A_{1})=0.6,P(A_{2}|B_{1})=0.8.$$由全概率公式,得$$P(A_{2})=P(A_{1})P(A_{2}|A_{1})+P(B_{1})P(A_{2}|B_{1})$$$$=0.5×0.6+0.5×0.8$$$$=0.7.$$因此,王同学第2天去A餐厅用餐的概率为0.7."
+  },
+  {
+    "id": "2378",
+    "question": "有3台车床加工同一型号的零件,第1台加工的次品率为6%,第2、3台加工的次品率均为5%,加工出来的零件混放在一起.已知第1、2、3台车床加工的零件数分别占总数的25%,30%,45%.(1)任取一个零件,计算它是次品的概率;(2)如果取到的零件是次品,计算它是第i(i=1,2,3)台车床加工的概率.",
+    "answer": "分析:取到的零件可能来自第1台车床,也可能来自第2台或第3台车床,有3种可能.设B=\"任取一零件为次品\",A_{i}=\"零件为第i台车床加工\"(i=1,2,3),如图7.1-3所示,可将事件B表示为3个两两互斥事件的并,利用全概率公式可以计算出事件B的概率.解: 设 B=“任取一个零件为次品”, A_{i}=“零件为第 i 台车床加工” (i=1, 2, 3), 则 Ω=A_{1}∪A_{2}∪A_{3}, 且 A_{1}, A_{2}, A_{3} 两两互斥. 根据题意得$$P(A_{1})=0.25, P(A_{2})=0.3, P(A_{3})=0.45,$$$$P(B|A_{1})=0.06, P(B|A_{2})=P(B|A_{3})=0.05.$$(1) 由全概率公式, 得$$P(B)=P(A_{1})P(B|A_{1})+P(A_{2})P(B|A_{2})+P(A_{3})P(B|A_{3})$$$$=0.25×0.06+0.3×0.05+0.45×0.05$$$$=0.0525.$$(2) “如果取到的零件是次品, 计算它是第 i(i=1, 2, 3) 台车床加工的概率”, 就是计算在 B 发生的条件下, 事件 A_{i} 发生的概率.$$P(A_{i}|B)=\\frac{P(A_{i}B)}{P(B)}=\\frac{P(A_{i})P(B|A_{i})}{P(B)}=\\frac{0.25×0.06}{0.0525}=\\frac{2}{7}.$$类似地, 可得$$P(A_{2}|B)=\\frac{2}{7}, P(A_{3}|B)=\\frac{3}{7}.$$"
+  },
+  {
+    "id": "2379",
+    "question": "在数字通信中, 信号是由数字 0 和 1 组成的序列. 由于随机因素的干扰, 发送的信号 0 或 1 有可能被错误地接收为 1 或 0. 已知发送信号 0 时, 接收为 0 和 1 的概率分别为 0.9 和 0.1; 发送信号 1 时, 接收为 1 和 0 的概率分别为 0.95 和 0.05. 假设发送信号 0 和 1 是等可能的.(1) 分别求接收的信号为 0 和 1 的概率;* (2) 已知接收的信号为 0, 求发送的信号是 1 的概率.",
+    "answer": "分析: 设 $A=$ “发送的信号为 0”, $B=$ “接收到的信号为 0”. $$P(B | A) = 0.9$$$$P(\\overline{B} | A) = 0.1$$$$P(B | \\overline{A}) = 0.05$$$$P(\\overline{B} | \\overline{A}) = 0.95$$解: 设 $A=$ “发送的信号为 0”, $B=$ “接收到的信号为 0”, 则 $\\overline{A}=$ “发送的信号为 1”, $\\overline{B}=$ “接收到的信号为 1”. 由题意得$$P(A) = P(\\overline{A}) = 0.5, P(B | A) = 0.9, P(\\overline{B} | A) = 0.1,$$$$P(B | \\overline{A}) = 0.05, P(\\overline{B} | \\overline{A}) = 0.95.$$(1) $P(B) = P(A) P(B | A) + P(\\overline{A}) P(B | \\overline{A}) = 0.5 \\times 0.9 + 0.5 \\times 0.05 = 0.475,$$$P(\\overline{B}) = 1 - P(B) = 1 - 0.475 = 0.525.$$(2) $P(\\overline{A} | B) = \\frac{P(\\overline{A}) P(B | \\overline{A})}{P(B)} = \\frac{0.5 \\times 0.05}{0.475} = \\frac{1}{19}.$"
+  },
+  {
+    "id": "2380",
+    "question": "在篮球比赛中，罚球命中1次得1分，不中得0分。如果某运动员罚球命中的概率为0.8，那么他罚球1次的得分X的均值是多少？",
+    "answer": "分析：罚球有命中和不中两种结果，命中时X=1，不中时X=0，因此随机变量X服从两点分布。X的均值反映了该运动员罚球1次的平均得分水平。解：因为$$P(X=1) = 0.8, \\quad P(X=0) = 0.2,$$所以$$E(X) = 0 \\times 0.2 + 1 \\times 0.8 = 0.8.$$即该运动员罚球1次的得分X的均值是0.8。一般地，如果随机变量X服从两点分布，那么$$E(X) = 0 \\times (1-p) + 1 \\times p = p.$$"
+  },
+  {
+    "id": "2381",
+    "question": "抛掷一枚质地均匀的骰子，设出现的点数为X，求X的均值。",
+    "answer": "分析：先求出X的分布列，再根据定义计算X的均值。解：X的分布列为$$P(X=k) = \\frac{1}{6}, \\quad k = 1, 2, 3, 4, 5, 6.$$因此，$$E(X) = \\frac{1}{6}(1 + 2 + 3 + 4 + 5 + 6) = 3.5.$$"
+  }
+]
+```
+[{'id': '2377', 'question': '某学校有A、B两家餐厅,王同学第1天午餐时随机地选择一家餐厅用餐.如果第1天去A餐厅,那么第2天去A餐厅的概率为0.6;如果第1天去B餐厅,那么第2天去A餐厅的概率为0.8.计算王同学第2天去A餐厅用餐的概率.', 'answer': '分析:第2天去哪家餐厅用餐的概率受第1天在哪家餐厅用餐的影响,可根据第1天可能去的餐厅,将样本空间表示为“第1天去A餐厅”和“第1天去B餐厅”两个互斥事件的并,利用全概率公式求解.解:设A_{1}="第1天去A餐厅用餐",B_{1}="第1天去B餐厅用餐",A_{2}="第2天去A餐厅用餐",则Ω=A_{1}∪B_{1},且A_{1}与B_{1}互斥.根据题意得$$P(A_{1})=P(B_{1})=0.5,P(A_{2}|A_{1})=0.6,P(A_{2}|B_{1})=0.8.$$由全概率公式,得$$P(A_{2})=P(A_{1})P(A_{2}|A_{1})+P(B_{1})P(A_{2}|B_{1})$$$$=0.5×0.6+0.5×0.8$$$$=0.7.$$因此,王同学第2天去A餐厅用餐的概率为0.7.'}, {'id': '2378', 'question': '有3台车床加工同一型号的零件,第1台加工的次品率为6%,第2、3台加工的次品率均为5%,加工出来的零件混放在一起.已知第1、2、3台车床加工的零件数分别占总数的25%,30%,45%.(1)任取一个零件,计算它是次品的概率;(2)如果取到的零件是次品,计算它是第i(i=1,2,3)台车床加工的概率.', 'answer': '分析:取到的零件可能来自第1台车床,也可能来自第2台或第3台车床,有3种可能.设B="任取一零件为次品",A_{i}="零件为第i台车床加工"(i=1,2,3),如图7.1-3所示,可将事件B表示为3个两两互斥事件的并,利用全概率公式可以计算出事件B的概率.解: 设 B=“任取一个零件为次品”, A_{i}=“零件为第 i 台车床加工” (i=1, 2, 3), 则 Ω=A_{1}∪A_{2}∪A_{3}, 且 A_{1}, A_{2}, A_{3} 两两互斥. 根据题意得$$P(A_{1})=0.25, P(A_{2})=0.3, P(A_{3})=0.45,$$$$P(B|A_{1})=0.06, P(B|A_{2})=P(B|A_{3})=0.05.$$(1) 由全概率公式, 得$$P(B)=P(A_{1})P(B|A_{1})+P(A_{2})P(B|A_{2})+P(A_{3})P(B|A_{3})$$$$=0.25×0.06+0.3×0.05+0.45×0.05$$$$=0.0525.$$(2) “如果取到的零件是次品, 计算它是第 i(i=1, 2, 3) 台车床加工的概率”, 就是计算在 B 发生的条件下, 事件 A_{i} 发生的概率.$$P(A_{i}|B)=\\frac{P(A_{i}B)}{P(B)}=\\frac{P(A_{i})P(B|A_{i})}{P(B)}=\\frac{0.25×0.06}{0.0525}=\\frac{2}{7}.$$类似地, 可得$$P(A_{2}|B)=\\frac{2}{7}, P(A_{3}|B)=\\frac{3}{7}.$$'}, {'id': '2379', 'question': '在数字通信中, 信号是由数字 0 和 1 组成的序列. 由于随机因素的干扰, 发送的信号 0 或 1 有可能被错误地接收为 1 或 0. 已知发送信号 0 时, 接收为 0 和 1 的概率分别为 0.9 和 0.1; 发送信号 1 时, 接收为 1 和 0 的概率分别为 0.95 和 0.05. 假设发送信号 0 和 1 是等可能的.(1) 分别求接收的信号为 0 和 1 的概率;* (2) 已知接收的信号为 0, 求发送的信号是 1 的概率.', 'answer': '分析: 设 $A=$ “发送的信号为 0”, $B=$ “接收到的信号为 0”. $$P(B | A) = 0.9$$$$P(\\overline{B} | A) = 0.1$$$$P(B | \\overline{A}) = 0.05$$$$P(\\overline{B} | \\overline{A}) = 0.95$$解: 设 $A=$ “发送的信号为 0”, $B=$ “接收到的信号为 0”, 则 $\\overline{A}=$ “发送的信号为 1”, $\\overline{B}=$ “接收到的信号为 1”. 由题意得$$P(A) = P(\\overline{A}) = 0.5, P(B | A) = 0.9, P(\\overline{B} | A) = 0.1,$$$$P(B | \\overline{A}) = 0.05, P(\\overline{B} | \\overline{A}) = 0.95.$$(1) $P(B) = P(A) P(B | A) + P(\\overline{A}) P(B | \\overline{A}) = 0.5 \\times 0.9 + 0.5 \\times 0.05 = 0.475,$$$P(\\overline{B}) = 1 - P(B) = 1 - 0.475 = 0.525.$$(2) $P(\\overline{A} | B) = \\frac{P(\\overline{A}) P(B | \\overline{A})}{P(B)} = \\frac{0.5 \\times 0.05}{0.475} = \\frac{1}{19}.$'}, {'id': '2380', 'question': '在篮球比赛中，罚球命中1次得1分，不中得0分。如果某运动员罚球命中的概率为0.8，那么他罚球1次的得分X的均值是多少？', 'answer': '分析：罚球有命中和不中两种结果，命中时X=1，不中时X=0，因此随机变量X服从两点分布。X的均值反映了该运动员罚球1次的平均得分水平。解：因为$$P(X=1) = 0.8, \\quad P(X=0) = 0.2,$$所以$$E(X) = 0 \\times 0.2 + 1 \\times 0.8 = 0.8.$$即该运动员罚球1次的得分X的均值是0.8。一般地，如果随机变量X服从两点分布，那么$$E(X) = 0 \\times (1-p) + 1 \\times p = p.$$'}, {'id': '2381', 'question': '抛掷一枚质地均匀的骰子，设出现的点数为X，求X的均值。', 'answer': '分析：先求出X的分布列，再根据定义计算X的均值。解：X的分布列为$$P(X=k) = \\frac{1}{6}, \\quad k = 1, 2, 3, 4, 5, 6.$$因此，$$E(X) = \\frac{1}{6}(1 + 2 + 3 + 4 + 5 + 6) = 3.5.$$'}]
+🔄 正在处理第 193 条内容（共 193 条）...
+193跳过
+✅ 全部处理完成，结果保存至 s2plit_encoded_result.json

@@ -1,0 +1,22 @@
+[ID: 341]
+正切函数的图象及性质如下:
+定义域: 正切函数的定义域为所有实数 $x$ 使得 $x \neq \frac{\pi}{2} + k\pi$，其中 $k \in \mathbb{Z}$。
+周期性: 正切函数是周期函数，其周期为 $\pi$。根据诱导公式 $\tan(x + \pi) = \tan x$，对于所有实数 $x$ 且 $x \neq \frac{\pi}{2} + k\pi$，$k \in \mathbb{Z}$ 可知。
+奇偶性: 正切函数是奇函数。根据诱导公式 $\tan(-x) = -\tan x$，对于所有实数 $x$ 且 $x \neq \frac{\pi}{2} + k\pi$，$k \in \mathbb{Z}$ 可知。
+单调性: 正切函数在每一个区间 $(- \frac{\pi}{2} + k\pi, \frac{\pi}{2} + k\pi)$ ($k \in \mathbb{Z}$) 上都单调递增。
+值域: 正切函数的值域是全体实数 $\mathbb{R}$。
+对称中心: 正切函数的对称中心为 $(\frac{k\pi}{2}, 0)$，其中 $k \in \mathbb{Z}$。
+----------------------------------------
+[ID: 342]
+(1)正切函数在定义域上不具备单调性,因此不能说函数在其定义域上是单调递增函数.
+(2)正切函数没有最大值和最小值.
+(3)正切曲线是由被互相平行的直线$x=\frac{\pi}{2}+k\pi(k\in\mathbb{Z})$隔开的无穷多支曲线组成的.这些平行直线也称为正切曲线的渐近线,即无限接近但不相交.
+----------------------------------------
+[ID: 343]
+正切型函数$y=A\tan(\omega x+\varphi)$ (其中$A\neq0,\omega\neq0$)的性质如下：
+定义域：函数的定义域为所有实数$x$使得$\omega x+\varphi\neq k\pi+\frac\pi2$,其中$k\in\mathbb{Z}$。
+值域：函数的值域为全体实数$\mathbb{R}$。
+$\bullet$周期性：该函数是周期函数，其最小正周期为$\frac\pi{|\omega|}$。
+奇偶性：当$\varphi=\frac{k\pi}2$ ($k\in\mathbb{Z}$)时，函数为奇函数；当$\varphi\neq\frac{k\pi}2$ ($k\in\mathbb{Z}$)时，函数为非奇非偶
+函数。
+单调性：每一个单调区间可由不等式$\frac\pi2+k\pi<\omega x+\varphi<\frac\pi2+k\pi$ ($k\in\mathbb{Z})$求得。

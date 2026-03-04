@@ -1,0 +1,2 @@
+[ID: 2141]
+等差数列的递推公式 $\begin{cases} a_1 = a \\;a_n - a_{n-1} = d (n \geq 2)\end{cases}$

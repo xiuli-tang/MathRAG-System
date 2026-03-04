@@ -1,0 +1,11 @@
+[ID: 2426]
+对任意实数$x$ ，若不等式$\mid x+1\mid-\mid x-2\mid>k$ 恒成立，求$k$ 的取值范围。思维点拨：要使$\mid x+1\mid-\mid x-2\mid>k$ 对任意实数$x$ 恒成立，只要$\mid x+1\mid-\mid x-2\mid$ 的最小值大于$k$ 。因$\mid x+1\mid$ 的几何意义为数轴上点$x$ 到-1的距离，| $x-2|$ 的几何意义为数轴上点$x$ 到2的距离， $\mid x+1\mid-\mid x-2\mid$ 的几何意义为数轴上点$x$ 到一1与2的距离的差，其最小值可求。此题也可把不等式的左边用零点分段的方法改写成分段函数，通过画出图象，观察$k$ 的取值范围，解法一根据绝对值的几何意义，设数$x$ ,-1,2在数轴上对应的点分别为P、A、B，则原不等式即求PA一PB $k$ 成立。$\mid$AB$\mid=3$ ，即$\mid x+1\mid-\mid x-2\mid\geqslant-3$故当$k<-3$ 时，原不等式恒成立。解法二令$\mathbf{y}=\mid\boldsymbol{x}+1\mid-\mid\boldsymbol{x}-2\mid$ 期$y=\begin{cases}-3,x\leq-1\\2x-1,-1<x<2\\3,x\geq2\end{cases}$要使$\mid x+1\mid-\mid x-2\mid>k$ 恒成立，从图象中可以看出，只要$k<-3$ 即可。故$k<-3$ 满足题意。
+----------------------------------------
+[ID: 2427]
+对任意实数$x$ ，不等式$|x+1|+|x-2|>$a 恒成立，求实数a的取值范围。分析：经过分析转化，实质上就要求$|x+1|+|x-2$ 的最小值，a应比最小值小。解：由绝对值不等式： $|x+1|+|x-2|\geq|(x+1)-(x-2)|=3$ ，当且仅当$(x+1)(x-2)\leq0$, 即$-1\leq x\leq2$ 时取等号。故a<3。
+----------------------------------------
+[ID: 2428]
+已知a>0,不等式I $x-4|+|x-3|<a$ 在实数集R上的解集不是空集，求a的取值范围。分析$(-)\because|x-4|+|x-3|\geq|x-4-(x-3)|=1$当$|x-4|+|x-3|<a$ 在实数R上非空时，a须大于$|x-4|+|x-3$ 的最小值，即a>1
+----------------------------------------
+[ID: 2429]
+设$0<a\leq\frac54$ 若满足不等式$\left|x-a\right|<b$ 的一切实数x，亦满足不等式$\left|x-a^2\right|<\frac12$ 求正实数b的取值范围。$$\text{B=}\left\{x\mid\left|x-a^2\right|<\frac{1}{2}\right\}=\left(a^2-\frac{1}{2},a^2+\frac{1}{2}\right)$$由题设知ACB，则：$$\begin{aligned}&\begin{cases}a-b\geq a^2-\frac{1}{2}\\\\a+b\leq a^2+\frac{1}{2}\end{cases}\\&\left\{\begin{array}{cc}b\leq-a^2+a+\frac{1}{2}\\\\b\leq a^2-a+\frac{1}{2}\end{array}\right.(0<a\leq\frac{5}{4})\end{aligned}$$于是得不等式组： 又$-a^2+a-\frac12=-\left(a-\frac12\right)^2+\frac34$ ，最小值为\frac3{16}$ $$\begin{aligned}&a^{2}-a+\frac{1}{2}=\left(a-\frac{1}{2}\right)^{2}+\frac{1}{4},\quad\text{最小值为}\frac{1}{4}\:;\\&\therefore\quad b\leq\frac{3}{16},\end{aligned}$$即：b的取值范围是$\left(0,\frac3{16}\right]$

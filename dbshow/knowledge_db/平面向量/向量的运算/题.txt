@@ -1,0 +1,50 @@
+[ID: 577]
+题目：设$P_{1}P_{2}P_{3}\cdots P_{n}$是圆内接正$n$边形，$O$为圆心，试用向量证明$\overrightarrow{OP_{1}}+\overrightarrow{OP_{2}}+\cdots+\overrightarrow{OP_{n}}=0$。
+
+解析$\overrightarrow{OP_{1}}+\overrightarrow{OP_{2}}+\cdots+\overrightarrow{OP_{n}}=\sum_{i=1}^{n}\overrightarrow{OP_{i}}=\boldsymbol{a}$，
+
+将正$n$边形绕圆心$O$旋转$\frac{2\pi}{n}$弧度，
+
+假设此时$\overrightarrow{OP_{1}}$旋转到$\overrightarrow{OP_{2}}$的位置，$\overrightarrow{OP_{2}}$旋转到$\overrightarrow{OP_{3}}$的位置，$\cdots$，$\overrightarrow{OP_{n}}$旋转到$\overrightarrow{OP_{1}}$的位置，
+
+但正多边形的位置不变，仅各顶点的字母变了，
+
+所以它们的和向量不变，即$\boldsymbol{a}$旋转$\frac{2\pi}{n}$弧度后没有改变，
+
+因此$\boldsymbol{a}$只能是零向量，所以$\sum_{i=1}^{n}\overrightarrow{OP_{i}}=\boldsymbol{0}$。
+----------------------------------------
+[ID: 578]
+题目：若$|\overrightarrow{OA}|=8$，$|\overrightarrow{OB}|=5$，则$|\overrightarrow{AB}|$的取值范围是
+
+A. [3,8]     B. (3,8)      C. [3,13]      D. (3,13)
+
+解析： 因为$\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}$，故
+
+当$\overrightarrow{OA}$，$\overrightarrow{OB}$同向共线时，$|\overrightarrow{AB}|=|\overrightarrow{OA}|-|\overrightarrow{OB}|=3$；
+
+当$\overrightarrow{OA}$，$\overrightarrow{OB}$反向共线时，$|\overrightarrow{AB}|=|\overrightarrow{OA}|+|\overrightarrow{OB}|=13$；
+
+当$\overrightarrow{OA}$，$\overrightarrow{OB}$不共线时，$||\overrightarrow{OB}|-|\overrightarrow{OA}||<|\overrightarrow{OB}-\overrightarrow{OA}|<|\overrightarrow{OB}|+|\overrightarrow{OA}|$，即$3<|\overrightarrow{AB}|<13$。
+
+综上可得$3\leqslant|\overrightarrow{AB}|\leqslant13$。
+
+答案： C
+----------------------------------------
+[ID: 579]
+化简下列各式:
+(1)$\overrightarrow{AB}+\overrightarrow{CD}+\overrightarrow{BC}$;
+
+(2)$\overrightarrow{AB}+\overrightarrow{FA}+\overrightarrow{BD}+\overrightarrow{DE}+\overrightarrow{EF}$.
+
+解析：(1)$\overrightarrow{AB}+\overrightarrow{CD}+\overrightarrow{BC}=(\overrightarrow{AB}+\overrightarrow{BC})+\overrightarrow{CD}=\overrightarrow{AC}+\overrightarrow{CD}=\overrightarrow{AD}$.
+
+(2)$\overrightarrow{AB}+\overrightarrow{FA}+\overrightarrow{BD}+\overrightarrow{DE}+\overrightarrow{EF}=\overrightarrow{AB}+\overrightarrow{FA}+(\overrightarrow{BD}+\overrightarrow{DE}+\overrightarrow{EF})=\overrightarrow{AB}+\overrightarrow{FA}+\overrightarrow{BF}=(\overrightarrow{AB}+\overrightarrow{BF})+\overrightarrow{FA}=\overrightarrow{AF}+\overrightarrow{FA}=0$.
+----------------------------------------
+[ID: 580]
+化简：($\overrightarrow{AB}-
+\overrightarrow{CD})-(\overrightarrow{AC}-\overrightarrow{BD}).$
+
+解析》方法一(统一成加法)$(\overrightarrow{AB}-\overrightarrow{CD})-(\overrightarrow{AC}-\overrightarrow{BD})=$ $\overrightarrow{AB}-\overrightarrow{CD}-\overrightarrow{AC}+\overrightarrow{BD}=\overrightarrow{AB}+\overrightarrow{DC}+\overrightarrow{CA}+\overrightarrow{BD}=\overrightarrow{AB}+\overrightarrow{BD}+\overrightarrow{DC}+$ $\overrightarrow{CA}=\mathbf{0}.$
+方法二(运用减法公式$\overrightarrow{O} A- \overrightarrow {OB}= \overrightarrow {BA})$ $( \overrightarrow {AB}- \overrightarrow {CD}) - ( \overrightarrow {AC}-$ $\overrightarrow{BD})=\overrightarrow{AB}-\overrightarrow{CD}-\overrightarrow{AC}+\overrightarrow{BD}=(\overrightarrow{AB}-\overrightarrow{AC})-\overrightarrow{CD}+\overrightarrow{BD}=\overrightarrow{CB}-\overrightarrow{CD}+$ $\overrightarrow{BD}=\overrightarrow{DB}+\overrightarrow{BD}=\mathbf{0}.$
+方法三(辅助点法) 设$O$是平面内任意一点.则$(\overrightarrow{AB}-\overrightarrow{CD})-$ 利用向量的定义将所有向量转化为以其中一确定点为起点的向量，使问题转化为有共同起点的向量问题。
+$$\begin{aligned}&(\overrightarrow{AC}-\overrightarrow{BD})=\overrightarrow{AB}-\overrightarrow{CD}-\overrightarrow{AC}+\overrightarrow{BD}=(\overrightarrow{OB}-\overrightarrow{OA})-(\overrightarrow{OD}-\overrightarrow{OC})-\\&(\overrightarrow{OC}-\overrightarrow{OA})\:+\:(\:\overrightarrow{OD}-\overrightarrow{OB}\:)\:=\:\overrightarrow{OB}\:-\:\overrightarrow{OA}\:-\:\overrightarrow{OD}\:+\:\overrightarrow{OC}\:-\:\overrightarrow{OC}\:+\:\overrightarrow{OA}\:+\\&\overrightarrow{OD}-\overrightarrow{OB}=0.\end{aligned}$$

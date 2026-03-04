@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>知识库内容展示</title>
+  <script>
+    window.MathJax = {
+      loader: { load: ['input/tex', 'output/svg'] },
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'none' }
+    };
+  </script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-svg.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 80px; background-image: url('http://127.0.0.1:5002/background-image'); background-size: 33vw 50vh; background-color: #fffafa;
+      background-repeat: no-repeat; background-position: center center; background-attachment: fixed; height: 80vh; display: flex; flex-direction: column; }
+    .flex-layout { display: flex; gap: 20px; flex: 1; overflow: hidden; }
+    .file-list { flex: 0 0 30%; max-width: 20%; padding: 20px; border: 1px solid #ddd; border-radius: 10px; background: rgba(255,255,255,0.9); max-height:80vh; overflow-y:auto; height:100%; }
+    .file-content { flex: 1; padding: 20px; border: 1px solid #ddd; border-radius: 10px; background: rgba(255,255,255,0.9); max-height:80vh; overflow-y:auto; height:100%; position:relative; }
+    .file-list h3, .file-content h3 { margin-top:0; }
+    .file-item { padding:15px 20px; margin-bottom:16px; background-color:rgba(240,248,255,0.8); border:1px solid #ccc; border-radius:12px; box-shadow:2px 2px 6px rgba(0,0,0,0.05); transition:all 0.2s ease; cursor:pointer; }
+    .file-item:hover { background-color:rgba(220,240,255,1); box-shadow:2px 4px 12px rgba(0,0,0,0.1); }
+    .content-block { font-size:1.1em; line-height:1.6; margin-bottom:20px; padding:10px; border-bottom:1px solid #ccc; opacity:0; transition:opacity 0.3s; }
+    .folder::before { content: "📁 "; }
+    .file::before   { content: "📄 "; }
+    .back::before   { content: "🔙 "; }
+    .breadcrumb { margin-bottom:15px; font-size:0.9em; color:#666; }
+  </style>
+</head>
+<body>
+  <div class="flex-layout">
+    <div class="file-list">
+      <h3>超级码力知识库</h3>
+      <div id="breadcrumb" class="breadcrumb">根目录</div>
+      <div id="file-list-container"><p>正在加载...</p></div>
+    </div>
+    <div class="file-content">
+      <h3>文件内容</h3>
+      <div id="content-container"><p>请选择左侧文件查看。</p></div>
+    </div>
+  </div>
+  <script>
+    let currentPath = '';
+    let observer;
+
+    function updateBreadcrumb(path) {
+      const parts = path ? path.split('/') : [];
+      document.getElementById('breadcrumb').innerText = ['根目录', ...parts].join(' > ');
+    }
+
+    function loadDirectory(path='') {
+      currentPath = path;
+      updateBreadcrumb(path);
+      fetch(`http://127.0.0.1:5004/get_directory?path=${encodeURIComponent(currentPath)}`)
+        .then(r => r.json()).then(data => {
+          const list = document.getElementById('file-list-container');
+          list.innerHTML = '';
+          if (currentPath) {
+            const back = document.createElement('div');
+            back.className = 'file-item back';
+            back.innerText = '返回上级';
+            back.onclick = () => {
+              const parent = currentPath.lastIndexOf('/') > -1 ? currentPath.slice(0, currentPath.lastIndexOf('/')) : '';
+              loadDirectory(parent);
+            };
+            list.appendChild(back);
+          }
+          if (!data.directories.length && !data.files.length) {
+            list.innerHTML = '<p>该目录为空</p>';
+            return;
+          }
+          data.directories.forEach(d => {
+            const el = document.createElement('div');
+            el.className = 'file-item folder';
+            el.innerText = d;
+            el.onclick = () => loadDirectory(currentPath ? `${currentPath}/${d}` : d);
+            list.appendChild(el);
+          });
+          data.files.forEach(f => {
+            const el = document.createElement('div');
+            el.className = 'file-item file';
+            el.innerText = f;
+            el.onclick = () => {
+              const fullPath = currentPath ? `${currentPath}/${f}` : f;
+              loadFileContent(fullPath);
+            };
+            list.appendChild(el);
+          });
+        }).catch(e => {
+          document.getElementById('file-list-container').innerHTML = '<p>加载失败</p>';
+        });
+    }
+
+    function loadFileContent(filePath) {
+      // 不再修改 currentPath，避免路径污染
+      updateBreadcrumb(filePath);
+      const cont = document.getElementById('content-container');
+      cont.innerHTML = '';
+      if (observer) observer.disconnect();
+
+      observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            MathJax.typesetPromise([e.target]).then(() => {
+              e.target.style.opacity = '1';
+              observer.unobserve(e.target);
+            });
+          }
+        });
+      }, { root: cont, threshold: 0.1 });
+
+      fetch(`http://127.0.0.1:5004/get_file_content?file_path=${encodeURIComponent(filePath)}`)
+        .then(r => r.json()).then(data => {
+          if (!data.content.length) {
+            cont.innerHTML = '<p>空文件</p>';
+            return;
+          }
+          data.content.forEach(item => {
+            const d = document.createElement('div');
+            d.className = 'content-block';
+            d.innerHTML = item;
+            cont.appendChild(d);
+            observer.observe(d);
+          });
+        }).catch(e => {
+          cont.innerHTML = '<p>加载失败</p>';
+        });
+    }
+
+    window.onload = () => loadDirectory();
+  </script>
+</body>
+</html>
+

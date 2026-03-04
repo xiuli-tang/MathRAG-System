@@ -1,0 +1,2 @@
+[ID: 2046]
+各二项式系数的和：已知$$(1+x)^{n}=\mathrm{C}_{n}^{0}+\mathrm{C}_{n}^{1} x+\mathrm{C}_{n}^{2} x^{2}+\cdots+\mathrm{C}_{n}^{n} x^{n},$$令 $x=1$, 得$$2^{n}=\mathrm{C}_{n}^{0}+\mathrm{C}_{n}^{1}+\mathrm{C}_{n}^{2}+\cdots+\mathrm{C}_{n}^{n}.$$这就是说, $(a+b)^{n}$ 的展开式的各二项式系数的和等于 $2^{n}$.

@@ -1,0 +1,32 @@
+[ID: 328]
+三角函数的诱导公式如下:
+
+1. 对于角$2k\pi+\alpha$（其中$k\in\mathbb{Z}$）:
+   正弦函数:$\sin(2k\pi+\alpha)=\sin\alpha$
+   余弦函数:$\cos(2k\pi+\alpha)=\cos\alpha$
+   正切函数:$\tan(2k\pi+\alpha)=\tan\alpha$
+
+2. 对于角$\pi+\alpha$:
+   正弦函数:$\sin(\pi+\alpha)=-\sin\alpha$
+   余弦函数:$\cos(\pi+\alpha)=-\cos\alpha$
+   正切函数:$\tan(\pi+\alpha)=\tan\alpha$
+
+3. 对于角$-\alpha$:
+   正弦函数:$\sin(-\alpha)=-\sin\alpha$
+   余弦函数:$\cos(-\alpha)=\cos\alpha$
+   正切函数:$\tan(-\alpha)=-\tan\alpha$
+
+4. 对于角$\pi-\alpha$:
+   正弦函数:$\sin(\pi-\alpha)=\sin\alpha$
+   余弦函数:$\cos(\pi-\alpha)=-\cos\alpha$
+   正切函数:$\tan(\pi-\alpha)=-\tan\alpha$
+
+5. 对于角$\frac{\pi}{2}-\alpha$:
+   正弦函数:$\sin(\frac{\pi}{2}-\alpha)=\cos\alpha$
+   余弦函数:$\cos(\frac{\pi}{2}-\alpha)=\sin\alpha$
+   正切函数:$\tan(\frac{\pi}{2}-\alpha)=\frac{1}{\tan\alpha}$
+
+6. 对于角$\frac{\pi}{2}+\alpha$:
+   正弦函数:$\sin(\frac{\pi}{2}+\alpha)=\cos\alpha$
+   余弦函数:$\cos(\frac{\pi}{2}+\alpha)=-\sin\alpha$
+   正切函数:$\tan(\frac{\pi}{2}+\alpha)=-\frac{1}{\tan\alpha}$

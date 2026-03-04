@@ -1,0 +1,2 @@
+[ID: 2125]
+平均法：若把 kn 个不同元素平均分成 k 组，每组 n 个，共有 $\frac{C_{kn}^n \cdot C_{(k-1)n}^n \cdots C_n^n}{A_k^k}$

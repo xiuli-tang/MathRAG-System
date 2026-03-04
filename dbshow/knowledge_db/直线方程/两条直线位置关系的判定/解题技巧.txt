@@ -1,0 +1,2 @@
+[ID: 2335]
+已知 $l_{1}: Ax + By + C_{1} = 0$，$l_{2}: Ax + By + C_{2} = 0$，则：(1) $l_{1} \perp l_{2} \Leftrightarrow A_{1}A_{2} + B_{1}B_{2} = 0$(2) $l_{1} // l_{2} \Leftrightarrow A_{1}B_{2} - A_{2}B_{1} = 0, A_{1}C_{2} - A_{2}C_{1} \neq 0$(3) $l_{1}$ 与 $l_{2}$ 重合 $\Leftrightarrow A_{1}B_{2} - A_{2}B_{1} = 0, A_{1}C_{2} - A_{2}C_{1} = 0$(4) $l_{1}$ 与 $l_{2}$ 相交 $\Leftrightarrow A_{1}B_{2} - A_{2}B_{1} \neq 0$

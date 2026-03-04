@@ -1,0 +1,142 @@
+[ID: 622]
+题目：已知向量$\boldsymbol{a}$,$\boldsymbol{b}$满足$|\boldsymbol{a}|=2$,$|\boldsymbol{b}|=1$,$\boldsymbol{a}\cdot\boldsymbol{b}=\sqrt{2}$,则向量$\boldsymbol{a}$,$\boldsymbol{b}$的夹角为
+
+A. $\frac{3\pi}{4}$
+B. $\frac{2\pi}{3}$
+C. $\frac{\pi}{4}$
+D. $-\frac{\pi}{4}$
+
+解析：设向量$\boldsymbol{a}$,$\boldsymbol{b}$的夹角为$\theta$,则$\theta\in[0,\pi]$,因为$|\boldsymbol{a}|=2$,$|\boldsymbol{b}|=1$,$\boldsymbol{a}\cdot\boldsymbol{b}=\sqrt{2}$,所以$\cos\theta=\frac{\boldsymbol{a}\cdot\boldsymbol{b}}{|\boldsymbol{a}|\times|\boldsymbol{b}|}=\frac{\sqrt{2}}{2\times1}=\frac{\sqrt{2}}{2}$,所以向量$\boldsymbol{a}$,$\boldsymbol{b}$的夹角$\theta=\frac{\pi}{4}$.
+
+答案：C
+----------------------------------------
+[ID: 623]
+已知单位向量$\boldsymbol{a}$与$\boldsymbol{b}$的夹角为$\frac{\pi}{3}$, 若$x\boldsymbol{a}+\boldsymbol{b}$与$\boldsymbol{a}$垂直, 则实数$x$的值为
+
+A. $\frac{1}{2}$
+B. $-\frac{1}{2}$
+C. $\frac{\sqrt{3}}{2}$
+D. $-\frac{\sqrt{3}}{2}$
+
+解析： 由单位向量$\boldsymbol{a}$与$\boldsymbol{b}$的夹角为$\frac{\pi}{3}$, 可得$\boldsymbol{a}\cdot\boldsymbol{b}=1\times1\times\cos\frac{\pi}{3}=\frac{1}{2}$, 若$x\boldsymbol{a}+\boldsymbol{b}$与$\boldsymbol{a}$垂直, 则$(x\boldsymbol{a}+\boldsymbol{b})\cdot\boldsymbol{a}=x\boldsymbol{a}^{2}+\boldsymbol{a}\cdot\boldsymbol{b}=x+\frac{1}{2}=0$, 解得$x=-\frac{1}{2}$.
+
+答案： B
+----------------------------------------
+[ID: 624]
+题目：已知$\boldsymbol{a}$，$\boldsymbol{b}$是非零平面向量，$\boldsymbol{a} \perp (\boldsymbol{a}+\boldsymbol{b})$，且$\boldsymbol{a}$，$\boldsymbol{b}$的角为$\frac{5\pi}{6}$，$|\boldsymbol{b}|=4$，则$|\boldsymbol{a}|=$
+
+解析 $\because \boldsymbol{a} \perp (\boldsymbol{a}+\boldsymbol{b})$，$\langle\boldsymbol{a},\boldsymbol{b}\rangle=\frac{5\pi}{6}$，$|\boldsymbol{b}|=4$，
+
+$\therefore \boldsymbol{a} \cdot (\boldsymbol{a}+\boldsymbol{b})=|\boldsymbol{a}|^2-2\sqrt{3}|\boldsymbol{a}|=0$，
+
+解得$|\boldsymbol{a}|=2\sqrt{3}$。
+----------------------------------------
+[ID: 625]
+题目：已知|$\boldsymbol{a}$|=2, |$\boldsymbol{b}$|=3,$\boldsymbol{a}$与$\boldsymbol{b}$的夹角为120°, 求:
+(1)$\boldsymbol{a} \cdot \boldsymbol{b}$; (2)$\boldsymbol{a}^2-\boldsymbol{b}^2$; (3)$(2\boldsymbol{a}-\boldsymbol{b})\cdot(\boldsymbol{a}+3\boldsymbol{b})$; (4)$|\boldsymbol{a}+\boldsymbol{b}|$.
+
+解析(1)$\boldsymbol{a} \cdot \boldsymbol{b}=|\boldsymbol{a}||\boldsymbol{b}|\cos 120^{\circ}=2 \times 3 \times\left(-\frac{1}{2}\right)=-3$.
+
+(2)$\boldsymbol{a}^2-\boldsymbol{b}^2=|\boldsymbol{a}|^2-|\boldsymbol{b}|^2=4-9=-5$.
+
+(3)$(2\boldsymbol{a}-\boldsymbol{b})\cdot(\boldsymbol{a}+3\boldsymbol{b})=2\boldsymbol{a}^2+5\boldsymbol{a} \cdot \boldsymbol{b}-3\boldsymbol{b}^2=2|\boldsymbol{a}|^2+5|\boldsymbol{a}||\boldsymbol{b}|\cos 120^{\circ}-3|\boldsymbol{b}|^2=8-15-27=-34$.
+
+(4)$|\boldsymbol{a}+\boldsymbol{b}|=\sqrt{(\boldsymbol{a}+\boldsymbol{b})^2}=\sqrt{\boldsymbol{a}^2+2\boldsymbol{a} \cdot \boldsymbol{b}+\boldsymbol{b}^2}=\sqrt{4-6+9}=\sqrt{7}$.
+----------------------------------------
+[ID: 626]
+已知O为平面内的定点，A,B,C是平面内不共线的三点，若$(\overrightarrow{OB}-\overrightarrow{OC})\cdot(\overrightarrow{OB}+\overrightarrow{OC}-2\overrightarrow{OA})=0$，则$\triangle ABC$是
+
+A. 以AB为底边的等腰三角形
+B. 以BC为底边的等腰三角形
+C. 以AB为斜边的直角三角形
+D. 以BC为斜边的直角三角形
+
+解析 ： 设BC的中点为M，由$(\overrightarrow{OB}-\overrightarrow{OC})\cdot(\overrightarrow{OB}+\overrightarrow{OC}-2\overrightarrow{OA})=0$，
+得$\overrightarrow{CB}\cdot(\overrightarrow{AB}+\overrightarrow{AC})=\overrightarrow{CB}\cdot(2\overrightarrow{AM})=2\overrightarrow{CB}\cdot\overrightarrow{AM}=0$，即$\overrightarrow{CB}\cdot\overrightarrow{AM}=0$，
+$\therefore\overrightarrow{CB}\perp\overrightarrow{AM}$，
+$\therefore$AM是$\triangle ABC$的边BC上的中线，也是高，故$\triangle ABC$是以BC为底边的等腰三角形。
+
+答案 ： B
+----------------------------------------
+[ID: 627]
+题目：在边长为1 的正三角形 $ABC$ 中 ,设$\overrightarrow{BC}=2\overrightarrow{BD},\overrightarrow{CA}=3\overrightarrow{CE}$,则$\overrightarrow{AD}\cdot\overrightarrow{BE}=$?
+解析：
+第一步：将$\overrightarrow{AD},\overrightarrow{BE}$用$\overrightarrow{AB},\overrightarrow{AC}$表示出来
+由已知得$\overrightarrow{A} D= \frac 12\cdot ( \overrightarrow {AB}$ $+ \overrightarrow {AC}$ ) $,\overrightarrow {AE}$ = $\frac 23\overrightarrow {AC}$,
+
+$\overrightarrow {BE}$ = $\overrightarrow {BA}$ + $\overrightarrow {AE}$ =$\frac23\overrightarrow{AC}-\overrightarrow{AB}.$
+第二步：将$\overrightarrow{AD}\cdot\overrightarrow{BE}$转化为$\overrightarrow{AB},\overrightarrow{AC}$间的运算
+$\overrightarrow{AD}\cdot\overrightarrow{BE}=\frac{1}{2}\left(\overrightarrow{AB}+\overrightarrow{AC}\right)\cdot(\frac{2}{3}\overrightarrow{AC}-\overrightarrow{AB})=\frac{1}{2}\times(\frac{2}{3}|\overrightarrow{AC}|^{2}-$
+
+$\overrightarrow{|AB}|^{2}-\frac{1}{3}\overrightarrow{AB}\cdot\overrightarrow{AC})=\frac{1}{2}\times(\frac{2}{3}-1-\frac{1}{3}\cos60^{\circ})=-\frac{1}{4}.$
+
+答案：$-\frac14$
+----------------------------------------
+[ID: 628]
+设向量$\boldsymbol{a}$，$\boldsymbol{b}$满足$|\boldsymbol{a}|=|\boldsymbol{b}|=1$及$|3\boldsymbol{a}-2\boldsymbol{b}|=\sqrt{7}$，则$\boldsymbol{a}$，$\boldsymbol{b}$的夹角为
+
+A. $\frac{\pi}{3}$ B. $\frac{\pi}{6}$ C. $\frac{\pi}{4}$ D. $\frac{2\pi}{3}$
+
+解析：$\boldsymbol{a}$与$\boldsymbol{b}$的夹角为$\theta$，由题意得$(3\boldsymbol{a}-2\boldsymbol{b})^2=7$，
+$\therefore 9|\boldsymbol{a}|^2+4|\boldsymbol{b}|^2-12\boldsymbol{a}\cdot\boldsymbol{b}=7$，又$|\boldsymbol{a}|=|\boldsymbol{b}|=1$，$\therefore \boldsymbol{a}\cdot\boldsymbol{b}=\frac{1}{2}$，
+$\therefore |\boldsymbol{a}||\boldsymbol{b}|\cos\theta=\frac{1}{2}$，即$\cos\theta=\frac{1}{2}$。
+又$\theta\in[0,\pi]$，$\therefore \boldsymbol{a}$，$\boldsymbol{b}$的夹角为$\frac{\pi}{3}$。
+
+答案：A
+----------------------------------------
+[ID: 629]
+已知两个向量$\boldsymbol{a}$，$\boldsymbol{b}$的夹角为$30^\circ$，$|\boldsymbol{a}|=\sqrt{3}$，$\boldsymbol{b}$为单位向量，$\boldsymbol{c}=t\boldsymbol{a}+(1-t)\boldsymbol{b}$，若$\boldsymbol{b}\cdot\boldsymbol{c}=0$，则$t=\_\_\_\_\_\_\_\_\_\_$.
+
+解析： 因为向量$\boldsymbol{a}$，$\boldsymbol{b}$的夹角为$30^\circ$，$|\boldsymbol{a}|=\sqrt{3}$，$\boldsymbol{b}$为单位向量，
+所以$\boldsymbol{a}\cdot\boldsymbol{b}=|\boldsymbol{a}||\boldsymbol{b}|\cos30^\circ=\sqrt{3}\times1\times\frac{\sqrt{3}}{2}=\frac{3}{2}$，
+由于$\boldsymbol{c}=t\boldsymbol{a}+(1-t)\boldsymbol{b}$，$\boldsymbol{b}\cdot\boldsymbol{c}=0$，则$t\boldsymbol{a}\cdot\boldsymbol{b}+(1-t)\boldsymbol{b}^2=0$，
+即$\frac{3}{2}t+1-t=0$，解得$t=-2$.
+
+答案：$-2$
+----------------------------------------
+[ID: 630]
+已知向量 $\boldsymbol{m}, \boldsymbol{n}$ 的夹角为 $\frac{\pi}{12}$, $|\boldsymbol{m}|=\sin \frac{\pi}{24}$, $|\boldsymbol{n}|=\cos \frac{\pi}{24}$, 则 $|\boldsymbol{m}+\boldsymbol{n}|=$
+
+解析 ：
+$\because\langle\boldsymbol{m}, \boldsymbol{n}\rangle=\frac{\pi}{12}$, $|\boldsymbol{m}|=\sin \frac{\pi}{24}$, $|\boldsymbol{n}|=\cos \frac{\pi}{24}$,
+
+$\therefore(\boldsymbol{m}+\boldsymbol{n})^{2}=\boldsymbol{m}^{2}+\boldsymbol{n}^{2}+2|\boldsymbol{m}||\boldsymbol{n}|\cos \frac{\pi}{12}=1+\sin \frac{\pi}{12} \cos \frac{\pi}{12}=$
+
+$1+\frac{\sin \frac{\pi}{6}}{2}=1+\frac{1}{4}=\frac{5}{4}$,
+
+$\therefore|\boldsymbol{m}+\boldsymbol{n}|=\frac{\sqrt{5}}{2}$.
+----------------------------------------
+[ID: 631]
+已知$|\boldsymbol{a}|=1$，$|\boldsymbol{b}|=2$，则$|\boldsymbol{a}+\boldsymbol{b}|+|\boldsymbol{a}-\boldsymbol{b}|$的最大值等于？
+
+解析 ：根据题意，$|\boldsymbol{a}+\boldsymbol{b}|+|\boldsymbol{a}-\boldsymbol{b}|\leqslant 2\times\sqrt{\frac{|\boldsymbol{a}+\boldsymbol{b}|^2+|\boldsymbol{a}-\boldsymbol{b}|^2}{2}}=2\times\sqrt{|\boldsymbol{a}|^2+|\boldsymbol{b}|^2}=2\sqrt{5}$，当且仅当$|\boldsymbol{a}+\boldsymbol{b}|=|\boldsymbol{a}-\boldsymbol{b}|$，即$\boldsymbol{a}\perp\boldsymbol{b}$时等号成立，即$|\boldsymbol{a}+\boldsymbol{b}|+|\boldsymbol{a}-\boldsymbol{b}|$的最大值等于$2\sqrt{5}$。
+
+答案 ：$2\sqrt{5}$
+----------------------------------------
+[ID: 632]
+设两个向量$e_1,e_2$满足$|e_1|=2,|e_2|=1,e_1$ 与$e_2$ 的夹角为$\frac\pi3$,若向量 $2te_1+7e_2$ 与
+$e_1+te_2$的夹角为钝角，则实数$t$的取值范围为？
+
+解析：设向量$2t\boldsymbol{e_{1}}+7\boldsymbol{e_{2}}$与$\boldsymbol{e_{1}}+t\boldsymbol{e_{2}}$的夹角为$\theta$，则$\cos\theta=\frac{(2t\boldsymbol{e_{1}}+7\boldsymbol{e_{2}})\cdot(\boldsymbol{e_{1}}+t\boldsymbol{e_{2}})}{|2t\boldsymbol{e_{1}}+7\boldsymbol{e_{2}}||\boldsymbol{e_{1}}+t\boldsymbol{e_{2}}|}<0$，即$(2t\boldsymbol{e_{1}}+7\boldsymbol{e_{2}})\cdot(\boldsymbol{e_{1}}+t\boldsymbol{e_{2}})<0$，
+化简得$2t^{2}+15t+7<0$，解得$-7<t<-\frac{1}{2}$。
+
+当$2t\boldsymbol{e_{1}}+7\boldsymbol{e_{2}}$与$\boldsymbol{e_{1}}+t\boldsymbol{e_{2}}$的夹角为$\pi$时，也有$\cos\theta<0$，但此时夹角不是钝角。
+
+设$2t\boldsymbol{e_{1}}+7\boldsymbol{e_{2}}=\lambda(\boldsymbol{e_{1}}+t\boldsymbol{e_{2}})$，$\lambda<0$，因为$\boldsymbol{e_{1}}$，$\boldsymbol{e_{2}}$不共线，
+
+$\begin{cases}2t=\lambda,\\7=\lambda t,\end{cases}$ 解得$\begin{cases}\lambda=-\sqrt{14},\\t=-\frac{\sqrt{14}}{2}.\end{cases}$
+
+故实数$t$的取值范围是$(-7,-\frac{\sqrt{14}}{2})\cup(-\frac{\sqrt{14}}{2},-\frac{1}{2})$。
+
+答案： ${(-7,-\frac{\sqrt{14}}{2})\cup(-\frac{\sqrt{14}}{2},-\frac{1}{2})}$
+----------------------------------------
+[ID: 633]
+已知向量$\boldsymbol{a}$，$\boldsymbol{b}$满足$|\boldsymbol{a}|=5$，$|\boldsymbol{b}|=6$，$\boldsymbol{a}\cdot\boldsymbol{b}=-6$，则$\cos\langle\boldsymbol{a},\boldsymbol{a}+\boldsymbol{b}\rangle=$？
+
+解析：由题意，得
+
+$\boldsymbol{a}\cdot(\boldsymbol{a}+\boldsymbol{b})=\boldsymbol{a}^2+\boldsymbol{a}\cdot\boldsymbol{b}=25-6=19$，
+
+$|\boldsymbol{a}+\boldsymbol{b}|=\sqrt{\boldsymbol{a}^2+2\boldsymbol{a}\cdot\boldsymbol{b}+\boldsymbol{b}^2}=\sqrt{25-12+36}=7$，
+
+所以$\cos\langle\boldsymbol{a},\boldsymbol{a}+\boldsymbol{b}\rangle=\frac{\boldsymbol{a}\cdot(\boldsymbol{a}+\boldsymbol{b})}{|\boldsymbol{a}||\boldsymbol{a}+\boldsymbol{b}|}=\frac{19}{5\times7}=\frac{19}{35}$。

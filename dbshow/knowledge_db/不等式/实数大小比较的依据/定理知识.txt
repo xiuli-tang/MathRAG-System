@@ -1,0 +1,2 @@
+[ID: 2397]
+关于实数 $a, b$ 大小的比较, 有以下基本事实:如果 $a - b$ 是正数, 那么 $a > b$; 如果 $a - b$ 等于 0, 那么 $a = b$; 如果 $a - b$ 是负数, 那么 $a < b$. 反过来也对.这个基本事实可以表示为 $a > b \Leftrightarrow a - b > 0$; $a = b \Leftrightarrow a - b = 0$; $a < b \Leftrightarrow a - b < 0$.

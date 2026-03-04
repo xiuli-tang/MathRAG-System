@@ -1,0 +1,2 @@
+[ID: 2293]
+已知直线 $l_1: y = k_1x + b_1$，$l_2: y = k_2x + b_2$，$l_1 // l_2 \Rightarrow \alpha_1 = \alpha_2 \Rightarrow k_1 = k_2 (b_1 \neq b_2)$;$l_1 \perp l_2 \Rightarrow |\alpha_1 - \alpha_2| = \frac{\pi}{2} \Rightarrow \tan \alpha_1 = -\cot \alpha_2 \Rightarrow k_1 = -\frac{1}{k_2} \Rightarrow k_1k_2 = -1$于是与直线 $y = kx + b$ 平行的直线可以设为 $y = kx + b_1$；垂直的直线可以设为 $y = -\frac{1}{k}x + b_2$.

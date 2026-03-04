@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Base Visualization</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .bg-custom {
+            {#background-image: url('http://10.124.35.52:8080//background-image');#}
+      {#background-size: 33vw 50vh;#}
+
+            {#background-size: cover;#}
+      background-color: #C1CDCD;
+      {#background-repeat: no-repeat;#}
+      {#background-position: center center;#}
+      {#background-attachment: fixed;#}
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .file-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        .file-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .loading-spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid #ffffff;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-custom text-white">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-lg">超级码力知识库</h1>
+            <div class="glass-card inline-block px-6 py-3 rounded-full">
+                <h2 class="text-xl md:text-2xl font-semibold" id="kb-name">Loading Knowledge Base...</h2>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Stats Overview -->
+            <div class="glass-card p-6 mb-8 grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="text-center p-4">
+                    <div class="text-3xl font-bold" id="total-files">--</div>
+                    <div class="text-sm opacity-80">Total Files</div>
+                </div>
+                <div class="text-center p-4">
+                    <div class="text-3xl font-bold" id="total-size">--</div>
+                    <div class="text-sm opacity-80">Total Size</div>
+                </div>
+                <div class="text-center p-4">
+                    <div class="text-3xl font-bold" id="last-updated">--</div>
+                    <div class="text-sm opacity-80">Last Updated</div>
+                </div>
+                <div class="text-center p-4">
+                    <div class="text-3xl font-bold" id="file-types">--</div>
+                    <div class="text-sm opacity-80">File Types</div>
+                </div>
+            </div>
+
+            <!-- Search and Filter -->
+            <div class="glass-card p-4 mb-8 flex flex-col md:flex-row gap-4">
+                <input type="text" placeholder="Search files..." class="flex-grow px-4 py-2 rounded bg-white bg-opacity-10 border border-white border-opacity-20 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <select class="px-4 py-2 rounded bg-white bg-opacity-10 border border-white border-opacity-20 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <option>All File Types</option>
+                    <option>Documents</option>
+                    <option>Images</option>
+                    <option>Videos</option>
+                    <option>Others</option>
+                </select>
+                <button class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded transition duration-200">Search</button>
+            </div>
+
+            <!-- Files Grid -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold mb-4 flex items-center">
+                    <i class="fas fa-folder-open mr-2"></i>
+                    <span>文件</span>
+                </h3>
+
+                <div id="loading" class="flex justify-center items-center py-12">
+                    <div class="loading-spinner"></div>
+                </div>
+
+                <div id="files-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 hidden">
+                    <!-- Files will be inserted here by JavaScript -->
+                </div>
+
+                <div id="error-message" class="glass-card p-8 text-center hidden">
+                    <i class="fas fa-exclamation-triangle text-4xl text-yellow-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Failed to Load Files</h3>
+                    <p class="mb-4">We couldn't retrieve the file list from the server. Please try again later.</p>
+                    <button onclick="loadFiles()" class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded transition duration-200">
+                        <i class="fas fa-sync-alt mr-2"></i> Retry
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="glass-card p-4 text-center text-sm opacity-80">
+            <p>© 2025 超级码力知识库 | 由超级码力提供</p>
+        </footer>
+    </div>
+
+    <script>
+        // Set knowledge base name
+        document.getElementById('kb-name').textContent = '当前知识库： 知识库1';
+
+        // Function to format file size
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+
+        // Function to get file icon based on extension
+        function getFileIcon(filename) {
+            const extension = filename.split('.').pop().toLowerCase();
+            const icons = {
+                pdf: 'file-pdf',
+                doc: 'file-word',
+                docx: 'file-word',
+                xls: 'file-excel',
+                xlsx: 'file-excel',
+                ppt: 'file-powerpoint',
+                pptx: 'file-powerpoint',
+                txt: 'file-alt',
+                csv: 'file-csv',
+                jpg: 'file-image',
+                jpeg: 'file-image',
+                png: 'file-image',
+                gif: 'file-image',
+                mp3: 'file-audio',
+                wav: 'file-audio',
+                mp4: 'file-video',
+                mov: 'file-video',
+                zip: 'file-archive',
+                rar: 'file-archive',
+                exe: 'file-code',
+                js: 'file-code',
+                html: 'file-code',
+                css: 'file-code',
+                json: 'file-code'
+            };
+            return icons[extension] || 'file';
+        }
+
+        // Function to load files from API
+        async function loadFiles() {
+            const loading = document.getElementById('loading');
+            const filesContainer = document.getElementById('files-container');
+            const errorMessage = document.getElementById('error-message');
+
+            // Show loading, hide others
+            loading.classList.remove('hidden');
+            filesContainer.classList.add('hidden');
+            errorMessage.classList.add('hidden');
+
+            try {
+                const response = await fetch('http://127.0.0.1:8080/get_all_files');
+                if (!response.ok) throw new Error('Network response was not ok');
+
+                const files = await response.json();
+
+                // Update stats
+                document.getElementById('total-files').textContent = files.length;
+
+                // Calculate total size
+                const totalSize = files.reduce((sum, file) => sum + (file.size || 0), 0);
+                document.getElementById('total-size').textContent = formatFileSize(totalSize);
+
+                // Find last modified date
+                if (files.length > 0) {
+                    const lastModified = new Date(Math.max(...files.map(file => new Date(file.modified || 0))));
+                    document.getElementById('last-updated').textContent = lastModified.toLocaleDateString();
+                }
+
+                // Count unique file types
+                const extensions = new Set(files.map(file => {
+                    const parts = file.name.split('.');
+                    return parts.length > 1 ? parts.pop().toUpperCase() : 'OTHER';
+                }));
+                document.getElementById('file-types').textContent = extensions.size;
+
+                // Render files
+                filesContainer.innerHTML = '';
+                files.forEach(file => {
+                    const fileCard = document.createElement('div');
+                    fileCard.className = 'file-card glass-card p-6 rounded-lg transition duration-300 cursor-pointer hover:bg-opacity-30';
+
+                    const icon = getFileIcon(file.name);
+                    const size = file.size ? formatFileSize(file.size) : 'Unknown size';
+
+                    fileCard.innerHTML = `
+                        <div class="text-center">
+                            <i class="file-icon fas fa-${icon} text-blue-400"></i>
+                            <h4 class="font-semibold mb-1 truncate" title="${file.name}">${file.name}</h4>
+                            <div class="text-sm opacity-80 mb-2">${size}</div>
+                            <div class="text-xs opacity-60">Modified: ${file.modified ? new Date(file.modified).toLocaleDateString() : 'Unknown'}</div>
+                        </div>
+                    `;
+
+                    filesContainer.appendChild(fileCard);
+                });
+
+                // Show files, hide loading
+                filesContainer.classList.remove('hidden');
+                loading.classList.add('hidden');
+
+            } catch (error) {
+                console.error('Error loading files:', error);
+                loading.classList.add('hidden');
+                errorMessage.classList.remove('hidden');
+            }
+        }
+
+        // Load files when page loads
+        document.addEventListener('DOMContentLoaded', loadFiles);
+    </script>
+</body>
+</html>

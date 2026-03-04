@@ -1,0 +1,2 @@
+[ID: 2441]
+形如| $f( x) | < |$ $g( x)$ |型不等式,此类不等式的简捷解法是利用平方法，即：$$\mid f(x)\mid<\mid g(x)\mid\Leftrightarrow f^2(x)<g^2(x)\Leftrightarrow[f(x)+g(x)][f(x)-g(x)]<0$$

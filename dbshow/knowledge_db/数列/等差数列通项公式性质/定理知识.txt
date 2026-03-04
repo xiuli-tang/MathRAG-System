@@ -1,0 +1,2 @@
+[ID: 2130]
+$a_n=a_m+(n-m)d$ 从而$d=\frac{a_n-a_m}{n-m}$

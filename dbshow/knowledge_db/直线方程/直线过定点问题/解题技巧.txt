@@ -1,0 +1,2 @@
+[ID: 2341]
+直线过定点问题：1 含有一个未知参数，$y=(a-1)x+2a-1$ $\Rightarrow y=a(x+2)-x+1$ (1)令$x+2=0$ $\Rightarrow x=-2$，将$x=-2$代入(1)式，得$y=3$，从而该直线过定点(-2,3)2 含有两个未知参数$(3m-n)x+(m+2n)y-n=0$ $\Rightarrow m(3x+y)+n(-x+2y-1)=0$$\begin{cases} 3x+y=0 \\ -x+2y-1=0 \end{cases}$ $\Rightarrow \begin{cases} x=-\frac{1}{7} \\ y=\frac{3}{7} \end{cases}$从而该直线必过定点（-$\frac{1}{7}$，$\frac{3}{7}$）

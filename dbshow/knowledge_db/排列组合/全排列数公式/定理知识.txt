@@ -1,0 +1,2 @@
+[ID: 2038]
+排列数公式中$m=n$,即有$$\mathrm A_n^n=n\times(n-1)\times(n-2)\times\cdotp\cdotp\cdotp\times3\times2\times1.$$也就是说，将$n$个不同的元素全部取出的排列数，等于正整数 1 到$n$的连乘积. 正整数 1到$n$的连乘积，叫做$n$的阶乘，用$n!$表示.于是，$n$个元素的全排列数公式可以写成$$\mathrm{A}_n^n=n!.$$

@@ -1,0 +1,75 @@
+[ID: 610]
+已知两个非零向量$\overrightarrow{a}$,$\overrightarrow{b}$，$O$是平面上的任意一点，作$\overrightarrow{OA}=\overrightarrow{a}$，$\overrightarrow{OB}=\overrightarrow{b}$，则$\angle AOB=\theta$叫做向量$\overrightarrow{a}$与$\overrightarrow{b}$的夹角，也常用$\langle\overrightarrow{a},\overrightarrow{b}\rangle$表示.
+----------------------------------------
+[ID: 611]
+向量夹角的特殊情形:
+
+当$\theta=0$时，向量$\overrightarrow{a}$,$\overrightarrow{b}$共线且同向；
+
+当$\theta=\frac{\pi}{2}$时，向量$\overrightarrow{a}$,$\overrightarrow{b}$相互垂直，记作$\overrightarrow{a}\bot\overrightarrow{b}$；
+
+当$\theta=\pi$时，向量$\overrightarrow{a}$,$\overrightarrow{b}$共线且反向.
+----------------------------------------
+[ID: 612]
+两个向量数量积的定义:
+
+已知两个非零向量$a$ 与$b$,它们的夹角为 $\theta$,我们把数量$|a||b|\cos\theta$ 叫
+做向量$a$ 与$b$ 的数量积(或内积),记作$a\cdot b$,即$a\cdot b=|a||b|\cos\theta.$
+
+规定：零向量与任一向量的数量积为 0,即$\mathbf{0}\cdot a=0.$
+----------------------------------------
+[ID: 613]
+向量的投影:
+设$a,b$是两个非零向量$,\overrightarrow{AB}=a$ ,$\overrightarrow{CD}=b$ ,我们考虑如下的变换：过$\overrightarrow AB$的起点 $A$ 和终点 $B$,分别作$\overrightarrow CD$所在直线的垂线，垂足分别为 $A_1,B_1$,得到$\overrightarrow{A_1B_1}$,我们称上述变换为向量$a$ 向向量 $b$ 投影 , $\overrightarrow{A_1B_1}$叫做向量$a$ 在向量 $b$ 上的投影向量.
+----------------------------------------
+[ID: 614]
+$|\boldsymbol{a}|\cos\theta$称为向量$\boldsymbol{a}$在向量$\boldsymbol{b}$上的投影的数量，可以表示为$\boldsymbol{a}\cdot\frac{\boldsymbol{b}}{|\boldsymbol{b}|}$。
+----------------------------------------
+[ID: 615]
+向量的数量积$\boldsymbol{a}\cdot\boldsymbol{b}$的几何意义：
+$\boldsymbol{b}$的长度$|\boldsymbol{b}|$与$\boldsymbol{a}$在$\boldsymbol{b}$上的投影的数量$|\boldsymbol{a}|\cos\theta$的乘积；或$\boldsymbol{a}$的长度
+----------------------------------------
+[ID: 616]
+由$\boldsymbol{a}\cdot\boldsymbol{b}=|\boldsymbol{a}||\boldsymbol{b}|\cos\theta$, 得到：
+当$\theta$为锐角时, $\boldsymbol{a}\cdot\boldsymbol{b}>0$, 且$\boldsymbol{a}\cdot\boldsymbol{b}\neq|\boldsymbol{a}||\boldsymbol{b}|$;
+当$\theta$为钝角时, $\boldsymbol{a}\cdot\boldsymbol{b}<0$, 且$\boldsymbol{a}\cdot\boldsymbol{b}\neq-|\boldsymbol{a}||\boldsymbol{b}|$;
+ 当$\theta=0^\circ$时, $\boldsymbol{a}\cdot\boldsymbol{b}=|\boldsymbol{a}||\boldsymbol{b}|$;
+ 当$\theta=90^\circ$时, $\boldsymbol{a}\cdot\boldsymbol{b}=0$; 当$\theta=180^\circ$时, $\boldsymbol{a}\cdot\boldsymbol{b}=-|\boldsymbol{a}||\boldsymbol{b}|$.
+----------------------------------------
+[ID: 617]
+向量数量积的性质：
+
+设$\boldsymbol{a},\boldsymbol{b}$是非零向量,它们的夹角是$\theta$,$\boldsymbol{e}$是与$\boldsymbol{b}$方向相同的单位向量,则
+
+(1)$\boldsymbol{a}\cdot\boldsymbol{e}=\boldsymbol{e}\cdot\boldsymbol{a}=|\boldsymbol{a}|\cos\theta$.
+
+即任意向量与单位向量的数量积等于这个向量在单位向量上的投影的数量.
+
+(2)$\boldsymbol{a}\perp\boldsymbol{b}\Longleftrightarrow\boldsymbol{a}\cdot\boldsymbol{b}=0$.
+
+
+(3)当$\boldsymbol{a}$与$\boldsymbol{b}$同向时,$\boldsymbol{a}\cdot\boldsymbol{b}=|\boldsymbol{a}||\boldsymbol{b}|$;当$\boldsymbol{a}$与$\boldsymbol{b}$反向时,$\boldsymbol{a}\cdot\boldsymbol{b}=-|\boldsymbol{a}||\boldsymbol{b}|$.
+
+特别地,$\boldsymbol{a}\cdot\boldsymbol{a}=\boldsymbol{a}^2=|\boldsymbol{a}|^2$或$|\boldsymbol{a}|=\sqrt{\boldsymbol{a}\cdot\boldsymbol{a}}$.
+（当两个向量相等时,这两个向量的数量积等于向量的模的平方,因此可用于求向量的模.）
+
+(4)$|\boldsymbol{a}\cdot\boldsymbol{b}|\leqslant|\boldsymbol{a}||\boldsymbol{b}|$,当且仅当向量$\boldsymbol{a}$,$\boldsymbol{b}$共线,即$\boldsymbol{a}\parallel\boldsymbol{b}$时,等号成立.
+
+(5)$\cos\theta=\frac{\boldsymbol{a}\cdot\boldsymbol{b}}{|\boldsymbol{a}||\boldsymbol{b}|}$.
+----------------------------------------
+[ID: 618]
+向量数量积的运算律：
+由向量数量积的定义，可以发现下列运算律成立：
+对于向量$\boldsymbol{a}$，$\boldsymbol{b}$，$\boldsymbol{c}$和实数$\lambda$，有
+(1) 交换律：$\boldsymbol{a}\cdot\boldsymbol{b}=\boldsymbol{b}\cdot\boldsymbol{a}$；
+(2) 数乘结合律：$(\lambda\boldsymbol{a})\cdot\boldsymbol{b}=\lambda(\boldsymbol{a}\cdot\boldsymbol{b})=\boldsymbol{a}\cdot(\lambda\boldsymbol{b})$；
+(3) 分配律：$(\boldsymbol{a}+\boldsymbol{b})\cdot\boldsymbol{c}=\boldsymbol{a}\cdot\boldsymbol{c}+\boldsymbol{b}\cdot\boldsymbol{c}$。
+----------------------------------------
+[ID: 619]
+常用结论：
+$(1)(a\pm b)^2=|a\pm b|^2=|a|^2\pm2a\cdot b+|b|^2=a^2\pm2a\cdot b+b^2;$
+$(2)a^2-b^2=(a+b)\cdot(a-b)=|a|^2-|b|^2;$
+$( 3) ( a+ b) ^2+ ( a- b) ^2= 2( | a| ^2+ | b| ^2)$ ;
+$(4)a^2+b^2=0\Longleftrightarrow a=b=0;$
+$(5)||a|-|b||\leq|a+b|\leq|a|+|b|$,当且仅当$a$ 与$b$ 同向共线时右边等
+号成立$,a$ 与 $b$ 反向共线时左边等号成立.

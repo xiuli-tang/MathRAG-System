@@ -1,0 +1,54 @@
+[ID: 581]
+向量的数乘的定义：
+一般地，我们规定实数 $\lambda$ 与向量 $\boldsymbol{a}$ 的积是一个向量，这种运算叫做向量的数乘，记作 $\lambda \boldsymbol{a}$，它的长度与方向规定如下：
+(1) $|\lambda \boldsymbol{a}|=|\lambda||\boldsymbol{a}|$;
+(2) 当 $\lambda>0$ 时，$\lambda \boldsymbol{a}$ 的方向与 $\boldsymbol{a}$ 的方向相同；当 $\lambda<0$ 时，$\lambda \boldsymbol{a}$ 的方向与$\boldsymbol{a}$ 的方向相反。
+当 $\lambda=0$ 时，$\lambda \boldsymbol{a}=\boldsymbol{0}$; 当 $\boldsymbol{a}=\boldsymbol{0}$ 时，$\lambda\boldsymbol{a}=\boldsymbol{0}$。
+（结果是零向量，而非实数0.）
+----------------------------------------
+[ID: 582]
+向量的数乘的几何意义
+
+(1) 当 $|\lambda|>1$ 时，有 $|\lambda \boldsymbol{a}|>|\boldsymbol{a}|$，这意味着表示向量 $\boldsymbol{a}$ 的有向线段在原方向 $(\lambda>1)$ 或反方向 $(\lambda<-1)$ 上伸长到原来的 $|\lambda|$ 倍;
+
+(2) 当 $0<|\lambda|<1$ 时，有 $|\lambda \boldsymbol{a}|<|\boldsymbol{a}|$，这意味着表示向量 $\boldsymbol{a}$ 的有向线段在原方向 $(0<\lambda<1)$ 或反方向 $(-1<\lambda<0)$ 上缩短到原来的 $|\lambda|$ 倍.
+----------------------------------------
+[ID: 583]
+向量的数乘的运算律
+
+设 $\lambda, \mu$ 为实数，那么 $(1) \lambda(\mu \boldsymbol{a})=(\lambda \mu) \boldsymbol{a}$; $(2)(\lambda+\mu) \boldsymbol{a}=\lambda \boldsymbol{a}+\mu \boldsymbol{a}$;
+
+(3) $\lambda(\boldsymbol{a}+\boldsymbol{b})=\lambda \boldsymbol{a}+\lambda \boldsymbol{b}$.
+
+$(-\lambda) \boldsymbol{a}=-(\lambda \boldsymbol{a})=\lambda(-\boldsymbol{a})$, $\lambda(\boldsymbol{a}-\boldsymbol{b})=\lambda \boldsymbol{a}-\lambda \boldsymbol{b}$.
+----------------------------------------
+[ID: 584]
+实数与向量可以相乘，但是不能相加减，如 $\lambda+\boldsymbol{a}, \lambda-\boldsymbol{a}$ 均没有意义.
+----------------------------------------
+[ID: 585]
+对于非零向量 $\boldsymbol{a}$，当 $\lambda=\frac{1}{|\boldsymbol{a}|}$ 时，$\lambda \boldsymbol{a}$ 表示 $\boldsymbol{a}$ 方向上的单位向量.
+----------------------------------------
+[ID: 586]
+向量的数乘运算类似于代数多项式的运算.主要是“合并同类项”“提取公因式”，但这里的“同类项”及“公因式”指的是向量，实数指的是向量的系数.
+----------------------------------------
+[ID: 587]
+向量的加、减、数乘运算统称为向量的线性运算. 对于任意向量 $\boldsymbol{a}, \boldsymbol{b}$,以及任意实数 $\lambda, \mu_{1}, \mu_{2}$, 恒有 $\lambda(\mu_{1}\boldsymbol{a} \pm \mu_{2}\boldsymbol{b}) = \lambda\mu_{1}\boldsymbol{a} \pm \lambda\mu_{2}\boldsymbol{b}$.
+----------------------------------------
+[ID: 588]
+向量共线定理：
+向量$a\left(a\neq0\right)$与$b$ 共线的充要条件是：存在唯一一个实数 $\lambda$,使$b=\lambda a.$
+----------------------------------------
+[ID: 589]
+三点共线定理：已知平面内三点$A,B,C,O$为不同于$A,B,C$的任意一点$,A,B,C$三点共线当且仅当存在实数$\lambda,\mu$使$得\overrightarrow{OC}=\lambda\overrightarrow{OA}+\mu\overrightarrow{OB},且\lambda+\mu=1.$
+----------------------------------------
+[ID: 595]
+(1)三角形的内心: 三角形内切圆的圆心, 三角形三条角平分线的交点, 内心到三角形三边的距离相等.
+----------------------------------------
+[ID: 596]
+(2)三角形的外心: 三角形外接圆的圆心, 三角形三条边的中垂线的交点, 外心到三角形三个顶点的距离相等. 若 $M$ 是 $\triangle ABC$ 内一点, 满足 $|\overrightarrow{MA}| = |\overrightarrow{MB}| = |\overrightarrow{MC}|$, 则点 $M$ 为 $\triangle ABC$ 的外心.
+----------------------------------------
+[ID: 597]
+(3)三角形的垂心: 三角形三条高线的交点.
+----------------------------------------
+[ID: 598]
+(4)三角形的重心: 三角形三条中线的交点. 若 $G$ 是 $\triangle ABC$ 内一点, 且满足 $\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \overrightarrow{0}$, 则 $G$ 是 $\triangle ABC$ 的重心.

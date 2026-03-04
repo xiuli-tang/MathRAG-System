@@ -1,0 +1,4 @@
+[ID: 639]
+用基底表示向量的两种基本方法：
+
+用基底表示向量的基本方法有两种:一种是运用向量的线性运算对待求向量不断地进行转化,直至用基底表示为止;另一种是通过列向量方程(组),利用基底表示向量的唯一性求解,即若$\boldsymbol{a}=\lambda_{1}\boldsymbol{e}_{1}+\mu_{1}\boldsymbol{e}_{2}$,且$\boldsymbol{a}=\lambda_{2}\boldsymbol{e}_{1}+\mu_{2}\boldsymbol{e}_{2}$,则$\begin{cases}\lambda_{1}=\lambda_{2},\\\mu_{1}=\mu_{2}\end{cases}$来构建方程(组),使得问题获解.

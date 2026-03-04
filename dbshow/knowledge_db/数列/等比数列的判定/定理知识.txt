@@ -1,0 +1,2 @@
+[ID: 2147]
+等比数列的判定方法（1）用定义：对任意的n 都有$a_{a+1}=qa_{a}$ 或$\frac{a_{n+1}}{a_{n}}=q(q$ 为常数， $a_{n}\neq0)\Leftrightarrow\{a_{n}\}$ 为等比数列（2）等比中项： $a_{n}^{2}=a_{n+1}a_{n-1}$ $a_{n+ 1}a_{n- 1}\neq 0)$ $\Leftrightarrow \{ a_{n}\}$ 为等比数列(3）通项公式： $a_{n}=A\cdot B^{n}\left(A\cdot B\neq0\right)\Leftrightarrow\left\{a_{n}\right\}$ 为等比数列（4）前n 项和公式： $S_n=A-A\cdot B^n$或$S_n=A^\prime B^n-A^{\prime}\left(A,B,A^{\prime},B^{\prime}\text{为常数}\right)$ $\Leftrightarrow\{a_n\}$ 为等比数列

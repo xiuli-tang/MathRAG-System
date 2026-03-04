@@ -1,0 +1,24 @@
+[ID: 634]
+平面向量基本定理：
+如果 $\boldsymbol{e}_{1}$, $\boldsymbol{e}_{2}$ 是同一平面内的两个不共线向量, 那么对于这一平面内的任一向量 $\boldsymbol{a}$, 有且只有一对实数 $\lambda_{1}, \lambda_{2}$, 使 $\boldsymbol{a} = \lambda_{1} \boldsymbol{e}_{1} + \lambda_{2} \boldsymbol{e}_{2}$.
+
+若 $\boldsymbol{e}_{1}, \boldsymbol{e}_{2}$ 不共线, 我们把 $\left\{\boldsymbol{e}_{1}, \boldsymbol{e}_{2}\right\}$ 叫做表示这一平面内所有向量的一个基底.
+----------------------------------------
+[ID: 635]
+平面向量基本定理包括两个方面的内容:
+
+一是存在性, 即存在实数 $\lambda_{1}, \lambda_{2}$, 使 $\boldsymbol{a} = \lambda_{1} \boldsymbol{e}_{1} + \lambda_{2} \boldsymbol{e}_{2}$.
+
+二是唯一性, 即对任一向量 $\boldsymbol{a}$, 存在唯一一对实数 $\lambda_{1}, \lambda_{2}$, 使 $\boldsymbol{a} = \lambda_{1} \boldsymbol{e}_{1} + \lambda_{2} \boldsymbol{e}_{2}$.
+
+事实上, 若存在 $\lambda_{1}, \lambda_{2} \in \mathbb{R}, \mu_{1}, \mu_{2} \in \mathbb{R}$, 且 $\boldsymbol{a} = \lambda_{1} \boldsymbol{e}_{1} + \lambda_{2} \boldsymbol{e}_{2}$, $\boldsymbol{a} = \mu_{1} \boldsymbol{e}_{1} + \mu_{2} \boldsymbol{e}_{2}$,
+----------------------------------------
+[ID: 636]
+由平面向量基本定理，我们得到：$n$个不共线的向量$e_1,e_2,\cdots,e_n$与$n$ 个实数$\lambda_1,\lambda_2,\cdotp\cdotp\cdotp,\lambda_n$所组成的向量$\lambda_1e_1+\lambda_2e_2+\cdots+\lambda_ne_n$叫做向量的线性组合，当向量$a$是向量$e_1,e_2,\cdotp\cdotp\cdotp,e_n$的线性组合，即$a=\lambda_1e_1+$ $\lambda_2e_2+\cdots+\lambda_ne_n$时，我们称向量$a$可以分解成向量$e_1,e_2,\cdots,e_n$的线性组合，其中{$\left\{e_1,e_2,\cdots,e_n\right\}$是关于向量$a$ 的一个基底
+----------------------------------------
+[ID: 637]
+把一个向量分解为两个互相垂直的向量.叫做把向量作正交分解.
+正交分解中的两个基向量互相垂直，构成正交基底。
+----------------------------------------
+[ID: 638]
+由平面向量基本定理知，对于平面内的任一向量$a$,均可以分解为不共线的两个向量$\lambda_1a_1$和$\lambda_2a_2$,使$a=\lambda_1a_1+\lambda_2a_2.$当$a_1$与$a_2$垂直时，$a$ 就分解成为两个互相垂直的向量，叫做把$a$ 正交分解.

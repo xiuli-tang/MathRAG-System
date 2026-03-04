@@ -1,0 +1,5 @@
+[ID: 2200]
+已知数列${a_{n}}$满足$a_{1}=\frac{1}{2}$，$a_{n+1}=a_{n}+\frac{1}{n^{2}+n}$，求$a_{n}$。解:由条件知：$a_{n+1}-a_{n}=\frac{1}{n^{2}+n}-\frac{1}{n(n+1)}=\frac{1}{n}\cdot\frac{n-1}{n+1}$分别令$n=1,2,3,\cdots,(n-1)$，代入上式得$(n-1)$个等式累加之，即$(a_{2}-a_{1})+(a_{3}-a_{2})+(a_{4}-a_{3})+\cdots+(a_{n}-a_{n-1})=(1-\frac{1}{2})+(\frac{1}{2}-\frac{1}{3})+(\frac{1}{3}-\frac{1}{4})+\cdots+(\frac{1}{n-1}-\frac{1}{n})$所以$a_{n}-a_{1}=1-\frac{1}{n}$$\therefore a_{1}=\frac{1}{2}$，$\therefore a_{n}=\frac{1}{2}+1-\frac{1}{n}=\frac{3}{2}-\frac{1}{n}$
+----------------------------------------
+[ID: 2201]
+已知数列${a_{n}}$满足$a_{1}=\frac{2}{3}$，$a_{n+1}=\frac{n}{n+1}a_{n}$，求$a_{n}$。解:由条件知$\frac{a_{n+1}}{a_{n}}=\frac{n}{n+1}$，分别令$n=1,2,3,\cdots,(n-1)$，代入上式得$(n-1)$个等式累乘之，即$\frac{a_{2}}{a_{1}}\cdot\frac{a_{3}}{a_{2}}\cdot\cdots\cdot\frac{a_{n}}{a_{n-1}}=\frac{1}{2}\times\frac{2}{3}\times\frac{3}{4}\times\cdots\times\frac{n-1}{n}\Rightarrow\frac{a_{n}}{a_{1}}=\frac{1}{n}$又$a_{1}=\frac{2}{3}$，$\therefore a_{n}=\frac{2}{3n}$

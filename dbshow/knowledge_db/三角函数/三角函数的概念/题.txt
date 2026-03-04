@@ -1,0 +1,644 @@
+[ID: 374]
+已知角α的终边在直线y=x上，则sin α= _______.
+
+解析 ：易知α的终边在第一象限或第三象限,
+当角α的终边在第一象限时,在角α的终边上取一点P(1,1),则x=1,y=1,r=√2,
+∴sin α=$\frac{y}{r}$=$\frac{1}{\sqrt{2}}$=$\frac{\sqrt{2}}{2}$;
+当角α的终边在第三象限时,在角α的终边上取一点P'(-1,-1),则x=-1,y=-1,r=√2,
+∴sin α=$\frac{y}{r}$=$\frac{-1}{\sqrt{2}}$=-$\frac{\sqrt{2}}{2}$.
+
+综上可知,sin α=$\frac{\sqrt{2}}{2}$或sin α=-$\frac{\sqrt{2}}{2}$.
+
+答案 ：±$\frac{\sqrt{2}}{2}$
+----------------------------------------
+[ID: 375]
+设角α的终边不在坐标轴上，则$y=\frac{\sin\alpha}{|\sin\alpha|}+\frac{\cos\alpha}{|\cos\alpha|}+\frac{\tan\alpha}{|\tan\alpha|}$的值可以为
+
+A. -3
+B. -1
+C. 1
+D. 3
+
+解析：当α是第一象限角时，sinα，cosα，tanα均为正值，
+∴$\frac{\sin\alpha}{|\sin\alpha|}+\frac{\cos\alpha}{|\cos\alpha|}+\frac{\tan\alpha}{|\tan\alpha|}=3$；
+当α是第二象限角时，sinα为正值，cosα，tanα为负值，
+∴$\frac{\sin\alpha}{|\sin\alpha|}+\frac{\cos\alpha}{|\cos\alpha|}+\frac{\tan\alpha}{|\tan\alpha|}=-1$；
+当α是第三象限角时，sinα，cosα为负值，tanα为正值，
+∴$\frac{\sin\alpha}{|\sin\alpha|}+\frac{\cos\alpha}{|\cos\alpha|}+\frac{\tan\alpha}{|\tan\alpha|}=-1$；
+当α是第四象限角时，sinα，tanα为负值，cosα为正值，
+∴$\frac{\sin\alpha}{|\sin\alpha|}+\frac{\cos\alpha}{|\cos\alpha|}+\frac{\tan\alpha}{|\tan\alpha|}=-1$。
+综上可知，y的值可以为-1或3。
+
+答案：BD
+----------------------------------------
+[ID: 376]
+若 sin A = $\frac{4}{5}$, 则 $\frac{5\sin A+8}{15\cos A-7}$ 的值为______.
+
+解析： 因为 sin A = $\frac{4}{5}$ > 0, 所以 A 是第一或第二象限角.
+当 A 是第一象限角时,
+cos A = $\sqrt{1-\sin^2 A}$ = $\frac{3}{5}$,
+所以 $\frac{5\sin A+8}{15\cos A-7}$ = $\frac{5\times\frac{4}{5}+8}{15\times\frac{3}{5}-7}$ = 6;
+
+当 A 是第二象限角时,
+cos A = -$\sqrt{1-\sin^2 A}$ = -$\frac{3}{5}$,
+所以 $\frac{5\sin A+8}{15\cos A-7}$ = $\frac{5\times\frac{4}{5}+8}{15\times(-\frac{3}{5})-7}$ = -$\frac{3}{4}$.
+
+答案： 6 或 -$\frac{3}{4}$
+----------------------------------------
+[ID: 377]
+已知 $\tan \alpha = 2$，则
+
+(1) $\frac{2\sin \alpha - 3\cos \alpha}{4\sin \alpha - 9\cos \alpha} = \_\_\_\_$
+
+(2) $\frac{2\sin^2 \alpha - 3\cos^2 \alpha}{4\sin^2 \alpha - 9\cos^2 \alpha} = \_\_\_\_$
+
+(3) $4\sin^2 \alpha - 3\sin \alpha \cos \alpha - 5\cos^2 \alpha = \_\_\_\_$
+
+解析 (1) 由题意得 $\cos \alpha \neq 0$，所以可将分子分母同时除以 $\cos \alpha$，然后整体代入 $\tan \alpha = 2$ 的值。
+
+$2\sin \alpha - 3\cos \alpha = 2\tan \alpha - 3 = 2 \times 2 - 3 = 4 - 3 = 1$
+
+$4\sin \alpha - 9\cos \alpha = 4\tan \alpha - 9 = 4 \times 2 - 9 = 8 - 9 = -1$
+
+$\frac{2\sin \alpha - 3\cos \alpha}{4\sin \alpha - 9\cos \alpha} = \frac{2\tan \alpha - 3}{4\tan \alpha - 9} = \frac{4 - 3}{8 - 9} = -1$
+
+(2) 因为 $\cos^2 \alpha \neq 0$，所以分子分母可同时除以 $\cos^2 \alpha$，则
+
+$\frac{2\sin^2 \alpha - 3\cos^2 \alpha}{4\sin^2 \alpha - 9\cos^2 \alpha} = \frac{2\tan^2 \alpha - 3}{4\tan^2 \alpha - 9} = \frac{2 \times 4 - 3}{4 \times 4 - 9} = \frac{8 - 3}{16 - 9} = \frac{5}{7}$
+
+(3) $4\sin^2 \alpha - 3\sin \alpha \cos \alpha - 5\cos^2 \alpha = \_\_\_\_$
+
+$\frac{4\sin^2 \alpha - 3\sin \alpha \cos \alpha - 5\cos^2 \alpha}{\sin^2 \alpha + \cos^2 \alpha} = \_\_\_\_$
+
+$\frac{4\sin^2 \alpha - 3\sin \alpha \cos \alpha - 5\cos^2 \alpha}{\sin^2 \alpha + \cos^2 \alpha}$，这样便使得分子分母均为二次齐式。
+
+同 (2) 有 $\frac{4\sin^2 \alpha - 3\sin \alpha \cos \alpha - 5\cos^2 \alpha}{\sin^2 \alpha + \cos^2 \alpha} = \frac{4\tan^2 \alpha - 3\tan \alpha - 5}{\tan^2 \alpha + 1} = \frac{4 \times 4 - 3 \times 2 - 5}{4 + 1} = 1$
+
+答案 (1) -1 (2) $\frac{5}{7}$ (3) 1
+----------------------------------------
+[ID: 378]
+已知关于x的方程$2x^2-(\sqrt{3}+1)x+m=0$的两根为$\sin\theta$和$\cos\theta$，$\theta\in(0,2\pi)$，求：
+(1) m的值；
+(2) 方程的两根及$\theta$的值。
+思路点拨（1）先利用根与系数的关系列出关于$\sin\theta$，$\cos\theta$的式子，再利用$\sin\theta+\cos\theta$与$\sin\theta\cos\theta$的关系求m；
+(2) 利用（1）中m的值，求解方程得$\sin\theta$及$\cos\theta$，利用$\theta$的范围确定$\theta$的值。
+解析由题意得
+$$\begin{cases} \sin\theta+\cos\theta=\frac{\sqrt{3}+1}{2}① \\ \sin\theta\cos\theta=\frac{m}{2}② \\ \Delta=4+2\sqrt{3}-8m\geqslant0③ \end{cases}$$
+(1) 由①式两边平方得$1+2\sin\theta\cos\theta=\frac{2+\sqrt{3}}{2}$，
+即$\sin\theta\cos\theta=\frac{\sqrt{3}}{4}$，结合②式得$\frac{m}{2}=\frac{\sqrt{3}}{4}$，即$m=\frac{\sqrt{3}}{2}$，
+由③式得$m\leqslant\frac{4+2\sqrt{3}}{8}=\frac{2+\sqrt{3}}{4}$，而$\frac{\sqrt{3}}{2}<\frac{2+\sqrt{3}}{4}$，
+故$m=\frac{\sqrt{3}}{2}$。
+(2) 由$m=\frac{\sqrt{3}}{2}$知，原方程为$2x^2-(\sqrt{3}+1)x+\frac{\sqrt{3}}{2}=0$，解得$x_1=\frac{\sqrt{3}}{2}$，$x_2=\frac{1}{2}$。
+$$
+\begin{cases} \sin\theta=\frac{\sqrt{3}}{2}， \\ \cos\theta=\frac{1}{2} \end{cases} \text{或} \begin{cases} \sin\theta=\frac{1}{2}， \\ \cos\theta=\frac{\sqrt{3}}{2} \end{cases}$$
+又$\theta\in(0,2\pi)$，所以$\theta=\frac{\pi}{3}$或$\theta=\frac{\pi}{6}$。
+----------------------------------------
+[ID: 379]
+求证：$\frac\cos x{1-\sin x}=\frac{1+\sin x}{\cos x}.$
+
+解析：方法一 因为右边分母为 $\cos x$,故可将
+左边分子分母同乘以$\cos x.$
+
+
+$$\begin{array}{rcl}{\text{边}}&{=}&{{\frac{\cos^{2}x}{(1-\sin x)\cos x}}}&{=}&{{\frac{1-\sin^{2}x}{\cos x(1-\sin x)}}}&{=}\end{array}$$
+$$\frac{(1-\sin x)(1+\sin x)}{\cos x(1-\sin x)}=\frac{1+\sin x}{\cos x}=\textit{右边}.$$
+
+方法二 因为左边分母是 1-sin $x$,故可将右
+边分子分母同乘以1-$\sin x.$
+
+$$\text{右边}\:=\:\frac{(\:1+\sin\:x\:)(\:1-\sin\:x\:)}{\cos\:x(\:1-\sin\:x\:)}\:=\:\frac{1\:-\sin^{2}\:x}{\cos\:x(\:1-\sin\:x\:)}\:=$$
+$\frac{\cos^2x}{\cos x(1-\sin x)}=\frac{\cos x}{1-\sin x}=$左边.
+
+方法三 只需证明左、右两边都与某个中间结果相等即可，因此可先将它们的分母变为相同.
+
+因为左边$=\frac\cos2x{\cos x(1-\sin x)}$,右边= $\begin{array}{cc}\frac{(1+\sin x)(1-\sin x)}{\cos x(1-\sin x)}&=&\frac{1-\sin^2x}{\cos x(1-\sin x)}&=\end{array}$ $\frac{\cos^2x}{\cos x(1-\sin x)}$,所以左边=右边，原等式
+
+成立.
+
+方法四 只需证明左边-右边=0即可.
+
+$$\begin{aligned}&\text{因为}\frac{\cos x}{1-\sin x}-\frac{1+\sin x}{\cos x}=\frac{\cos^{2}x-(1+\sin x)(1-\sin x)}{\cos x(1-\sin x)}=\\&\frac{\cos^2x-(1-\sin^2x)}{\cos x(1-\sin x)}=\frac{\cos^2x-\cos^2x}{\cos x(1-\sin x)}=0,\end{aligned}$$\text{所以}\frac{\cos x}{1-\sin x}=\frac{1+\sin x}{\cos x}.
+----------------------------------------
+[ID: 380]
+已知$\tan^2\alpha=2\tan^2\beta+1$，求证：$\sin^2\beta=2\sin^2\alpha-1$。
+
+解析：由$\tan^2\alpha=2\tan^2\beta+1$，可得$\tan^2\beta=\frac{1}{2}(\tan^2\alpha-1)$，即$\frac{\sin^2\beta}{\cos^2\beta}=\frac{1}{2}(\frac{\sin^2\alpha}{\cos^2\alpha}-1)$，故有$\frac{\sin^2\beta}{1-\sin^2\beta}=\frac{1}{2}(\frac{\sin^2\alpha}{1-\sin^2\alpha}-1)=\frac{1}{2}\times\frac{2\sin^2\alpha-1}{1-\sin^2\alpha}$，整理得$\frac{\sin^2\beta}{1-\sin^2\beta}=\frac{\sin^2\alpha-\frac{1}{2}}{1-\sin^2\alpha}$，即$\sin^2\beta(1-\sin^2\alpha)=(1-\sin^2\beta)(\sin^2\alpha-\frac{1}{2})$，展开得$\frac{1}{2}\sin^2\beta=\sin^2\alpha-\frac{1}{2}$，即$\sin^2\beta=2\sin^2\alpha-1$。
+----------------------------------------
+[ID: 381]
+化简:
+$$(1) \sin^2 \alpha \tan \alpha + \frac{\cos^2 \alpha}{\tan \alpha} + 2 \sin \alpha \cos \alpha;$$
+$$
+(2) \sqrt{\frac{1+\cos \alpha}{1-\cos \alpha}} + \sqrt{\frac{1-\cos \alpha}{1+\cos \alpha}} (180^\circ < \alpha < 270^\circ).$$
+解析
+$$(1)$$ 原式 $= \sin^2 \alpha \cdot \frac{\sin \alpha}{\cos \alpha} + \cos^2 \alpha \cdot \frac{\cos \alpha}{\sin \alpha} + 2 \sin \alpha \cos \alpha = \frac{\sin^4 \alpha + \cos^4 \alpha + 2 \sin^2 \alpha \cos^2 \alpha}{\cos \alpha \sin \alpha} = \frac{(\sin^2 \alpha + \cos^2 \alpha)^2}{\sin \alpha \cos \alpha} = \frac{1}{\sin \alpha \cos \alpha}$.
+$$
+(2)$$ 因为 $180^\circ < \alpha < 270^\circ$, 所以 $\sin \alpha < 0$.
+原式 $= \sqrt{\frac{(1+\cos \alpha)^2}{1-\cos^2 \alpha}} + \sqrt{\frac{(1-\cos \alpha)^2}{1-\cos^2 \alpha}} = \frac{1+\cos \alpha}{|\sin \alpha|} + \frac{1-\cos \alpha}{|\sin \alpha|} = \frac{2}{|\sin \alpha|} = -\frac{2}{\sin \alpha}$.
+----------------------------------------
+[ID: 382]
+已知角α的终边在直线y=x上，则sin α=______.
+
+解析> 易知角α的终边在第一象限或第三象限，
+当角α的终边在第一象限时，在角α的终边上取一点P(1,1)，则x=1，y=1，r=$\sqrt{2}$，
+∴sin α=$\frac{y}{r}$=$\frac{1}{\sqrt{2}}$=$\frac{\sqrt{2}}{2}$；
+当角α的终边在第三象限时，在角α的终边上取一点P′(-1,-1)，则x=-1，y=-1，r=$\sqrt{2}$，
+∴sin α=$\frac{y}{r}$=$\frac{-1}{\sqrt{2}}$=-$\frac{\sqrt{2}}{2}$．
+综上可知，sin α=$\frac{\sqrt{2}}{2}$或sin α=-$\frac{\sqrt{2}}{2}$．
+
+答案> ±$\frac{\sqrt{2}}{2}$
+----------------------------------------
+[ID: 383]
+设 α∈R，且 $\log_{4}(2\sin\alpha+\cos\alpha)+\log_{4}(\sin\alpha+2\cos\alpha)=1$，则 $\tan\alpha$ 的值是
+
+A. $\frac{1}{2}$
+
+B. 2
+
+C. $\frac{1}{2}$或2
+
+D. 不存在
+
+解析∵$\log_{4}[(2\sin\alpha+\cos\alpha)(\sin\alpha+2\cos\alpha)]=1$，
+即 $(2\sin\alpha+\cos\alpha)(\sin\alpha+2\cos\alpha)=4$，
+化简得 $2\sin^{2}\alpha+5\sin\alpha\cos\alpha+2\cos^{2}\alpha=4$，
+∴$\frac{2\sin^{2}\alpha+5\sin\alpha\cos\alpha+2\cos^{2}\alpha}{\sin^{2}\alpha+\cos^{2}\alpha}=4$，
+$\frac{2\tan^{2}\alpha+5\tan\alpha+2}{\tan^{2}\alpha+1}=4$，
+即 $2\tan^{2}\alpha-5\tan\alpha+2=0$，解得 $\tan\alpha=\frac{1}{2}$或$\tan\alpha=2$.
+
+答案>C
+----------------------------------------
+[ID: 384]
+函数$y=\frac{\sin x+\cos x}{\tan x}$的定义域为____.
+
+解析>函数$y=\sin x$与$y=\cos x$的定义域为$\mathbb{R}$, 要使函数$y=\frac{\sin x+\cos x}{\tan x}$有意义, 必须使$\tan x$有意义, 且$\tan x\neq 0$, 所以有$\begin{cases}x\neq k\pi+\frac{\pi}{2}(k\in\mathbb{Z})\end{cases}$, 所以函数$y=\frac{\sin x+\cos x}{\tan x}$的定义域为$\{x|x\neq k\pi,k\in\mathbb{Z}\}$.
+
+答案> $\{x|x\neq k\frac{\pi}{2},k\in\mathbb{Z}\}$
+----------------------------------------
+[ID: 385]
+确定下列各三角函数值的符号:
+
+(1) $\cos 260^\circ$; (2) $\sin (-\frac{\pi}{3})$; (3) $\tan \frac{10\pi}{3}$.
+
+解析> (1) 因为$260^\circ$是第三象限角, 所以$\cos 260^\circ<0$.
+
+(2) 因为$-\frac{\pi}{3}$是第四象限角, 所以$\sin (-\frac{\pi}{3})<0$.
+
+(3) 因为$\frac{10\pi}{3}$是第三象限角, 所以$\tan \frac{10\pi}{3}>0$.
+----------------------------------------
+[ID: 386]
+计算：(1) $\sin^2 120^\circ + \cos 180^\circ + \tan 45^\circ - \cos^2 (-330^\circ) + \sin (-210^\circ)$;
+(2) $\frac{\sqrt{1+\cos 100^\circ \sin 170^\circ}}{\cos 370^\circ + \sqrt{1-\sin^2 170^\circ}}$;
+(3) $\cos \frac{\pi}{7} + \cos \frac{2\pi}{7} + \cos \frac{3\pi}{7} + \cos \frac{4\pi}{7} + \cos \frac{5\pi}{7} + \cos \frac{6\pi}{7}$.
+解析 ：$\frac{\pi}{7}$ 与 $\frac{6\pi}{7}$, $\frac{2\pi}{7}$ 与 $\frac{5\pi}{7}$, $\frac{3\pi}{7}$ 与 $\frac{4\pi}{7}$ 互补，对于互补的两个角，其余弦值的和为 $0$. $\cos \frac{\pi}{n} + \cos \frac{(n-1)\pi}{n} = \cos \frac{\pi}{n} - \cos \frac{\pi}{n} = 0$, $n \in \mathbb{N}^*$.
+(1) 原式 $= \sin^2 60^\circ - \cos 0^\circ + \tan 45^\circ - \cos^2 30^\circ + \sin 30^\circ = \frac{3}{4} - 1 + 1 - \frac{3}{4} + \frac{1}{2} = \frac{1}{2}$.
+(2) 原式 $= \frac{\sqrt{1+\cos(180^\circ-80^\circ)\sin(90^\circ+80^\circ)}}{\cos(360^\circ+10^\circ) + \sqrt{1-\sin^2(180^\circ-10^\circ)}}$
+$= \frac{\sqrt{1+(-\cos 80^\circ)\cos 80^\circ}}{\cos 10^\circ + \sqrt{1-\sin^2 10^\circ}} = \frac{\sqrt{1-\cos^2 80^\circ}}{2\cos 10^\circ} = \frac{\sin 80^\circ}{2\cos 10^\circ} = \frac{\cos 10^\circ}{2\cos 10^\circ} = \frac{1}{2}$.
+(3) 原式 $= (\cos \frac{\pi}{7} + \cos \frac{6\pi}{7}) + (\cos \frac{2\pi}{7} + \cos \frac{5\pi}{7}) + (\cos \frac{3\pi}{7} + \cos \frac{4\pi}{7}) = [\cos \frac{\pi}{7} + \cos(\pi-\frac{\pi}{7})] + [\cos \frac{2\pi}{7} + \cos(\pi-\frac{2\pi}{7})] +$
+----------------------------------------
+[ID: 387]
+化简:
+(1) $\frac{\cos(\alpha-\pi)}{\sin(\pi-\alpha)} \cdot \sin(\alpha-\frac{\pi}{2}) \cos(\frac{\pi}{2}+\alpha)$;（2）$$\frac{\tan(2\pi-\alpha)\sin(-2\pi-\alpha)\sin(\frac{3\pi}{2}+\alpha)}{\sin(\alpha-\pi)\cos(\frac{3\pi}{2}-\alpha)}$$
+解析 (1) 原式 $= \frac{\cos[-(\pi-\alpha)]}{\sin\alpha} \cdot \sin[-(\frac{\pi}{2}-\alpha)](-\sin\alpha) = \frac{\cos(\pi-\alpha)}{\sin\alpha} \cdot [-\sin(\frac{\pi}{2}-\alpha)] \cdot (-\sin\alpha) = \frac{-\cos\alpha}{\sin\alpha} \cdot (-\cos\alpha)(-\sin\alpha) = -\cos^2\alpha$.
+(2) 原式 $= \frac{\tan(-\alpha)\sin(-\alpha)\sin[\pi+(\frac{\pi}{2}+\alpha)]}{\sin[-(\pi-\alpha)]\cos[\pi+(\frac{\pi}{2}-\alpha)]}$
+$$
+- \tan\alpha(-\sin\alpha)[- \sin(\frac{\pi}{2}+\alpha)] = \frac{\tan\alpha\sin\alpha(-\cos\alpha)}{-\sin\alpha(-\sin\alpha)} = - \frac{\tan\alpha\sin\alpha\cos\alpha}{\sin\alpha\sin\alpha} = -1$$
+----------------------------------------
+[ID: 388]
+例7（1）已知$\sin(\frac{\pi}{3}-\alpha)=\frac{1}{2}$，则$\cos(\frac{\pi}{6}+\alpha)=\_\_\_\_\_$；
+
+（2）已知$\tan(\frac{\pi}{6}-\alpha)=\frac{\sqrt{3}}{3}$，则$\tan(\frac{5}{6}\pi+\alpha)=\_\_\_\_\_$.
+
+解析（1）∵$(\frac{\pi}{3}-\alpha)+(\frac{\pi}{6}+\alpha)=\frac{\pi}{2}$，
+
+∴$\cos(\frac{\pi}{6}+\alpha)=\cos[\frac{\pi}{2}-(\frac{\pi}{3}-\alpha)]=\sin(\frac{\pi}{3}-\alpha)=\frac{1}{2}$.
+
+（2）$\tan(\frac{5}{6}\pi+\alpha)=-\tan[\pi-(\frac{5}{6}\pi+\alpha)]=-\tan(\frac{\pi}{6}-\alpha)=-\frac{\sqrt{3}}{3}$.
+
+答案（1）$\frac{1}{2}$ （2）$-\frac{\sqrt{3}}{3}$.
+----------------------------------------
+[ID: 389]
+题目：设 $a=\cos \frac{\pi}{12}$, $b=\sin \frac{41\pi}{6}$, $c=\cos \frac{7\pi}{4}$, 则
+
+A. $a > c > b$
+
+B. $c > b > a$
+
+C. $c > a > b$
+
+D. $b > c > a$
+
+解析 $\sin \frac{41\pi}{6}=\sin (8\pi-\frac{7\pi}{6})=-\sin \frac{7\pi}{6}=\sin \frac{\pi}{6}=\cos \frac{\pi}{3}$,
+
+$\cos \frac{7\pi}{4}=\cos (2\pi-\frac{\pi}{4})=\cos (-\frac{\pi}{4})=\cos \frac{\pi}{4}$.
+
+$\because y=\cos x$ 在 $(0, \frac{\pi}{2})$ 上是减函数, 且 $\frac{\pi}{12} < \frac{\pi}{4} < \frac{\pi}{3}$,
+
+$\therefore \cos \frac{\pi}{12} > \cos \frac{\pi}{4} > \cos \frac{\pi}{3}$, 即 $a > c > b$.
+
+答案 $\boldsymbol{A}$
+----------------------------------------
+[ID: 390]
+题目：求下列函数的值域:
+
+(1) $y=2\sin(2x+\frac{\pi}{3})$, $x\in[-\frac{\pi}{6},\frac{\pi}{2}]$;
+
+(2) $y=|\sin x|+\sin x$.
+
+解析： (1) 第一步: 由x的取值范围, 确定 $2x+\frac{\pi}{3}$ 的取值范围.
+$\because x\in[-\frac{\pi}{6},\frac{\pi}{2}]$, $\therefore 2x+\frac{\pi}{3}\in[0,\frac{4\pi}{3}]$.
+
+第二步: 由正弦函数的单调性求解.
+令 $u=2x+\frac{\pi}{3}$, 易知 $y=\sin u$ 在 $[0,\frac{\pi}{2}]$ 上单调递增,
+此时 $0\leqslant\sin(2x+\frac{\pi}{3})\leqslant1$,
+$\therefore 0\leqslant2\sin(2x+\frac{\pi}{3})\leqslant2$.易知 $y=\sin u$ 在 $[\frac{\pi}{2},\frac{4\pi}{3}]$ 上单调递减, 此时 $-\frac{\sqrt{3}}{2}\leqslant\sin(2x+\frac{\pi}{3})\leqslant1$,
+
+$\therefore-\sqrt{3}\leqslant2\sin(2x+\frac{\pi}{3})\leqslant2$.
+
+$\therefore$ 函数 $y=2\sin(2x+\frac{\pi}{3})$, $x\in[-\frac{\pi}{6},\frac{\pi}{2}]$ 的值域为 $[-\sqrt{3},2]$.
+
+(2) $\because y=|\sin x|+\sin x=\begin{cases}2\sin x,\sin x\geqslant0,\\0,\sin x<0,\end{cases}$ 且当 $\sin x\geqslant0$ 时, $0\leqslant2\sin x\leqslant2$,
+
+$\therefore$ 函数 $y=|\sin x|+\sin x$ 的值域为 $[0,2]$.
+----------------------------------------
+[ID: 391]
+题目：函数$y=2\sin(2x-\frac{\pi}{3})$的单调递增区间为？解析 ：方法一  函数 $y = \sin x$ 的
+单调递增区间为 $[-\frac{\pi}{2} + 2k\pi, \frac{\pi}{2} + 2k\pi], k \in \mathbf{Z}$.
+令 $-\frac{\pi}{2} + 2k\pi \leqslant 2x - \frac{\pi}{3} \leqslant \frac{\pi}{2} + 2k\pi, k \in \mathbf{Z}$, 得
+$-\frac{\pi}{12} + k\pi \leqslant x \leqslant \frac{5\pi}{12} + k\pi, k \in \mathbf{Z}$, 所以函数 $y = 2\sin(2x - \frac{\pi}{3})$ 的单调递增区间为 $[-\frac{\pi}{12} + k\pi, \frac{5\pi}{12} + k\pi], k \in \mathbf{Z}$.
+
+方法二  令 $2x - \frac{\pi}{3} = \frac{\pi}{2}$, 得 $x = \frac{5\pi}{12}$, 所以函数 $y = 2\sin(2x - \frac{\pi}{3})$ 在 $x = \frac{5\pi}{12}$ 处取得最大值.
+又函数的最小正周期为 $\pi$, 根据周期性与单调性的关系可知, 函数 $y = 2\sin(2x - \frac{\pi}{3})$ 的一个单调递增区间为 $[\frac{5\pi}{12} - \frac{\pi}{2}, \frac{5\pi}{12}]$, 即 $[-\frac{\pi}{12}, \frac{5\pi}{12}]$, 所以函数 $y = 2\sin(2x - \frac{\pi}{3})$ 的单调递增区间为 $[-\frac{\pi}{12} + k\pi, \frac{5\pi}{12} + k\pi], k \in \mathbf{Z}$.
+
+答案 ：$[-\frac{\pi}{12} + k\pi, \frac{5\pi}{12} + k\pi], k \in \mathbf{Z}$
+----------------------------------------
+[ID: 392]
+题目：函数$y=\log_{2}[\sin(x+\frac{\pi}{3})]$的单调递增区间为______.
+
+解析：由题意,得$\sin(x+\frac{\pi}{3})>0$, 所以$2k\pi<x+\frac{\pi}{3}<\pi+2k\pi$, $k\in\mathbf{Z}$, 解得$-\frac{\pi}{3}+2k\pi<x<\frac{2\pi}{3}+2k\pi$, $k\in\mathbf{Z}$.
+令$-\frac{\pi}{2}+2k\pi\leqslant x+\frac{\pi}{3}\leqslant\frac{\pi}{2}+2k\pi$, $k\in\mathbf{Z}$, 则$-\frac{5\pi}{6}+2k\pi\leqslant x\leqslant\frac{\pi}{6}+2k\pi$, $k\in\mathbf{Z}$.
+所以$y=\sin(x+\frac{\pi}{3})$的单调递增区间为$[-\frac{5\pi}{6}+2k\pi,\frac{\pi}{6}+2k\pi]$, $k\in\mathbf{Z}$,
+所以函数$y=\log_{2}[\sin(x+\frac{\pi}{3})]$的单调递增区间为$(-\frac{\pi}{3}+2k\pi,\frac{\pi}{6}+2k\pi]$, $k\in\mathbf{Z}$.
+
+答案：$(-\frac{\pi}{3}+2k\pi,\frac{\pi}{6}+2k\pi]$, $k\in\mathbf{Z}$
+----------------------------------------
+[ID: 393]
+已知函数$f(x)=2\sin(2x+\frac{\pi}{6})+a+1$(其中$a$为常数).
+(1) 求$f(x)$的单调区间;
+(2) 当$x\in[0,\frac{\pi}{2}]$时,$f(x)$的最大值为4,求$a$的值;
+(3) 求使$f(x)$取最大值时$x$的取值集合.
+
+解析：(1) 由$-\frac{\pi}{2}+2k\pi\leqslant2x+\frac{\pi}{6}\leqslant\frac{\pi}{2}+2k\pi(k\in\mathbb{Z})$,
+得$-\frac{\pi}{3}+k\pi\leqslant x\leqslant\frac{\pi}{6}+k\pi(k\in\mathbb{Z})$.
+$\therefore$ 函数$f(x)$的单调递增区间为$[-\frac{\pi}{3}+k\pi,\frac{\pi}{6}+k\pi](k\in\mathbb{Z})$.
+由$\frac{\pi}{2}+2k\pi\leqslant2x+\frac{\pi}{6}\leqslant\frac{3\pi}{2}+2k\pi(k\in\mathbb{Z})$,
+得$\frac{\pi}{6}+k\pi\leqslant x\leqslant\frac{2\pi}{3}+k\pi(k\in\mathbb{Z})$.
+$\therefore$ 函数$f(x)$的单调递减区间为$[\frac{\pi}{6}+k\pi,\frac{2\pi}{3}+k\pi](k\in\mathbb{Z})$.
+(2)$\because0\leqslant x\leqslant\frac{\pi}{2}$,$\therefore0\leqslant2x\leqslant\pi$,
+$\therefore\frac{\pi}{6}\leqslant2x+\frac{\pi}{6}\leqslant\frac{7\pi}{6}$,
+$\therefore-\frac{1}{2}\leqslant\sin(2x+\frac{\pi}{6})\leqslant1$,
+$\therefore f(x)$的最大值为$2+a+1=4$,解得$a=1$.
+(3) 当 $f(x)$ 取最大值时, $2x+\frac{\pi}{6}=\frac{\pi}{2}+2k\pi(k\in\mathbb{Z})$,
+解得 $x=\frac{\pi}{6}+k\pi(k\in\mathbb{Z})$.
+故当 $f(x)$ 取最大值时, $x$ 的取值集合是 $\{x|x=\frac{\pi}{6}+k\pi,k\in\mathbb{Z}\}$.
+----------------------------------------
+[ID: 394]
+题目：设 $a \in \mathbb{R}$，函数 $f(x) = \begin{cases} \cos(2\pi x - 2\pi a), & x < a, \\ x^2 - 2(a + 1)x + a^2 + 5, & x \geqslant a. \end{cases}$ 若 $f(x)$ 在区间 $(0, +\infty)$ 内恰有 6 个零点，则 $a$ 的取值范围是？
+A. $(2, \frac{9}{4}] \cup (\frac{5}{2}, \frac{11}{4}]$
+B. $(\frac{7}{4}, 2) \cup (\frac{5}{2}, \frac{11}{4}]$
+C. $(2, \frac{9}{4}] \cup [\frac{11}{4}, 3)$
+D. $(\frac{7}{4}, 2) \cup [\frac{11}{4}, 3)$
+
+解析 ：因为函数 $f(x)$ 在区间 $(0, +\infty)$ 内恰有 6 个零点，所以当 $x > 0$ 时，$f(x) = 0$ 恰有 6 个根 当 $x \geqslant a$ 时，方程 $x^2 - 2(a + 1)x + a^2 + 5 = 0$ 最多有两个不等实根，所以 $a > 0$。函数 $y = x^2 - 2(a + 1)x + a^2 + 5$ 图象的对称轴为直线 $x = a + 1$，$a + 1 > a$。令 $t = 2\pi x - 2\pi a (0 < x < a)$，则 $-2\pi a < t < 0$，则当 $0 < x < a$ 时，$\cos(2\pi x - 2\pi a) = 0$ 可转化为当 $-2\pi a < t < 0$ 时，$\cos t = 0$。无实根, 则当 0 < x < a 时, cos(2πx-2πa) = 0 有 6 个根, 即当 -2πa < t < 0 时, cos t = 0 有 6 个根, 所以
+$\left\{\begin{array}{l}\Delta = 4(a+1)^{2}-4\left(a^{2}+5\right) < 0, \\ -\frac{13\pi}{2} \leqslant -2\pi a < -\frac{11\pi}{2},\end{array}\right.$ 无解; 若当 x \geqslant a 时, 方程 x^{2}-2(a+1)x+a^{2}+5=0 有两个相等实根或一个实根, 则当 0 < x < a 时, cos(2πx-2πa) = 0 有 5 个根, 即当 -2πa < t < 0 时, cos t = 0 有 5 个根, 所以$\left\{\begin{array}{l}\Delta = 4(a+1)^{2}-4\left(a^{2}+5\right) = 0, \\ -\frac{11\pi}{2} \leqslant -2\pi a < -\frac{9\pi}{2}\end{array}\right.$
+或$\left\{\begin{array}{l}\Delta = 4(a+1)^{2}-4\left(a^{2}+5\right) > 0, \\ a^{2}-2(a+1)a+a^{2}+5 < 0,\end{array}\right.$ 得 $\frac{5}{2} < a \leqslant \frac{11}{4}$;
+或$\left\{\begin{array}{l}\Delta = 4(a+1)^{2}-4\left(a^{2}+5\right) > 0, \\ a^{2}-2(a+1)a+a^{2}+5 \geqslant 0,\end{array}\right.$ 解得 2 < a \leqslant \frac{9}{4}$.$-\frac{9\pi}{2} \leqslant -2\pi a < -\frac{7\pi}{2}$,
+综上, 实数 a 的取值范围为$(2, \frac{9}{4}] \cup (\frac{5}{2}, \frac{11}{4}]$, 故选 A.
+----------------------------------------
+[ID: 395]
+题目：关于函数$f(x)=3\sin(2x-\frac{\pi}{3})+1$，下列命题正确的是？
+A. 若$f(x_1)=f(x_2)=1$，则$x_1-x_2$是$\pi$的整数倍
+B. 原函数等价于$f(x)=3\cos(2x-\frac{5\pi}{6})+1$
+C. $f(x)$的图象关于点$(\frac{3\pi}{4},1)$对称
+D. $f(x)$的图象关于直线$x=-\frac{\pi}{12}$对称
+
+解析： 由$f(x)=3\sin(2x-\frac{\pi}{3})+1=1$得$\sin(2x-\frac{\pi}{3})=0$，又函数的周期$T=\pi$，则$x_1-x_2$是$\frac{T}{2}=\frac{\pi}{2}$的整数倍，故A错误.
+$f(x)=3\sin(2x-\frac{\pi}{3})+1=3\cos[\frac{\pi}{2}-(2x-\frac{\pi}{3})]+1=3\cos(\frac{5\pi}{6}-2x)+1=3\cos(2x-\frac{5\pi}{6})+1$，故B正确.
+当$x=\frac{3\pi}{4}$时，$\sin(2\times\frac{3\pi}{4}-\frac{\pi}{3})=\sin(\frac{3\pi}{2}-\frac{\pi}{3})=\sin\frac{7\pi}{6}=-\frac{1}{2}\neq0$，即函数图象不关于点$(\frac{3\pi}{4},1)$对称，故C错误.
+当$x=-\frac{\pi}{12}$时，$\sin[2\times(-\frac{\pi}{12})-\frac{\pi}{3}]=\sin(-\frac{\pi}{6}-\frac{\pi}{3})=\sin(-\frac{\pi}{2})=-1$，是最小值，则$f(x)$的图象关于直线$x=-\frac{\pi}{12}$对称，故D正确
+
+答案：BD
+----------------------------------------
+[ID: 396]
+题目：函数$y=\tan ($ $- 3x+ \frac \pi 4)$的单调递减区间为？
+解析 $y=\tan(-3x+\frac{\pi}{4})=-\tan(3x-\frac{\pi}{4})$.
+
+先将x的系数化为正值,由$-\frac{\pi}{2}+k\pi<3x-\frac{\pi}{4}<\frac{\pi}{2}+k\pi(k\in\mathbf{Z})$,得$-\frac{\pi}{12}+\frac{k\pi}{3}<x<\frac{\pi}{4}+\frac{k\pi}{3}(k\in\mathbf{Z})$.
+故函数$y=\tan(-3x+\frac{\pi}{4})$的单调递减区间为$(-\frac{\pi}{12}+\frac{k\pi}{3},\frac{\pi}{4}+\frac{k\pi}{3})(k\in\mathbf{Z})$.
+答案 $(-\frac{\pi}{12}+\frac{k\pi}{3},\frac{\pi}{4}+\frac{k\pi}{3})(k\in\mathbf{Z})$
+----------------------------------------
+[ID: 397]
+函数$y=\sin x+\tan x$，$x\in[-\frac{\pi}{4}，\frac{\pi}{3}]$的值域为______.
+解析:$\because$函数$y_{1}=\sin x$与$y_{2}=\tan x$在$x\in[-\frac{\pi}{4}，\frac{\pi}{3}]$上都是单调递增的，$\therefore y=\sin x+\tan x$在$x\in[-\frac{\pi}{4}，\frac{\pi}{3}]$上是单调递增的，
+
+$\therefore y_{\min}=\sin (-\frac{\pi}{4})+\tan (-\frac{\pi}{4})=-\frac{\sqrt{2}}{2}-1$，
+
+$y_{\max}=\sin \frac{\pi}{3}+\tan \frac{\pi}{3}=\frac{3\sqrt{3}}{2}$，故所求函数的值域是$[-\frac{\sqrt{2}}{2}-1，\frac{3\sqrt{3}}{2}]$.
+
+答案$[-\frac{\sqrt{2}}{2}-1，\frac{3\sqrt{3}}{2}]$
+----------------------------------------
+[ID: 398]
+函数$f(x)=\tan(-4x+\frac{\pi}{6})$的最小正周期为？
+
+A. $\frac{\pi}{4}$ B. $\frac{\pi}{2}$ C. $\pi$ D. $2\pi$
+
+解析函数$f(x)=\tan(\omega x+\varphi)$的最小正周期$T=\frac{\pi}{|\omega|}$，直接利用公式，可得$T=\frac{\pi}{|-4|}=\frac{\pi}{4}$.
+
+答案$A$
+----------------------------------------
+[ID: 399]
+求值$(1 + \tan 21^\circ)(1 + \tan 22^\circ)(1 + \tan23^\circ)(1 + \tan 24^\circ)$
+
+ $(1+\tan 21^{\circ})(1+\tan 24^{\circ})=1+\tan 21^{\circ}+\tan 24^{\circ}+\tan 21^{\circ}\cdot\tan 24^{\circ}$. 
+由 $\tan 45^{\circ}=\tan (21^{\circ}+24^{\circ})=\frac{\tan 21^{\circ}+\tan 24^{\circ}}{1-\tan 21^{\circ}\tan 24^{\circ}}=1$，得 $\tan 21^{\circ}+\tan 24^{\circ}+\tan 21^{\circ}\tan 24^{\circ}=1$，
+$\therefore (1+\tan 21^{\circ})(1+\tan 24^{\circ})=2$，同理可得 $(1+\tan 22^{\circ})(1+\tan 23^{\circ})=2$，
+$\therefore$ 原式 $=2\times2=4$.
+----------------------------------------
+[ID: 400]
+求值:$\frac{\sin 47^\circ - \sin 17^\circ \cos 30^\circ}{\cos 17^\circ}$;解析 :原式 =
+$$\frac{\sin(30^\circ + 17^\circ) - \sin 17^\circ \cos 30^\circ}{\cos 17^\circ}$$
+$$
+= \frac{\sin 30^\circ \cos 17^\circ + \cos 30^\circ \sin 17^\circ - \sin 17^\circ \cos 30^\circ}{\cos 17^\circ}$$
+$$= \frac{\sin 30^\circ \cos 17^\circ}{\cos 17^\circ} = \frac{1}{2}.$$
+----------------------------------------
+[ID: 401]
+求值$\tan 12^\circ + \tan 33^\circ + \tan 12^\circ \tan 33^\circ$：
+$$\because\frac{\tan 12°+\tan 33°}{1-\tan 12°\tan 33°}=\tan (12°+33°)=$$
+$$
+\tan 45°=1,$$
+$$\therefore \tan 12°+\tan 33°=1-\tan 12°\tan 33°,$$
+$$
+\therefore \tan 12°+\tan 33°+\tan 12°\tan 33°=1.$$
+----------------------------------------
+[ID: 402]
+已知 $\sin \alpha - \sin \beta = -\frac{1}{3}$, $\cos \alpha - \cos \beta = \frac{1}{2}$, 求 $\cos (\alpha - \beta)$ 的值.
+$$\begin{cases}\sin\:\alpha-\sin\beta=-\frac{1}{3}\quad\textcircled{1}\:,\\\\\cos\:\alpha-\cos\beta=\frac{1}{2}\quad\textcircled{2}\:,\end{cases}$$
+
+$\textcircled{1}^{2}+\textcircled{2}^{2}$得 2-2$(\sin\alpha\sin\beta+\cos\alpha\cos\beta)=\frac{13}{36}$
+即$\cos(\alpha-\beta)=\frac{1}{2}\times(2-\frac{13}{36})=\frac{59}{72}.$
+----------------------------------------
+[ID: 403]
+题目：已知在$\triangle ABC$ 中$,\sin A=\frac35,\cos B=\frac5{13}$,求$\cos C$的值.
+$$\text{(2) }\because \cos B = \frac{5}{13} < \frac{\sqrt{2}}{2}, \therefore B \in (\frac{\pi}{4}, \frac{\pi}{2}) \text{ 且 } \sin B = \frac{12}{13}.$$
+$$
+\because \sin A = \frac{3}{5} < \frac{\sqrt{2}}{2}, \therefore A \in (0, \frac{\pi}{4}) \cup (\frac{3\pi}{4}, \pi).$$
+若 $A \in (\frac{3\pi}{4}, \pi)$, $\therefore B \in (\frac{\pi}{4}, \frac{\pi}{2})$, 则 $A+B \in (\pi, \frac{3\pi}{2})$, 与 $A+B+C=\pi$ 矛盾, $\therefore A \notin (\frac{3\pi}{4}, \pi)$, 故 $A \in (0, \frac{\pi}{4})$, 则 $\cos A = \frac{4}{5}$,
+$$\therefore \cos C = \cos [\pi-(A+B)]$$
+$$
+= -\cos (A+B)$$
+$$= -\cos A \cos B + \sin A \sin B$$
+$$
+= -\frac{4}{5} \times \frac{5}{13} + \frac{3}{5} \times \frac{12}{13}$$
+$$= \frac{16}{65}.$$
+----------------------------------------
+[ID: 404]
+题目：已知$\frac\pi2<\beta<\alpha<\frac{3\pi}4,\cos\left(\:\alpha-\beta\right)=\frac{12}{13}$,$\sin ($ $\alpha + \beta )$ = $- \frac 35$ ,求$\sin$ $2\alpha$的值.
+$$\because \cos (\alpha -\beta )=\frac{12}{13}>0,\frac{\pi }{2}<\beta <\alpha <\frac{3\pi }{4},$$
+$$
+\therefore 0<\alpha -\beta <\frac{\pi }{4},\therefore \sin (\alpha -\beta )=\frac{5}{13}.$$
+又 $\sin (\alpha +\beta )=-\frac{3}{5},\pi <\alpha +\beta <\frac{3\pi }{2},$
+$$\therefore \cos (\alpha +\beta )=-\frac{4}{5}.$$
+$$
+----------------------------------------
+[ID: 405]
+题目：已知 $\tan(\alpha-\beta)=\frac{1}{2}$, $\tan\beta=-\frac{1}{7}$, 且 $\alpha$, $\beta\in(0,\pi)$, 则 $2\alpha-\beta$ 的值为______.
+$\tan\alpha=\tan[(\alpha-\beta)+\beta]=\frac{\tan(\alpha-\beta)+\tan\beta}{1-\tan(\alpha-\beta)\tan\beta}=\frac{\frac{1}{2}-\frac{1}{7}}{1-\frac{1}{2}\times(-\frac{1}{7})}=\frac{1}{3}$,
+而 $\alpha\in(0,\pi)$, $\therefore\alpha\in(0,\frac{\pi}{2})$.
+$\because\tan\beta=-\frac{1}{7}$, $\beta\in(0,\pi)$, 
+$$\frac{\tan(\alpha-\beta)+\tan\alpha}{1-\tan(\alpha-\beta)\tan\alpha}=\frac{\frac{1}{2}+\frac{1}{3}}{1-\frac{1}{2}\times\frac{1}{3}}=1,$$
+$$
+\therefore 2\alpha-\beta=-\frac{3\pi}{4}.$$
+$\therefore\beta\in(\frac{\pi}{2},\pi)$,
+$\therefore-\pi<\alpha-\beta<0$.
+而 $\tan(\alpha-\beta)=\frac{1}{2}>0$, $\therefore-\pi<\alpha-\beta<-\frac{\pi}{2}$,
+$\therefore2\alpha-\beta=\alpha+(\alpha-\beta)\in(-\pi,0)$,
+又 $\tan(2\alpha-\beta)=\tan[(\alpha-\beta)+\alpha]=$
+$$\frac{\tan(\:\alpha\:-\beta)\:+\tan\:\alpha}{1\:-\tan(\:\alpha\:-\beta)\tan\:\alpha}=\frac{\frac{1}{2}+\frac{1}{3}}{1\:-\frac{1}{2}\times\frac{1}{3}}=1\:,$$
+$$\therefore2\alpha-\beta=-\frac{3\pi}{4}.$$
+----------------------------------------
+[ID: 406]
+题目：$$\frac{\sin(\alpha-\beta)}{\sin\alpha\sin\beta}+\frac{\sin(\beta-\theta)}{\sin\beta\sin\theta}+\frac{\sin(\theta-\alpha)}{\sin\theta\sin\alpha}$$
+解析 :原式 $= \frac{\sin\alpha\cos\beta-\cos\alpha\sin\beta}{\sin\alpha\sin\beta}+ \frac{\sin\beta\cos\theta-\cos\beta\sin\theta}{\sin\beta\sin\theta}+ \frac{\sin\theta\cos\alpha-\cos\theta\sin\alpha}{\sin\theta\sin\alpha}=$
+$$
+\frac{\sin\alpha\cos\beta\sin\theta-\cos\alpha\sin\beta\sin\theta}{\sin\alpha\sin\beta\sin\theta}+ \frac{\sin\alpha\sin\beta\cos\theta-\sin\alpha\cos\beta\sin\theta}{\sin\alpha\sin\beta\sin\theta}+ \frac{\sin\theta\sin\beta\cos\alpha-\cos\theta\sin\beta\sin\alpha}{\sin\theta\sin\beta\sin\alpha}=$$
+$$\frac{0}{\sin\theta\sin\beta\sin\alpha}=0.$$
+----------------------------------------
+[ID: 407]
+题目：若$f(x)=\cos x-\sin x$在$[-a,a]$上是减函数，则$a$的最大值是
+A. $\frac{\pi}{4}$
+B. $\frac{\pi}{2}$
+C. $\frac{3\pi}{4}$
+D. $\pi$
+解析: $ f(x)=\cos x-\sin x=\sqrt{2}\cos(x+\frac{\pi}{4})$，
+
+因为函数$y=\cos x$在区间$[0,\pi]$上单调递减，则由$0\leqslant x+\frac{\pi}{4}\leqslant\pi$，
+
+得$-\frac{\pi}{4}\leqslant x\leqslant\frac{3\pi}{4}$，所以$f(x)$的单调递减区间为$[-\frac{\pi}{4}+2k\pi,\frac{3\pi}{4}+2k\pi](k\in\mathbb{Z})$。
+
+因为$f(x)$在$[-a,a]$上是减函数，$|-\frac{\pi}{4}|<\frac{3\pi}{4}$，所以$-a\geqslant-\frac{\pi}{4}+2k\pi(k\in\mathbb{Z})$，解得$a\leqslant\frac{\pi}{4}-2k\pi(k\in\mathbb{Z})$。
+
+又$a-(-a)\leqslant\frac{2\pi}{2}$，所以$a\leqslant\frac{\pi}{2}$，
+
+所以$0<a\leqslant\frac{\pi}{4}$，
+
+所以$a$的最大值是$\frac{\pi}{4}$。
+
+答案:$A$
+----------------------------------------
+[ID: 408]
+题目：$\sqrt{1+\sin\theta}-\sqrt{1-\sin\theta}$,其中$\theta\in(0,\pi).$
+
+解析： 原式 = $\sqrt{\sin^2 \frac{\theta}{2} + \cos^2 \frac{\theta}{2} + 2\sin \frac{\theta}{2}\cos \frac{\theta}{2}} - \sqrt{\sin^2 \frac{\theta}{2} + \cos^2 \frac{\theta}{2} - 2\sin \frac{\theta}{2}\cos \frac{\theta}{2}}$
+$$= \sqrt{(\sin \frac{\theta}{2} + \cos \frac{\theta}{2})^2} - \sqrt{(\sin \frac{\theta}{2} - \cos \frac{\theta}{2})^2} = \left|\sin \frac{\theta}{2} + \cos \frac{\theta}{2}\right| - \left|\sin \frac{\theta}{2} - \cos \frac{\theta}{2}\right|$$
+
+① 当 $\theta \in (0, \frac{\pi}{2}]$ 时, $\frac{\theta}{2} \in (0, \frac{\pi}{4}]$, $\cos \frac{\theta}{2} \geqslant \sin \frac{\theta}{2}$,
+
+此时原式 = $\sin \frac{\theta}{2} + \cos \frac{\theta}{2} - \cos \frac{\theta}{2} + \sin \frac{\theta}{2} = 2\sin \frac{\theta}{2}$.
+
+② 当 $\theta \in (\frac{\pi}{2}, \pi)$ 时, $\frac{\theta}{2} \in (\frac{\pi}{4}, \frac{\pi}{2})$, $\cos \frac{\theta}{2} < \sin \frac{\theta}{2}$,
+
+此时原式 = $\sin \frac{\theta}{2} + \cos \frac{\theta}{2} - \sin \frac{\theta}{2} + \cos \frac{\theta}{2} = 2\cos \frac{\theta}{2}$.
+----------------------------------------
+[ID: 409]
+题目：已知 $\cos(\frac{\pi}{4}+x)=\frac{3}{5}$, $\frac{17\pi}{12}＜x＜\frac{7\pi}{4}$, 则 $\frac{\sin 2x+2\sin^2x}{1-\tan x}$ 的值为 ______.
+
+解析 将角 $\frac{\pi}{4}+x$ 视为整体, 再利用倍角公式.
+
+$\frac{\sin 2x+2\sin^2x}{1-\tan x}=\frac{2\sin x\cos x+2\sin^2x}{1-\frac{\sin x}{\cos x}}=$
+
+$\frac{2\sin x\cos x(\cos x+\sin x)}{\cos x-\sin x}$,
+
+其中 $\cos x+\sin x=\sqrt{2}\sin(\frac{\pi}{4}+x)$, $\cos x-\sin x=\sqrt{2}\cos(\frac{\pi}{4}+x)$.
+
+$\because \frac{17\pi}{12}＜x＜\frac{7\pi}{4}$, $\therefore \frac{5\pi}{3}＜\frac{\pi}{4}+x＜2\pi$,
+
+（注意该条件的限制, 否则会出现多解的情况.）
+
+$\therefore \sin(\frac{\pi}{4}+x)＜0$, $\therefore \sin(\frac{\pi}{4}+x)=-\frac{4}{5}$.
+
+注意到 $\sin 2x=-\cos(\frac{\pi}{2}+2x)=-\cos[2(\frac{\pi}{4}+x)]$$,故可利用二倍角的余弦公式求解.
+$$\therefore 原式=-\frac{4}{3}\sin 2x=\frac{4}{3}\cos (2x+\frac{\pi}{2})=\frac{4}{3}\cos [2\cdot(x+\frac{\pi}{4})]=\frac{4}{3}[2\cos^2(x+\frac{\pi}{4})-1]=-\frac{28}{75}$$
+----------------------------------------
+[ID: 410]
+已知△ABC的三个内角为A，B，C，f(B)=4cos B•sin<sup>2</sup>($\frac{π}{4}$+$\frac{B}{2}$)+$\sqrt{3}$cos 2B-2cos B．
+
+(1) 若f(B)=2，求B的大小；
+(2) 若f(B)-m＞2恒成立，求实数m的取值范围．
+
+解析：（1）第一步：化简f(B)．
+f(B)=4cos B•$\frac{1-cos(\frac{π}{2}+B)}{2}$+$\sqrt{3}$cos 2B-2cos B=2cos B(1+sin B)+$\sqrt{3}$cos 2B-2cos B=2cos Bsin B+$\sqrt{3}$cos 2B=2sin 2B+$\sqrt{3}$cos 2B=2sin(2B+$\frac{π}{3}$)．
+第二步：求值．
+∵f(B)=2，∴2sin(2B+$\frac{π}{3}$)=2，即sin(2B+$\frac{π}{3}$)=1．
+∴2B+$\frac{π}{3}$=$\frac{π}{2}$+2kπ，k∈Z．又0＜B＜π，∴B=$\frac{π}{12}$．
+(2) 第一步：转化不等式．
+f(B)-m＞2恒成立，
+即2sin(2B+$\frac{π}{3}$)＞2+m恒成立．
+第二步：求三角函数的值域．
+∵0＜B＜π，∴$\frac{π}{3}$＜2B+$\frac{π}{3}$＜$\frac{7π}{3}$，
+∴2sin(2B+$\frac{π}{3}$)∈[-2，2]，
+第三步：求值．
+∴2+m＜-2，∴m＜-4．
+----------------------------------------
+[ID: 411]
+求函数 $f(x)=5\sqrt{3}\cos^{2}x+\sqrt{3}\sin^{2}x-4\sin x\cos x$ ($\frac{\pi}{4} \leqslant x \leqslant \frac{7\pi}{24}$) 的最小值，并判断其单调性.
+
+解  ：$f(x)=5\sqrt{3}\cos^{2}x+\sqrt{3}\sin^{2}x-4\sin x\cos x=3\sqrt{3}\cos^{2}x+2\sqrt{3}\cos^{2}x+3\sqrt{3}\sin^{2}x-2\sqrt{3}\sin^{2}x-4\sin x\cos x=3\sqrt{3}-2\sin 2x+2\sqrt{3}\cos 2x=3\sqrt{3}-4\sin(2x-\frac{\pi}{3})$.
+
+因为 $\frac{\pi}{4} \leqslant x \leqslant \frac{7\pi}{24}$, 所以 $\frac{\pi}{6} \leqslant 2x-\frac{\pi}{3} \leqslant \frac{\pi}{4}$, 所以 $\sin(2x-\frac{\pi}{3}) \in [\frac{1}{2}, \frac{\sqrt{2}}{2}]$, 当 $2x-\frac{\pi}{3}=\frac{\pi}{4}$, 即 $x=\frac{7\pi}{24}$ 时, $f(x)$ 取得最小值, 最小值为 $3\sqrt{3}-2\sqrt{2}$.
+
+因为 $y=\sin(2x-\frac{\pi}{3})$ 在 $[\frac{\pi}{4}, \frac{7\pi}{24}]$ 上是单调递增的, 所以 $f(x)$ 在 $[\frac{\pi}{4}, \frac{7\pi}{24}]$ 上单调递减.
+----------------------------------------
+[ID: 412]
+若 $\sin x = -\frac{2}{3}$, 则 $\cos 2x = ？$
+
+解析：因为 $\sin x = -\frac{2}{3}$, 所以由二倍角公式, 得 $\cos 2x = 1 - 2\sin^2 x = 1 - 2 \times (-\frac{2}{3})^2 = \boxed{\frac{1}{9}}$.
+
+答案：$\boxed{\frac{1}{9}}$
+----------------------------------------
+[ID: 413]
+已知 $\alpha \in (0, \pi)$, 且 $3\cos 2\alpha - 8\cos \alpha = 5$, 则 $\sin \alpha = ?$
+A. $\frac{\sqrt{5}}{3}$
+B. $\frac{2}{3}$
+C. $\frac{1}{3}$
+D. $\frac{\sqrt{5}}{9}$
+
+解析：由 $3\cos 2\alpha - 8\cos \alpha = 5$, 得 $6\cos^2 \alpha - 8\cos \alpha - 8 = 0$, 即 $3\cos^2 \alpha - 4\cos \alpha - 4 = 0$, 解得 $\cos \alpha = -\frac{2}{3}$ 或 $\cos \alpha = 2$ (舍去), 又 $\alpha \in (0, \pi)$, $\therefore \sin \alpha = \sqrt{1 - \cos^2 \alpha} = \boxed{A}$.
+
+答案：$\boxed{A}$
+----------------------------------------
+[ID: 414]
+已知$\sin\alpha=-\frac{4}{5}$,则$\tan\frac{\alpha}{2}=$________.
+解析:∵因为$\sin\alpha=-\frac{4}{5}$,所以$\cos\alpha=\pm\frac{3}{5}$.
+若$\cos\alpha=\frac{3}{5}$,则$\tan\frac{\alpha}{2}=\frac{1-\cos\alpha}{\sin\alpha}=\frac{1-\frac{3}{5}}{-\frac{4}{5}}=-\frac{1}{2}$.
+若$\cos\alpha=-\frac{3}{5}$,则$\tan\frac{\alpha}{2}=\frac{1-\cos\alpha}{\sin\alpha}=1-(-\frac{3}{5})=-2$.
+答案:-$\frac{1}{2}$或-2
+----------------------------------------
+[ID: 415]
+题目：已知 $\alpha$ 为钝角，$\beta$ 为锐角，且 $\sin \alpha = \frac{4}{5}$，$\sin \beta = \frac{12}{13}$，求 $\cos \frac{\alpha-\beta}{2}$ 及 $\tan \frac{\alpha-\beta}{2}$ 的值。
+
+解析：因为 $\alpha$ 为钝角，$\beta$ 为锐角，$\sin \alpha = \frac{4}{5}$，$\sin \beta = \frac{12}{13}$，所以 $\cos \alpha = -\frac{3}{5}$，$\cos \beta = \frac{5}{13}$。所以 $\cos (\alpha-\beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta = (-\frac{3}{5}) \times \frac{5}{13} + \frac{4}{5} \times \frac{12}{13} = \frac{33}{65}$。
+
+因为 $\frac{\pi}{2} < \alpha < \pi$，且 $0 < \beta < \frac{\pi}{2}$，所以 $0 < \alpha-\beta < \pi$，即 $0 < \frac{\alpha-\beta}{2} < \frac{\pi}{2}$，所以 $\cos \frac{\alpha-\beta}{2} = \sqrt{\frac{1+\cos (\alpha-\beta)}{2}} = \sqrt{\frac{1+\frac{33}{65}}{2}} = \frac{7\sqrt{65}}{65}$。
+
+由 $0 < \frac{\alpha-\beta}{2} < \frac{\pi}{2}$，得 $\sin \frac{\alpha-\beta}{2} = \sqrt{1-\cos^2 \frac{\alpha-\beta}{2}} = \frac{4\sqrt{65}}{65}$，所以 $\tan \frac{\alpha-\beta}{2} = \frac{\sin \frac{\alpha-\beta}{2}}{\cos \frac{\alpha-\beta}{2}} = \frac{4}{7}$。
+----------------------------------------
+[ID: 416]
+已知在△ABC中，$\cos A+\cos B=\sin C$，求证：△ABC是直角三角形.
+
+解析: ∵在△ABC中，$A+B+C=\pi$，$\therefore \sin C=\sin (A+B)=\cos A+\cos B$.
+
+利用和差化积公式，得
+$\cos A+\cos B=2\cos \frac{A+B}{2}\cos \frac{A-B}{2}$，
+$\therefore 2\sin \frac{A+B}{2}\cos \frac{A+B}{2}=2\cos \frac{A+B}{2}\cos \frac{A-B}{2}$，
+由二倍角公式可得，
+显然$\cos \frac{A+B}{2}\neq 0$，故$\sin \frac{A+B}{2}=\cos \frac{A-B}{2}$，
+两边平方，得$\sin^2 \frac{A+B}{2}=\cos^2 \frac{A-B}{2}$，
+即$\frac{1-\cos (A+B)}{2}=\frac{1+\cos (A-B)}{2}$，
+$\therefore \cos (A+B)+\cos (A-B)=0$，
+$\therefore 2\cos A\cos B=0$，即$\cos A=0$或$\cos B=0$.
+∵A、B是三角形的内角，故必有一个为直角，
+$\therefore \triangle ABC$是直角三角形.
+----------------------------------------
+[ID: 417]
+题目：设函数$f(x)=\sin \omega x\cdot \cos \omega x-2\sqrt{3}\sin \omega x\cdot \cos \omega x+\cos^2\omega x+\lambda (x\in \mathbb{R})$的图象关于直线$x=\pi$对称，其中$\omega,\lambda$为常数，且$\omega\in(\frac{1}{2},1)$。
+(1) 求函数$f(x)$的最小正周期；
+(2) 若$y=f(x)$的图象经过点$(\frac{\pi}{4},0)$，求函数$f(x)$的值域。
+
+解析: (1) $f(x)=\sin \omega x\cdot \cos \omega x-2\sqrt{3}\sin \omega x\cdot \cos \omega x+\cos^2\omega x+\lambda=2\cos(2\omega x-\frac{\pi}{6})+\lambda$。
+由直线$x=\pi$是$y=f(x)$图象的一条对称轴，可得$\sin(2\omega\pi-\frac{\pi}{6})=\pm1$。所以$2\omega\pi-\frac{\pi}{6}=k\pi+\frac{\pi}{2}(k\in\mathbb{Z})$，即$\omega=\frac{k}{2}+\frac{1}{3}(k\in\mathbb{Z})$。
+又$\omega\in(\frac{1}{2},1)$，$k\in\mathbb{Z}$，所以$k=1$，故$\omega=\frac{5}{6}$。
+所以$f(x)$的最小正周期是$\frac{6\pi}{5}$。
+
+(2) 由$y=f(x)$的图象经过点$(\frac{\pi}{4},0)$，得$f(\frac{\pi}{4})=0$，
+即$\lambda=-2\sin(\frac{5}{3}\times\frac{\pi}{4}-\frac{\pi}{6})=-2\sin\frac{\pi}{4}=-\sqrt{2}$。
+故$f(x)=2\sin(\frac{5}{3}x-\frac{\pi}{6})-\sqrt{2}$，函数$f(x)$的值域为$[-2-\sqrt{2},2-\sqrt{2}]$。
+----------------------------------------
+[ID: 418]
+题目：求函数 $y=\frac{\sin x}{2+\cos x}$ ($0 < x < \pi$) 的最大值.
+
+解析：去分母整理可得, $\sin x - y\cos x = 2y$, 所以 $\sqrt{1+y^2}\sin(x-\varphi)=2y$ (其中 $\tan\varphi=y$, $y>0$), 故 $\sin(x-\varphi)=\frac{2y}{\sqrt{1+y^2}}$.
+
+由 $\sin(x-\varphi)=\frac{2y}{\sqrt{1+y^2}}\leqslant 1$, 可得 $0 < y \leqslant \frac{\sqrt{3}}{3}$.
+
+下面验证等号可以取到:
+
+当 $y=\frac{\sqrt{3}}{3}$, 即 $\tan\varphi=\frac{\sqrt{3}}{3}$ 时, 可取 $\varphi=\frac{\pi}{6}$,
+
+令 $x-\varphi=\frac{\pi}{2}$, 则 $x=\frac{\pi}{2}+\varphi=\frac{\pi}{2}+\frac{\pi}{6}=\frac{2\pi}{3}$ (在 $(0,\pi)$ 成立).
+
+故 $x=\frac{2\pi}{3}$ 时, 函数有最大值, $y_{\max}=\frac{\sqrt{3}}{3}$.
+----------------------------------------
+[ID: 419]
+已知 α 为第二象限角，且 sin α = $\frac{\sqrt{15}}{4}$，则 $\frac{\sin(\alpha+\frac{\pi}{4})}{\sin 2\alpha+\cos 2\alpha+1}$ 的值为____.
+
+解析：$\frac{\sin(\alpha+\frac{\pi}{4})}{\sin 2\alpha+\cos 2\alpha+1}=\frac{\frac{\sqrt{2}}{2}(\sin\alpha+\cos\alpha)}{2\sin\alpha\cos\alpha+2\cos^2\alpha}=\frac{\frac{\sqrt{2}}{2}(\sin\alpha+\cos\alpha)}{4\cos\alpha(\sin\alpha+\cos\alpha)}=\frac{\sqrt{2}}{4\cos\alpha}$
+
+又 α 为第二象限角，且 sin α = $\frac{\sqrt{15}}{4}$，所以 cos α = $-\frac{1}{4}$
+
+所以 $\frac{\sin(\alpha+\frac{\pi}{4})}{\sin 2\alpha+\cos 2\alpha+1}=\frac{\sqrt{2}}{4\cos\alpha}=-\sqrt{2}$.
+
+答案 ： -$\sqrt{2}$.
+----------------------------------------
+[ID: 420]
+题目：已知 $\sin(\frac{\pi}{4}+2\alpha)\cdot\sin(\frac{\pi}{4}-2\alpha)=\frac{1}{4}$, $\alpha\in(\frac{\pi}{4},\frac{\pi}{2})$，则 $2\sin^2\alpha+\tan\alpha-\frac{1}{\tan\alpha}-1$ 的值为______.
+
+解析： 由 $\sin(\frac{\pi}{4}+2\alpha)\cdot\sin(\frac{\pi}{4}-2\alpha)=\sin(\frac{\pi}{4}+2\alpha)\cdot\cos(\frac{\pi}{4}+2\alpha)=\frac{1}{2}\sin(\frac{\pi}{2}+4\alpha)=\frac{1}{2}\cos4\alpha=\frac{1}{4}$, 得 $\cos4\alpha=\frac{1}{2}$.
+
+又 $\alpha\in(\frac{\pi}{4},\frac{\pi}{2})$，所以 $\alpha=\frac{5\pi}{12}$.
+
+所以 $2\sin^2\alpha+\tan\alpha-\frac{1}{\tan\alpha}-1=-\cos2\alpha+\frac{\sin^2\alpha-\cos^2\alpha}{\sin\alpha\cos\alpha}=\frac{-2\cos2\alpha}{\sin2\alpha}=-(\cos2\alpha+\frac{2}{\tan2\alpha})=-(\cos\frac{5\pi}{6}+\frac{2}{\tan\frac{5\pi}{6}})=-(\frac{\sqrt{3}}{2}-2\sqrt{3})=\frac{5\sqrt{3}}{2}$.
+
+答案： $\frac{5\sqrt{3}}{2}$
+----------------------------------------
+[ID: 421]
+计算 $\sin^2 20^\circ + \cos^2 50^\circ + \sin 20^\circ \cos 50^\circ = \_\_\_\_\_$.
+
+解析 ： 原式 $= \frac{1}{2}(1 - \cos 40^\circ) + \frac{1}{2}(1 + \cos 100^\circ) + \sin 20^\circ \cos 50^\circ = 1 + \frac{1}{2}(\cos 100^\circ - \cos 40^\circ) + \frac{1}{2}(\sin 70^\circ - \sin 30^\circ) = \frac{3}{4} - \sin 70^\circ \sin 30^\circ + \frac{1}{2} \sin 70^\circ = \frac{3}{4}$.
+
+答案 :$\frac{3}{4}$
+----------------------------------------
+[ID: 422]
+题目：已知$f(x)=asin2\pi x+bcos2\pi x+csin4\pi x+dcos4\pi x$，若$f(\frac{1}{2}+x)+f(x)=f(2x)$，则在$a$，$b$，$c$，$d$中能确定的参数是________.
+解析$\blacktriangleright$ 令$x=0$，$f(\frac{1}{2}+x)+f(0)=f(0)$，
+即$f(\frac{1}{2})=0$，
+则$f(\frac{1}{2})=asin\pi+bcos\pi+csin2\pi+dcos2\pi=d-b=0$，
+则$d=b$.
+令$x=\frac{1}{4}$，
+则$f(\frac{3}{4})+f(\frac{1}{4})=f(\frac{1}{2})=0$，则$asin\frac{3\pi}{2}+bcos\frac{3\pi}{2}+csin3\pi+dcos3\pi+asin\frac{\pi}{2}+bcos\frac{\pi}{2}+csin\pi+dcos\pi=-2d=0$，
+则$b=d=0$.
+从而可得$f(x)=asin2\pi x+csin4\pi x$，
+由$f(\frac{1}{2}+x)+f(x)=f(2x)$，
+得$2csin4\pi x=asin4\pi x+csin8\pi x$恒成立，
+即$\sin4\pi x(2c-a-2ccos4\pi x)=0$恒成立，
+则$\begin{cases}2c-a=0\\-2c=0\end{cases}$，解得$\begin{cases}a=0\\c=0\end{cases}$，
+故$a=b=c=d=0$.
+答案: $a=b=c=d=0$

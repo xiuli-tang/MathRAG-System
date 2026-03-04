@@ -1,0 +1,2 @@
+[ID: 2148]
+等比数列的证明方法依据定义：若$\frac{a_{n}}{a_{n-1}}=q\big(q\neq0\big)\big(n\geq2$,且$n\in N^*\big)$ 或$a_{n+1}=qa_{n}\Leftrightarrow\{a_{n}\}$ 为等比数列

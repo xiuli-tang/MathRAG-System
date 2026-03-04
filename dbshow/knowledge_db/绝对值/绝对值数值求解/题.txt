@@ -1,0 +1,120 @@
+[ID: 923]
+当x取何值时，-|x-1|-3有最大值，这个最大值是多少？当$x=1$时，即$-\left|x-1\right|-3$的最大值是-3。 
+----------------------------------------
+[ID: 924]
+当x取何值时，-3+|x-1|有最小值，这个最小值是多少？ 此题可以将$-3+\left|x-1\right|$变形为$\left|x-1\right|-3$，即当$x=1$时，$\left|x-1\right|-3$的最小值是-3。
+----------------------------------------
+[ID: 925]
+化简代数式$\vert x+2\vert+\vert x-4\vert$  当$x<-2$时，$\vert x+2\vert+\vert x-4\vert=-2x+2;$  当$-2\leqslant x<4$ 时，$\vert x+2\vert+\vert x-4\vert=6;$  当$x\geqslant 4$ 时，$\vert x+2\vert+\vert x-4\vert=2x-2.$
+----------------------------------------
+[ID: 926]
+求出$x+2|$和$x-4|$的零点值 解：$\vert x+2\vert$和$\vert x-4\vert$的零点值分别为 $x=-2$ 和 $x=4$.
+----------------------------------------
+[ID: 927]
+如果$|-2a|=-2a$ ，则a的取值范围是（c）A. $a>0$ B. a>Oc. a<OD. a<0答案分析：由题意可以看出，这个数的绝对值等于它本身，所以-2a肯定是非负数，也就是大于等于0的实数，因此进一步得出$a=0$ ，a也可以小于0。所以选择C。
+----------------------------------------
+[ID: 928]
+解方程$\mid x-2\mid+\mid2x+1\mid=7$ 解(1)当$x\geqslant2$ 时，原方程化为$$\text{(x-2)+(2x+1)=7 ,}$$解之得$:_{\mathrm{Z}}=\frac{8}{3}$ ，(2)当$-\frac{1}{2}<$x<2时，原方程化为$$\text{-(x-2)+(2x+1)=7 .}$$解之得$:_{\mathrm{X}}=4$ ，它不在$-\frac{1}{2}<$x< 2的范围内，所以x =4不是原方程的解应舍去.(3) 当x$<-\frac12$ # $\frac{1}{2}$ 时，原方程化为$- ( x- 2) - ( 2x+ 1) = 7$ .解之得$:_{\mathrm{X}}=-2$ 综上，原方程的解为x= $\frac 83$或x=-2
+----------------------------------------
+[ID: 929]
+若关于$x$ 的方程||x-2|-1|=a有三个整数解.则a的值是多少？解若a <0 ，原方程无解，所以a $\geqslant0$ ．由绝对值的定义可知|x-2|-1=a所以1 $x-2\mid=1\pm a$ 9 (1)若$a>1$ ，则丨x-2丨=1-a<0，无解。丨x-2丨=1+a， $x$ 只能有两个解$x=3+a$ 和$x=1$ -a.(2)若$0\leqslant$a$\leqslant1$ ，则由$\mid x-2\mid=1+a$ ，求得## $x=1-a$ 或$x=3+a$由|x-2|=1-a，求得# $x=1+a$ 或$x=3-a$原方程的解为$x=3+a$ ，3-a， $1+a$ ，1-a，为使方程有三个整数解，a必为整数所以a只能取0或1.当$a=0$ 时，原方程的解为$x=3$ ，1，只有两个解，与题设不符， 所以a $\neq0$ ：当$a=1$ 时，原方程的解为$x=4$ ，0，2，有三个解，综上可知， $a=1$
+----------------------------------------
+[ID: 930]
+已知方程$\mid\mathbf{x}\mid=$ax+1有一负根，且无正根，求a的取值范围 解设x为方程的负根，则$-x=ax+1$ ，即$$\mathrm{x}=\frac{-1}{\mathrm{a}+1}<0,$$
+所以应有a>-1．反之， $a>-1$ 时，原方程有负根，设方程有正根$x$ ，则$x=ax+1$ ，即$$\mathrm{x}=\frac{1}{1-\mathrm{a}}>0,$$所以a <1 ．反之，a <1时，原方程有正根综上可知，若使原方程有一负根且无正根，必须： $a\geqslant1$
+----------------------------------------
+[ID: 931]
+解方程组 $$\left\{\begin{array}{l}|\text{x-y}|=1,\\|\text{x}|+2|\text{y}|=3.\end{array}\right.$$  分析与解由$|\textcircled{1}$ 得$x-y=1$ 或x-y=-1，即$x=y+1$ 或x=y-1与②结合有下面两个方程组$$\text{)}\begin{cases}\mathrm{x=y+1,}\\\text{|x|+2|y|=3;}\end{cases}\text{(II)}\begin{cases}\mathrm{x=y-1,}\\\text{|x|+2|y|=3.}\end{cases}$$解(I)：把$x=y+1$ 代入$\mid\mathbf{x}\mid+2\mid\mathbf{y}\mid=3$ 得$$\mid y+1\mid+2\mid y\mid=3.$$去绝对值符号，可得$y=-\frac{2}{3}$或y$=-\frac43$ ，再将其代入$.x=y+1$ ，可求出方程组( $I$ )的解为$$\begin{cases}\mathrm{x}=\frac{1}{3},\\[2ex]\mathrm{y}=-\frac{4}{3};end{cases}\text{或}\begin{cases}\mathrm{x}=\frac{5}{3},\\[2ex]\mathrm{y}=\frac{2}{3}.\end{cases}$$同理，解(IⅡI)有$$\begin{cases}\mathbf{x}=-\frac{5}{3},\\\mathbf{y}=-\frac{2}{3};\end{cases}\text{或}\begin{cases}\mathbf{x}=\frac{1}{3},\\\mathbf{y}=\frac{4}{3}.\end{cases}$$故原方程组的解为$$\begin{cases}\mathrm{x}=-\frac{1}{3},\\[2ex]\mathrm{y}=\frac{4}{3};\end{cases}\begin{cases}\mathrm{x}=\frac{1}{3},\\[2ex]\mathrm{y}=\frac{4}{3};\end{cases}\begin{cases}\mathrm{x}=\frac{5}{3},\\[2ex]\mathrm{y}=\frac{2}{3};\end{cases}\begin{cases}\mathrm{x}=-\frac{5}{3},\\[2ex]\mathrm{y}=\frac{2}{3};\end{cases}$$
+----------------------------------------
+[ID: 932]
+解方程组$$\left\{\begin{array}{ll}|\text{x-y}|&=\text{x+y-2},\\|\text{x+y}|&=\text{x+2}.\end{array}\right.$$ 解由$|\textcircled{1}$ 得$$x+y=\mid x-y\mid+2.$$因为$\mid x-y\mid\geqslant0$ ≥0 $\geqslant0$ ，所以$x+y>0$ ，所以$\mid x+y\mid=x+y$ .③把③代入②有$x+y=x+2$所以$y=2$ ．将之代入$\textcircled{1}$ 有|x-2|=x，所以$x-2=x$ ，④或$x-2=-x$ ： $\textcircled{5}$ $\textcircled{4}$ 无解，所以只有解$\textcircled{5}$ 得$x=1$ ：故$$\begin{cases}\mathrm{x}=1,\\\mathrm{y}=2\end{cases}$$为原方程组的解
+----------------------------------------
+[ID: 933]
+解不等式|x-5|-|2x+3|<1 解(1) 当x$-\frac{3}{2}$ $\cdot\frac{3}{2}$ $\cdot\frac{3}{2}$ 时，原不等式化为$-(x-5)-[-(2x+3)]<1$,解之得$x<-7$ ，结合$x\leq-\frac{3}{2}$ ，故$x<$ 7是原不等式的解；(2）当$-\frac{3}{2}<$x< 5时，原不等式化为$-(x-5)-(2x+3)<1$,解之得$x>\frac13$ # $\frac{1}{3}$ ，结合$-\frac{3}{2}<x<5$ 故$\frac13<x<$ 5是原不等式的解;(3)当$x>5$ 时，原不等式化为$$\text{x-5-(2x+3)<1,}$$解之得$x>-9$ ，结合$x>5$ ，故$x>5$ 是原不等式的解，综上所述，x<-7或x> $\frac{1}{3}$ 是原不等式的解
+----------------------------------------
+[ID: 934]
+当a取哪些值时，方程$\mid x+2\mid+\mid x-1\mid=a$ 有解？解法1(1)当$x\leqslant-2$ 时，$$\mid x+2\mid+\mid x-1\mid=-2x-1\geqslant-2(-2)-1=3.$$(2)当$-2<x<1$ 时，$$\mid x+2\mid+\mid x-1\mid=x+2-x+1=3.$$(3)当$x\geqslant1$ 时，$$\mid x+2\mid+\mid x-1\mid=2x+1\geqslant2\cdot1+1=3.$$所以，只有当$a\geqslant3$ 时，原方程有解，解法2按照绝对值的性质|a-b $|\leqslant|$ a |+| bl，故$$\mid x+2\mid+\mid x-1\mid\geqslant\mid(x+2)-(x-1)\mid=3.$$其中等号当$-2\leqslant x\leqslant1$ 时成立，所以当$1\geqslant3$ 时，原方程有解
+----------------------------------------
+[ID: 935]
+若$a＜0$.化简$\frac{|-5a|+|a|}{6}$ 提示：为化简|a|，需要先明确a的符号，然后再根据绝对值的代数意义化简
+----------------------------------------
+[ID: 936]
+$|a+2|+|c-6|=0$ ，求$a^{2}+c$ 的和是多少？绝对值的取值范围肯定不会小于零，因为绝对值是大于等于零的实数。两个绝对值相加的和等于零，综合考虑后，等式中的每个绝对值都等于0，因为两个绝对值相加等于0，只有一种可能，只能是0+0=0 ，因为绝对值也可以等于0，两个大于零的绝对值或者一个大于零，一个小于零的绝对值相加的结果不可能等于0。所以这道题中的$a+2=0$ $c-6=0$ ： $a=-2$ ， $b=6$ ，所以最后$a^{2}+c=4+6=10$
+
+----------------------------------------
+[ID: 937]
+下列说法正确的是（D）A、一la一定是负数B、只有两个数相等时它们的绝对值才相等C、若lal=lbl，则a与b互为相反数D、若一个数小于它的绝对值，则这个数为负数 答案分析：A项错误，绝对值的取值范围是>=0 ，a还有可能是0；B项错误，只有两个数相等时它们的绝对值才相等指的是非负数，负数的绝对值是它的相反数，二者的绝对值相等， 但二者本身不相等；C项错误，绝对值相等的两个数，不一定是相反数，还有可能是0或者都是正数：D项正确，0和正数的绝对值等于这个数的本身，所以选择D
+----------------------------------------
+[ID: 938]
+绝对值方程$$-|2x-1|-|x|=2$$的不同实数解共有几个 1.当$x \geqslant \frac12$时，原方程就可化简为：$2x - 1 - x = 2$，解得：$x=3$；2.当$0 < x < \frac12$时，原方程就可化简为：$-2x + 1 - x = 2$，解得：$x=-\frac13$，不符合题意；3.当$x \leqslant 0$时，原方程就可化简为：$-2x + 1 + x = 2$，解得：$x=-1$；所以$x$的不同实数解为：$x=3$或$x=-1$，共有两个
+----------------------------------------
+[ID: 939]
+&解方程 x^{2}-|2x-1|-4=0. \\&\text{解:令}2x-1=0,\text{得 }x=\frac{1}{2}, \\&\text{当}x<\frac{1}{2},\text{原方程化为 }x^{2}-(1-2x)-4=0,\text{即 }x^{2}+2x-5=0,\text{解得 }x=-1+\sqrt{6}. \\&(舍去)\text{或}x=-1-\sqrt{6}. \\&\text{当}x\geqslant\frac{1}{2},\text{原方程化为 }x^{2}-(2x-1)-4=0,\text{即 }x^{2}-2x-3=0,\text{解得 }x=-1(\text{舍去}) \\&\text{或}x=3. \\&$\because$原方程的解为$x=3$,$x=-1-\sqrt{6}$。
+----------------------------------------
+[ID: 940]
+&方程 \mid2x-1\mid+\mid x-2\mid=\mid x+1\mid\text{的实数解的个数是 }( ). \\&(A)1;(B)2;(C)3;(D)无穷多. \\&\text{解:令}2x-1=0,\text{得 }x=\frac{1}{2};\text{令}x-2=0,\text{得 }x=2;\text{令}x+1=0,\text{得 }x=-1. \\&\text{当}x<-1,\text{原方程化为}1-2x+(2-x)=-(x+1),\text{解得 }x=2(\text{舍去}). \\&\text{当}-1\leqslant x<\frac{1}{2},\text{原方程化为 }1-2x+(2-x)=x+1,\text{解得 }x=\frac{1}{2}(\text{舍去}). \\&\text{当}\frac{1}{2}\leqslant x<2,\text{原方程化为 }2x-1+(2-x)=x+1,\text{移项和并项为 }0=0(\text{恒等式}), \\&$\therefore$原方程的解为$\frac{1}{2}\leqslant x<2$. \\&\text{当}x\geqslant 2,\text{原方程化为 }2x-1+(x-2)=x+1,\text{解得 }x=2. \\&\text{综上得，原方程的解为}\frac{1}{2}\leqslant x\leqslant 2,\text{故选}(D)\end{aligned}$
+----------------------------------------
+[ID: 941]
+方程\left|\log_{\frac{1}{2}}\frac{|x|}{4}\right|+1=\begin{cases}\log_{\frac{1}{2}}x^{2}&\\&\end{cases}$ 解：原方程即$\left|\log_{\frac{1}{2}}|x|+2\right|+1=2\left|\log_{\frac{1}{2}}|x|\right|$。令$\log_{\frac{1}{2}}|x|+2=0$，得$|x|=4$；令$\log_{\frac{1}{2}}|x|=0$，得$|x|=1$。当$0<|x|\leqslant1$时，原方程化为$log_{\frac{1}{2}}|x|+2+1=2\log_{\frac{1}{2}}|x|$，即$log_{\frac{1}{2}}|x|=3$，$\therefore|x|=\frac{1}{8}$，$x=\pm\frac{1}{8}$；当$1<|x|\leqslant4$时，原方程化为$log_{\frac{1}{2}}|x|+2+1=-2\log_{\frac{1}{2}}|x|$，即$log_{\frac{1}{2}}|x|=-1$，$\therefore|x|=2$，$x=\pm2$。当$|x|>4$时，原方程化为$-log_{\frac{1}{2}}|x|-2+1=-2\log_{\frac{1}{2}}|x|$，即$log_{\frac{1}{2}}|x|=1$，$\therefore|x|=\frac{1}{2}$（舍去）。综上所述，原方程的解为$x=\pm\frac{1}{8}$，$x=\pm2$。
+----------------------------------------
+[ID: 942]
+在某城镇，沿环形道路，有五个小学， 顺次是从第一到第五小学.各校有电脑分别为15.7.11.3.14台.现为使各校的台数相等，各调出几台给邻校.问调出的总台数最少是多少？这时各校分别调出几台给邻校？解第一校往第二校，第二校往第三校.· 第五校往第一校调出的台数分别为a，b，c，d， e,则$$\begin{aligned}&Y \\&7+a-b=11+b-c=3+c-d \\&=14+d-e=15+e-a \\&=(15+7+11+3+14)/5=10\:, \\&\text{得 }b=a-3,c=a-2,d=a-9,e=a-5\end{aligned}$$故调出的总台数为$$f(a)=\mid a\mid+\mid a-3\mid+\mid a-2\mid+\mid a-9\mid+$$由定理，当$a=3$ 时，$f(a)_{\mathrm{min}}=1\dot{2}$ 此时$a=3,b=0,c=1,d=-6,e=-2$ 因此，调出的总台数最少是12台，这时第一校调往第二校3台，第三校调往第四校1台， 第五校调往第四校6台，第一校调往第五校2台
+----------------------------------------
+[ID: 943]
+已知$\mid x+y+3\mid=0$, 那么$|x+y|$ 的值是多少？答案解析：看到这个数的绝对值等于0，因此想到了只有0的绝对值等于0，所以$x+y+3=0$ ，得出$x+y=-3$ ， -3<0 ，那么$|x+y|$ 的值是它的相反数是3
+----------------------------------------
+[ID: 944]
+求$|x+1|+|x-2|$的最小值，并求出此时$x$的取值范围 当$x<-1$时,$|x+1|+|x-2|=-2x+1>3$当$-1\leq x\leq 2$时,$|x+1|+|x-2|=3$当$x>2$时,$|x+1|+|x-2|=2x-1>3$所以 : 可知$|x+1|+|x-2|$的最小值是3 , 此时 : -1\leq x\leq 2解 : 可令$x+1=0$和$x-2=0$,得$x=-1$和$x=2$ (-1和2都是零点值)则当$-1\leq x\leq 2$时,$|x+1|+|x-2|$的最小值是3
+----------------------------------------
+[ID: 945]
+已知|x|≤3，则满足条件的所有x的整数值是多少？且所有整数的和是多少？$|x|\leqslant 3$  $-3≤x≤3$  $x$ 为整数 满足条件的$x$值为：-3，-2，-1,0,1,2,3 $-3+(-2)+(-1)+0+1+2+3=0$
+----------------------------------------
+[ID: 948]
+已知函数$f(x)=|x-1|+|2x-m|(m∈R)$，$(1)\text{若 }m=-1,\text{求 }f(x)≤2 \text{ 的解集};$ 解：若$m=-1$,则$f(x)=|x-1|+|2x+1|\leqslant 2$.①当$x≤-\frac{1}{2}$时,$f(x)=1-x-2x-1=-3x\leqslant -2$,解得$x≥-\frac{2}{3}$,所以$-\frac{2}{3}\leqslant x≤-\frac{1}{2}$.②当$-\frac{1}{2}<x≤1$时,f(x)=1-x+2x+1=x+2\leqslant 2,解得$x≤0$,所以$-\frac{1}{2}\leqslant x≤0$.③当$x>1$时,f(x)=x-1+2x+1=3x\leqslant 2,解得$x≤\frac{2}{3}$,此时无解。综上可得,不等式$f(x)≤2$的解集为$[-\frac{2}{3},0]$。
+----------------------------------------
+[ID: 949]
+已知函数$f(x)=|x-1|+|2x-m|(m∈R)$ 解：$(2)\text{若 }f(x)≤2 \text{ 的解集包含}[1,2],\text{求实数 }m \text{ 的取值范围}。$$(2)\text{由题意可知,当 }x∈[1,2]\text{时,不等式 }f(x)≤2 \text{恒成立,即 }x-1+|2x-m|\leqslant x+1 \text{恒成立,即 }|2x-m|\leqslant 2 \text{恒成立,即 }-2\leqslant 2x-m\leqslant 2 \text{恒成立,即 }2x-2\leqslant m\leqslant 2x+2 \text{恒成立,解得 }2\leqslant m\leqslant 4$,所以实数 }m \text{ 的取值范围为}[2,4]。$
+----------------------------------------
+[ID: 950]
+已知$f(x)=|x-1|+|x+2|$，$\begin{aligned}(2)\text{若 }f(x)&\text{的最小值为 }m^{2}+2n^{2},\text{证明}:\\&\frac{m^{2}n^{2}}{2m^{2}+n^{2}}\leqslant\frac13.\end{aligned}$ 解：由含有绝对值的不等式的性质可得$f(x)=|x-1|+|x+2|\geqslant|x-1-x-2|=3$，所以$f(x)$的最小值$m^{2}+2n^{2}=3$。结合基本不等式可得$\frac{2m^{2}+n^{2}}{m^{2}n^{2}}=\frac2{n^2}+\frac1{m^2}=\frac13\cdot(m^2+2n^2)\left(\frac2{n^2}+\frac1{m^2}\right)=\frac13\left(\frac{2m^{2}}{n^{2}}+\frac{2n^{2}}{m^{2}}\right)+\frac53\geqslant\frac13\times2\sqrt{\frac{2m^{2}}{n^{2}}\times\frac{2n^{2}}{m^{2}}}+\frac53=\frac43+\frac53=3$，当且仅当$\frac{2m^{2}}{n^{2}}=\frac{2n^{2}}{m^{2}}$，即$|m|=|n|$时，等号成立，所以$\frac{m^{2}n^{2}}{2m^{2}+n^{2}}\leqslant\frac13$。
+----------------------------------------
+[ID: 951]
+已知函数f(x)=|x-4m|+\left|x+\frac{1}{m}\right|(m∈R)。\\(1)若$m=1$,求不等式$f(x)>7$的解集。\\(2)证明:当$m>1$时,f(x)+\frac{1}{m^{2}-m}≥8。$\\解析：(1)若$n=1$,则f(x)=|x-4|+|x+1|=5,-1<x<4,2x-3,x≥4。\\当$x≤-1$时,-2x+3>7,解得$x<-2；\\当$-1<x<4$时,5>7,显然不成立；\\当$x≥4$时,2x-3>7,解得$x>5。\\综上可得,不等式f(x)>7的解集为(-∞,-2)∪(5,+∞)。\\(2)由于f(x)=|x-4m|+\left|x+\frac{1}{m}\right|≥$(x-4m)-(x+\frac{1}{m})=$|4m+\frac{1}{m}|,而$m>1$,可得|4m+\frac{1}{m}|=4m+\frac{1}{m},结合基本不等式可得f(x)+\frac{1}{m^{2}-m}≥4m+\frac{1}{m}+\frac{1}{m^{2}-m}=4m+\frac{1}{m}+\frac{1}{m-1}-\frac{1}{m}=4m+\frac{1}{m-1}=4(m-1)+\frac{1}{m-1}+4≥2√4(m-1)\times\frac{1}{m-1}+4=8,当且仅当4(m-1)=\frac{1}{m-1}$等号成立，故当 $m>1$ 时$,f(x)+\frac1{m^2-m}\geqslant8$成立。
+----------------------------------------
+[ID: 952]
+已知函数$f(x)=|x+a|-|x+a^2|(a∈R)。$(1)若$a=2$,求不等式$f(x)<x$的解集；$(2)若$x∈R$,且$a∈[0,2]$,使得$f(2x)>m$能成立,求实数$m$的取值范围。 解析：(1)若$a=2$,则$f(x)=|x+2|-|x+4|<x$。①当$x<-4$时,可得$-x-2+x+4≤x?x≥2$,此时$x∈?$;②当$-4≤x≤-2$时,可得$-x-2-x-4≤x?x>-2$,此时$x∈?$;③当$x≥-2$时,可得$x+2-x-4≤x?x≥-2$,此时$x≥-2$。综上可得,不等式$f(x)<x$的解集为$(-2,+∞)$。(2)依题,f(2x)>m?|2x+a|-|2x+a^2|>m,又由于|2x+a|-|2x+a^2|≤|2x+a-2x-a^2|=|a-a^2|,故|a-a^2|>m,令函数$g(a)=|a-a^2|,a∈[0,2]$画出函数$g(a)$的图像,如图1所示,结合函数$g(a)$的图像可知$g(a)_{max}=g(2)=2$,则有$m<2$,所以$m$的取值范围为$(-∞,2)$。
+----------------------------------------
+[ID: 953]
+解不等式$x^2-5x+5|<1$ 解：原不等式等价于$-1<x^2-5x+5<1$ $\exists\mathbb{p}\begin{cases}x^2-5x+5<1\\x^2-5x+5>-1\end{cases}$ #
+
+由（1）得： $1<x<4$ ；由（2）得： $x<2$ 或$x>3$ 所以，原不等式的解集为$\{x|1<x<2$ 或$3<x<4\}$  2）本题也可用数形结合法来求解。在同一坐标系中画出函数$y=\left|x^2-5x+5\right|$与$y=1$ 的的图象，解方程$\left|x^2-5x+5\right|=1$ ，再对照图形写出此不等式的解集
+----------------------------------------
+[ID: 954]
+解下列不等式：(1) $\mid x+1\mid>2-x$ ；(2)| $x^2$ -2x-6|<3x[思路]利用| $f\left ( x\right ) \mid < g\left ( x\right )$ $\Leftrightarrow - g\left ( x\right ) < f\left ( x\right ) < g\left ( x\right )$ 和lf $(x)\mid>g(x)\Leftrightarrow f(x)>g(x)$ 或f $:(x)<-g\left(x\right)$ (x) $(x)$ 去掉绝对值后转化为我们熟悉的一元一次、一元二次不等式组来处理。解：（1）原不等式等价于$x+1>2-x$ 或$x+1<-(2-x)$ 解得$x>\frac12$ 或无解，所以原不等式的解集是$\{$ $x\mid x> \frac 12\}$(2) 原不等式等价于一3 $x< x^2- 2$ $x- 6< 3$ $x$$$\text{即}\begin{cases}x^2-2x-6>-3x\\x^2-2x-6<3x\end{cases}\Rightarrow\begin{cases}x^2+x-6>0\\x^2-5x-6<0\end{cases}\Rightarrow\begin{cases}(x+3)(x-2)>0\\(x+1)(x-6)<0\end{cases}\Rightarrow\begin{cases}x<-3\text{或}x>2\\-1<x<6\end{cases}$$2<x<6所以原不等式的解集是$\{$ $x\mid 2< x< 6\}$[收获]形如| $f(x)|<g(x)$ ， $\mid f(x)\mid>g(x)$ 型不等式这类不等式的简捷解法是等价命题法，即：$$1\mid f(x)\mid<g(x)\Leftrightarrow-g(x)<f(x)<g(x)$$$$2\mid f(x)\mid>g(x)\Leftrightarrow f(x)>g(x)\text{或}f(x)<-g(x)$$
+----------------------------------------
+[ID: 955]
+解不等式（1） $\mid x-x^{2}-2\mid>x^{2}-3x-4$ 解:分析一可按解不等式的方法来解原不等式等价于： $x-x^{2}-2>x^{2}-3x-4$ $\textcircled{1}\textcircled{2}$ 或$x-x^{2}-2<-(x^{2}-3x-4)$ 解$:\textcircled{1}$ 得： $1-\sqrt{2}<x<1+\sqrt{2}$ 解②得： $x>-3$故原不等式解集为$\{$x$\mid$x>-3分析二$\mid x-x^2-2\mid=\mid x^2-x+2\mid$$${\textrm{i x}}^{2}-x+2=(x-{\frac{1}{4}})^{2}+{\frac{7}{4}}>0$$所以| $x-x^2-2$ |中的绝对值符号可直接去掉故原不等式等价于$x^{2}-x+2>x^{2}-3x-4$ 解得： $x>-3$ 原不等式解集为{x>-3}
+----------------------------------------
+[ID: 956]
+解不等式 $\left|\frac{3x}{x^2-4}\right|\leqslant1$ 解分析不等式可转化为一$1\leqslant\frac{3x}{x^2-4}\leqslant1$ 求解，但过程较繁，由于不等式$\left|\frac{3x}{x^2-4}\right|\leqslant1$ 两边均为正，所以市平方后求解原不等式等价于3≤19xx-4x2 x-17x+160 $\Longrightarrow x^2\leqslant1$ 或×≥16 $\Rightarrow-1\leqslant x\leqslant1$ 或$x\geqslant4$ 或$x\leqslant-4$ 注意：在解绝对值不等式时，若|f（x）中的$f(x)$ 的值的范围可确定（包括恒正或恒非负，恒负或恒非正），就可直接去掉绝对值符号，从而简化解题过程
+----------------------------------------
+[ID: 957]
+解不等式（1） |x-1|<|x+a $\mid x-1\mid<\mid x+a\mid$ $\mid x-1\mid<\mid x+a\mid;(2)\mid x-2\mid+\mid x+3\mid>5.$[思路]（1）题由于两边均为非负数，因此可以利用$\mid f( x) \mid \langle \mid g( x) \mid \Rightarrow f^{2}( x)$ $\langle g^{2}( x)$ 两边平方去掉绝对值符号。（2）题可采用零点分段法去绝对值求解。[解题]（1）由于x-1|≥0 $x-1|\geqslant0$ $x- 1\mid \geqslant 0$, $\mid x+ a\mid \geqslant 0$ ，所以两边平方后有：$\mid x-1\mid^2<\mid x+a\mid^2$即有$x^{2}- 2$ $x+ 1<$ $x^{2}+ 2$ $ax+ a^{2}$ ，整理得(2 $a+ 2)$ $x> 1- a^2$ 当2 $a+ 2> 0$ 即$a>-1$ 时，不等式的解为x>→(1-α) 当2 $a+ 2= 0$ 即$a=-1$ 时，不等式无解： 当2 $a+ 2< 0$ 即$a<-1$ 时，不等式的解为x<(1-α)（2）解不等式$\mid x-2\mid+\mid x+3$ |>5解：当$x\leqslant-3$ 时，原不等式化为$(2-x)-(x+3)>5\Longrightarrow-2x>6\Rightarrow x<-3$ 当$-3<x<2$ 时，原不等式为$(2-x)+(x+3)>5\Rightarrow5>5$ 无解当$x\geqslant2$ 时，原不等式为$(x-2)+(x+3)>5\Rightarrow2x>4\Rightarrow x>2.$ 综合得：原不等式解集为$\{x\mid x>2$ $x>2$ $x>2$ 或$x<-3$
+----------------------------------------
+[ID: 958]
+求不等式$\mid$x+3$\mid-\mid2$x-1$\mid<\frac x2+1$ 的解集。解：$$\begin{aligned}&\mid x+3\mid-\mid2x-1\mid=\begin{cases}4-x(x\geq\frac{1}{2})\\\\4x+2(-3<x<\frac{1}{2})\\\\x-4(x\leq-3)\end{cases}\\&\therefore\text{当 }x\geq\frac{1}{2}\text{时 }4-x<\frac{x}{2}+1&\therefore x>2\\&当-3<x<\frac{1}{2}时4x+2<\frac{x}{2}+1&\therefore-3<x<-\frac{2}{7}\\&\text{当}-3<x<\frac{1}{2}\text{时 }4x+2<\frac{x}{2}+1&\therefore-3<x<-\frac{2}{7}\end{aligned}$$综上$x<-\frac{2}{7}$ 或义>2故填$(-\infty,-\frac{2}{7})\cup(2,+\infty)$
+----------------------------------------
+[ID: 959]
+求不等式$\left|\log_{\frac13}x\right|+\left|\log_3\frac1{3-x}\right|\geq1$ 的解集。解：因为对数必须有意义，即解不等式组$\begin{cases}x>0\\\frac{1}{3-x}>0\end{cases}$ 解得$0<x<3$ 又原不等式可化为$\left|\log_3x\right|+\left|\log_3\left(3-x\right)\right|\geq1$(1)当$0<x\leq1$ 时，不等式化为$-\log_3x+\log_3\left(3-x\right)\geq1$ 即$\log_3(3-x)\geq\log_33x$ $\cdot3-x\geq3x$ ： $x\leq\frac34$ 综合前提得： $0<x\leq\frac{3}{4}$(2)当$1<x\leqslant2$ 时，即$\log_{3}x+\log_{3}\left(3-x\right)\geq\log_{3}3$： $x^2-3x+3\leq0$ .x∈O (1)当$2<x<3$ 时， $\log_3x-\log_3\left(3-x\right)\geq\log_33$ (2) : . $x\geq 3( 3- x)$ $x\geq\frac94$ ，结合前提得： $\frac94\leq x<3$综合得原不等式的解集为$\left(0,\frac{3}{4}\right]\cup\left[\frac{9}{4},3\right)$
+----------------------------------------
+[ID: 960]
+解关于$x$ 的不等式√x2-4mx+4m2>m+3。[解题]原不等式等价于$x-2m|>m+3$$$n>-3\text{时},\quad x-2m>m+3\text{或}x-2m<-(m+3)$$$$\therefore x>3m+3\text{或}x<m-3$$当$m+3=0$ 即$m=-3$ 时1x+6>0.x-6当$m+3<0$ 即$m<-3$ 时，x∈R
+----------------------------------------
+[ID: 961]
+解关于$x$ 的不等式： $x|x-a|\leq\frac{2a^2}9(a>0)$ 解：当$x\geq a$ 时，不等式可转化为$$\text{为}\begin{cases}x\geq a\\9x\big(x-a\big)\leq2a^2\end{cases}\text{即}\begin{cases}x\geq a\\9x^2-9ax-2a^2\leq0\end{cases}$$ $$\therefore a\leq x\leq\frac{3+\sqrt{17}}{b}a$$当x<a时不等式可化为$$\text{勺}\begin{cases}x<a\\ax(a-x)\leq2a^2\end{cases}\text{即}\begin{cases}x<a\\9x^2-9ax+2a^2\geq0\end{cases}$$ $$\therefore x\leq\begin{matrix}a\\3\end{matrix}\text{或}\begin{matrix}2a\\3\end{matrix}\leq x<a$$故不等式的解集为( $- \infty , {\frac a3}$ $] \cup \left [ {\frac {2a}3}, {\frac {3+ \sqrt {17}}6}a\right ]$
+----------------------------------------
+[ID: 962]
+若不等式$\mid x-4\mid+\mid3-x\mid<a$ 的解集为空集，求$a$ 的取值范围。解法一(1)当$a\leqslant0$ 时，不等式的解集是空集(2)当$a>0$ 时，先求不等式$\mid x-4\mid+\mid3-x\mid<a$ 有解时$a$ 的取值范围。令$x-4=0$ 得$x=4$ ，令$3-x=0$ 得$x=3$ $\textcircled{1}$ 当$x\geqslant4$ 时，原不等式化为$x-4+x-3<a$ ，即2 $x- 7< a$ 解不等式组$$\exists\begin{cases}x\geq4\\2x-7<a\end{cases}\Rightarrow4\leq x<\frac{7+a}{2}\:,\:\therefore a>1$$ $\textcircled{2}$ 当$3<x<4$ 时，原不等式化为$4-x+x-3<a$ 得$a>1$ $\textcircled{3}$ 当$x\leqslant3$ 时，原不等式化为$4-x+3-x<a$ 即7-2 $x< a$ 解不等式$$\Im\begin{cases}x\leq3\\7-2x<a\end{cases}\Rightarrow\frac{7-a}{2}<x\leq3\Rightarrow\frac{7-a}{2}<3\:,\:\therefore a>1$$综合$\cdot\textcircled{1}\textcircled{2}\textcircled{3}$ 可知，当$a>1$ 时，原不等式有解，从而当$0<a\leqslant1$ 时，原不等式解集为空集由(1)(2)知所求$a$ 取值范围是$a\leqslant1$解法二由| $x-4\mid+\mid3-x$ 的最小值为1得当$a>1$ 时， $\mid x-4\mid+\mid3-x\mid<a$ 有解从而当$a\leqslant$l 时，原不等式解集为空集。$$:a>\mid x-4\mid+\mid3-x\mid\geqslant\mid x-4+3-x\mid=1$$当$a>1$ 时， $\mid x-4\mid+\mid3-x\mid<a$ 有解，从而当$a\leqslant1$ 时，原不等式解集为空集。
+----------------------------------------
+[ID: 970]
+已知条件$p:|5x-1|>a$ 和条件q:一，1>0，请选取适当的实数a的值，分别利用所给的两个条件作为A、B构造命题：“若A则B”，并使得构造的原命题为真命题，而其逆命题为假命题.则这样的一个原命题可以是什么？并说明为什么这一命题是符合要求的命题.[分析]本题为一开放性命题，由于能得到的答案不唯一，使得本题的求解没有固定的模式，考生既能在一般性的推导中找到一个满足条件的$a$ ，也能先猜后证，所找到的实数$a$ 只需满足$\frac{1-a}5\leq\frac12$ 且$\frac{1+a}5\geq1$ 即可.[解答已知条件$p$ 即$5x-1<-a$ ，或$5x-1>a$ ，x一，或x>#a 已知条件$q$ 即$2x^2-3x+1>0$ . $x<\frac12$ ，或$x>1$ 令$a=4$ ，则$p$ 即$x<-\frac{3}{5}$ ，或$x>1$ ，此时必有$p\Rightarrow q$ 成立，反之不然故可以选取的一个实数是$a=4$ ，A为$p$ ，B为$q$ ，对应的命题是若$p$ 则$q$ 由以上过程可知这一命题的原命题为真命题，但它的逆命题为假命题

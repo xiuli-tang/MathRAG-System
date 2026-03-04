@@ -1,0 +1,43 @@
+[ID: 438]
+题目：已知 $y=\sqrt{x}$, 则 $y'=$ ______.
+
+解析 $\because \Delta y=\sqrt{x+\Delta x}-\sqrt{x}$,
+$\therefore \frac{\Delta y}{\Delta x}=\frac{\sqrt{x+\Delta x}-\sqrt{x}}{\Delta x}$,
+
+$\therefore \lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}=\lim _{\Delta x \rightarrow 0} \frac{\sqrt{x+\Delta x}-\sqrt{x}}{\Delta x}=$
+
+$\lim _{\Delta x \rightarrow 0} \frac{x+\Delta x-x}{\Delta x(\sqrt{x+\Delta x}+\sqrt{x})}=$
+
+$\lim _{\Delta x \rightarrow 0} \frac{1}{\sqrt{x+\Delta x}+\sqrt{x}}=\frac{1}{2 \sqrt{x}}$, 即 $y'=\frac{1}{2 \sqrt{x}}$.（有理化是处理格式常用的方法）
+
+答案 ：$\frac{1}{2 \sqrt{x}}$
+----------------------------------------
+[ID: 439]
+题目：函数 $y=\frac{4}{x^{2}}$ 在 $x=2$ 处的导数为 ______.
+
+解析 $\because \Delta y=\frac{4}{(\Delta x+2)^{2}}-\frac{4}{2^{2}}=\frac{4}{(\Delta x+2)^{2}}-1=-\frac{(\Delta x)^{2}+4 \Delta x}{(\Delta x+2)^{2}}$,
+
+$\therefore \frac{\Delta y}{\Delta x}=-\frac{\Delta x+4}{(\Delta x+2)^{2}}$,
+
+$\therefore y'|_{x=2}=\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}=-\lim _{\Delta x \rightarrow 0} \frac{\Delta x+4}{(\Delta x+2)^{2}}=-1$.
+----------------------------------------
+[ID: 440]
+题目：建造一栋底面积为$x$ $m^{2}$的房屋需要成本$y$万元$,y$是$x$的函数$,y=f(x)=\frac x{10}+\frac{\sqrt{x}}{10}$+0.3,求$f^\prime(100)$,并解释它的实际意义.
+解析:根据导数的定义, 得
+$f'(100) = \lim_{\Delta x \to 0} \frac{\Delta y}{\Delta x}$
+$= \lim_{\Delta x \to 0} \frac{f(100 + \Delta x) - f(100)}{\Delta x}$
+$= \lim_{\Delta x \to 0} \frac{100 + \Delta x + \sqrt{100 + \Delta x} + 3 - (100 + \sqrt{100} + 3)}{10 \Delta x}$
+$= \lim_{\Delta x \to 0} (\frac{1}{10} + \frac{\sqrt{100 + \Delta x} - 10}{10 \Delta x})$
+$= \lim_{\Delta x \to 0} [\frac{1}{10} + \frac{1}{10 \times (\sqrt{100 + \Delta x} + 10)}]$
+$= \frac{1}{10} + \frac{1}{10 \times (10 + 10)}$
+$= 0.105$
+$f'(100) = 0.105$ 表示当建筑房屋底面积为 $100 \, \mathrm{m}^2$ 时, 成本增加的速度为 $1050 \, \mathrm{元/m}^2$
+----------------------------------------
+[ID: 441]
+题目：曲线$f(x)=\frac{1}{2x}$在点$A(1,\frac{1}{2})$处的切线方程为____________.
+
+解析：函数$y=\frac{1}{2x}$在$[1,1+\Delta x]$上的平均变化率为$\frac{\Delta y}{\Delta x}=\frac{\frac{1}{2(1+\Delta x)}-\frac{1}{2}}{\Delta x}=\frac{-1}{2(1+\Delta x)}$，当$\Delta x$无限趋近于0时，$\frac{\Delta y}{\Delta x}$无限趋近于$-\frac{1}{2}$，因此，函数$y=\frac{1}{2x}$在$x=1$处的导数$f'(1)=-\frac{1}{2}$，由导数的几何意义可知曲线$f(x)=\frac{1}{2x}$在点$A(1,\frac{1}{2})$处的切线的斜率为$-\frac{1}{2}$。
+
+故曲线在点$A(1,\frac{1}{2})$处的切线方程为$y-\frac{1}{2}=-\frac{1}{2}(x-1)$，即$x+2y-2=0$.
+
+答案：$x+2y-2=0$

@@ -1,0 +1,2 @@
+[ID: 2402]
+重要结论1.$a^3 + b^3 + c^3 \geqslant 3abc(a,b,c>0)$ 2.$a+b+c \geqslant 3\sqrt[3]{abc}(a,b,c>0)$

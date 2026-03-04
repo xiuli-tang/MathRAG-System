@@ -1,0 +1,2 @@
+[ID: 2451]
+(1) $\frac{a}{b} + \frac{b}{a} \geqslant 2 (a, b \text{ 同号})$，当且仅当 $a = b$ 时取等号；$\frac{a}{b} + \frac{b}{a} \leqslant -2 (a, b \text{ 异号})$，当且仅当 $a = -b$ 时取等号。(2) $a + \frac{1}{a} \geqslant 2 (a > 0)$，当且仅当 $a = 1$ 时取等号；$a + \frac{1}{a} \leqslant -2 (a < 0)$，当且仅当 $a = -1$ 时取等号

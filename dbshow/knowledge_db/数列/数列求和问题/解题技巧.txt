@@ -1,0 +1,2 @@
+[ID: 2237]
+数列求和问题： 方法： $\textcircled{1}$ 利用等差(比)数列前$n$ 和公式求和： $\textcircled{2}$ 分部求和； $\textcircled{3}$ 错位相减法： $\textcircled{4}$ 裂项求和

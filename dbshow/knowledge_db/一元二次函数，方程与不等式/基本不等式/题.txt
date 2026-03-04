@@ -1,0 +1,86 @@
+[ID: 107]
+函数 $y = x(5-2x)$ $(0 < x < 2)$ 的最大值是 ______.
+
+解析：
+方法一 $y =$ $x(5-2x) = \frac{1}{2} \cdot 2x \cdot (5-2x)$.
+$$\therefore 0 < x < 2, \therefore 0 < 2x < 4, 1 < 5-2x < 5,$$
+$$
+\therefore y \leqslant \frac{1}{2} \times \left[ \frac{2x + (5-2x)}{2} \right]^2 = \frac{1}{2} \times \frac{25}{4} = \frac{25}{8},$$
+当且仅当 $2x = 5-2x$，即 $x = \frac{5}{4}$ 时取等号.
+故当 $x = \frac{5}{4}$ 时，$y_{\text{max}} = \frac{25}{8}$.
+
+方法二 由 $0 < x < 2$ 知 $\frac{5}{2} - x > 0, \therefore y = 2x \left( \frac{5}{2} - x \right) \leqslant 2 \left[ \frac{x + \left( \frac{5}{2} - x \right)}{2} \right]^2 = \frac{25}{8}$，当且仅当 $x = \frac{5}{2} - x$，即 $x = \frac{5}{4}$ 时取等号. 故当 $x = \frac{5}{4}$ 时，$y_{\text{max}} = \frac{25}{8}$.
+----------------------------------------
+[ID: 108]
+已知$x>0$，$y>0$，$z>0$，求证：$(\frac{y}{x}+\frac{z}{x})·(\frac{x}{y}+\frac{z}{y})(\frac{x}{z}+\frac{y}{z})\geqslant 8$。
+
+解析：$\because x>0$，$y>0$，$z>0$，
+$\therefore \frac{y}{x}+\frac{z}{x}\geqslant \frac{2\sqrt{yz}}{x}>0$，$\frac{x}{y}+\frac{z}{y}\geqslant \frac{2\sqrt{xz}}{y}>0$，$\frac{x}{z}+\frac{y}{z}\geqslant \frac{2\sqrt{xy}}{z}>0$，且当且仅当$x=y=z$时，以上三个不等式的等号同时成立。
+$\therefore (\frac{y}{x}+\frac{z}{x})(\frac{x}{y}+\frac{z}{y})(\frac{x}{z}+\frac{y}{z})\geqslant \frac{8\sqrt{yz}·\sqrt{xz}·\sqrt{xy}}{xyz}=8$，且当且仅当$x=y=z$时等号成立。
+----------------------------------------
+[ID: 109]
+ 已知$x>0$，$y>0$，且$\frac{1}{x}+\frac{9}{y}=1$，则$x+y$的最小值为______.
+
+解析 ：方法一（“1”的代换） $\because\frac{1}{x}+\frac{9}{y}=1$，$\therefore x+y=(x+y)(\frac{1}{x}+\frac{9}{y})=10+\frac{y}{x}+\frac{9x}{y}$.
+$\because x>0$，$y>0$，$\therefore\frac{y}{x}+\frac{9x}{y}\geqslant 2\sqrt{\frac{y}{x}\cdot\frac{9x}{y}}=6$，
+当且仅当$\frac{y}{x}=\frac{9x}{y}$，即$y=3x$时，取等号.
+$\because\frac{1}{x}+\frac{9}{y}=1$，$\therefore$ 当$x=4$，$y=12$时，$(x+y)_{\text{min}}=16$.
+
+方法二（消元法） $\because\frac{1}{x}+\frac{9}{y}=1$，$\therefore x=\frac{y}{y-9}$.
+$\because x>0$，$y>0$，$\therefore y>9$.
+$\because x+y=\frac{y}{y-9}+y=y+y-9+\frac{9}{y-9}+1=y-9+\frac{9}{y-9}+10$，且$y-9>0$，
+$\therefore y-9+\frac{9}{y-9}\geqslant 2\sqrt{(y-9)\times\frac{9}{y-9}}=6$，
+当且仅当$y-9=\frac{9}{y-9}$，即$y=12$时，取等号，此时$x=4$.
+$\therefore$ 当$x=4$，$y=12$时，$(x+y)_{\text{min}}=16$.
+
+答案 ：16
+----------------------------------------
+[ID: 110]
+设 $x>0$，$y>0$，不等式 $\sqrt{x}+\sqrt{y} \leqslant a \sqrt{x+y}$ 恒成立，则 $a$ 的最小值为______.
+
+思路点拨 ：由 $\sqrt{x}+\sqrt{y} \leqslant a \sqrt{x+y}$ 易得 $a \geqslant \frac{\sqrt{x}+\sqrt{y}}{\sqrt{x+y}}$，要使此式恒成立，必须使 $a$ 大于或等于 $\frac{\sqrt{x}+\sqrt{y}}{\sqrt{x+y}}$ 的最大值. 在求 $\frac{\sqrt{x}+\sqrt{y}}{\sqrt{x+y}}$ 的最大值时，可以将其平方，利用基本不等式求解.
+
+解析 ：显然 $a>0$.
+由题意知，不等式 $a \geqslant \frac{\sqrt{x}+\sqrt{y}}{\sqrt{x+y}}$ 恒成立，
+则 $a$ 必须大于或等于 $\frac{\sqrt{x}+\sqrt{y}}{\sqrt{x+y}}$ 的最大值.
+而 $(\frac{\sqrt{x}+\sqrt{y}}{\sqrt{x+y}})^{2}=\frac{x+y+2 \sqrt{x y}}{x+y}=1+\frac{2 \sqrt{x y}}{x+y} \leqslant 2$，
+当且仅当 $x=y$ 时，取等号.
+故 $\frac{\sqrt{x}+\sqrt{y}}{\sqrt{x+y}}$ 的最大值为 $\sqrt{2}$，故 $a \geqslant \sqrt{2}$，即 $a$ 的最小值是 $\sqrt{2}$.
+
+答案： $\sqrt{2}$
+----------------------------------------
+[ID: 111]
+对于 $c>0$，当非零实数 $a,b$ 满足 $4a^2-2ab+b^2-c=0$ 且使 $|2a+b|$ 最大时，$\frac{1}{a}+\frac{2}{b}+\frac{4}{c}$ 的最小值为_____.
+
+解析：由题意得 $c=4a^2+b^2-2ab=(2a+b)^2-6ab$.
+
+$\because 2ab\leqslant (\frac{2a+b}{2})^2$，当且仅当 $2a=b$ 时取等号，
+
+$\therefore -6ab\geqslant -3(\frac{2a+b}{2})^2$，$\therefore c=(2a+b)^2-6ab\geqslant (2a+b)^2-3(\frac{2a+b}{2})^2$，即 $c\geqslant \frac{(2a+b)^2}{4}$，
+
+$\therefore |2a+b|\leqslant 2\sqrt{c}$，$\therefore$ 当且仅当 $2a=b$ 时，$|2a+b|$ 有最大值，为 $2\sqrt{c}$，
+
+此时 $|2a+2a|=2\sqrt{c}$，即 $c=4a^2$，
+
+$\therefore \frac{1}{a}+\frac{2}{b}+\frac{4}{c}=\frac{1}{a}+\frac{2}{2a}+\frac{4}{4a^2}=\frac{2}{a}+\frac{1}{a^2}=(\frac{1}{a}+1)^2-1\geqslant -1$，
+
+$\therefore \frac{1}{a}+\frac{2}{b}+\frac{4}{c}$ 的最小值为 -1.
+
+答案：-1
+----------------------------------------
+[ID: 112]
+题目：已知 $a>0,b>0$,且 $ab=1$,则$\frac{1}{2a}+\frac{1}{2b}+\frac{8}{a+b}$的最小值为？
+
+解析：因为$\frac1{2a}+\frac1{2b}=\frac{a+b}{2ab}=\frac{a+b}2$,
+
+所以$\frac a{+ }b2+ \frac 8{a+ b}\geqslant 2\sqrt {\frac {a+ b}2\cdot \frac 8{a+ b}}= 4$ ,
+当且仅当$\frac{a+b}{2}=\frac{8}{a+b}$，即$a+b=4$ 且$ab=1$，
+即$\begin{cases}a=2-\sqrt{3}, \\ b=2+\sqrt{3},\end{cases}$ 或$\begin{cases}a=2+\sqrt{3}, \\ b=2-\sqrt{3},\end{cases}$ 时等号成立. 故$\frac{1}{2a}+\frac{1}{2b}+\frac{8}{a+b}$的最小值为4.
+答案 ：4
+----------------------------------------
+[ID: 113]
+若正数x,y满足x+3y=5xy,则3x+4y+xy的最小值是：
+
+解析：由$x+3y=5xy知,xy=\frac{x+3y}{5},\frac{1}{y}+\frac{3}{x}=5$所以$3x+4y+xy=3x+4y+\frac{x+3y}{5}=\frac{16}{5}x+\frac{23}{5}y=\frac{1}{25}(\frac{3}{x}+\frac{1}{y})(16x+23y)=\frac{1}{25}(71+\frac{16x}{y}+\frac{69y}{x})\geqslant\frac{1}{25}(71+2\sqrt{\frac{16x}{y}\times\frac{69y}{x}})=\frac{71+8\sqrt{69}}{25}$,当且仅当$x=\frac{\sqrt{69}}{4}y$时等号成立.故3x+4y+xy的最小值为$\frac{71+8\sqrt{69}}{25}$.
+
+答案：$\frac{71+8\sqrt{69}}{25}$

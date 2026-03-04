@@ -1,0 +1,2 @@
+[ID: 2348]
+一般地，设A, B为两个随机事件，且P(A)>0，我们称$$P(B|A)=\frac{P(AB)}{P(A)}$$为在事件A发生的条件下，事件B发生的条件概率，简称条件概率（conditional probability).

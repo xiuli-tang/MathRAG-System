@@ -1,0 +1,2 @@
+[ID: 2403]
+两个不等式：1. $a^{2}+b^{2}\geq2ab(a,b\in R)$ 当且仅当$a=b$ 时，等号成立；2.$\sqrt{ab}\leq\frac{a+b}2\left(a>0,b>0\right)$ 当且仅当$a=b$ 时，等号成立。

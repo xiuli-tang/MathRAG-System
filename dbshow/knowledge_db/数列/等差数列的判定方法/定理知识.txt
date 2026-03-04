@@ -1,0 +1,2 @@
+[ID: 2134]
+（1）定义法：若$a_{n}-a_{n-1}=d$ 或$a_{n+1}-a_{n}=d$ （常数$n\in N^{*})\Leftrightarrow{\{a_{n}\}}$ 是等差数列(2)等差中项：数列$\{a_n\}$ 是等差数列$$\Leftrightarrow2a_{n}=a_{n-1}+a_{n+1}(n\geq2)\Leftrightarrow2a_{n+1}=a_{n}+a_{n+2}\:.$$（3）数列$\{a_n\}$ 是等差数列$\Leftrightarrow a_{n}=kn+b$ （其中$k,b$ 是常数）。（4）数列$\{a_n\}$ 是等差数列$\Leftrightarrow S_{n}=An^{2}+Bn$ ，（其中A、B是常数）

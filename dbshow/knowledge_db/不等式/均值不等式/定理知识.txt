@@ -1,0 +1,2 @@
+[ID: 2401]
+$\sqrt{\frac{a^2+b^2}{2}} \geq \frac{a+b}{2} \geq \sqrt{ab} \geq \frac{2}{a^{-1}+b^{-1}}$
