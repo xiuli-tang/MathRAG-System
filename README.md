@@ -88,6 +88,36 @@
 
 ---
 
+## 安装与依赖
+
+本项目主要基于 Python 开发，建议使用虚拟环境分别运行各后端模块，避免依赖冲突。
+
+### 环境要求
+
+- Python >= 3.9
+- CUDA >= 11.8（如需本地运行大模型）
+- 现代浏览器（支持 HTML5 与 WebSocket）
+
+### 快速安装
+
+在项目根目录下创建并激活虚拟环境：
+
+```bash
+python -m venv venv
+source venv/bin/activate      # Linux / macOS
+# venv\Scripts\activate       # Windows
+```
+
+安装常用依赖：
+
+```bash
+pip install -r requirements.txt
+```
+
+> 提示：`flask/p2t.py` 涉及图片识别，建议在独立虚拟环境中安装其专属依赖，避免与主环境版本冲突。
+
+---
+
 ## 使用说明
 
 ### 一、前端运行
